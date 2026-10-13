@@ -1,0 +1,46 @@
+name: job-assistant
+services:
+  db:
+    image: postgres:18.6
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-jobassistant}
+      POSTGRES_DB: ${POSTGRES_DB:-jobassistant}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+  api:
+    build:
+      context: ../backend
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?DATABASE_URL is required}
+      CSRF_SECRET: ${CSRF_SECRET:?CSRF_SECRET is required}
+      APP_ENV: ${APP_ENV:-production}
+      APP_ORIGIN: ${APP_ORIGIN:?APP_ORIGIN is required}
+      HTTP_ADDR: ":8080"
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+  admin:
+    build:
+      context: ../backend
+    entrypoint: ["/app/admin"]
+    command: ["migrate"]
+    profiles: ["tools"]
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?DATABASE_URL is required}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  postgres_data:
