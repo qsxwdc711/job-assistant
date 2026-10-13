@@ -1,0 +1,84 @@
+{
+  "validationDate": "2026-10-14",
+  "firstInternCount": 19,
+  "firstInternUniqueIDCount": 19,
+  "secondInternCount": 19,
+  "secondInternUniqueIDCount": 19,
+  "sameIdentitySets": true,
+  "comparableRequests": 10,
+  "allComparableRawHashesEqual": true,
+  "firstComparableNetworkMs": 4455.0,
+  "repeatNetworkMs": 4680.0,
+  "comparisons": [
+    {
+      "firstLabel": "notice-list",
+      "repeatLabel": "notice-list-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 428.0,
+      "repeatElapsedMs": 946.0
+    },
+    {
+      "firstLabel": "school-jobs-run1",
+      "repeatLabel": "school-jobs-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 475.0,
+      "repeatElapsedMs": 490.0
+    },
+    {
+      "firstLabel": "intern-jobs-run1",
+      "repeatLabel": "intern-jobs-page1-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 420.0,
+      "repeatElapsedMs": 403.0
+    },
+    {
+      "firstLabel": "intern-jobs-page2-run1",
+      "repeatLabel": "intern-jobs-page2-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 433.0,
+      "repeatElapsedMs": 378.0
+    },
+    {
+      "firstLabel": "job-data-intern",
+      "repeatLabel": "job-data-intern-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 484.0,
+      "repeatElapsedMs": 355.0
+    },
+    {
+      "firstLabel": "job-digital-intern",
+      "repeatLabel": "job-digital-intern-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 407.0,
+      "repeatElapsedMs": 356.0
+    },
+    {
+      "firstLabel": "job-multicity-nontech",
+      "repeatLabel": "job-multicity-nontech-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 424.0,
+      "repeatElapsedMs": 372.0
+    },
+    {
+      "firstLabel": "notice-hohhot",
+      "repeatLabel": "notice-hohhot-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 448.0,
+      "repeatElapsedMs": 473.0
+    },
+    {
+      "firstLabel": "notice-dongguan",
+      "repeatLabel": "notice-dongguan-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 603.0,
+      "repeatElapsedMs": 551.0
+    },
+    {
+      "firstLabel": "job-school-old",
+      "repeatLabel": "job-school-old-run2",
+      "sameRawSHA256": true,
+      "firstElapsedMs": 333.0,
+      "repeatElapsedMs": 356.0
+    }
+  ]
+}

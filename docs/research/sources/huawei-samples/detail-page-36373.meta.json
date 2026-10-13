@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-10-13T17:25:56.870Z",
+  "finishedAt": "2026-10-13T17:25:58.559Z",
+  "elapsedMs": 1686,
+  "requestUrl": "https://career.huawei.com/cn/job-details?advertisementId=36373",
+  "finalUrl": "https://career.huawei.com/cn/job-details?advertisementId=36373",
+  "status": 200,
+  "contentType": "text/html",
+  "bytes": 32797,
+  "sha256": "7511f8b27c02e4bf01d2f76bf17bcd98e99f4a95aad1807abd63df9e8dc18cb7",
+  "responseDate": "Tue, 13 Oct 2026 17:25:57 GMT",
+  "cacheAge": "34775"
+}

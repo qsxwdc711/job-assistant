@@ -1,0 +1,34 @@
+{
+  "validationDate": "2026-10-14",
+  "access": "public, no credentials, no cookies",
+  "homepage": {
+    "url": "https://www.cmbchina.com/",
+    "httpStatus": 200,
+    "recruitmentAnchorExcerpts": [
+      "olor: #999999;\">\n     <a href=\"https://career.cmbchina.com/index.html\" target=\"_blank\" style=\"font-size: 13px; color: #999999; text-decoration: none;\" rel=\"noopener noreferrer nofollow\">人才招聘</a>\n    </div> \n    <div styl",
+      "                         href=\"http://career.cmbchina.com\"\n                          rel=\"noreferrer\"\n                          target=\"_blank\"\n                        >\n                          人才招聘\n                   ",
+      "                         href=\"http://career.cloud.cmbchina.com\"\n                          rel=\"noreferrer\"\n                          target=\"_blank\"\n                        >\n                          校园招聘\n             ",
+      "                         href=\"http://career.cmbchina.com/index.html#home\"\n                          target=\"_blank\"\n                          rel=\"noreferrer\"\n                        >\n                          社会招聘\n   ",
+      "      <a target=\"_blank\" href=\"http://career.cmbchina.com/\" style=\"float: left; opacity: 0.5; margin-left: 12px; color: #ffffff !important; line-height: 22px; text-decoration: none;\" rel=\"noopener noreferrer nofollow\">人才"
+    ],
+    "rawResponseSHA256": "b1ce5b8e648955c149847102c7dca28727ace6a6d5d11da784fec89778f9229e",
+    "elapsedMs": 692
+  },
+  "recruitmentPage": {
+    "rawResponseSHA256": "eebadaacbe4a2d2fc468bc78b0ae3db7ea8c4dda8568140b15bf1af03be4d535",
+    "url": "https://career.cmbchina.com/index.html",
+    "httpStatus": 200,
+    "html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"/><link rel=\"icon\" href=\"/favicon.ico\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"theme-color\" content=\"#000000\"/><meta name=\"description\" content=\"招商银行，欢迎您\"/><link rel=\"apple-touch-icon\" href=\"/logo192.png\"/><title>招商银行招聘</title><script defer=\"defer\" src=\"/static/js/main.d37c8446.js\"></script><link href=\"/static/css/main.02cda64a.css\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root\"></div></body></html>",
+    "elapsedMs": 397,
+    "effectiveURL": "https://career.cmbchina.com/index.html"
+  },
+  "publishedAppAssets": [
+    "https://career.cmbchina.com/static/js/main.d37c8446.js",
+    "https://career.cmbchina.com/static/js/2466.0670abad.chunk.js",
+    "https://career.cmbchina.com/static/js/2474.cab399df.chunk.js",
+    "https://career.cmbchina.com/static/js/3829.a626c50c.chunk.js",
+    "https://career.cmbchina.com/static/js/4037.56138c80.chunk.js",
+    "https://career.cmbchina.com/static/js/6150.fd0bc85f.chunk.js",
+    "https://career.cmbchina.com/static/js/630.157952a3.chunk.js"
+  ]
+}

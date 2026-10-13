@@ -1,0 +1,6 @@
+*.md text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+
+# Preserve captured response bytes so archived SHA-256 checks survive checkout.
+docs/research/sources/huawei-samples/*.body.txt -text -diff

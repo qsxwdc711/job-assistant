@@ -1,0 +1,16 @@
+{
+  "startedAt": "2026-10-13T17:29:47.943Z",
+  "finishedAt": "2026-10-13T17:29:48.404Z",
+  "elapsedMs": 459,
+  "requestUrl": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getRecruitmentPositionDetail?X-HW-ID=app_000000035886",
+  "finalUrl": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getRecruitmentPositionDetail?X-HW-ID=app_000000035886",
+  "method": "POST",
+  "requestBody": {
+    "advertisementId": 36373
+  },
+  "status": 200,
+  "contentType": "application/json;charset=UTF-8",
+  "bytes": 1184,
+  "sha256": "7e793a2024e6195db6fa26eb2d599f5b3f3a9f4766b6f5cf12284d57886fcb87",
+  "responseDate": "Tue, 13 Oct 2026 17:29:48 GMT"
+}

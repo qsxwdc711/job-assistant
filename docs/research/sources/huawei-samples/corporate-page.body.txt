@@ -1,0 +1,1804 @@
+
+<!DOCTYPE html>
+
+
+
+
+
+  
+
+
+<html lang="zh" data-url="https://www.huawei.com/cn" data-region="CN" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>华为 - 构建万物互联的智能世界</title>
+<meta name="description" content="华为创立于1987年，是全球领先的ICT（信息与通信）基础设施和智能终端提供商，致力于把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界。">
+<meta name="keywords" content="">
+
+
+<meta name="thumbnail" content="https://www-file.huawei.com/dam/asset/view/1925d2d933444b1d9a2649e4998948cc.png">
+
+<link rel="canonical" href="https://www.huawei.com/cn"> 
+<meta property="og:title"
+    content="华为 - 构建万物互联的智能世界">
+<meta property="og:description" content="华为创立于1987年，是全球领先的ICT（信息与通信）基础设施和智能终端提供商，致力于把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界。">
+<meta property="og:image" content="https://www-file.huawei.com/dam/asset/view/1925d2d933444b1d9a2649e4998948cc.png">
+
+<meta id="url-meta" property="og:url" content="https://www.huawei.com/cn"> 
+<meta property="og:site_name" content="Huawei">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title"
+    content="华为 - 构建万物互联的智能世界">
+<meta name="twitter:description" content="华为创立于1987年，是全球领先的ICT（信息与通信）基础设施和智能终端提供商，致力于把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界。">
+<meta name="twitter:image" content="https://www-file.huawei.com/dam/asset/view/1925d2d933444b1d9a2649e4998948cc.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="180x180"
+    href="/-/media/htemplate-home/1.0.1.20251205144752/components/assets/img/apple-touch-icon-precomposed-180.png">
+<link rel="apple-touch-icon" sizes="180x180"
+    href="/-/media/htemplate-home/1.0.1.20251205144752/components/assets/img/apple-touch-icon-180.png">
+<link rel="Shortcut Icon" href="/-/media/htemplate-home/1.0.1.20251205144752/components/assets/img/favicon-logo.svg">
+  <meta name="google-site-verification" content="wqACMoaM-tJAtTNspMBb0JCRVzOL4wcawL0B9QAcJPw">
+  <meta name="msvalidate.01" content="9B78E6BE82A5A69C61096A84EA718DB6">
+  <meta name="baidu-site-verification" content="mXsUjBxk6j">
+  <meta name="baidu-site-verification" content="code-pCX4L0hvYH">
+    <script type="text/javascript">
+      var utag_data = { "site_name": "", "site_type": "", "china_flag": "", "country_code": "", "elqUID": "", "event_on_page": "", "hwid": "", "language_code": '', "page_name": "华为 - 构建万物互联的智能世界", "search_keyword": "", "search_page_number": "", "search_results": "", "site_business_unit": "", "site_section": "", "tealium_event": "" };
+      (function (a, b, c, d) {
+        a = ((navigator.languages && navigator.languages.length) ? navigator.languages[0] : (navigator.browserLanguage || navigator.userLanguage || navigator.language || 'en')).toLowerCase() == "zh-cn" ? '//tags.tiqcdn.cn/utag/huawei/main/prod/utag.js' : '//tags.tiqcdn.com/utag/huawei/main/prod/utag.js';
+        b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;
+        a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a);
+      })();
+    </script>
+    
+    <script lang="javascript">
+      window.WECHATSHARE_NEW_API_SWITCH = true;
+      window.CLEARCDN_ADD_TIMESTAPM= true;
+    </script>
+    
+  <script>
+    // 默认图
+    var globalDefaultImghref = '/-/media/htemplate-home/1.0.1.20260210160818/components/assets/img/default_img.jpg'
+    window.globalDefaultImghref=globalDefaultImghref
+  </script>
+<!-- 全局样式优先于组件样式加载更新 -->
+
+<link rel="stylesheet" type="text/css"
+  href="/-/media/htemplate-home/1.0.1.20260907110723/components/assets/css/bootstrap.css">
+
+
+<link rel="stylesheet" type="text/css"
+  href="/-/media/htemplate-home/1.0.1.20260907110723/components/assets/css/common.css" />
+
+
+<link rel="stylesheet" type="text/css"
+  href="/-/media/htemplate-home/1.0.1.20260907110723/components/assets/css/common-cn.css?t=202607311902" />
+<!-- 本地 $peplang 为空 -->
+
+
+<link rel="stylesheet" type="text/css"
+  href="/-/media/htemplate-home/1.0.1.20260907110723/components/assets/css/hack.css" />
+<link rel="stylesheet" type="text/css"
+  href="/-/media/htemplate-home/1.0.1.20260907110723/components/assets/css/global-hack.css" />
+<link rel="stylesheet" type="text/css"
+  href="/-/media/htemplate-home/1.0.1.20260907110723/components/assets/css/index.css" />
+<link rel="stylesheet" type="text/css" href="/-/media/htemplate-hwp-home/assets/css/hwp/hwicon/hwicon.css" />
+<link rel="stylesheet" type="text/css" href="/-/media/htemplate-hwp-home/assets/css/hwp/hwp-cms-ui.css?t=2026070106" />
+
+    
+    
+  <script>window.$aioList = ["hcomponent-header/1.0.1.20260908162100","hcomponent-www-carousel-banner-v2/1.0.0.20260909142510","hcomponent-www-our-business-home/1.0.0.20260805162319","hcomponent-www-showcase-ad-home/1.0.0.20260810121516","hcomponent-www-latest-news-home/1.0.0.20260827085717","hcomponent-www-bciw/1.0.0.20260803083615","hcomponent-side-bar/1.0.1.20260729095626","hcomponent-footer/1.0.1.20260818152406"]; window.$aioCdnPrefix = '/-/media/';</script>
+
+    <script>
+      window.gConfig = window.gConfig || {};
+      window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Tablet|Phone/i.test(navigator.userAgent);
+      var hClassName = window.gConfig.isMobile ? ' phone' : ' pc';
+      if (window.$aioList) {
+        window.$aioCdnPrefix ??= 'https://res.hc-cdn.com/'
+        for (var i = 0; i < window.$aioList.length; i++) {
+          if (window.$aioList[i].length > 0) {
+            document.write(
+              '<link rel="stylesheet" href="' + window.$aioCdnPrefix + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm' : 'pc') + '/index.css" />'
+            );
+          }
+        }
+      }
+      var root = document.documentElement;
+      root.className += hClassName;
+    </script>
+    
+    
+  </head>
+
+  <body class="">
+    
+  <script type="text/javascript" src="/-/media/htemplate-home/assets/js/lib/require.js?ver=1772696467876"></script>
+  <script type="text/javascript" src="/-/media/htemplate-home/assets/js/lib/jquery-3.7.1.min.js?ver=1772696467876"></script>
+  <script type="text/javascript" src="/-/media/htemplate-home/assets/js/lib/bootstrap.min.js?ver=1772696467876"></script>
+  
+  <script type="text/javascript" src="/-/media/htemplate-home/assets/js/common.min.js?ver=1772696467876"></script>
+  
+    <input type="hidden" id="contentId" value="6832715c4b92490494b7aaf86f33a736">
+    <input type="hidden" id="siteId" value="6ed0533ff33f48f29f0af4f5c8977d15">
+    <!-- 兼容片段获取 siteId -->
+    <!-- 兼容片段获取 注释 -->
+
+    
+    
+
+    
+    <div id="content" class="main" data-site="">
+    
+
+    
+  <div data-mod-id="20261010112510151016099625956602">
+ <div data-mod-name-pc="@cloud/hcomponent-header/pc/index" data-mod-name-m="@cloud/hcomponent-header/m/index" data-mod-name="hcomponent-header">
+  <!-- 活动与新闻-->
+  <div class="top-nav">
+   <div class="top-nav-height" data-mod-name="child-component" data-mod-id="top_nav">
+    <div class="container">
+     <div class="pull-right">
+      <a href="#" onclick="utag.link({'tealium_event':'header_click', 'nav_name':'switchwebsite'});"> <span class="iconfont icon-header-linkgroup-new"></span> <span class="text"> 集团网站 </span> <span class="iconfont icon-arrow-down hidden-xs hidden-sm"></span> <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a> <a href="#" onclick="utag.link({'tealium_event':'header_click', 'nav_name':'worldwide'});"> <span class="iconfont icon-header-language-new"></span> <span class="text">选择区域/语言</span> <span class="iconfont icon-arrow-down hidden-xs hidden-sm"></span> <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+     </div>
+    </div>
+   </div>
+   <div class="top-nav-content menu-fixed-right">
+    <div class="container">
+     <div data-mod-name="child-component" data-mod-id="site_group" class="group-website chide" id="group-website">
+      <a href="javascript:;" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+      <div class="title hidden-md hidden-lg"></div>
+      <div class="locationSite">
+       <span class="active"> <span class="iconfont icon-arrow-right"></span> <span> 集团网站 </span> </span>
+      </div>
+      <div class="sites">
+       <dl>
+        <dt>
+         <a href="https://e.huawei.com/cn/" target="_blank" onclick="utag.link({'tealium_event':'header_click', 'nav_name':'switchwebsite_enterprise'});"> <span> <img src="https://www-file.huawei.com/dam/asset/view/017e1909550347e59e4a9f4fb9c00c78.svg" alt="icon enterprise"> 企业业务网站 </span> <span class="iconfont icon-arrow-right"></span> </a>
+        </dt>
+       </dl>
+       <dl>
+        <dt>
+         <a href="https://carrier.huawei.com/cn/" target="_blank" onclick="utag.link({'tealium_event':'header_click', 'nav_name':'switchwebsite_carrier'});"> <span> <img src="https://www-file.huawei.com/dam/asset/view/61ac204f33ea4648b0a60886b7fb6cb7.svg" alt="icon carrier"> 运营商业务网站 </span> <span class="iconfont icon-arrow-right"></span> </a>
+        </dt>
+       </dl>
+       <dl>
+        <dt>
+         <a href="https://consumer.huawei.com/cn" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'switchwebsite_consumer'});"> <span> <img src="https://www-file.huawei.com/dam/asset/view/bc0d73dbd3cb403280b5cc98ec59e4e5.svg" alt="icon consumer"> 消费者业务网站 </span> <span class="iconfont icon-arrow-right"></span> </a>
+        </dt>
+       </dl>
+       <dl>
+        <dt>
+         <a href="https://www.huaweicloud.com/" target="_blank" onclick="utag.link({'tealium_event':'header_click', 'nav_name':'switchwebsite_hwcloud'});"> <span> <img src="https://www-file.huawei.com/dam/asset/view/3250e3a55e2a4c788651f5e68eae09d0.svg" alt="icon huaweicloud"> 华为云业务网站 </span> <span class="iconfont icon-arrow-right"></span> </a>
+        </dt>
+       </dl>
+       <dl>
+        <dt>
+         <a href="https://digitalpower.huawei.com/cn" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'switchwebsite_digitalpower'});"> <span> <img src="https://www-file.huawei.com/dam/asset/view/36258adc3bbc437bae4e192b865aef79.svg" alt="icon digitalpower"> 数字能源业务网站 </span> <span class="iconfont icon-arrow-right"></span> </a>
+        </dt>
+       </dl>
+       <dl>
+        <dt>
+         <a href="https://auto.huawei.com/cn/?utm_medium=ownmedia&amp;utm_source=huaweicorp&amp;utm_campaign=alwayson-nav-bar" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'switchwebsite_auto'});"> <span> <img src="//www-file.huawei.com/dam/asset/view/icon-switchwebsite-ias.svg" alt="ias icon "> 智能汽车解决方案业务网站 </span> <span class="iconfont icon-arrow-right"></span> </a>
+        </dt>
+       </dl>
+      </div>
+     </div>
+     <div class="worldwide chide" id="worldwide" data-mod-name="child-component" data-mod-id="worldwide">
+      <a href="javascript:;" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+      <div class="worldwide-contact">
+       <div class="worldwide-language">
+        <h3>选择区域/语言</h3>
+       </div>
+       <ul class="list-unstyled">
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[0]"><span>Australia</span> - <a href="/au/" link="/au/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_au'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[1]"><span>Brazil</span> - <a href="/br/" link="/br/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_br'});">Português </a></li>
+        <li class="active" data-mod-name="child-component" data-mod-id="worldwide.languages[2]"><span class="iconfont icon-arrow-right"></span> <span>China</span> - <a href="/cn/" link="/cn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_cn'});">简体中文 </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[3]"><span>Europe</span> - <a href="/eu/" link="/eu/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_eu'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[4]"><span>France</span> - <a href="/fr/" link="/fr/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_fr'});">Français </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[5]"><span>Germany</span> - <a href="/de/" link="/de/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_de'});">Deutsch </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[6]"><span>Ireland</span> - <a href="/ie/" link="/ie/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ie'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[7]"><span>Italy</span> - <a href="/it/" link="/it/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_it'});">Italiano </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[8]"><span>Japan</span> - <a href="/jp/" link="/jp/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_jp'});">日本語 </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[9]"><span>Kazakhstan</span> - <a href="/kz/" link="/kz/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_kz'});">Қазақ тілі </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[10]"><span>Kazakhstan</span> - <a href="/kz-ru/" link="/kz-ru/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_kz-ru'});">Русский </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[11]"><span>Kenya</span> - <a href="/ke/" link="/ke/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ke'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[12]"><span>Korea</span> - <a href="/kr/" link="/kr/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_kr'});">한국어 </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[13]"><span>Malaysia</span> - <a href="/my/" link="/my/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_my'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[14]"><span>Mexico</span> - <a href="/mx/" link="/mx/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_mx'});">Español </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[15]"><span>Mongolia</span> - <a href="/mn/" link="/mn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_mn'});">Монгол </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[16]"><span>Netherlands</span> - <a href="/nl/" link="/nl/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_nl'});">Nederlands </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[17]"><span>New Zealand</span> - <a href="/nz/" link="/nz/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_nz'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[18]"><span>Poland</span> - <a href="/pl/" link="/pl/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_pl'});">Polski </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[19]"><span>Romania</span> - <a href="/ro/" link="/ro/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ro'});">Română </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[20]"><span>Singapore</span> - <a href="/sg/" link="/sg/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_sg'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[21]"><span>South Africa</span> - <a href="/za/" link="/za/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_za'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[22]"><span>Spain</span> - <a href="/es/" link="/es/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_es'});">Español </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[23]"><span>Switzerland</span> - <a href="/ch/" link="/ch/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ch'});">Deutsch </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[24]"><span>Switzerland</span> - <a href="/ch-fr/" link="/ch-fr/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ch-fr'});">Français </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[25]"><span>Switzerland</span> - <a href="/ch-it/" link="/ch-it/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ch-it'});">Italiano </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[26]"><span>Switzerland</span> - <a href="/ch-en/" link="/ch-en/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ch-en'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[27]"><span>Tanzania</span> - <a href="/tz/" link="/tz/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_tz'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[28]"><span>Thailand</span> - <a href="/th/" link="/th/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_th'});">ภาษาไทย </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[29]"><span>Turkiye</span> - <a href="/tr/" link="/tr/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_tr'});">Türkçe </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[30]"><span>Ukraine</span> - <a href="/ua/" link="/ua/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_ua'});">Українська </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[31]"><span>United Kingdom</span> - <a href="/uk/" link="/uk/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_uk'});">English </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[32]"><span>Uzbekistan</span> - <a href="/uz/" link="/uz/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_uz'});">Русский </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[33]"><span>Uzbekistan</span> - <a href="/uz-uz/" link="/uz-uz/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_uz-uz'});">O’zbek </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[34]"><span>Vietnam</span> - <a href="/vn/" link="/vn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_vn'});">Tiếng Việt </a></li>
+        <li data-mod-name="child-component" data-mod-id="worldwide.languages[35]"><span>Global</span> - <a href="/en/" link="/en/" onclick="utag.link({'nav_url': this.href,'tealium_event':'header_click', 'nav_name':'worldwide_en'});">English </a></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- 隐藏域 -->
+  <input type="hidden" id="lang" value="cn"> <input type="hidden" id="SearchUrl" value="/cn/searchresult"> <input type="hidden" id="hidUserStatusUrl" value="/cn/user"> <input type="hidden" id="hidRedirect" value="0"> <input type="hidden" id="hidRedirectRulus" value=""> <input type="hidden" id="hidRedirectRegionName" value=""> <input type="hidden" id="siteId" value=""> <input type="hidden" id="trash" value="/-/media/hcomponent-header/1.0.1.20260908162100/component/img/trash.svg"> <input type="hidden" id="trashHover" value="/-/media/hcomponent-header/1.0.1.20260908162100/component/img/trash-hover.svg">
+  <header>
+   <!-- header menu -->
+   <div class="navbar">
+    <div class="container nav-container">
+     <div class="navbar-header">
+      <!-- 移动端菜单 -->
+      <button class="navbar-toggle collapsed"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <!-- logo left -->
+      <a href="/cn" target="_self" class="logo navbar-brand" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'logo'});" style="width: 133px;"> <img src="/-/media/hcomponent-header/1.0.1.20260908162100/component/img/huawei_logo.png" alt="huawei logo"> </a>
+     </div>
+     <!-- 菜单 -->
+     <nav id="hw-navbar">
+      <ul class="nav navbar-nav list-unstyled">
+       <li class="menu-list hover-open"><a href="javascript:;" target="" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_open'});}" class="btn-next collapsed hw-navbar-text"> 个人及家庭产品 <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+        <div class="nav-open menu-fixed-right  header-content-n1" data-mod-name="child-component" data-mod-id="tabs[0]">
+         <a href="javascript:;" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_back_to_main_menu'});" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+         <div class="nav-ani ">
+          <div class="title hidden-md hidden-lg">个人及家庭产品</div>
+          <div class="mask"></div>
+          <div class="container-custom">
+           <div class="new-font-box">
+            <div class="row">
+             <div class="col-md-6 header-content-n1">
+              <div class="new-font-box">
+               <ul class="row">
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/phones/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_phones'});" target="_blank" class=""> <span class="huawei-iconfont iconPhones"></span> 
+                  <p>手机</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/harmonyos-computer/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_pc'});" target="_blank" class=""> <span class="huawei-iconfont iconMateBook"></span> 
+                  <p>电脑</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/tablets/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_tablet'});" target="_blank" class=""> <span class="huawei-iconfont iconMatePad"></span> 
+                  <p>平板</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/visions/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_visions'});" target="_blank" class=""> <span class="huawei-iconfont iconSmart"></span> 
+                  <p>智慧屏</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/wearables/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_wearables'});" target="_blank" class=""> <span class="huawei-iconfont iconWearables"></span> 
+                  <p>穿戴</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/audio/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_audio'});" target="_blank" class=""> <span class="huawei-iconfont iconearphones"></span> 
+                  <p>耳机音箱</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/wholehome/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_wholehome'});" target="_blank" class=""> <span class="huawei-iconfont iconwholehome"></span> 
+                  <p>全屋智能</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/routers/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_routers'});" target="_blank" class=""> <span class="huawei-iconfont iconRouters"></span> 
+                  <p>路由器</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/harmonyos-7/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_harmonyos_7'});" target="_blank" class=""> <span class="huawei-iconfont iconHMos-2"></span> 
+                  <p>HarmonyOS 7</p> </a></li>
+                <li class="col-md-3 col-sm-3 col-xs-4"><a href="https://consumer.huawei.com/cn/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_all_products'});" target="_blank" class=""> <span class="huawei-iconfont iconMore"></span> 
+                  <p>全部产品</p> </a></li>
+               </ul>
+              </div>
+             </div>
+             <div class="col-md-6">
+              <a href="https://consumer.huawei.com/cn/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href, 'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_img_mate-90-pro-max'});" target="_blank"> <img src="https://www-file.huawei.com/dam/asset/view/mate-90-max-732.webp" alt="HUAWEI Mate 90 Pro Max" class="mate30pro hidden-sm hidden-xs"></a> <!-- <video src="https://www-file.huawei.com/dam/asset/view/huawei-mate-xt2.mp4" alt="HUAWEI Mate XT 2" class="mate30pro hidden-sm hidden-xs" autoplay muted>
+            </video> -->
+             </div>
+             <a href="javascript:;" class="btn-close-nav-ani hidden-sm hidden-xs"> <span class="iconfont icon-close"></span> </a>
+            </div>
+           </div>
+          </div>
+          <div class="nav-open-other">
+           <div class="container-custom">
+            <div class="row" style="display: block;">
+             <div class="col-md-3 col-sm-12 col-xs-12">
+              <a href="https://consumer.huawei.com/cn/?utm_medium=hwdc&amp;utm_source=corp_header_consumer" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_consumerhome'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/consumer.svg" alt="个人及家庭产品"> <span>消费者业务网站</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+             <div class="col-md-3 col-sm-12 col-xs-12 hidden-xs hidden-sm">
+              <a href="https://www.vmall.com?cid=119884" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_vmallhome'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/vmall.svg" alt="个人及家庭产品"> <span>华为商城</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+             <div class="col-md-3 col-sm-12 col-xs-12 hidden-md hidden-lg">
+              <a href="https://m.vmall.com?cid=119884" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2c', 'nav_name':'b2c_vmallhome'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/vmall.svg" alt="个人及家庭产品"> <span>华为商城</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div></li>
+       <li class="menu-list hover-open"><a href="javascript:;" target="" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_open'});}" class="btn-next collapsed hw-navbar-text"> 商用产品及方案 <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+        <div class="nav-open menu-fixed-right " data-mod-name="child-component" data-mod-id="tabs[1]">
+         <a href="javascript:;" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_back_to_main_menu'});" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+         <div class="nav-ani ">
+          <div class="title hidden-md hidden-lg">商用产品及方案</div>
+          <div class="mask"></div>
+          <div class="container-custom">
+           <div class="">
+            <div class="row">
+             <div class="col-md-6">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-110" aria-controls="header-list-110" aria-expanded="true">产品<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse fix-header-list-1" id="header-list-110">
+               <div class=" col-md-3 ">
+                <div class="list-nav">
+                 <h4 class="">联接</h4>
+                 <ul class="list-unstyled">
+                  <li><a href="https://carrier.huawei.com/cn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_connect_carrier'});" target="_blank"> 运营商网络 </a></li>
+                  <li><a href="https://e.huawei.com/cn/solutions/enterprise-network" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_connect_enterprise_networking'});" target="_blank"> 企业网络 </a></li>
+                  <li><a href="https://e.huawei.com/cn/solutions/enterprise-optical-network" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_connect_enterprise_optical_networking'});" target="_blank"> 企业光网络 </a></li>
+                  <li><a href="https://e.huawei.com/cn/solutions/enterprise-wireless" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_connect_enterprise_wireless'});" target="_blank"> 企业无线 </a></li>
+                 </ul>
+                </div>
+               </div>
+               <div class=" col-md-3 ">
+                <div class="list-nav">
+                 <h4 class="">计算</h4>
+                 <ul class="list-unstyled">
+                  <li><a href="https://e.huawei.com/cn/solutions/computing/general-computing" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_computing_general_computing'});" target="_blank"> 通用计算 </a></li>
+                  <li><a href="https://e.huawei.com/cn/solutions/computing/ascend-computing" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_computing_ascend_computing'});" target="_blank"> AI计算 </a></li>
+                  <li><a href="https://e.huawei.com/cn/products/storage" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_computing_data_storage'});" target="_blank"> 数据存储 </a></li>
+                 </ul>
+                </div>
+               </div>
+               <div class=" col-md-3 ">
+                <div class="list-nav">
+                 <h4 class="">云</h4>
+                 <ul class="list-unstyled">
+                  <li><a href="https://www.huaweicloud.com/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_cloud_hwcloud'});" target="_blank"> 华为云 </a></li>
+                 </ul>
+                </div>
+               </div>
+               <div class=" col-md-3 ">
+                <div class="list-nav">
+                 <h4 class="">数字能源</h4>
+                 <ul class="list-unstyled">
+                  <li><a href="https://solar.huawei.com/cn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_digitalpower_solar'});" target="_blank"> 智能光伏 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/driveone" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_digitalpower_driveone'});" target="_blank"> 智能电动 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/smart-charging-network" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_digitalpower_smart_charging_network'});" target="_blank"> 智能充电网络 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/data-center-facility" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_digitalpower_data_center_facility'});" target="_blank"> 数据中心能源及关键供电 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/site-power-facility" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_product_digitalpower_site_power_facility'});" target="_blank"> 站点能源 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-3">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-111" aria-controls="header-list-111" aria-expanded="true">行业解决方案<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse fix-header-list-1" id="header-list-111">
+               <div class=" col-md-6 ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://carrier.huawei.com/cn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_telecommunications'});" target="_blank"> 电信 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/finance" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_finance'});" target="_blank"> 金融 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/manufacturing" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_manufacturing'});" target="_blank"> 制造 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/government" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_government'});" target="_blank"> 政府 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/education" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_education'});" target="_blank"> 教育 </a></li>
+                 </ul>
+                </div>
+               </div>
+               <div class=" col-md-6 ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://e.huawei.com/cn/industries/healthcare" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_healthcare'});" target="_blank"> 医疗 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/transportation" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_transportation'});" target="_blank"> 交通 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/grid" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_electric_power'});" target="_blank"> 电力 </a></li>
+                  <li><a href="https://e.huawei.com/cn/industries/mining" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_mining'});" target="_blank"> 矿山与冶炼 </a></li>
+                  <li><a href="https://e.huawei.com/cn/products-and-solutions?pos=industries" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_industry_seemore'});" class="read-more" target="_blank"> <span>更多行业</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-3">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-112" aria-controls="header-list-112" aria-expanded="true">热点话题<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-112">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://digitalpower.huawei.com/cn/high-quality-development" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_topic_high_quality_development'});" target="_blank"> 共铸能源产业高质量发展 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a href="javascript:;" class="btn-close-nav-ani hidden-sm hidden-xs"> <span class="iconfont icon-close"></span> </a>
+            </div>
+           </div>
+          </div>
+          <div class="nav-open-other">
+           <div class="container-custom">
+            <div class="row" style="display: block;">
+             <div class="col-md-3 col-sm-12 col-xs-12">
+              <a href="https://e.huawei.com/cn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_enterprise_home'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/enterprise.svg" alt="商用产品及方案"> <span>企业业务网站</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+             <div class="col-md-3 col-sm-12 col-xs-12">
+              <a href="https://carrier.huawei.com/cn/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_carrier_home'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/carrier.svg" alt="商用产品及方案"> <span>运营商业务网站</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+             <div class="col-md-3 col-sm-12 col-xs-12">
+              <a href="https://www.huaweicloud.com/" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_hwcloud_home'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/cloud.svg" alt="商用产品及方案"> <span>华为云网站</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+             <div class="col-md-3 col-sm-12 col-xs-12">
+              <a href="https://digitalpower.huawei.com/cn" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_digitalpower_home'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/digital-power.svg" alt="商用产品及方案"> <span>数字能源网站</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+             <div class="col-md-3 col-sm-12 col-xs-12">
+              <a href="https://auto.huawei.com/cn/?utm_medium=ownmedia&amp;utm_source=huaweicorp&amp;utm_campaign=alwayson-main-nav" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'b2b', 'nav_name':'b2b_auto_home'});" target="_blank" class="ias"> <img src="https://www-file.huawei.com/dam/asset/view/auto.svg" alt="商用产品及方案"> <span>智能汽车解决方案网站</span> <span class="hwic_open-in-new3"></span> </a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div></li>
+       <li class="menu-list hover-open"><a href="javascript:;" target="" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_open'});}" class="btn-next collapsed hw-navbar-text"> 服务支持 <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+        <div class="nav-open menu-fixed-right " data-mod-name="child-component" data-mod-id="tabs[2]">
+         <a href="javascript:;" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_back_to_main_menu'});" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+         <div class="nav-ani ">
+          <div class="title hidden-md hidden-lg">服务支持</div>
+          <div class="mask"></div>
+          <div class="container-custom">
+           <div class="">
+            <div class="row">
+             <div class="col-md-2">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-120" aria-controls="header-list-120" aria-expanded="true">个人及家庭产品<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-120">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://consumer.huawei.com/cn/support/break-fix/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_breakfix'});" target="_blank"> 维修申请 </a></li>
+                  <li><a href="https://consumer.huawei.com/cn/support/install/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_install'});" target="_blank"> 上门安装 </a></li>
+                  <li><a href="https://consumer.huawei.com/cn/support/service-day/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_service_day'});" target="_blank"> 华为服务日 </a></li>
+                  <li><a href="https://consumer.huawei.com/cn/support/service-center/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_service_center'});" target="_blank"> 服务店查询 </a></li>
+                  <li><a href="https://consumer.huawei.com/cn/support/sparepart-price/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_sparepart_price'});" target="_blank"> 备件价格查询 </a></li>
+                  <li><a href="https://celia.consumer.huawei.com/official/#/?businessUUID=fe8192189f0a40e8a883ab8bdf1ba8ea" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_chatonline'});" target="_blank"> 在线客服 </a></li>
+                  <li><a href="https://consumer.huawei.com/cn/support/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_consumer_supporthome'});" class="read-more" target="_blank"> <span>查看更多</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-2">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-121" aria-controls="header-list-121" aria-expanded="true">华为云业务<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-121">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://www.huaweicloud.com/ai-assistant/index.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_smartadvisor'});" target="_blank"> 云宝助手 </a></li>
+                  <li><a href="https://support.huaweicloud.com/help-novice.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_help_novice'});" target="_blank"> 新手入门 </a></li>
+                  <li><a href="https://www.huaweicloud.com/service/supportplans.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_supportplans'});" target="_blank"> 支持计划 </a></li>
+                  <li><a href="https://support.huaweicloud.com/help-tools.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_self_service'});" target="_blank"> 自助服务 </a></li>
+                  <li><a href="https://bbs.huaweicloud.com/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_bbs'});" target="_blank"> 云社区 </a></li>
+                  <li><a href="https://www.huaweicloud.com/mobile_app/hwapp.html?channel=navigation_right" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_hwapp'});" target="_blank"> 华为云App </a></li>
+                  <li><a href="https://support.huaweicloud.com/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_hwcloud_supporthome'});" class="read-more" target="_blank"> <span>查看更多</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-2">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-122" aria-controls="header-list-122" aria-expanded="true">企业业务<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-122">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://weiknow.gts.huawei.com/weiknow/#/question?locale=zh_CN&amp;lang=zh" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_enterprise_smartadvisor'});" target="_blank"> 智能客服 </a></li>
+                  <li><a href="https://support.huawei.com/enterprise/zh/doc/index.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_enterprise_product_support'});" target="_blank"> 产品支持 </a></li>
+                  <li><a href="https://support.huawei.com/enterprise/zh/software/index.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_enterprise_software_download'});" target="_blank"> 软件下载 </a></li>
+                  <li><a href="https://o3community.huawei.com/cn/zh" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_enterprise_community'});" target="_blank"> O3社区 </a></li>
+                  <li><a href="https://support.huawei.com/enterprise/zh/tool" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_enterprise_tools'});" target="_blank"> 工具 </a></li>
+                  <li><a href="https://support.huawei.com/enterprise/zh/index.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_enterprise_supporthome'});" class="read-more" target="_blank"> <span>查看更多</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-2">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-123" aria-controls="header-list-123" aria-expanded="true">运营商业务<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-123">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://support.huawei.com/carrierindex/zh/hwe/index.html#click=main1" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_carrier_product_support'});" target="_blank"> 产品支持 </a></li>
+                  <li><a href="https://support.huawei.com/groupspace/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_carrier_group-space'});" target="_blank"> Group Space </a></li>
+                  <li><a href="https://support.huawei.com/carrier/navi?coltype=news#col=bulletin" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_carrier_bulletins'});" target="_blank"> 公告 </a></li>
+                  <li><a href="https://support.huawei.com/carrier/navi?coltype=other#col=other/pigeon" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_carrier_documentation_express'});" target="_blank"> 华为资料直通车 </a></li>
+                  <li><a href="https://support.huawei.com/carrierindex/index" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_carrier_supporthome'});" class="read-more" target="_blank"> <span>查看更多</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-2">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-124" aria-controls="header-list-124" aria-expanded="true">数字能源业务<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-124">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://digitalpower.huawei.com/intelligent-chatbot/#/home/index/newHome-page?lang=zh_CN" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_online_support'});" target="_blank"> 智能客服 </a></li>
+                  <li><a href="https://info.support.huawei.com/Energy/info/zh_CN/all/index" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_after_sales_documentation'});" target="_blank"> 资料下载 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/contact-us/global-service-hotlines" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_global_service_hotlines'});" target="_blank"> 服务热线 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/service-request/#/Mailbox/index?lang=zh_CN" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_create_service_request'});" target="_blank"> 自助建单 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/service/maintenance-service" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_warranty_query'});" target="_blank"> 维保查询 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/service/spare-part-query" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_spare_part_query'});" target="_blank"> 备件查询 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/cn/service/support" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'support', 'nav_name':'support_digitalpower_home'});" class="read-more" target="_blank"> <span>查看更多</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a href="javascript:;" class="btn-close-nav-ani hidden-sm hidden-xs"> <span class="iconfont icon-close"></span> </a>
+            </div>
+           </div>
+          </div>
+          <div class="nav-open-other">
+           <div class="container-custom">
+            <div class="row" style="display: block;"></div>
+           </div>
+          </div>
+         </div>
+        </div></li>
+       <li class="menu-list hover-open"><a href="javascript:;" target="" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_open'});}" class="btn-next collapsed hw-navbar-text"> 合作伙伴与开发者 <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+        <div class="nav-open menu-fixed-right " data-mod-name="child-component" data-mod-id="tabs[3]">
+         <a href="javascript:;" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_back_to_main_menu'});" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+         <div class="nav-ani ">
+          <div class="title hidden-md hidden-lg">合作伙伴与开发者</div>
+          <div class="mask"></div>
+          <div class="container-custom">
+           <div class="">
+            <div class="row">
+             <div class="col-md-4">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-130" aria-controls="header-list-130" aria-expanded="true">合作伙伴<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-130">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://partner.huawei.com/eplusmeta/cn/web/china.html" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_enterprise_business'});" target="_blank"> 企业业务伙伴 </a></li>
+                  <li><a href="https://www.huaweicloud.com/partners/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_huaweicloud'});" target="_blank"> 华为云伙伴 </a></li>
+                  <li><a href="https://digitalpower.huawei.com/partner/#/cn/main" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_digitalpower'});" target="_blank"> 数字能源伙伴 </a></li>
+                  <li><a href="https://pmall.huawei.com/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_consumer_product'});" target="_blank"> 终端业务伙伴 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-4">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-131" aria-controls="header-list-131" aria-expanded="true">开发者<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-131">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://developer.huawei.com/consumer/cn/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_dev_consumer'});" target="_blank"> 鸿蒙开发者 </a></li>
+                  <li><a href="https://developer.huaweicloud.com/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_dev_hwcloud'});" target="_blank"> 华为云开发者 </a></li>
+                  <li><a href="https://www.hikunpeng.com/zh/developer" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_dev_kunpeng'});" target="_blank"> 鲲鹏开发者 </a></li>
+                  <li><a href="https://www.hiascend.com/zh/developer" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_dev_ascend'});" target="_blank"> 昇腾开发者 </a></li>
+                  <li><a href="https://developer.huawei.com/cn/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_dev_home'});" class="read-more" target="_blank"> <span>查看更多</span> <span class="iconfont icon-arrow-right"></span> </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-4">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-132" aria-controls="header-list-132" aria-expanded="true">学习与认证<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-132">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://e.huawei.com/cn/talent/learning/#/home" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_training_learning'});" target="_blank"> ICT公开课程 </a></li>
+                  <li><a href="https://e.huawei.com/cn/talent/ict-academy/#/home" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_training_ict_academy'});" target="_blank"> 华为ICT学院 </a></li>
+                  <li><a href="https://e.huawei.com/cn/talent/cert/#/careerCert" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'partner_dev', 'nav_name':'partner_dev_training_hwcertification'});" target="_blank"> 华为认证 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a href="javascript:;" class="btn-close-nav-ani hidden-sm hidden-xs"> <span class="iconfont icon-close"></span> </a>
+            </div>
+           </div>
+          </div>
+          <div class="nav-open-other">
+           <div class="container-custom">
+            <div class="row" style="display: block;"></div>
+           </div>
+          </div>
+         </div>
+        </div></li>
+       <li class="menu-list hover-open"><a href="javascript:;" target="_self" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_open'});}" class="btn-next collapsed hw-navbar-text"> 关于华为 <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+        <div class="nav-open menu-fixed-right " data-mod-name="child-component" data-mod-id="tabs[4]">
+         <a href="javascript:;" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_back_to_main_menu'});" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+         <div class="nav-ani ">
+          <div class="title hidden-md hidden-lg">关于华为</div>
+          <div class="mask"></div>
+          <div class="container-custom">
+           <div class="">
+            <div class="row">
+             <div class="col-md-6">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-140" aria-controls="header-list-140" aria-expanded="true">关于华为<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse fix-header-list-1" id="header-list-140">
+               <div class=" col-md-4 ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="/cn/corporate-information" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_corporateinfo'});&quot;" target="_self"> 公司简介 </a></li>
+                  <li><a href="/cn/annual-report" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_annualreports'});" target="_self"> 公司年报 </a></li>
+                  <li><a href="/cn/corporate-governance" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_corporategovernance'});" target="_self"> 公司治理 </a></li>
+                  <li><a href="/cn/executives" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_executives'});" target="_self"> 管理层信息 </a></li>
+                  <li><a href="/cn/contact-us" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_contactus'});" target="_self"> 联系我们 </a></li>
+                 </ul>
+                </div>
+               </div>
+               <div class=" col-md-4 ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="/cn/sustainability" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_sustainability'});" target="_self"> 可持续发展 </a></li>
+                  <li><a href="/cn/trust-center" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_trustcenter'});" target="_self"> 信任中心 </a></li>
+                  <li><a href="/cn/open-source" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_opensource'});" target="_self"> 华为开源 </a></li>
+                  <li><a href="/cn/ipr" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_ipr'});" target="_self"> 创新与知识产权 </a></li>
+                  <li><a href="/cn/compliance" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_compliance'});" target="_self"> 合规与诚信 </a></li>
+                 </ul>
+                </div>
+               </div>
+               <div class=" col-md-4 ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="https://career.huawei.com/cn" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_careers'});" target="_blank"> 招贤纳士 </a></li>
+                  <li><a href="/cn/bond-investor-relations" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_bondinvestors'});" target="_self"> 债券投资者 </a></li>
+                  <li><a href="https://supplier.huawei.com/supplier/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_suppliers'});" target="_blank"> 供应商 </a></li>
+                  <li><a href="/cn/public-policy" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_about_publicpolicy'});" target="_self"> 公共政策 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-3">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-141" aria-controls="header-list-141" aria-expanded="true">新闻与活动<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-141">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="/cn/news" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_newsevents_news'});" target="_self"> 新闻 </a></li>
+                  <li><a href="/cn/events" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_newsevents_events'});" target="_self"> 展会活动 </a></li>
+                  <li><a href="/cn/gallery" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_newsevents_gallery'});" target="_self"> 多媒体 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-3">
+              <h3 class="collapsed" data-toggle="collapse" data-target="#header-list-142" aria-controls="header-list-142" aria-expanded="true">发现华为<span class="iconfont icon-arrow-down"></span>
+               <div class="line"></div></h3>
+              <div class="row collapse navbar-collapse " id="header-list-142">
+               <div class=" single-column ">
+                <div class="list-nav">
+                 <ul class="list-unstyled">
+                  <li><a href="/cn/huaweitech" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_discover_huaweitech'});" target="_self"> 华为技术专栏 </a></li>
+                  <li><a href="/cn/giv/action" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_discover_intelligent-world-2035'});" target="_self"> 智能世界2035 </a></li>
+                  <li><a href="https://www.huawei.com/cn/intelligent-world#striding" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_discover_striding-intelligent-world'});" target="_self"> 迈向智能世界 </a></li>
+                  <li><a href="https://www.huawei.com/minisite/gdii/cn/" onclick="utag.link({'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_discover_gdii'});" target="_blank"> 全球数智化指数 </a></li>
+                  <li><a href="/cn/publications" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'abouthuawei', 'nav_name':'abouthuawei_discover_publications'});" target="_self"> 出版物 </a></li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a href="javascript:;" class="btn-close-nav-ani hidden-sm hidden-xs"> <span class="iconfont icon-close"></span> </a>
+            </div>
+           </div>
+          </div>
+          <div class="nav-open-other">
+           <div class="container-custom">
+            <div class="row" style="display: block;"></div>
+           </div>
+          </div>
+         </div>
+        </div></li>
+       <li class="menu-list hover-open hidden-lg"><a href="javascript:;" target="" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_open'});}" class="btn-next collapsed hw-navbar-text"> 在线购买 <span class="iconfont icon-arrow-right hidden-md hidden-lg"></span> </a>
+        <div class="nav-open menu-fixed-right">
+         <a href="javascript:;" onclick="" class="btn-nav-back hidden-md hidden-lg"> <span class="iconfont icon-arrow-lift"></span> 返回主菜单 </a>
+         <div class="nav-ani">
+          <div class="title hidden-md hidden-lg">在线购买</div>
+          <div class="mask"></div>
+          <div class="container">
+           <div class="list-nav">
+            <ul class="list-unstyled">
+             <!-- fix -->
+             <li style="padding-right: 40px;" class=" hidden-xs hidden-sm"><a href="https://www.vmall.com/?cid=10074" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_vmall'});" target="_blank"><span class="huawei-iconfont iconHUAWEIShopping3"></span>华为商城</a></li>
+             <!-- fix -->
+             <li style="padding-right: 40px;" class=" hidden-md hidden-lg"><a href="https://m.vmall.com/?cid=10074" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_vmall'});" target="_blank"><span class="huawei-iconfont iconHUAWEIShopping3"></span>华为商城</a></li>
+             <!-- fix -->
+             <li style="padding-right: 40px;" class=""><a href="https://www.huaweicloud.com/?utm_medium=menu&amp;utm_source=corp_huawei&amp;utm_campaign=allwayson" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_hwcloud'});" target="_blank"><span class="huawei-iconfont iconHUAWEIShopping3"></span>华为云</a></li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div></li>
+      </ul>
+     </nav>
+     <!-- 搜索框 -->
+     <div class="new-search-box search-box search-hide" id="header-search">
+      <input type="search" enterkeyhint="search" placeholder="搜索 huawei.com" class="js-search-header-input-popup" id="js-search-header-input-popup" autocomplete="off"> <a href="#" onclick="utag.link({'tealium_event' : 'search_box_open','search_position': 'top'});" class="btn-search"> <span class="hwic_search"></span> </a> <a href="javascript:;" class="btn-b-clear"> <span class="iconfont icon-close"></span> </a> <a href="#" onclick="utag.link({'tealium_event' : 'search_box_close','search_position': 'top'});" class="btn-close"> <span class="hwic_cross"></span> </a>
+      <div class="b-search-keyword"></div>
+      <div class="new-search-keyword search-keyword hidden-lg hidden-md">
+       <div class="search-keyword-title mb-history-title">
+        搜索历史 <span class="historyClear"> <img src="/-/media/hcomponent-header/1.0.1.20260908162100/component/img/trash.svg">清空 </span>
+       </div>
+       <ul id="mbHistoryUl"></ul>
+       <script id="mb-history-template" type="text/x-jsrender">
+                        <li>
+                            <a href="${:url}$"><span>${:name}$</span></a>
+                        </li>
+                    </script>
+       <div class="search-keyword-title">热门链接</div>
+       <ul class="mb-search-keyword">
+        <li><a href="https://consumer.huawei.com/cn/phones/mate90/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'mate90'});">HUAWEI Mate 90</a></li>
+        <li><a href="https://consumer.huawei.com/cn/support/hisuite/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'hisuite'});">HiSuite华为手机助手</a></li>
+        <li><a href="https://consumer.huawei.com/cn/support/warranty-query/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'warranty-query'});">消费者产品保修查询</a></li>
+        <li><a href="https://consumer.huawei.com/cn/support/pc-manager/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'pc-manager'});">华为电脑管家</a></li>
+        <li><a href="https://consumer.huawei.com/cn/wearables/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'wearables'});">穿戴</a></li>
+        <li><a href="https://info.support.huawei.com/info-finder/encyclopedia/zh/eNSP+Pro.html" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'ensp'});">ensp</a></li>
+        <li><a href="https://consumer.huawei.com/cn/printers/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'printers'});">打印机</a></li>
+        <li><a href="https://consumer.huawei.com/cn/support/driver-list/" target="_blank" onclick="utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'driver-list'});">驱动程序下载</a></li>
+       </ul>
+      </div>
+     </div>
+     <!-- 右侧导航 -->
+     <div class="nav-right">
+      <div class="btn-shop hidden-xs hidden-sm">
+       <a href="javascript:;" class="shop-icon js-shop-btn-open" onclick="if(!this.parentNode.classList.contains('active')){utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_open'});}"> <span class="iconfont icon-bags"></span> </a>
+       <div class="navsbox">
+        <div class="closes">
+         <a href="javascript:;" class="btn-close js-shop-btn-close" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_close'});"><span class="hwic_cross"></span></a>
+        </div>
+        <ul class="shop-nav">
+         <!-- fix -->
+         <li style="padding-right: 40px;" class=" hidden-xs hidden-sm"><a href="https://www.vmall.com/?cid=10074" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_vmall'});" target="_blank"><span class="huawei-iconfont iconHUAWEIShopping3"></span>华为商城</a></li>
+         <!-- fix -->
+         <li style="padding-right: 40px;" class=" hidden-md hidden-lg"><a href="https://m.vmall.com/?cid=10074" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_vmall'});" target="_blank"><span class="huawei-iconfont iconHUAWEIShopping3"></span>华为商城</a></li>
+         <!-- fix -->
+         <li style="padding-right: 40px;" class=""><a href="https://www.huaweicloud.com/?utm_medium=menu&amp;utm_source=corp_huawei&amp;utm_campaign=allwayson" onclick="utag.link({'nav_url': this.href,'tealium_event':'megamenu_click', 'nav_category':'buy', 'nav_name':'buy_hwcloud'});" target="_blank"><span class="huawei-iconfont iconHUAWEIShopping3"></span>华为云</a></li>
+        </ul>
+       </div>
+      </div>
+      <a href="javascript:;" data-target="#header-search" onclick="utag.link({'tealium_event' : 'search_box_open','search_position': 'top'});" class="btn-open-search"> <span class="iconfont icon-search"></span> </a>
+     </div>
+    </div>
+   </div>
+   <div class="mask-bg"></div>
+  </header>
+  <div class="newResults results-box js-results-box">
+   <div class="search_results">
+    <div class="results">
+     <div class="search_history">
+      搜索历史 <span class="historyClear "> <img src="/-/media/hcomponent-header/1.0.1.20260908162100/component/img/trash.svg">清空 </span>
+     </div>
+     <ul id="historyUl"></ul>
+     <script id="history-template" type="text/x-jsrender">
+                <li>
+                    <a href="${:url}$"><span>${:name}$</span></a>
+                </li>
+            </script>
+    </div>
+   </div>
+   <div class="new-search-keyword search-keyword visible-lg visible-md js-search-keyword-pc" style="display: none;">
+    <div class="search-keyword-title">热门链接</div>
+    <ul class="pc-search-keyword">
+     <li><a href="https://consumer.huawei.com/cn/phones/mate90/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': 'HUAWEI Mate 90','qucik_links_href': 'https://consumer.huawei.com/cn/phones/mate90/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'mate90'});" target="_blank">HUAWEI Mate 90</a></li>
+     <li><a href="https://consumer.huawei.com/cn/support/hisuite/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': 'HiSuite华为手机助手','qucik_links_href': 'https://consumer.huawei.com/cn/support/hisuite/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'hisuite'});" target="_blank">HiSuite华为手机助手</a></li>
+     <li><a href="https://consumer.huawei.com/cn/support/warranty-query/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': '消费者产品保修查询','qucik_links_href': 'https://consumer.huawei.com/cn/support/warranty-query/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'warranty-query'});" target="_blank">消费者产品保修查询</a></li>
+     <li><a href="https://consumer.huawei.com/cn/support/pc-manager/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': '华为电脑管家','qucik_links_href': 'https://consumer.huawei.com/cn/support/pc-manager/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'pc-manager'});" target="_blank">华为电脑管家</a></li>
+     <li><a href="https://consumer.huawei.com/cn/wearables/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': '穿戴','qucik_links_href': 'https://consumer.huawei.com/cn/wearables/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'wearables'});" target="_blank">穿戴</a></li>
+     <li><a href="https://info.support.huawei.com/info-finder/encyclopedia/zh/eNSP+Pro.html" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': 'ensp','qucik_links_href': 'https://info.support.huawei.com/info-finder/encyclopedia/zh/eNSP+Pro.html',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'ensp'});" target="_blank">ensp</a></li>
+     <li><a href="https://consumer.huawei.com/cn/printers/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': '打印机','qucik_links_href': 'https://consumer.huawei.com/cn/printers/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'printers'});" target="_blank">打印机</a></li>
+     <li><a href="https://consumer.huawei.com/cn/support/driver-list/" onclick="window.hwa('trackStructEvent',{'uem_id': 'P7E721ACAFD8D92_C90301D298C112C',data:{'qucik_links_title': '驱动程序下载','qucik_links_href': 'https://consumer.huawei.com/cn/support/driver-list/',},});utag.link({'tealium_event':'search_quick_link_click','quick_link_name':'driver-list'});" target="_blank">驱动程序下载</a></li>
+    </ul>
+   </div>
+  </div>
+  <!-- 隐私政策 -->
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-header', data : {"packages":{"@cloud/hcomponent-header":{"path":"//res.hc-cdn.com/hcomponent-header/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-header/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-header/m/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div><div data-mod-id="20261010090844363016099625956044">
+    <div data-mod-name-pc="@cloud/hcomponent-www-carousel-banner-v2/pc/index" data-mod-name-m="@cloud/hcomponent-www-carousel-banner-v2/m/index"
+        data-mod-name="hcomponent-www-carousel-banner-v2">
+        
+<div class="hcomponent-www-carousel-banner-v2  relative w-full  mx-auto mb140">
+  <div class="hwp-carousel" data-carousel-delay="" data-banner-count="2">
+    <div class="carousel-inner">
+      <div class="swiper-container" data-loop="true" data-autoplay='{"delay":000}'>
+        <!-- js-swiper-container -->
+        <div class="swiper-wrapper">
+          
+          <div
+            class="swiper-slide relative hwp-hero-dual-title hwp-hero-dual-title-light"
+            data-theme-style="dark">
+            <div class="hwp-hero-dual-title-bg">
+              
+              <img src="//www-file.huawei.com/dam/asset/view/ubbf2026-pc.webp" alt="UBBF2026"
+                class="hwp-hidden-sm-down w-full h-full object-cover" />
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/ubbf2026-pad.webp" alt="UBBF2026"
+                class="hwp-hidden-xs-down hwp-hidden-sm-up w-full h-full object-cover" />
+              
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/ubbf2026-mob.webp" alt="UBBF2026"
+                class="hwp-hidden-xs-up w-full h-full object-cover" />
+              
+            </div>
+            <div
+              class="carousel-content-wrapper carousel-container-loose carousel-text-dark carousel-text-left">
+              
+              
+              
+              <div
+                class="hwp-hero-dual-title-title carousel-text-item mb8 carousel-title-md">
+                <b>AI与UBB 5.5G共融<br />开启价值经营新时代</b></div>
+              
+              
+              
+              <div
+                class="hwp-hero-dual-title-subtitle carousel-text-item mb8 carousel-subtitle-sm">
+                全球超宽带高峰论坛（UBBF 2026）</div>
+              
+              
+              <div class="hwp-hero-dual-title-content carousel-text-item carousel-description">10月12日-10月13日 &nbsp;&nbsp;&nbsp;
+奥地利，维也纳
+
+              </div>
+              
+              
+              <div
+                class="hwp-hero-dual-title-actions carousel-buttons carousel-cta-red carousel-cta-left">
+                <a href="https://www.huawei.com/minisite/ubbf/cn/" target="_blank" onclick="utag.link({&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;banner1&#39;, &#39;banner_name&#39;:&#39;ubbf2026&#39;});"
+                  class="hwp-hidden-xs-down"><span>了解更多</span><i class="hwicon icon-arrow-right ml8"></i></a>
+                <a href="https://www.huawei.com/minisite/ubbf/cn/" target="_blank"
+                  onclick="utag.link({&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;banner1&#39;, &#39;banner_name&#39;:&#39;ubbf2026&#39;});" class="hwp-hidden-xs-up"><span>了解更多</span><i
+                    class="hwicon icon-arrow-right ml8"></i></a>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div
+            class="swiper-slide relative hwp-hero-dual-title hwp-hero-dual-title-light"
+            data-theme-style="dark">
+            <div class="hwp-hero-dual-title-bg">
+              
+              <img src="//www-file.huawei.com/dam/asset/view/mate-90-max-pc.webp" alt="HUAWEI Mate 90 Pro Max	"
+                class="hwp-hidden-sm-down w-full h-full object-cover" />
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/mate-90-max-pad.webp" alt="HUAWEI Mate 90 Pro Max"
+                class="hwp-hidden-xs-down hwp-hidden-sm-up w-full h-full object-cover" />
+              
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/mate-90-max-mob.webp" alt="HUAWEI Mate 90 Pro Max"
+                class="hwp-hidden-xs-up w-full h-full object-cover" />
+              
+            </div>
+            <div
+              class="carousel-content-wrapper carousel-container-loose carousel-pos-center-top carousel-text-dark carousel-text-center">
+              
+              
+              
+              <div
+                class="hwp-hero-dual-title-title carousel-text-item mb8 carousel-title-md">
+                <b>HUAWEI</b> Mate 90 Pro Max	 </div>
+              
+              
+              
+              <div
+                class="hwp-hero-dual-title-subtitle carousel-text-item mb8 carousel-subtitle-sm">
+                踏光向前</div>
+              
+              
+              
+              <div
+                class="hwp-hero-dual-title-actions carousel-buttons carousel-cta-black carousel-cta-center">
+                <a href="https://consumer.huawei.com/cn/phones/mate90-pro-max/?utm_medium=hwdc&amp;utm_source=corp_banner2_mate90-pro-max=phones" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href, &#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;banner2&#39;, &#39;banner_name&#39;:&#39;cbg-mate90-pro-max&#39;});"
+                  class="hwp-hidden-xs-down"><span>了解更多</span><i class="hwicon icon-arrow-right ml8"></i></a>
+                <a href="https://consumer.huawei.com/cn/phones/mate90-pro-max/?utm_medium=hwdc&amp;utm_source=corp_banner2_mate90-pro-max=phones" target="_blank"
+                  onclick="utag.link({&#39;banner_url&#39;: this.href, &#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;banner2&#39;, &#39;banner_name&#39;:&#39;cbg-mate90-pro-max&#39;});" class="hwp-hidden-xs-up"><span>了解更多</span><i
+                    class="hwicon icon-arrow-right ml8"></i></a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="carousel-slide-bar" >
+      <div class="carousel-slide-bar-titles-source" style="display:none">
+        
+        <span data-idx="0">全球超宽带高峰论坛</span>
+        
+        <span data-idx="1">HUAWEI Mate 90 Pro Max</span>
+        
+      </div>
+      <div class="carousel-slide-bar-body">
+        <div class="carousel-slide-bar-prev">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M15 19L8 12L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="carousel-slide-bar-center">
+          <div class="carousel-slide-bar-progress">
+            <div class="carousel-slide-bar-progress-bg"></div>
+            <div class="carousel-slide-bar-progress-fill"></div>
+          </div>
+          <div class="carousel-slide-bar-progress-mobile">
+            
+            <div class="carousel-slide-bar-progress-mobile-item">
+              <div class="carousel-slide-bar-progress-mobile-fill" data-slide-idx="0"></div>
+            </div>
+            
+            <div class="carousel-slide-bar-progress-mobile-item">
+              <div class="carousel-slide-bar-progress-mobile-fill" data-slide-idx="1"></div>
+            </div>
+            
+          </div>
+          <div class="carousel-slide-bar-titles">
+            <div class="carousel-slide-bar-current">
+              <span class="carousel-slide-bar-title">全球超宽带高峰论坛</span>
+              <span class="carousel-slide-bar-next-title">HUAWEI Mate 90 Pro Max</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide-bar-next-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M9 5L16 12L9 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        
+        <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-www-carousel-banner-v2', data : {"packages":{"@cloud/hcomponent-www-carousel-banner-v2":{"path":"//res.hc-cdn.com/hcomponent-www-carousel-banner-v2/1.0.0/","version":"1.0.0"}},"modules":{"@cloud/hcomponent-www-carousel-banner-v2/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-www-carousel-banner-v2/m/index":{"requires":["jQuery"]}}} })</script>
+    </div>
+</div>
+<div data-mod-id="20261010090844364016099625956056">
+    <div data-mod-name-pc="@cloud/hcomponent-www-our-business-home/pc/index" data-mod-name-m="@cloud/hcomponent-www-our-business-home/m/index"
+        data-mod-name="hcomponent-www-our-business-home">
+        <div class="hcomponent-www-our-business-home mb140">
+    <div class="www-wwd-container">
+        <div class="www-wwd-title-box content-box">
+            <h2 class="pull-left">我们的业务</h2>
+            
+        </div>
+        <div class="www-wwd-content-box">
+            
+            <a class="www-wwd-card" href="https://e.huawei.com/cn/" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;our_business&#39;, &#39;banner_name&#39;:&#39;our_business_enterprise&#39;});" data-mod-name="child-component" data-mod-id="childrens[0]">
+                <div class="www-wwd-card-icon">
+                    <span class="www-wwd-icon-box">
+                        <img class="www-wwd-iconimg" src="//www-file.huawei.com/dam/asset/view/icon-enterprise-homepage.png" alt="icon enterprise homepage" />
+                    </span>
+                </div>
+                <div class="www-wwd-card-name">
+                    <span class="www-wwd-card-name-text">企业业务</span>
+                    <span class="www-wwd-icon-arrow">
+                    <i class="iconfont icon-arrow-right www-wwd-arrow-icon"></i>
+                    </span>
+                </div>
+            </a>
+            
+            <a class="www-wwd-card" href="https://www.huawei.com/cn/carrier" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;our_business&#39;, &#39;banner_name&#39;:&#39;our_business_carrier&#39;});" data-mod-name="child-component" data-mod-id="childrens[1]">
+                <div class="www-wwd-card-icon">
+                    <span class="www-wwd-icon-box">
+                        <img class="www-wwd-iconimg" src="//www-file.huawei.com/dam/asset/view/icon-carrier-homepage.png" alt="icon carrier homepage" />
+                    </span>
+                </div>
+                <div class="www-wwd-card-name">
+                    <span class="www-wwd-card-name-text">运营商业务</span>
+                    <span class="www-wwd-icon-arrow">
+                    <i class="iconfont icon-arrow-right www-wwd-arrow-icon"></i>
+                    </span>
+                </div>
+            </a>
+            
+            <a class="www-wwd-card" href="https://consumer.huawei.com/cn/?utm_medium=hwdc&amp;utm_source=corp_our_business_consumer" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;our_business&#39;, &#39;banner_name&#39;:&#39;our_business_consumer&#39;});" data-mod-name="child-component" data-mod-id="childrens[2]">
+                <div class="www-wwd-card-icon">
+                    <span class="www-wwd-icon-box">
+                        <img class="www-wwd-iconimg" src="//www-file.huawei.com/dam/asset/view/icon-consumer-homepage.png" alt="icon consumer homepage" />
+                    </span>
+                </div>
+                <div class="www-wwd-card-name">
+                    <span class="www-wwd-card-name-text">消费者业务</span>
+                    <span class="www-wwd-icon-arrow">
+                    <i class="iconfont icon-arrow-right www-wwd-arrow-icon"></i>
+                    </span>
+                </div>
+            </a>
+            
+            <a class="www-wwd-card" href="https://www.huaweicloud.com/" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;our_business&#39;, &#39;banner_name&#39;:&#39;our_business_hwcloud&#39;});" data-mod-name="child-component" data-mod-id="childrens[3]">
+                <div class="www-wwd-card-icon">
+                    <span class="www-wwd-icon-box">
+                        <img class="www-wwd-iconimg" src="//www-file.huawei.com/dam/asset/view/icon-huaweicloud-homepage.png" alt="icon huaweicloud homepage" />
+                    </span>
+                </div>
+                <div class="www-wwd-card-name">
+                    <span class="www-wwd-card-name-text">华为云业务</span>
+                    <span class="www-wwd-icon-arrow">
+                    <i class="iconfont icon-arrow-right www-wwd-arrow-icon"></i>
+                    </span>
+                </div>
+            </a>
+            
+            <a class="www-wwd-card" href="https://digitalpower.huawei.com/cn" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;our_business&#39;, &#39;banner_name&#39;:&#39;our_business_digitalpower&#39;});" data-mod-name="child-component" data-mod-id="childrens[4]">
+                <div class="www-wwd-card-icon">
+                    <span class="www-wwd-icon-box">
+                        <img class="www-wwd-iconimg" src="//www-file.huawei.com/dam/asset/view/icon-digitalpower-homepage.png" alt="icon digitalpower homepage" />
+                    </span>
+                </div>
+                <div class="www-wwd-card-name">
+                    <span class="www-wwd-card-name-text">数字能源业务</span>
+                    <span class="www-wwd-icon-arrow">
+                    <i class="iconfont icon-arrow-right www-wwd-arrow-icon"></i>
+                    </span>
+                </div>
+            </a>
+            
+            <a class="www-wwd-card" href="https://auto.huawei.com/cn/?utm_medium=ownmedia&amp;utm_source=huaweicorp&amp;utm_campaign=alwayson-module" target="_blank" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;our_business&#39;, &#39;banner_name&#39;:&#39;our_business_auto&#39;});" data-mod-name="child-component" data-mod-id="childrens[5]">
+                <div class="www-wwd-card-icon">
+                    <span class="www-wwd-icon-box">
+                        <img class="www-wwd-iconimg" src="//www-file.huawei.com/dam/asset/view/icon-auto-homepage.png" alt="icon auto homepage" />
+                    </span>
+                </div>
+                <div class="www-wwd-card-name">
+                    <span class="www-wwd-card-name-text">智能汽车解决方案业务</span>
+                    <span class="www-wwd-icon-arrow">
+                    <i class="iconfont icon-arrow-right www-wwd-arrow-icon"></i>
+                    </span>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+        
+        <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-www-our-business-home', data : {"packages":{"@cloud/hcomponent-www-our-business-home":{"path":"//res.hc-cdn.com/hcomponent-www-our-business-home/1.0.0/","version":"1.0.0"}},"modules":{"@cloud/hcomponent-www-our-business-home/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-www-our-business-home/m/index":{"requires":["jQuery"]}}} })</script>
+    </div>
+</div>
+<div data-mod-id="20261010090844364016099625956070">
+    <div data-mod-name-pc="@cloud/hcomponent-www-showcase-ad-home/pc/index" data-mod-name-m="@cloud/hcomponent-www-showcase-ad-home/m/index"
+        data-mod-name="hcomponent-www-showcase-ad-home">
+        <div class="www-showcase-cc mb140">
+  
+  <div class="hwp-container-loose mb70">
+    <div class="www-showcase-cc-header content-box">
+      <h2>推荐信息</h2>
+      
+    </div>
+  </div>
+  
+  <div class="hwp-container-loose">
+    <div class="www-showcase-cc-grid">
+      <div class="www-showcase-cc-main">
+        <div class="www-showcase-cc-main-col">
+          
+          
+          <div data-mod-name="child-component" data-mod-id="childrens[0]"
+               class="www-showcase-cc-card www-showcase-cc-card--pos0 "
+               data-index="0">
+            
+            
+            
+            <div class="www-showcase-cc-card-img">
+              
+              <img src="//www-file.huawei.com/dam/asset/view/ict-challenge-2026-909.jpg" alt="第十一届华为ICT大赛报名启动" class="hwp-hidden-sm-down" />
+              
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/ict-challenge-2026-909.jpg" alt="第十一届华为ICT大赛报名启动" class="hwp-hidden-xs-down hwp-hidden-sm-up" />
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/ict-challenge-2026-768.jpg" alt="第十一届华为ICT大赛报名启动" class="hwp-hidden-xs-up" />
+              
+            </div>
+            <div class="www-showcase-cc-card-overlay"></div>
+            
+            
+            
+            <a href="https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85132018" target="_blank" rel="noopener" class="www-showcase-cc-card-link" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_left&#39;, &#39;banner_name&#39;:&#39;ict-11-signup&#39;});"></a>
+            
+            
+            <div class="www-showcase-cc-card-content">
+              
+              <h3 class="www-showcase-cc-card-title">第十一届华为ICT大赛报名启动</h3>
+              
+              
+              <p class="www-showcase-cc-card-desc"> 用ICT联接世界，以AI创造未来</p>
+              
+              
+              <a href="https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85132018" target="_blank" rel="noopener" class="www-showcase-cc-card-cta" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_left&#39;, &#39;banner_name&#39;:&#39;ict-11-signup&#39;});">了解更多<i class="iconfont icon-arrow-right www-showcase-cc-arrow-icon"></i></a>
+              
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div data-mod-name="child-component" data-mod-id="childrens[1]"
+               class="www-showcase-cc-card www-showcase-cc-card--pos1 "
+               data-index="1">
+            
+            
+            
+            <div class="www-showcase-cc-card-img">
+              
+              <img src="//www-file.huawei.com/dam/asset/view/qiiankun-200w-805.jpg" alt="华为乾崑，守护200万份信任" class="hwp-hidden-sm-down" />
+              
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/qiiankun-200w-805.jpg" alt="华为乾崑，守护200万份信任" class="hwp-hidden-xs-down hwp-hidden-sm-up" />
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/qiiankun-200w-768.jpg" alt="华为乾崑，守护200万份信任" class="hwp-hidden-xs-up" />
+              
+            </div>
+            <div class="www-showcase-cc-card-overlay"></div>
+            
+            
+            
+            <a href="https://auto.huawei.com/cn/campaign/ads-harmonyspace-app-2million/?utm_medium=ownmedia&amp;utm_source=huaweicorp&amp;utm_campaign=20260914-200w" target="_blank" rel="noopener" class="www-showcase-cc-card-link" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_center1&#39;, &#39;banner_name&#39;:&#39;auto-qiankun-200w&#39;});"></a>
+            
+            
+            <div class="www-showcase-cc-card-content">
+              
+              <h3 class="www-showcase-cc-card-title">华为乾崑，守护200万份信任</h3>
+              
+              
+              <p class="www-showcase-cc-card-desc">乾崑智驾、鸿蒙座舱搭载量，华为乾崑APP用户数，同步突破200万</p>
+              
+              
+              <a href="https://auto.huawei.com/cn/campaign/ads-harmonyspace-app-2million/?utm_medium=ownmedia&amp;utm_source=huaweicorp&amp;utm_campaign=20260914-200w" target="_blank" rel="noopener" class="www-showcase-cc-card-cta" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_center1&#39;, &#39;banner_name&#39;:&#39;auto-qiankun-200w&#39;});">了解更多<i class="iconfont icon-arrow-right www-showcase-cc-arrow-icon"></i></a>
+              
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+        </div>
+        <div class="www-showcase-cc-main-col">
+          
+          
+          
+          
+          
+          
+          <div data-mod-name="child-component" data-mod-id="childrens[2]"
+               class="www-showcase-cc-card www-showcase-cc-card--pos2 "
+               data-index="2">
+            
+            
+            
+            <div class="www-showcase-cc-card-img">
+              
+              <img src="//www-file.huawei.com/dam/asset/view/all-flash-data-center-804.jpg" alt="极简全闪数据中心2.0" class="hwp-hidden-sm-down" />
+              
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/all-flash-data-center-804.jpg" alt="极简全闪数据中心2.0" class="hwp-hidden-xs-down hwp-hidden-sm-up" />
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/all-flash-data-center-768.jpg" alt="极简全闪数据中心2.0" class="hwp-hidden-xs-up" />
+              
+            </div>
+            <div class="www-showcase-cc-card-overlay"></div>
+            
+            
+            
+            <a href="https://e.huawei.com/cn/industries/commercial-market/simplified-all-flash-data-center" target="_blank" rel="noopener" class="www-showcase-cc-card-link" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_center2&#39;, &#39;banner_name&#39;:&#39;ebg-all-flash-data-center&#39;});"></a>
+            
+            
+            <div class="www-showcase-cc-card-content">
+              
+              <h3 class="www-showcase-cc-card-title">极简全闪数据中心2.0</h3>
+              
+              
+              <p class="www-showcase-cc-card-desc">数智普惠，一步到位</p>
+              
+              
+              <a href="https://e.huawei.com/cn/industries/commercial-market/simplified-all-flash-data-center" target="_blank" rel="noopener" class="www-showcase-cc-card-cta" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_center2&#39;, &#39;banner_name&#39;:&#39;ebg-all-flash-data-center&#39;});">了解更多<i class="iconfont icon-arrow-right www-showcase-cc-arrow-icon"></i></a>
+              
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div data-mod-name="child-component" data-mod-id="childrens[3]"
+               class="www-showcase-cc-card www-showcase-cc-card--pos3 "
+               data-index="3">
+            
+            
+            
+            <div class="www-showcase-cc-card-img">
+              
+              <img src="//www-file.huawei.com/dam/asset/view/mate-90-rs-699.webp" alt="HUAWEI Mate 90 RS 非凡大师" class="hwp-hidden-sm-down" />
+              
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/mate-90-rs-699.webp" alt="HUAWEI Mate 90 RS 非凡大师" class="hwp-hidden-xs-down hwp-hidden-sm-up" />
+              
+              
+              <img src="//www-file.huawei.com/dam/asset/view/mate-90-rs-768.webp" alt="HUAWEI Mate 90 RS 非凡大师" class="hwp-hidden-xs-up" />
+              
+            </div>
+            <div class="www-showcase-cc-card-overlay"></div>
+            
+            
+            
+            <a href="https://consumer.huawei.com/cn/phones/mate90-rs-ultimate-design/?utm_medium=hwdc&amp;utm_source=corp_boxrow1right_mate90-rs-ultimate-design" target="_blank" rel="noopener" class="www-showcase-cc-card-link" onclick="utag.link({&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_right&#39;, &#39;banner_name&#39;:&#39;cbg-mate90-rs-ultimate-design&#39;});"></a>
+            
+            
+            <div class="www-showcase-cc-card-content">
+              
+              <h3 class="www-showcase-cc-card-title">HUAWEI Mate 90 RS <br  class="hidden-xs hidden-sm">非凡大师</h3>
+              
+              
+              
+              <a href="https://consumer.huawei.com/cn/phones/mate90-rs-ultimate-design/?utm_medium=hwdc&amp;utm_source=corp_boxrow1right_mate90-rs-ultimate-design" target="_blank" rel="noopener" class="www-showcase-cc-card-cta" onclick="utag.link({&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;box_row1_right&#39;, &#39;banner_name&#39;:&#39;cbg-mate90-rs-ultimate-design&#39;});">了解更多<i class="iconfont icon-arrow-right www-showcase-cc-arrow-icon"></i></a>
+              
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="www-showcase-cc-extra">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        
+        <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-www-showcase-ad-home', data : {"packages":{"@cloud/hcomponent-www-showcase-ad-home":{"path":"//res.hc-cdn.com/hcomponent-www-showcase-ad-home/1.0.0/","version":"1.0.0"}},"modules":{"@cloud/hcomponent-www-showcase-ad-home/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-www-showcase-ad-home/m/index":{"requires":["jQuery"]}}} })</script>
+    </div>
+</div>
+<div data-mod-id="20261010090844364016099625956088">
+    <div data-mod-name-pc="@cloud/hcomponent-www-latest-news-home/pc/index"
+         data-mod-name-m="@cloud/hcomponent-www-latest-news-home/m/index"
+         data-mod-name="hcomponent-www-latest-news-home">
+        <div class="hcomponent-www-latest-news-home mb140 " data-news-count="6">
+    <div class="carrier-news-inner">
+        
+        <div class="carrier-news-header mb70 content-box">
+            <h2 class="pull-left">新闻动态</h2>
+            
+        </div>
+        
+
+        <div class="carrier-news-grid hwp-row-loose">
+            
+            
+            <div class="carrier-news-col hwp-col-8" data-mod-name="child-component" data-mod-id="cards[0]">
+                <div class="carrier-news-card hwp-card hwp-radius-xl">
+                    
+                    <div class="carrier-news-card-body">
+                        <div class="carrier-news-card-top">
+                            
+                            <h3 class="carrier-news-card-title"></h3>
+                        </div>
+                        <div class="carrier-news-card-arrow">
+                            <i class="iconfont icon-arrow-right carrier-news-arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="carrier-news-col hwp-col-8" data-mod-name="child-component" data-mod-id="cards[1]">
+                <div class="carrier-news-card hwp-card hwp-radius-xl">
+                    
+                    <div class="carrier-news-card-body">
+                        <div class="carrier-news-card-top">
+                            
+                            <h3 class="carrier-news-card-title"></h3>
+                        </div>
+                        <div class="carrier-news-card-arrow">
+                            <i class="iconfont icon-arrow-right carrier-news-arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="carrier-news-col hwp-col-8" data-mod-name="child-component" data-mod-id="cards[2]">
+                <div class="carrier-news-card hwp-card hwp-radius-xl">
+                    
+                    <div class="carrier-news-card-body">
+                        <div class="carrier-news-card-top">
+                            
+                            <h3 class="carrier-news-card-title"></h3>
+                        </div>
+                        <div class="carrier-news-card-arrow">
+                            <i class="iconfont icon-arrow-right carrier-news-arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="carrier-news-col hwp-col-8" data-mod-name="child-component" data-mod-id="cards[3]">
+                <div class="carrier-news-card hwp-card hwp-radius-xl">
+                    
+                    <div class="carrier-news-card-body">
+                        <div class="carrier-news-card-top">
+                            
+                            <h3 class="carrier-news-card-title"></h3>
+                        </div>
+                        <div class="carrier-news-card-arrow">
+                            <i class="iconfont icon-arrow-right carrier-news-arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="carrier-news-col hwp-col-8" data-mod-name="child-component" data-mod-id="cards[4]">
+                <div class="carrier-news-card hwp-card hwp-radius-xl">
+                    
+                    <div class="carrier-news-card-body">
+                        <div class="carrier-news-card-top">
+                            
+                            <h3 class="carrier-news-card-title"></h3>
+                        </div>
+                        <div class="carrier-news-card-arrow">
+                            <i class="iconfont icon-arrow-right carrier-news-arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="carrier-news-col hwp-col-8" data-mod-name="child-component" data-mod-id="cards[5]">
+                <div class="carrier-news-card hwp-card hwp-radius-xl">
+                    
+                    <div class="carrier-news-card-body">
+                        <div class="carrier-news-card-top">
+                            
+                            <h3 class="carrier-news-card-title"></h3>
+                        </div>
+                        <div class="carrier-news-card-arrow">
+                            <i class="iconfont icon-arrow-right carrier-news-arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        
+        <div class="carrier-news-cta">
+            <a class="carrier-news-cta-btn" href="/cn/news" target="_blank" rel="noopener" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;news&#39;, &#39;banner_name&#39;:&#39;morenews&#39;});">
+                更多新闻
+                <i class="iconfont icon-arrow-right carrier-cta-arrow"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+        <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-www-latest-news-home', data : {"packages":{"@cloud/hcomponent-www-latest-news-home":{"path":"//res.hc-cdn.com/hcomponent-www-latest-news-home/1.0.0/","version":"1.0.0"}},"modules":{"@cloud/hcomponent-www-latest-news-home/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-www-latest-news-home/m/index":{"requires":["jQuery"]}}} })</script>
+    </div>
+</div>
+<div data-mod-id="20261010090844364016099625956091">
+    <div data-mod-name-pc="@cloud/hcomponent-www-bciw/pc/index" data-mod-name-m="@cloud/hcomponent-www-bciw/m/index"
+        data-mod-name="hcomponent-www-bciw">
+        <div class="carrier-bciw carrier-bciw-mb mb140">
+  <div class="hwp-container-loose carrier-bciw-body">
+    <div class="carrier-bciw-left">
+      <h2 class="carrier-bciw-title">
+        <span class="carrier-bciw-title-zh">构建万物互联的<br>智能世界</span>
+        <span class="carrier-bciw-title-en">Building a Fully Connected,<br>Intelligent World</span>
+      </h2>
+    </div>
+
+    <div class="carrier-bciw-right">
+      
+      <p class="carrier-bciw-desc">华为创立于1987年，是全球领先的ICT（信息与通信）基础设施和智能终端提供商。我们致力于把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界。</p>
+      
+
+      
+      <a href="/cn/corporate-information" target="_self" rel="noopener" class="carrier-bciw-link" onclick="utag.link({&#39;banner_url&#39;: this.href,&#39;tealium_event&#39;:&#39;homepage_banner_click&#39;, &#39;banner_position&#39;:&#39;bciw&#39;, &#39;banner_name&#39;:&#39;about-us&#39;});">
+        <span>了解华为</span>
+        <i class="hwicon icon-arrow-right carrier-bciw-arrow"></i>
+      </a>
+      
+
+
+    </div>
+  </div>
+</div>
+
+
+        
+        <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-www-bciw', data : {"packages":{"@cloud/hcomponent-www-bciw":{"path":"//res.hc-cdn.com/hcomponent-www-bciw/1.0.0/","version":"1.0.0"}},"modules":{"@cloud/hcomponent-www-bciw/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-www-bciw/m/index":{"requires":["jQuery"]}}} })</script>
+    </div>
+</div>
+<div data-mod-id="3b9ba5c7d7874758b2b8236c84e9c90b">
+ <div data-mod-name-pc="@cloud/hcomponent-side-bar/pc/index" data-mod-name-m="@cloud/hcomponent-side-bar/m/index" data-mod-name="hcomponent-side-bar">
+  <!-- 侧边工具栏 -->
+  <a href="javascript:;" class="btn-go-top"> <span class="iconfont icon-arrow-up" onclick="utag.link({'tealium_event' : 'side_button_click','button_name': 'scroll_to_top'});"> </span> </a>
+  <div class="popup-icon" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service'});">
+   <img src="/-/media/hcomponent-side-bar/1.0.1.20260729095626/component/images/popup-icon.jpg" alt="在线客服">
+  </div>
+  <div class="popup-service">
+   <img src="/-/media/hcomponent-side-bar/1.0.1.20260729095626/component/images/maskpop.png" class="mask-img">
+   <div class="service-box">
+    <h2>在线客服</h2>
+    <div class="row">
+     <div data-mod-name="child-component" data-mod-id="side_button.service.popup[0]" class="col-xs-12 col-md-3">
+      <div class="img-box">
+       <img data-src="https://www.huawei.com/Assets/corp/2020/img/index/popup-icon1.png" class="lazyload">
+      </div>
+      <h4>个人及家庭产品</h4>
+      <p>热线：950800（7*24小时）</p>
+      <div class="btn-box">
+       <a href="https://consumer.huawei.com/cn/stores/" class="read-more" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_cbg_retail_stores'});"><span>查找零售店</span><span class="iconfont icon-arrow-right"></span></a>
+      </div>
+      <a href="https://celia.consumer.huawei.com/official/#/?businessUUID=fe8192189f0a40e8a883ab8bdf1ba8ea" class="btn-rect" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_cbg_online_customerserivce'});">咨询客服</a>
+      <div class="line"></div>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="side_button.service.popup[1]" class="col-xs-12 col-md-3">
+      <div class="img-box">
+       <img data-src="https://www.huawei.com/Assets/corp/2020/img/index/popup-icon2.png" class="lazyload">
+      </div>
+      <h4>华为云服务</h4>
+      <p>热线：4000-955-988|950808</p>
+      <div class="btn-box">
+       <a href="https://www.huaweicloud.com/service/contact.html" class="read-more" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_hwcloud_presales_consultancy'});"><span>预约售前专属顾问</span><span class="iconfont icon-arrow-right"></span></a>
+      </div>
+      <a href="https://console.huaweicloud.com/smartadvisor/" class="btn-rect" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_hwcloud_smartadvisor'});">智能客服</a>
+      <div class="line"></div>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="side_button.service.popup[2]" class="col-xs-12 col-md-3">
+      <div class="img-box">
+       <img data-src="https://www.huawei.com/Assets/corp/2020/img/index/popup-icon3.png" class="lazyload">
+      </div>
+      <h4>企业服务</h4>
+      <p>热线：400-822-9999</p>
+      <div class="btn-box">
+       <a href="https://partner.huawei.com/web/china/channel-find-partner" class="read-more" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_ebg_channel_find_partner'});"><span>查找经销商</span><span class="iconfont icon-arrow-right"></span></a>
+      </div>
+      <a href="https://support.huawei.com/livechat/cn" class="btn-rect" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_ebg_weikonw'});">咨询客服</a>
+      <div class="line"></div>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="side_button.service.popup[3]" class="col-xs-12 col-md-3">
+      <div class="img-box">
+       <img data-src="https://www.huawei.com/Assets/corp/2020/img/index/popup-icon4.png" class="lazyload">
+      </div>
+      <h4>运营商网络服务</h4>
+      <p>热线：4008302118</p>
+      <div class="btn-box">
+       <a href="https://support.huawei.com/carrierindex/index" class="read-more" target="_blank" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_cnbg_support_center'});"><span>技术支持中心</span><span class="iconfont icon-arrow-right"></span></a>
+      </div>
+     </div>
+    </div>
+    <a href="/cn/contact-us" target="" class="read-more" onclick="utag.link({'tealium_event':'side_button_click','button_name':'customer_service_all_contact'});"><span>查看全部联系方式</span> <span class="iconfont icon-arrow-right"></span> </a> <a href="javascript:;" class="btn-close-service"> <span class="iconfont icon-close"></span> </a>
+   </div>
+  </div>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-side-bar', data : {"packages":{"@cloud/hcomponent-side-bar":{"path":"//res.hc-cdn.com/hcomponent-side-bar/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-side-bar/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-side-bar/m/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div><div data-mod-id="20261009111146333016099625956198">
+ <div data-mod-name-pc="@cloud/hcomponent-footer/pc/index" data-mod-name-m="@cloud/hcomponent-footer/m/index" data-mod-name="hcomponent-footer">
+  <!-- 活动与新闻-->
+  <input type="hidden" id="SearchUrl" value="/searchresult">
+  <footer style="">
+   <div class="container-custom">
+    <div class="top-line " data-mod-name="child-component" data-mod-id="search">
+     <div class="pull-left" id="footer-breadcrumb"></div>
+     <div class="search-box search-hide" id="footer-search">
+      <input type="text" placeholder="搜索huawei.com" class="js-search-footer-input-popup" id="js-search-footer-input-popup" autocomplete="off"> <a href="#" onclick="utag.link({'tealium_event' : 'search_box_open','search_position': 'bottom'});" class="btn-search"> <span class="hwic_search"></span> </a> <a href="javascript:;" class="btn-b-clear"> <span class="iconfont icon-close"></span> </a>
+      <div class="b-search-keyword"></div>
+      <div class="placeholder-roller">
+       <div id="footerRollerList" class="roller-list footer-roller-list"></div>
+      </div>
+     </div>
+     <a href="javascript:;" data-target="#footer-search" onclick="utag.link({'tealium_event' : 'search_box_open','search_position': 'bottom'});" class="btn-open-search"> <span class="iconfont icon-search"></span> </a>
+    </div>
+    <div class="footer-nav row">
+     <div data-mod-name="child-component" data-mod-id="navs[0]" class="col-md-2">
+      <h3 class="collapsed" data-toggle="collapse" data-target="#footer-list-0" aria-controls="footer-list-0" aria-expanded="false">关于华为 <span class="iconfont icon-arrow-down hidden-md hidden-lg"></span></h3>
+      <ul class="list-unstyled collapse navbar-collapse" id="footer-list-0">
+       <li><a href="/cn/corporate-information" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_corpinfo'});"> 公司简介 </a></li>
+       <li><a href="/cn/sustainability" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_sustainability'});"> 可持续发展 </a></li>
+       <li><a href="/cn/trust-center" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_trustcenter'});"> 信任中心 </a></li>
+       <li><a href="/cn/executives" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_executives'});"> 管理层信息 </a></li>
+       <li><a href="https://career.huawei.com/cn" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_career'});"> 招贤纳士 </a></li>
+       <li><a href="https://supplier.huawei.com/supplier/" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_suppliers'});"> 供应商 </a></li>
+       <li><a href="/cn/about-huawei" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'about', 'nav_name':'about_abouthuawei'});" class="read-more"> <span> 查看更多 </span><span class="iconfont icon-arrow-right"></span> </a></li>
+      </ul>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="navs[1]" class="col-md-2">
+      <h3 class="collapsed" data-toggle="collapse" data-target="#footer-list-1" aria-controls="footer-list-1" aria-expanded="false">新闻与活动 <span class="iconfont icon-arrow-down hidden-md hidden-lg"></span></h3>
+      <ul class="list-unstyled collapse navbar-collapse" id="footer-list-1">
+       <li><a href="/cn/news" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'newsevents', 'nav_name':'newsevents_news'});"> 新闻 </a></li>
+       <li><a href="/cn/events" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'newsevents', 'nav_name':'newsevents_events'});"> 展会活动 </a></li>
+       <li><a href="/cn/gallery" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'newsevents', 'nav_name':'newsevents_gallery'});"> 多媒体 </a></li>
+      </ul>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="navs[2]" class="col-md-2">
+      <h3 class="collapsed" data-toggle="collapse" data-target="#footer-list-2" aria-controls="footer-list-2" aria-expanded="false">发现华为 <span class="iconfont icon-arrow-down hidden-md hidden-lg"></span></h3>
+      <ul class="list-unstyled collapse navbar-collapse" id="footer-list-2">
+       <li><a href="/cn/huaweitech" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'discover', 'nav_name':'discover_huaweitech'});"> 华为技术专栏 </a></li>
+       <li><a href="/cn/giv/action" target="_self" onclick="utag.link({'tealium_event':'footer_click', 'nav_category':'discover', 'nav_name':'discover_intelligent-world-2035'});"> 智能世界2035 </a></li>
+       <li><a href="https://www.huawei.com/cn/intelligent-world#striding" target="_self" onclick="utag.link({'tealium_event':'footer_click', 'nav_category':'discover', 'nav_name':'discover_striding-intelligent-world'});"> 迈向智能世界 </a></li>
+       <li><a href="https://www.huawei.com/minisite/gdii/cn/" target="_blank" onclick="utag.link({'tealium_event':'footer_click', 'nav_category':'discover', 'nav_name':'discover_gdii'});"> 全球数智化指数 </a></li>
+       <li><a href="/cn/publications" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'discover', 'nav_name':'discover_publications'});"> 出版物 </a></li>
+      </ul>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="navs[3]" class="col-md-2">
+      <h3 class="collapsed" data-toggle="collapse" data-target="#footer-list-3" aria-controls="footer-list-3" aria-expanded="false">我们的产品 <span class="iconfont icon-arrow-down hidden-md hidden-lg"></span></h3>
+      <ul class="list-unstyled collapse navbar-collapse" id="footer-list-3">
+       <li><a href="https://consumer.huawei.com/cn/" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'products', 'nav_name':'products_consumer'});"> 个人及家庭产品 </a></li>
+       <li><a href="https://e.huawei.com/cn/" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'products', 'nav_name':'products_enterprise'});"> 企业业务产品 </a></li>
+       <li><a href="https://carrier.huawei.com/cn/" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'products', 'nav_name':'products_carrier'});"> 运营商网络产品 </a></li>
+       <li><a href="https://www.huaweicloud.com/product/" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'products', 'nav_name':'products_hwcloud'});"> 华为云服务 </a></li>
+       <li><a href="https://digitalpower.huawei.com/cn" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'products', 'nav_name':'products_digitalpower'});"> 数字能源产品 </a></li>
+      </ul>
+     </div>
+     <div data-mod-name="child-component" data-mod-id="navs[4]" class="col-md-2">
+      <h3 class="collapsed" data-toggle="collapse" data-target="#footer-list-4" aria-controls="footer-list-4" aria-expanded="false">技术支持 <span class="iconfont icon-arrow-down hidden-md hidden-lg"></span></h3>
+      <ul class="list-unstyled collapse navbar-collapse" id="footer-list-4">
+       <li><a href="https://consumer.huawei.com/cn/support/" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'support', 'nav_name':'support_consumer'});"> 消费者技术支持 </a></li>
+       <li><a href="https://support.huaweicloud.com/" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'support', 'nav_name':'support_hwcloud'});"> 华为云技术支持 </a></li>
+       <li><a href="https://support.huawei.com/enterprise/zh/index.html" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'support', 'nav_name':'support_enterprise'});"> 企业技术支持 </a></li>
+       <li><a href="https://support.huawei.com/carrier" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'support', 'nav_name':'support_carrier'});"> 运营商技术支持 </a></li>
+       <li><a href="https://digitalpower.huawei.com/cn/service/support" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'support', 'nav_name':'support_digitalpower'});"> 数字能源技术支持 </a></li>
+       <li><a href="/cn/psirt" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'support', 'nav_name':'support_security_bulletins'});"> 安全应急响应 </a></li>
+      </ul>
+     </div>
+    </div>
+    <div data-mod-name="child-component" data-mod-id="bootom_links" style="min-height: 46px;float: left;width: 100%;" class="footer-other-linkbox">
+     <div class="footer-other-link">
+      <ul class="link list-unstyled">
+       <li><a href="https://www.vmall.com/?cid=122288" target="_self" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'relatedlinks', 'nav_name':'relatedlinks_vmall'});"> 华为商城 </a></li>
+       <li><a href="https://www.huaweicloud.com/" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'relatedlinks', 'nav_name':'relatedlinks_hwcloud'});"> 华为云 </a></li>
+       <li><a href="https://jdc.huawei.com/" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'relatedlinks', 'nav_name':'relatedlinks_jdc'});"> 华为JDC社区 </a></li>
+       <li><a href="https://xinsheng.huawei.com/" target="_blank" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'relatedlinks', 'nav_name':'relatedlinks_xinsheng'});"> 华为心声社区 </a></li>
+      </ul>
+     </div>
+     <ul class="share-box list-unstyled">
+      <li><a href="//weibo.com/huaweiweibo" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'social', 'nav_name':'social_weibo'});" target="_blank"><span class="hwic_sina-weibo"></span></a></li>
+      <li><a href="#" class="js-wechat-follow" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'social', 'nav_name':'social_wechat'});"> <span class="hwic_sharing_wechat"></span> 
+        <div class="wechat-qrcode">
+         <button class="js-wechat-share-close-btn share-close" data-target=".share-open">×</button>
+         <h4></h4>
+         <div class="qrcode">
+          <img data-src="//www-file.huawei.com/dam/asset/view/1a42f741c518407abb487dc78282ab65.jpg" class="lazyload" alt="华为官方微信二维码">
+          <p></p>
+         </div>
+        </div> </a></li>
+      <li><a href="//www.toutiao.com/c/user/74089686926/#mid=1582935816546318" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'social', 'nav_name':'social_toutiao'});" target="_blank"><span class="hwic_toutiao"></span></a></li>
+      <li><a href="//www.zhihu.com/org/hua-wei-62-16" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'social', 'nav_name':'social_zhihu'});" target="_blank"><span class="hwic_zhihu"></span></a></li>
+     </ul>
+    </div>
+   </div>
+   <div class="copy">
+    <div class="container " data-mod-name="child-component" data-mod-id="copy">
+     <div class="copy-text">
+      <div>
+       <span>版权所有 © 1998-@year 华为技术有限公司&nbsp;</span><span><a href="https://beian.miit.gov.cn/" onclick="utag.link({'tealium_event':'footer_click', 'nav_category':'copyright', 'nav_name':'icpbei'});" target="_blank" rel="noopener">粤A2-20044005号</a>&nbsp;&nbsp;<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030702002388" onclick="utag.link({'tealium_event':'footer_click', 'nav_category':'copyright', 'nav_name':'wanganbei'});" target="_blank" rel="noopener">粤公网安备44030702002388号</a></span>
+      </div>
+      <div class="line"></div>
+      <ul class="list-unstyled">
+       <li><a href="/cn/contact-us" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'outnav', 'nav_name':'outnav_contactus'});" target="_self"> 联系我们 </a></li>
+       <li><a href="/cn/legal" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'outnav', 'nav_name':'outnav_termsofuse'});" target="_self"> 法律声明 </a></li>
+       <li><a href="/cn/privacy-policy" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'outnav', 'nav_name':'outnav_privacy'});" target="_self"> 隐私政策 </a></li>
+       <li><a href="/cn/terminations" onclick="utag.link({'nav_url': this.href,'tealium_event':'footer_click', 'nav_category':'outnav', 'nav_name':'outnav_terminations'});" target="_self"> 除名查询 </a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script type="text/javascript">
+    (function () {
+        $('.copy-text').html(function (index, html) {
+            return html.replace('@year', new Date().getFullYear());
+        });
+    })();
+</script>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-footer', data : {"packages":{"@cloud/hcomponent-footer":{"path":"//res.hc-cdn.com/hcomponent-footer/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-footer/pc/index":{"requires":["jQuery"]},"@cloud/hcomponent-footer/m/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div>
+  <script>
+    window.gConfig = window.gConfig || {};
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.$devPath = {"@cloud/hcomponent-header":{"path":"/-/media/hcomponent-header/1.0.1.20260908162100"},"@cloud/hcomponent-www-carousel-banner-v2":{"path":"/-/media/hcomponent-www-carousel-banner-v2/1.0.0.20260909142510"},"@cloud/hcomponent-www-our-business-home":{"path":"/-/media/hcomponent-www-our-business-home/1.0.0.20260805162319"},"@cloud/hcomponent-www-showcase-ad-home":{"path":"/-/media/hcomponent-www-showcase-ad-home/1.0.0.20260810121516"},"@cloud/hcomponent-www-latest-news-home":{"path":"/-/media/hcomponent-www-latest-news-home/1.0.0.20260827085717"},"@cloud/hcomponent-www-bciw":{"path":"/-/media/hcomponent-www-bciw/1.0.0.20260803083615"},"@cloud/hcomponent-side-bar":{"path":"/-/media/hcomponent-side-bar/1.0.1.20260729095626"},"@cloud/hcomponent-footer":{"path":"/-/media/hcomponent-footer/1.0.1.20260818152406"}};
+    for(var i = 0; i < window.gConfig.seed.length; i++) {
+      var tmpSeed = window.gConfig.seed[i].data;
+      var name = window.gConfig.seed[i].name;
+      if(tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+        tmpSeed.packages[name] = window.$devPath[name];
+      }
+    }
+  </script>
+
+
+    
+    </div>
+    
+    <script type="text/javascript" src="/-/media/htemplate-standard/feloader.js?sttl=1791594826457"></script>
+    <script type="text/javascript">
+      feloader.config({
+        externals: ['jQuery']
+      });
+      feloader.noConflict();
+      var win = window;
+      var require = win.require;
+      var F = feloader;
+      win.require = function () {
+        F.use.apply(F, arguments);
+      };
+      win.require.config = function () {
+        F.config.apply(F, arguments);
+      };
+    </script>
+    
+    <script type="text/javascript">
+      // 日期不添加空格
+      window.timeSpace = function (time) {
+        time = time.replace(" - ", "-");
+        return time;
+      };
+    </script>
+
+  <script type="text/javascript">
+    if (window.CLEARCDN_ADD_TIMESTAPM) {
+      $.ajaxSetup({
+        beforeSend: function (xhr, settings) {
+          const timestamp = new Date().getTime();
+
+          // 确保 settings.url 是一个绝对 URL
+          if (typeof settings.url === 'string') {
+            // 如果是相对路径，将其转换为绝对路径
+            if (!settings.url.startsWith('http://') && !settings.url.startsWith('https://')) {
+              // 获取当前页面的完整 URL
+              const currentUrl = window.location.href;
+              try {
+                // 将相对路径转换为绝对路径
+                const absoluteUrl = new URL(settings.url, currentUrl);
+                settings.url = absoluteUrl.toString();
+              } catch (error) {
+                console.error('Failed to construct absolute URL:', error);
+                // 如果转换失败，保持原 URL
+                return;
+              }
+            }
+
+            // 现在处理 URL 的时间戳
+            try {
+              const urlObj = new URL(settings.url);
+              urlObj.searchParams.delete('timestamp'); // 删除已有的 timestamp 参数
+              urlObj.searchParams.set('timestamp', timestamp);
+              settings.url = urlObj.toString();
+            } catch (error) {
+              console.error('Failed to construct URL:', error);
+              // 如果 URL 无效，保持原 URL
+              return;
+            }
+          }
+
+          // 处理 jsonp 请求的回调函数
+          if (settings.dataType === 'jsonp') {
+            settings.jsonpCallback = `callback_${timestamp}`;
+          }
+        }
+      });
+    }
+  </script>
+  
+  <script type="text/javascript">
+    const hostnameEnv = {
+      'www.huawei.com': 'prod',
+    }
+    const keyEnv = {
+      prod: 'dc6256f836352b5662e7d909493b6191',
+    }
+    const uploadSrcIndicator = {
+      'prod': 'https://hwa.his.huawei.com/dist/uem_f.js',
+    }
+    const currentUrl = new URL(window.location.href)
+    const currentHostname = currentUrl.hostname
+    const envIndicator = hostnameEnv[currentHostname]
+
+    const uemBoot = () => {
+      (function (config) {
+        var namespace = config.namespace || "hwa";
+        if (self[namespace] || document.querySelector("script#uem_f")) {
+          return;
+        }
+        self[namespace] = function () {
+          (self[namespace].q = self[namespace].q || []).push(arguments);
+        };
+        var element = document.createElement("script");
+        element.TRACKER_CONFIG = config;
+        element.async = true;
+        element.id = "uem_f";
+        element.src = config.src + "?_" + new Date().toJSON().split("T")[0];
+        document.head.appendChild(element);
+      })({
+        platform: "web",
+        edition: "his",
+        env: envIndicator,
+        appKey: keyEnv[envIndicator],
+        src: uploadSrcIndicator[envIndicator]
+      });
+    }
+    window.addEventListener('load', uemBoot);
+    window.addEventListener('beforeunload', function () {
+      if (!window.location.href.includes('/cn')) {
+        return
+      }
+      var namespace = "hwa";
+      if (self[namespace]) {
+        delete self[namespace];
+      }
+    });
+  </script>
+  
+
+    
+    
+    <script src="https://corp.hwp.huawei.com/hwpinternet/scripts/ocs/collector/service/hwp-cs.js"></script>
+  </body>
+
+</html>
+
+

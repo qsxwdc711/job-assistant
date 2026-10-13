@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-10-13T17:24:46.175Z",
+  "finishedAt": "2026-10-13T17:24:46.648Z",
+  "elapsedMs": 471,
+  "requestUrl": "https://career.huawei.com/-/media/plugin/8215bc3cf8d83f9ec3298d3aa077f167/common.min.js?t=1788258241541",
+  "finalUrl": "https://career.huawei.com/-/media/plugin/8215bc3cf8d83f9ec3298d3aa077f167/common.min.js?t=1788258241541",
+  "status": 200,
+  "contentType": "text/javascript",
+  "bytes": 151505,
+  "sha256": "0b00d9798d3f61b7b24c94895ec394ef4e63130b357568f424c0607303ca4504",
+  "responseDate": "Tue, 13 Oct 2026 17:24:46 GMT",
+  "cacheAge": "454000"
+}

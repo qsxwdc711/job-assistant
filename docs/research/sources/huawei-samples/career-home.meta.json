@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-10-13T17:27:39.460Z",
+  "finishedAt": "2026-10-13T17:27:39.867Z",
+  "elapsedMs": 404,
+  "requestUrl": "https://career.huawei.com/cn",
+  "finalUrl": "https://career.huawei.com/cn",
+  "status": 200,
+  "contentType": "text/html",
+  "bytes": 67921,
+  "sha256": "5316baf4f7a8edeb4be6da3c38fc60dec70ef59b6a88977fa07fd621ecde6c91",
+  "responseDate": "Tue, 13 Oct 2026 17:27:39 GMT",
+  "cacheAge": "17195"
+}

@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-13T17:31:18.159Z",
+  "finishedAt": "2026-10-13T17:31:18.757Z",
+  "elapsedMs": 590,
+  "requestUrl": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getJobPage?X-HW-ID=app_000000035886",
+  "finalUrl": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getJobPage?X-HW-ID=app_000000035886",
+  "method": "POST",
+  "requestBody": {
+    "curPage": 2,
+    "pageSize": 100,
+    "jobType": "CR",
+    "recruitmentType": [
+      "FRESH_GRADUATE"
+    ]
+  },
+  "status": 200,
+  "contentType": "application/json;charset=UTF-8",
+  "bytes": 71,
+  "sha256": "dbdda6b28fadde975741c50a3261ef18120bb743e83ba5fcae887863abb15925",
+  "responseDate": "Tue, 13 Oct 2026 17:31:18 GMT"
+}

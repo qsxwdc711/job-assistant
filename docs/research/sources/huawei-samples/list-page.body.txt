@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+
+
+
+
+
+  
+
+
+<html lang="zh" data-url="https://career.huawei.com/cn/campus-recruitment-job-list" data-region="CN" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=yes">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="applicable-device" content="pc,mobile">
+
+<title>校招职位列表</title>
+<link rel="Shortcut Icon" href="/-/media/plugin/bfc701593d6acafd42dd77dd254a8090/logo_ico.png">
+
+
+<!-- canonical -->
+<link rel="canonical" href="https://career.huawei.com/cn/campus-recruitment-job-list">
+
+<!-- hreflang -->
+
+
+<!--img_url-->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:url" content="https:https://career.huawei.com/cn/campus-recruitment-job-list" />
+<meta property="og:title" content="校招职位列表" />
+<meta property="og:description" content="" />
+<meta name="twitter:card" content="校招职位列表">
+<meta name="twitter:description" content="" />
+
+<link rel="stylesheet" type="text/css" href="/-/media/plugin/243bea05d7aa09831da4ea9b1edaa63b/common.min.css" />
+<!--结构化数据 start-->
+
+<!--结构化数据 end-->
+
+<script src="/-/media/plugin/446d42ae7b93b48f77cd43b77d6cb0c5/require.js"></script>
+<script src="/-/media/plugin/e2bc41fa73c1840d900aed60c04570d0/jquery.min.js"></script>
+
+    
+    
+  <script>window.$aioList = ["hcomponent-career-commonHeader/1.0.1.20260812224639","hcomponent-career-campusJob-list/1.0.1.20260808202205","hcomponent-career-commonFooter/1.0.1.20260707180347","hcomponent-career-inquiryAssistant/1.0.1.20260901165839","hcomponent-career-cookiePage-cookieSetting/1.0.1.20260707184309","hcomponent-career-AIAssistant/1.0.1.20260731203317"]; window.$aioCdnPrefix = '/-/media/';</script>
+
+    <script>
+      window.gConfig = window.gConfig || {};
+      window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Tablet|Phone/i.test(navigator.userAgent);
+      var hClassName = window.gConfig.isMobile ? ' phone' : ' pc';
+      if (window.$aioList) {
+        window.$aioCdnPrefix ??= 'https://res.hc-cdn.com/'
+        for (var i = 0; i < window.$aioList.length; i++) {
+          if (window.$aioList[i].length > 0) {
+            document.write(
+              '<link rel="stylesheet" href="' + window.$aioCdnPrefix + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm' : 'pc') + '/index.css" />'
+            );
+          }
+        }
+      }
+      var root = document.documentElement;
+      root.className += hClassName;
+    </script>
+    
+    
+  </head>
+
+  <body class="">
+    
+    
+    
+
+    
+
+    
+  <div data-mod-id="20260731231846388005245208026153">
+ <div data-mod-name-pc="@cloud/hcomponent-career-commonHeader/pc/index" data-mod-name-m="@cloud/hcomponent-career-commonHeader/m/index" data-mod-name="hcomponent-career-commonHeader">
+  <!-- 华为PSIRT-->
+  <section id="vue_20260731231846388005245208026153"></section>
+  <script id="comData_20260731231846388005245208026153" type="application/json">
+    {
+        "logoHref": "/cn",
+        "logoTarget": "_self",
+        "logoTitle": "HuaWei",
+        "logoSrc": "https://career.huawei.com/dam/asset/view/ee3b85dfcec44db8a77559362b1d982d.png",
+        "navList": [{"title":"挑战课题专项招聘","href":"/cn/young-genius","target":"_self","menuRouter":"/young-genius"},{"title":"校园招聘","href":"/cn/campus-recruitment","target":"_self","menuRouter":"/campus-recruitment"},{"title":"社会招聘","href":"/cn/social-recruitment","target":"_self","menuRouter":"/social-recruitment"},{"title":"博士后","href":"/cn/postdoctoral-researcher","target":"_self","menuRouter":"/postdoctoral-researcher"},{"title":"走进华为","href":"/cn/entering-huawei","target":"_self","menuRouter":"/entering-huawei"},{"title":"成长与生活","href":"/cn/growth-and-life","target":"_self","menuRouter":"/growth-and-life"}],
+        "languageList": [{"title":"中文","label":"Huawei Worldwide Careers -","langStation":"cn","icon":"https://career.huawei.com/dam/asset/view/fae6731745774f1a86f733ea6415c159.png","stationUrl":"","stationTarget":"","stationLanguage":""},{"title":"English","label":"Huawei Worldwide Careers -","langStation":"en","icon":"https://career.huawei.com/dam/asset/view/fae6731745774f1a86f733ea6415c159.png","stationUrl":"","stationTarget":"_blank","stationLanguage":""},{"title":"日本语","label":"Japan -","langStation":"","icon":"https://career.huawei.com/dam/asset/view/fae6731745774f1a86f733ea6415c159.png","stationUrl":"https://career.huawei.com/reccampportal/jp/index.html","stationTarget":"_blank","stationLanguage":""},{"title":"English","label":"Latin America -","langStation":"","icon":"https://career.huawei.com/dam/asset/view/fae6731745774f1a86f733ea6415c159.png","stationUrl":"https://career.huawei.com/reccampportal/la/index.html","stationTarget":"_blank","stationLanguage":""},{"title":"English","label":"Europe -","langStation":"","icon":"https://career.huawei.com/dam/asset/view/fae6731745774f1a86f733ea6415c159.png","stationUrl":"https://career.huawei.com/reccampportal/euportal/portal/index.html","stationTarget":"_blank","stationLanguage":""}],
+        "languageIcon": "https://career.huawei.com/dam/asset/view/fae6731745774f1a86f733ea6415c159.png",
+        "personalCenterIcon": "https://career.huawei.com/dam/asset/view/30a1f7e0566a4ab3bcd7c0d026e47178.png",
+        "menuChangeIcon": "https://career.huawei.com/dam/asset/view/b273e1ee6a2d485289148d78a646115c.png",
+        "isShowLanguageChange": true,
+        "isQueryOldWhitelist": false,
+        "loginBtnText": "登录",
+        "logoutBtnText": "退出",
+        "personCenterText": "个人中心",
+        "selectLanguageText": "选择区域/语言",
+        "personCenterLink": "/cn/personal-center",
+        "personCenterTarget": "_self",
+        "websiteEntryTitle": "返回旧版",
+        "isPCWebsiteEntrySwitch": true,
+        "isMobileWebsiteEntrySwitch": true,
+        "redirectWebsiteList": [],
+        "websiteEntryImageUrl": "https://career.huawei.com/dam/asset/view/31ae84a6557c462395fcdd431c81ec4f.png",
+        "noNavPageList":[{"title":"快速注册简历","pageRouter":"/cn/register-resume"},{"title":"完善简历","pageRouter":"/cn/completing-resumes"},{"title":"被推荐知情书签署","pageRouter":"/cn/sign-recommend-confirm-letter"}]
+    }
+</script>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-career-commonHeader', data : {"packages":{"@cloud/hcomponent-career-commonHeader":{"path":"//res.hc-cdn.com/hcomponent-career-commonHeader/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-career-commonHeader/m/index":{"requires":["jQuery"]},"@cloud/hcomponent-career-commonHeader/pc/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div><div data-mod-id="20260716103535634010019879790270">
+    <div data-mod-name-pc="@cloud/hcomponent-career-campusJob-list/pc/index"
+         data-mod-name-m="@cloud/hcomponent-career-campusJob-list/m/index" data-mod-name="hcomponent-career-campusJob-list">
+        <!-- 华为PSIRT-->
+        <section id="vue_20260716103535634010019879790270">
+</section>
+
+<script id="comData_20260716103535634010019879790270" type="application/json">
+    {        
+        "videoAndImageBanner": {
+            "isAutoPlaySmallVideo": true,
+            "swipeable": false,
+            "arrow": "hover",
+            "autoplay": true,
+            "height": "300px",
+            "mobileHeight": "200px",
+            "interval": 3000,
+            "loop": true,
+            "trigger": "hover",
+            "type": "horizontal",
+            "indicatorPosition": "inside",
+            "videoList": [
+                
+            ],
+            "isShowImgTitle": true,
+            "imgList": [
+                
+                {
+                    "imgUrl": "https://career.huawei.com/dam/asset/view/dca9182ea97a4809aed1d3bde0f139e7.jpg",
+                    "mobileImgUrl": "https://career.huawei.com/dam/asset/view/64b516cda6c24e4694c34bed2be999fd.jpg",
+                    "title": "校招职位列表",
+                    "url": "",
+                    "target": "_blank"
+                }]
+        },
+        "bannerInfo": {
+            "searchSwitch": true,
+            "tips": "输入关键字，如: AI模型工程师",
+            "mobileTips": "输入关键字，如: AI模型工程师",
+            "AIBtnIcon": "https://career.huawei.com/dam/asset/view/d9915c50e81f4e18ac46b96bc26db726.png",
+            "btnText": "搜索"
+        },
+        "filterInfo": {
+            "title": "筛选",
+            "clearText": "清空选项",
+            "interval": "300",
+            "expandIconUrl": "https://career.huawei.com/dam/asset/view/f37b741ed65242bb8287c35b02244818.png",
+            "halfChoiceIconUrl": "https://career.huawei.com/dam/asset/view/c93631a01e5e4a078f9922c1d3e12e2d.png",
+            "selectAllIconUrl": "https://career.huawei.com/dam/asset/view/75c60c9c785a4d5789e580a01b27c856.png",
+            "filterList": [
+                {
+                    "filterCategory": "招聘类别",
+                    "categoryId": "recruitmentType",
+                    "belong": "campus"
+                }
+                ,
+                {
+                    "filterCategory": "岗位类别",
+                    "categoryId": "categoryList",
+                    "belong": "campus"
+                }
+                ,
+                {
+                    "filterCategory": "岗位族类",
+                    "categoryId": "jobFamilyCodeList",
+                    "belong": "social"
+                }
+                ,
+                {
+                    "filterCategory": "部门",
+                    "categoryId": "department",
+                    "belong": "social"
+                }
+                ,
+                {
+                    "filterCategory": "工作地点",
+                    "categoryId": "jobAddress",
+                    "belong": "both"
+                }
+                ,
+                {
+                    "filterCategory": "工作年限",
+                    "categoryId": "serviceYear",
+                    "belong": "social"
+                }
+                
+            ],
+            "recruitmentType": [
+                {
+                    "categeryName": "应届生",
+                    "id": "FRESH_GRADUATE"
+                }
+                ,
+                {
+                    "categeryName": "实习生",
+                    "id": "INTERN"
+                }
+                
+            ],
+            "jobAddress": [
+                {
+                    "categeryName": "中国",
+                    "id": "chinaJobAddressList",
+                    "belong": "campus",
+                    "display": "normal",
+                    "notAffectedByAll": ""
+                }
+                ,
+                {
+                    "categeryName": "海外",
+                    "id": "abroadJobAddressList",
+                    "belong": "campus",
+                    "display": "normal",
+                    "notAffectedByAll": ""
+                }
+                ,
+                {
+                    "categeryName": "",
+                    "id": "",
+                    "belong": "social",
+                    "display": "allAbove",
+                    "notAffectedByAll": "true"
+                }
+                
+            ]
+        },
+        "allText": "全部",
+        "hotSpot": "热招地点",
+        "listInfo": {
+             "listTitle": "在招职位", 
+             "noDataImg": "https://career.huawei.com/dam/asset/view/41570433fb894df5b87c327d2939b747.png", 
+             "noDataMsg": "暂无数据", 
+             "finishedText": "没有更多数据了", 
+             "detailsPageUrl": "/cn/job-details", 
+             "detailsTarget": "_blank",
+             "shareData":{
+                  "key": "advertisementId",
+                  "shareText": "分享",
+                  "shareImgUrl": "https://career.huawei.com/dam/asset/view/63630cf206bf4e59b6bead474ee6e2ad.png",
+                  "url": "",
+                  "aiUrl": "https://career.huawei.com/cn/job-details",
+                  "target": "_blank",
+                  "copySuccess": "链接已复制,可直接粘贴分享",
+                  "interval": 2000
+              },
+             "totalText": "共", 
+             "barText": "条",
+             "collectedBtnText": "收藏", 
+             "favoritedBtnText": "已收藏",
+             "collectText": "已收藏成功",
+             "cancelCollectText": "已取消收藏",
+             "updateText": "更新于",
+             "jobYearSuffix": "工作经验"
+        },
+        "jobRecommendText": "职位推荐",
+        "isShowAIRecommended": true,
+        "isMobileAIRecommendedSwitch": false,
+         "deliveryConfig": {
+            "deliveryText": "投递",
+            "deliveryImgUrl": "https://career.huawei.com/dam/asset/view/ba174b784e5b4b8eae32e51521fff770.png",
+            "deliveryHoverImgUrl": "https://career.huawei.com/dam/asset/view/05344f96260b4a54ba6dd25c0ee446ab.png"
+        },
+        "jobRecommendSubText": "智能识别，系统推荐，发现更多岗位机会",
+        "reloadText": "重新上传",
+        "deleteText": "删除",
+        "uploadButtonText": "上传简历",
+        "useHasButtonText": "使用已注册简历",
+        "uploadVerifying": "大小在5M以内，支持格式pdf/doc/docx",
+        "jobRecommendDesc": "根据您的简历为您推荐以下",
+        "recommendText": "推荐",
+        "workYearText": "年以上工作经验",
+        "privacyData": {
+            "title": "签署声明及承诺书",
+            "guaranteedText": "我保证我上传的信息遵守与原工作单位/项目或任何其他第三方已签署的保密协议和相关要求，不违反任何保密义务，亦不侵犯原工作单位/项目或任何其他第三方的知识产权与保密信息",
+            "privacyTextOne": "本人已仔细阅读并同意",
+            "privacyText": "《隐私声明》",
+            "privacyTextTwo": "相关条款",
+            "warn": "提示",
+            "warnText": "请签署隐私声明",
+            "agree": "同意",
+            "cancle": "取消"
+        },
+        "privacyDetailInfo": {
+            "signTitle": "《隐私声明》",
+            "signedBy": "签署人",
+            "signingDate": "签署日期",
+            "confirm": "我已阅读并同意",
+            "privacyStatement": "《隐私声明》",
+            "yearText": "年",
+            "monthText": "月",
+            "dayText": "日"
+        },
+        "positionJumpInfo": {
+            "key": "advertisementId",
+            "url": "/cn/job-details",
+            "target": "_blank"
+        },
+        "confirm": "确定",
+        "cancle": "取消",
+        "appraiseDialogTitle": "您的反馈将帮助我们优化改进",
+        "veryDissatisfied": "非常不满",
+        "dissatisfied": "不满意",
+        "general": "一般",
+        "appraiseResont": "请输入意见",
+        "uploading": "附件上传中...",
+        "resumeAnalysis": "简历解析中...",
+        "jobRecommonding": "职位推荐中...",
+        "localStorageLong": "15",
+        "repetitionCount": "30",
+        "repetitionCountTime": "1500",
+        "appraiseOtherReasonLength": "500",
+        "conmmonTipsTitle": "提示",
+        "conmmonFailText": "操作失败",
+        "appraisSuccessText": "感谢您的反馈",
+        "appraisCancleText": "已取消反馈",
+        "appraisRepeatsText": "您已反馈,请稍后重试",
+        "recommendNoResultWornText": "系统暂未找到与您完全匹配的岗位。不妨去搜索或浏览所有职位，更多机会等您来发现!",
+        "recommendResultWornText": "抱歉，当前系统繁忙，请稍后再试，或通过职位搜索查询",
+        "recommendWornTitle": "提示",
+        "recommendResultFailText": "抱歉，当前系统繁忙，请稍后再试，或通过职位搜索查询",
+        "recommendFailTitle": "提示",
+        "recommendResumeFailText": "简历推荐失败",
+        "sizeTip": "将文件大小控制在5M以内，支持格式.pdf/.doc/.docx",
+        "freshStudent": "应届生",
+        "interns": "实习生",
+        "position": "职位"
+    }
+</script>
+
+        
+        <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-career-campusJob-list', data : {"packages":{"@cloud/hcomponent-career-campusJob-list":{"path":"//res.hc-cdn.com/hcomponent-career-campusJob-list/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-career-campusJob-list/m/index":{"requires":["jQuery"]},"@cloud/hcomponent-career-campusJob-list/pc/index":{"requires":["jQuery"]}}} })</script>
+
+    </div>
+</div>
+<div data-mod-id="20260904103423358016148604984336">
+ <div data-mod-name-pc="@cloud/hcomponent-career-commonFooter/pc/index" data-mod-name-m="@cloud/hcomponent-career-commonFooter/m/index" data-mod-name="hcomponent-career-commonFooter">
+  <!-- 华为PSIRT-->
+  <section id="vue_20260904103423358016148604984336"></section>
+  <script id="comData_20260904103423358016148604984336" type="application/json">
+    {
+        "logoData": {"imgUrl":"https://career.huawei.com/dam/asset/view/ee3b85dfcec44db8a77559362b1d982d.png","url":"/cn","target":"_self"},
+        "claimStatementTitle": "构建万物互联的智能世界",
+        "columnList": [{"title":"华为招聘","url":"","target":"_self","navList":[{"title":"挑战课题专项招聘","url":"/cn/young-genius","target":"_self"},{"title":"校园招聘","url":"/cn/campus-recruitment","target":"_self"},{"title":"社会招聘","url":"/cn/social-recruitment","target":"_self"},{"title":"博士后","url":"/cn/postdoctoral-researcher","target":"_self"},{"title":"走进华为","url":"/cn/entering-huawei","target":"_self"},{"title":"成长与生活","url":"/cn/growth-and-life","target":"_self"}]},{"title":"关于华为","url":"","target":"_self","navList":[{"title":"公司简介","url":"https://www.huawei.com/cn/corporate-information","target":"_blank"},{"title":"公司治理","url":"https://www.huawei.com/cn/corporate-governance","target":"_blank"},{"title":"管理层信息","url":"https://www.huawei.com/cn/executives","target":"_blank"},{"title":"公司年报","url":"https://www.huawei.com/cn/annual-report","target":"_blank"},{"title":"可持续发展","url":"https://www.huawei.com/cn/sustainability","target":"_blank"}]},{"title":"友情链接","url":"","target":"_self","navList":[{"title":"慧通招聘","url":"https://www.hwht.com/#/zh/jobs","target":"_blank"}]}],
+        "otherWebsiteList": [],
+        "shareList": [{"title":"微信","imgUrl":"https://career.huawei.com/dam/asset/view/caaee9458d1d421bacd53d90bfcc2e3d.png","highlightImgUrl": "https://career.huawei.com/dam/asset/view/caaee9458d1d421bacd53d90bfcc2e3d.png","QRCodeImgUrl": "https://career.huawei.com/dam/asset/view/66b9f76368bc473daf889c2ce3a4d51f.jpg","copyLinkBtnText": "复制链接","redirectionLinkBtnText": "点击跳转","url":"","target":"_blank"},{"title":"哔哩哔哩","imgUrl":"https://career.huawei.com/dam/asset/view/ecff4e469b2d46a29072dd50f7d3236f.png","highlightImgUrl": "https://career.huawei.com/dam/asset/view/61da9cdee6594912932444491b00a138.png","QRCodeImgUrl": "https://career.huawei.com/dam/asset/view/bb6cf45c44cb4ae9b9f657885ab9cb78.png","copyLinkBtnText": "复制链接","redirectionLinkBtnText": "点击跳转","url":"https://space.bilibili.com/510459330","target":"_blank"},{"title":"微博","imgUrl":"https://career.huawei.com/dam/asset/view/234b3393bad341adbc11fef9947ceb12.png","highlightImgUrl": "https://career.huawei.com/dam/asset/view/d31970e7a8414f30874644b2887a421e.png","QRCodeImgUrl": "https://career.huawei.com/dam/asset/view/cb9548db8ca745f1939ab7e05d1bca5d.png","copyLinkBtnText": "复制链接","redirectionLinkBtnText": "点击跳转","url":"https://weibo.com/u/2842261091","target":"_blank"}],
+        "shareCopySuccessTip": "链接已复制,可直接粘贴分享",
+        "copyrightList": [{"title":"版权所有 © 华为技术有限公司 1998-2026。保留一切权利。","url":"","target":"_blank"}],
+        "contactMenuList": [{"title":"法律声明","url":"https://www.huawei.com/cn/legal","target":"_blank"},{"title":"隐私条款","url":"/cn/privacy-statement","target":"_blank"},{"title":"Cookie政策","url":"/cn/cookie","target":"_blank"}],
+        "hiddenPageRouterList": ["/cn/personal-center","/cn/job-details","/cn/social-recruitment-job-list","/cn/campus-recruitment-job-list","/cn/news-and-updates"]
+    }
+</script>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-career-commonFooter', data : {"packages":{"@cloud/hcomponent-career-commonFooter":{"path":"//res.hc-cdn.com/hcomponent-career-commonFooter/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-career-commonFooter/m/index":{"requires":["jQuery"]},"@cloud/hcomponent-career-commonFooter/pc/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div><div data-mod-id="4244564b54c24272b487231e90b42a54">
+ <div data-mod-name-pc="@cloud/hcomponent-career-inquiryAssistant/pc/index" data-mod-name-m="@cloud/hcomponent-career-inquiryAssistant/m/index" data-mod-name="hcomponent-career-inquiryAssistant">
+  <!-- 华为PSIRT-->
+  <section id="vue_4244564b54c24272b487231e90b42a54"></section>
+  <script id="comData_4244564b54c24272b487231e90b42a54" type="application/json">
+    {
+        "copilotSrc": "https://career.huawei.com/dam/asset/view/6e76dde10f09490eb232564ea36dd27a.png",
+        "copilotActiveSrc": "https://career.huawei.com/dam/asset/view/4d997a9a0c934949957390cc1cc005c8.png",
+        "popupTitle": "招聘咨询",
+        "assistantList": [
+            
+            {
+                "title":"挑战课题专项招聘",
+                "imgUrl":"https://career.huawei.com/dam/asset/view/e7c6725098554e0bb1a57079c80775c0.png",
+                "url":"topminds@huawei.com",
+                "name":"topminds@huawei.com",
+                "target":"_blank",
+                "isButton":"false"
+            }
+            ,
+            {
+                "title":"校招答疑小助手",
+                "imgUrl":"https://career.huawei.com/dam/asset/view/120defda83c14a7b9d21317bb07bcd09.png",
+                "url":"https://app.huawei.com/wecare/onlineservice/portal/#/index?locale=zh-CN&hotlineId=M002291",
+                "name":"开始对话",
+                "target":"_blank",
+                "isButton":"true"
+            }
+            ,
+            {
+                "title":"社招咨询",
+                "imgUrl":"https://career.huawei.com/dam/asset/view/e7c6725098554e0bb1a57079c80775c0.png",
+                "url":"Career@huawei.com",
+                "name":"Career@huawei.com",
+                "target":"_blank",
+                "isButton":"false"
+            }
+            ,
+            {
+                "title":"博士后答疑小助手",
+                "imgUrl":"https://career.huawei.com/dam/asset/view/120defda83c14a7b9d21317bb07bcd09.png",
+                "url":"http://app.huawei.com/ihelp/icsclientC60/index.do?appId=virtual_app_uniknow0001458&locale=zh_CN",
+                "name":"开始对话",
+                "target":"_blank",
+                "isButton":"true"
+            }
+            
+        ],
+        "enCopilotUrl": "Career@huawei.com",
+        "enCopilottarget": "_blank"
+    }
+</script>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-career-inquiryAssistant', data : {"packages":{"@cloud/hcomponent-career-inquiryAssistant":{"path":"//res.hc-cdn.com/hcomponent-career-inquiryAssistant/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-career-inquiryAssistant/m/index":{"requires":["jQuery"]},"@cloud/hcomponent-career-inquiryAssistant/pc/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div><div data-mod-id="0ac59c70890741e7a923f49fe089a75a">
+ <div data-mod-name-pc="@cloud/hcomponent-career-cookiePage-cookieSetting/pc/index" data-mod-name-m="@cloud/hcomponent-career-cookiePage-cookieSetting/m/index" data-mod-name="hcomponent-career-cookiePage-cookieSetting">
+  <!-- 华为PSIRT-->
+  <section id="vue_0ac59c70890741e7a923f49fe089a75a"></section>
+  <script id="comData_0ac59c70890741e7a923f49fe089a75a" type="application/json">
+    {
+        "title": "《隐私声明》",
+        "commonCookieTip": "我们在本网站上使用Cookie，包括第三方Cookie，以便网站正常工作并分析流量，提供增强的功能、社交媒体功能，以及个性化内容和广告。",
+        "learnMore": "了解更多",
+        "buttonAccept": "我已知晓",
+        "close": "关闭",
+        "cookieCenter": "Cookie中心",
+        "alwaysOn": "始终开启",
+        "acceptAll": "全部接受",
+        "saveAndClose": "保存并关闭",
+        "yourPrivacy": "您的隐私",
+        "essentialCookies": "必要Cookies",
+        "analyzeCookies": "分析Cookies",
+        "advertisingCookies": "广告Cookies",
+        "moreInformation": "更多信息",
+        "cookieList": "Cookie列表",
+        "cookieSettings": "cookie设置",
+        "url": "/cn/cookie",
+        "target": "_blank"
+    }
+</script>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-career-cookiePage-cookieSetting', data : {"packages":{"@cloud/hcomponent-career-cookiePage-cookieSetting":{"path":"//res.hc-cdn.com/hcomponent-career-cookiePage-cookieSetting/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-career-cookiePage-cookieSetting/m/index":{"requires":["jQuery"]},"@cloud/hcomponent-career-cookiePage-cookieSetting/pc/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div><div data-mod-id="20260822152402878004043827012124">
+ <div data-mod-name-pc="@cloud/hcomponent-career-AIAssistant/pc/index" data-mod-name-m="@cloud/hcomponent-career-AIAssistant/m/index" data-mod-name="hcomponent-career-AIAssistant">
+  <!-- 华为PSIRT-->
+  <section id="vue_20260822152402878004043827012124"></section>
+  <script id="comData_20260822152402878004043827012124" type="application/json">
+    {
+        "title": "招聘助手",
+        "AIAssistantEnterIcon": "https://career.huawei.com/dam/asset/view/48f72357df394645b5e0fc716d9301b8.png",
+        "AIAssistantEnterHoverIcon": "https://career.huawei.com/dam/asset/view/b574d5f0b08246e68a0b46787c250e29.png",
+        "logo": "https://career.huawei.com/dam/asset/view/4c8f02ce7230425798bd40a455d03fdc.png",
+        "closeIcon": "https://career.huawei.com/dam/asset/view/149c454d0147415e90c3095d1fd2c856.png",
+        "userAvatar": "https://career.huawei.com/dam/asset/view/d3955dd561a14758922ad3d4f4977005.png",
+        "customerServiceAvatar": "https://career.huawei.com/dam/asset/view/3d3a00164ac645d6a96b6e2d6602590e.png",
+        "fileIcon": "https://career.huawei.com/dam/asset/view/471c716d14e045639dd6a8285e56bd41.png",
+        "isShowAvatar": false,
+        "createSessionFailed": "sessionId获取失败",
+        "placeholderText": "输入您的问题或需求...",
+        "jobRecommendMarkdownData": "为了提升您的岗位匹配度，请在下面的弹框中选择使用已注册简历或者重新上传简历进行精准推荐。",
+        "jobSearchMarkdownData": "根据您的需求，推荐的适合岗位如下：",
+        "jobSearchMarkdownNoData": "系统暂未找到与您匹配的岗位。",
+        "AIServiceErrorTip": "服务异常，请稍后重试",
+        "AIInitGuideTip": "您好！我是您的AI职业顾问。我可以帮您分析简历、推荐职位、提供面试建议。请问您今天有什么需要？",
+        "guideCardData": [
+            
+            {
+                "text": "当前应聘进展是什么",
+                "type": "type=search"
+            },
+            {
+                "text": "关于综合测评的常见问题",
+                "type": "type=search"
+            },
+            {
+                "text": "关于笔试（机考）的常见问题",
+                "type": "type=search"
+            },
+            {
+                "text": "投递简历后多久会有后续通知",
+                "type": "type=search"
+            },
+            {
+                "text": "面试全部通过后没有消息，Offer何时开始发放？",
+                "type": "type=search"
+            }],
+        "cancelQueueBtnText": "取消排队",
+        "transferToHumanText": "正在转人工...",
+        "thinkText": "思考中...",
+        "endHumanBtnText": "结束人工",
+        "sendBtnText": "发送",
+        "queueTimeOutTip": "排队超时了",
+        "deviceNoBeforeTip": "您好，我是人工客服",
+        "deviceNoAfterTip": "。请问有什么可以帮到您的吗？",
+        "customerServiceFailedTip": "抱歉，当前求助人数较多，坐席全忙。您可拨打电话或发送邮件求助",
+        "customerQueueNumberBeforeTip": "您好，当前排队人数",
+        "customerQueueNumberAfterTip": "人，",
+        "endCustomerSessionTip": "本次人工服务咨询结束，欢迎再次使用",
+        "reCustomerSessionTip": "欢迎回来，您可继续上次会话",
+        "taskTypeBusiness": "校园招聘业务",
+        "taskTypeOnboarding": "校园招聘待入职",
+        "taskTypeDoctor": "博士后",
+        "customerServiceSRAnswer": "请您将需求发邮件至Career@huawei.com邮箱，我们将尽快给您回复，谢谢。",
+        "customerServiceTopmindsAnswer": "请您将需求发邮件至topminds@huawei.com邮箱，我们将尽快给您回复，谢谢。",
+        "isShowMarkdownIt": false,
+        "linkIcon": "https://career.huawei.com/dam/asset/view/12fdd81177bb42f9be8e7dedc4d31645.png",
+        "linkList": [
+            
+            {
+                "title": "个人中心-我的简历",
+                "url": "/cn/personal-center?pageType=myResume",
+                "target": "_self",
+                "linkType": "1"
+            },
+            {
+                "title": "校招职位（应届生）",
+                "url": "/cn/campus-recruitment-job-list?recruitmentType=FRESH_GRADUATE",
+                "target": "_self",
+                "linkType": "2"
+            },
+            {
+                "title": "校招职位（实习生）",
+                "url": "/cn/campus-recruitment-job-list?recruitmentType=INTERN",
+                "target": "_self",
+                "linkType": "2"
+            },
+            {
+                "title": "社招职位",
+                "url": "/cn/social-recruitment-job-list",
+                "target": "_self",
+                "linkType": "3"
+            },
+            {
+                "title": "博士后",
+                "url": "/cn/postdoctoral-researcher",
+                "target": "_self",
+                "linkType": "4"
+            },
+            {
+                "title": "挑战课题专项招聘",
+                "url": "/cn/young-genius",
+                "target": "_self",
+                "linkType": "5"
+            },
+            {
+                "title": "个人中心-我的申请",
+                "url": "/cn/personal-center?pageType=myApplication",
+                "target": "_self",
+                "linkType": "6"
+            }],
+        "navList": [
+            
+            {
+                "title": "注册简历",
+                "key": "registerResume",
+                "iconUrl": "https://career.huawei.com/dam/asset/view/80c50357fd4e404996751beb4043676f.png",
+                "width": "26"
+            },
+            {
+                "title": "岗位推荐",
+                "key": "jobRecommendation",
+                "iconUrl": "https://career.huawei.com/dam/asset/view/d6468bc2059c467bbc7b5e5d381982c7.png",
+                "width": "33"
+            },
+            {
+                "title": "投递岗位",
+                "key": "",
+                "iconUrl": "https://career.huawei.com/dam/asset/view/65b581897ed941fe8aa4f1e92b923f35.png",
+                "width": "30"
+            },
+            {
+                "title": "了解华为",
+                "key": "",
+                "iconUrl": "https://career.huawei.com/dam/asset/view/b3c30e051f5f4fa0b5ebdf4d3cc720c5.png",
+                "width": "40"
+            },
+            {
+                "title": "人工服务",
+                "key": "",
+                "iconUrl": "https://career.huawei.com/dam/asset/view/3d3a00164ac645d6a96b6e2d6602590e.png",
+                "width": "32"
+            }],
+        "uploadImagesData": [
+            
+            {
+                "title": "上传图片或者视频",
+                "key": "images",
+                "iconUrl": "https://career.hisuat.huawei.com/dam/asset/view/9950ffebe3204e5cacbc1e390ffb3d86.png",
+                "width": "18"
+            }],
+        "hostWhitelist": ["career.huawei.com","uniportal.huawei.com"],
+        "imagesAccept": [".bmp",".jpg",".png",".gif",".jpeg",".mp4"],
+        "imagesUploadTip": "请上传bmp,jpeg,jpg,png,gif,mp4格式，大小控制在5M以内",
+        "imagesUploadFailedTip": "上传失败",
+        "imagesUploadSize": 5,
+        "queryCustomerServiceInterval": 2000,
+        "queryCustomerQueueProgressInterval": 1000,
+        "filePendingText": "等待接收文件",
+        "fileBeenReceivedText": "对方接收文件",
+        "fileBeenRejectedText": "对方拒绝接收",
+        "fileReceivedText": "已接收文件",
+        "fileRejectedText": "已拒绝接收文件",
+        "fileReceivedTip": "接收文件",
+        "fileRejectedTip": "拒绝接收",
+        "privacyData": {
+            "title": "签署声明及承诺书",
+            "guaranteedText": "我保证我上传的信息遵守与原工作单位/项目或任何其他第三方已签署的保密协议和相关要求，不违反任何保密义务，亦不侵犯原工作单位/项目或任何其他第三方的知识产权与保密信息",
+            "privacyTextOne": "本人已仔细阅读并同意",
+            "privacyText": "《隐私声明》",
+            "privacyTextTwo": "相关条款",
+            "warn": "提示",
+            "warnText": "请签署隐私声明",
+            "agree": "同意",
+            "cancle": "取消"
+        },
+        "privacyDetailInfo": {
+            "signTitle": "《隐私声明》",
+            "signedBy": "签署人",
+            "signingDate": "签署日期",
+            "confirm": "我已阅读并同意",
+            "privacyStatement": "《隐私声明》",
+            "yearText": "年",
+            "monthText": "月",
+            "dayText": "日"
+        },
+        "jobRecommendText": "岗位推荐",
+        "jobRecommendSubText": "智能分析简历，为您推荐匹配岗位机会",
+        "uploadButtonText": "上传简历",
+        "useHasButtonText": "使用已注册简历",
+        "uploadVerifying": "大小在5M以内，支持格式pdf/doc/docx",
+        "recommendNoResultWornText": "系统暂未找到与您匹配的岗位。",
+        "recommendResultWornText": "抱歉，当前系统繁忙，请稍后再试，或通过职位搜索查询",
+        "recommendWornTitle": "提示",
+        "recommendResultFailText": "抱歉，当前系统繁忙，请稍后再试，或通过职位搜索查询",
+        "recommendFailTitle": "提示",
+        "recommendResumeFailText": "简历推荐失败",
+        "localStorageLong": "15",
+        "repetitionCount": "30",
+        "repetitionCountTime": "1500",
+        "sizeTip": "将文件大小控制在5M以内，支持格式.pdf/.doc/.docx",
+        "freshStudent": "应届生",
+        "interns": "实习生",
+        "position": "职位",
+        "confirm": "确定",
+        "cancle": "取消",
+        "uploadUrl": "https://career.huawei.com/dam/asset/view/ddfc6dccd82c4ae0af244a32c71cf7a1.png",
+        "recommendText": "推荐",
+        "workYearText": "年以上工作经验",
+        "updateText": "更新于",
+        "detailsPageUrl": "/cn/job-details", 
+        "detailsTarget": "_blank",
+        "positionJumpInfo": {
+            "key": "advertisementId",
+            "url": "/cn/job-details",
+            "target": "_blank"
+        },
+        "conmmonFailText": "操作失败",
+        "appraisSuccessText": "感谢您的反馈",
+        "appraisCancleText": "已取消反馈",
+        "appraisRepeatsText": "您已反馈，请稍后重试"
+    }
+</script>
+  <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/hcomponent-career-AIAssistant', data : {"packages":{"@cloud/hcomponent-career-AIAssistant":{"path":"//res.hc-cdn.com/hcomponent-career-AIAssistant/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/hcomponent-career-AIAssistant/m/index":{"requires":["jQuery"]},"@cloud/hcomponent-career-AIAssistant/pc/index":{"requires":["jQuery"]}}} })</script>
+ </div>
+</div>
+  <script>
+    window.gConfig = window.gConfig || {};
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.$devPath = {"@cloud/hcomponent-career-commonHeader":{"path":"/-/media/hcomponent-career-commonHeader/1.0.1.20260812224639"},"@cloud/hcomponent-career-campusJob-list":{"path":"/-/media/hcomponent-career-campusJob-list/1.0.1.20260808202205"},"@cloud/hcomponent-career-commonFooter":{"path":"/-/media/hcomponent-career-commonFooter/1.0.1.20260707180347"},"@cloud/hcomponent-career-inquiryAssistant":{"path":"/-/media/hcomponent-career-inquiryAssistant/1.0.1.20260901165839"},"@cloud/hcomponent-career-cookiePage-cookieSetting":{"path":"/-/media/hcomponent-career-cookiePage-cookieSetting/1.0.1.20260707184309"},"@cloud/hcomponent-career-AIAssistant":{"path":"/-/media/hcomponent-career-AIAssistant/1.0.1.20260731203317"}};
+    for(var i = 0; i < window.gConfig.seed.length; i++) {
+      var tmpSeed = window.gConfig.seed[i].data;
+      var name = window.gConfig.seed[i].name;
+      if(tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+        tmpSeed.packages[name] = window.$devPath[name];
+      }
+    }
+  </script>
+
+
+    
+    <script type="text/javascript" src="/-/media/htemplate-standard/feloader.js?sttl=1788258241541"></script>
+    <script type="text/javascript">
+      feloader.config({
+        externals: ['jQuery']
+      });
+      feloader.noConflict();
+      var win = window;
+      var require = win.require;
+      var F = feloader;
+      win.require = function () {
+        F.use.apply(F, arguments);
+      };
+      win.require.config = function () {
+        F.config.apply(F, arguments);
+      };
+    </script>
+    <script type="text/javascript">
+    document.body.classList.add('animate-onscroll');
+</script>
+<script type="text/javascript" src="/-/media/plugin/8215bc3cf8d83f9ec3298d3aa077f167/common.min.js?t=1788258241541">
+</script>
+
+    
+    
+    <script src="https://corp.hwp.huawei.com/hwpinternet/scripts/ocs/collector/service/hwp-cs.js"></script>
+  </body>
+
+</html>
+
+

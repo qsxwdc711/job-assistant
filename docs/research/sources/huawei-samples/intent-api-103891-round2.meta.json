@@ -1,0 +1,16 @@
+{
+  "startedAt": "2026-10-13T17:30:07.090Z",
+  "finishedAt": "2026-10-13T17:30:09.203Z",
+  "elapsedMs": 2111,
+  "requestUrl": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getPositionIntentionList?X-HW-ID=app_000000035886",
+  "finalUrl": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getPositionIntentionList?X-HW-ID=app_000000035886",
+  "method": "POST",
+  "requestBody": {
+    "jobId": 103891
+  },
+  "status": 200,
+  "contentType": "application/json;charset=UTF-8",
+  "bytes": 142589,
+  "sha256": "6f855aefe535d79f6850f85ac85caaf715457d0c514aade1041b6baff7fc1ffc",
+  "responseDate": "Tue, 13 Oct 2026 17:30:08 GMT"
+}

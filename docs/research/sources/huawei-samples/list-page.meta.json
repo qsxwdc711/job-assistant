@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-10-13T17:23:54.227Z",
+  "finishedAt": "2026-10-13T17:23:54.808Z",
+  "elapsedMs": 579,
+  "requestUrl": "https://career.huawei.com/cn/campus-recruitment-job-list?recruitmentType=FRESH_GRADUATE",
+  "finalUrl": "https://career.huawei.com/cn/campus-recruitment-job-list?recruitmentType=FRESH_GRADUATE",
+  "status": 200,
+  "contentType": "text/html",
+  "bytes": 39389,
+  "sha256": "f4f415222f869c5a40672ad6f4693ba7d8eac8696b3d7701c825098b4d1b3b2f",
+  "responseDate": "Tue, 13 Oct 2026 17:23:54 GMT",
+  "cacheAge": "3630"
+}

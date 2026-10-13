@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-10-13T17:23:40.031Z",
+  "finishedAt": "2026-10-13T17:23:40.438Z",
+  "elapsedMs": 399,
+  "requestUrl": "https://career.huawei.com/cn/campus-recruitment",
+  "finalUrl": "https://career.huawei.com/cn/campus-recruitment",
+  "status": 200,
+  "contentType": "text/html",
+  "bytes": 110001,
+  "sha256": "0ab778cf96311ff45c0f1687754c9abbdcda51d52bdddbbc7dfc18e619e9fa03",
+  "responseDate": "Tue, 13 Oct 2026 17:23:40 GMT",
+  "cacheAge": "9739"
+}

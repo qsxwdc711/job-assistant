@@ -1,0 +1,1961 @@
+[
+  {
+    "sourceId": "huawei",
+    "sourceBatchLabel": "2027届应届生",
+    "batchLabelEvidence": "current campus landing-page text; API has no explicit year",
+    "advertisementId": 36373,
+    "jobId": 103906,
+    "positionIntentionId": 11394,
+    "externalPostCode": "JT2026071500037",
+    "adIdentity": "huawei:2027-fresh:36373",
+    "directionIdentity": "huawei:2027-fresh:36373:11394",
+    "company": "华为",
+    "legalRecruitingEntity": null,
+    "departmentScope": "business units and departments are not proven separate legal employers",
+    "jobName": "软件开发工程师",
+    "positionIntention": "数据库",
+    "recruitmentType": "campus-fulltime",
+    "originalResponsibilitiesHTML": "1、负责数据库/大数据/数据湖仓内核模块（存储引擎、查询引擎、执行引擎、事务引擎等）或管理系统（备份恢复、权限管理、数据迁移、监控诊断等）的需求分析、方案设计、代码开发、测试、问题定界定位等工作；<br>2、负责代码看护及重构，参与软硬芯协同、查询优化器、算子下推、分布式事务、分布式查询引擎、嵌入式图引擎、密态查询、高效索引、数据安全、可观测性（时序/日志/Trace）<br>等技术创新探索，持续优化并提升高性能、高可用、安全可信等DFX质量属性；<br>3、负责智能化演进，探索AI for DB（NL2SQL、自然语言交互式数据分析、基于LLM的查询意图理解与查询优化等）、DB for AI（新型存储结构和查询算法、分布式向量知识库索引构建、向量索引/检索等）关键技术，持续提升产品竞争力。<br>",
+    "originalRequirementsHTML": "1、计算机科学与技术、电子科学与技术、信息与通信工程、数学、人工智能等相关专业；<br>2、具备基本的编程能力，熟悉包括但不限于C/C++/Java/Python等编程语言中的一种或数种，有良好的编程习惯；<br>3、具备扎实的数据结构和算法、设计模式基础；熟悉Linux环境下的调试工具及性能分析工具；<br>4、优选条件：<br>1）熟悉数据库的理论基础知识和实现原理；熟悉常用数据库（如：PostgreSQL、MySQL、Oracle、Redis、Milvus、Azure SQL Database、ClickHouse、LakeHouse等）架构设计，有数据库内核模块或管理系统的开发经验；<br>2）在校期间积极参加软件编程大赛、开源社区活动，并获得奖项和荣誉；<br>3）有Spark、Flink等分布式数据处理引擎开发经验，有云原生、分布式计算、Serverless相关经验，有AI for DB、DB for AI探索经验；<br>4）熟悉使用AI工具，有AI辅助软件开发实践经验。<br>",
+    "cities": [
+      "上海",
+      "深圳",
+      "北京",
+      "苏州",
+      "南京",
+      "成都",
+      "杭州",
+      "西安",
+      "东莞",
+      "长沙",
+      "济南",
+      "武汉"
+    ],
+    "originalLocations": [
+      {
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "jobPlace": "China\\Guangdong-Shenzhen",
+        "jobPlaceName": "深圳"
+      },
+      {
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "jobPlace": "China\\Jiangsu-Suzhou",
+        "jobPlaceName": "苏州"
+      },
+      {
+        "jobPlace": "China\\Jiangsu-Nanjing",
+        "jobPlaceName": "南京"
+      },
+      {
+        "jobPlace": "China\\Sichuan-Chengdu",
+        "jobPlaceName": "成都"
+      },
+      {
+        "jobPlace": "China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "杭州"
+      },
+      {
+        "jobPlace": "China\\Shaanxi-Xi'an",
+        "jobPlaceName": "西安"
+      },
+      {
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "jobPlace": "China\\Hunan-Changsha",
+        "jobPlaceName": "长沙"
+      },
+      {
+        "jobPlace": "China\\Shandong-Jinan",
+        "jobPlaceName": "济南"
+      },
+      {
+        "jobPlace": "China\\Hubei-Wuhan",
+        "jobPlaceName": "武汉"
+      }
+    ],
+    "departmentLocationRelations": [
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/成都"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan",
+        "jobPlaceName": "杭州/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/东莞/上海/武汉/西安"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/杭州/北京/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "成都/上海"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "048519",
+        "deptName": "智能座舱领域",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "北京/上海/南京"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/成都"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan",
+        "jobPlaceName": "杭州/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/东莞/上海/武汉/西安"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/杭州/北京/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "成都/上海"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "048519",
+        "deptName": "智能座舱领域",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "北京/上海/南京"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/成都"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan",
+        "jobPlaceName": "杭州/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/东莞/上海/武汉/西安"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/杭州/北京/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "成都/上海"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "048519",
+        "deptName": "智能座舱领域",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "北京/上海/南京"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/成都"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan",
+        "jobPlaceName": "杭州/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/东莞/上海/武汉/西安"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/杭州/北京/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "成都/上海"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "048519",
+        "deptName": "智能座舱领域",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "北京/上海/南京"
+      }
+    ],
+    "minimumDegree": null,
+    "experienceRequirement": null,
+    "graduationRulesReference": "campaign-evidence.json#/qualification/campus/descList",
+    "writtenTest": "yes",
+    "writtenTestScope": "current campus fresh-graduate R&D category; official FAQ requires machine exam",
+    "officialDeadline": null,
+    "deadlineTimezone": null,
+    "status": "open",
+    "statusBasis": "present in successful current in-recruitment list, detail and direction available; actual submission untested",
+    "officialDetailUrl": "https://career.huawei.com/cn/job-details?advertisementId=36373",
+    "applyEntryUrl": "https://career.huawei.com/cn/job-details?advertisementId=36373",
+    "applyEntryLevel": "job-detail",
+    "applicationRequiresLogin": true,
+    "applicationVerification": "official page code directs anonymous users to Uniportal; no apply action performed",
+    "verifiedAt": "2026-10-13T17:29:56.636Z",
+    "contentSha256": "c96098449f0ff91b563a7be448068d8f0c110742d3459feee2f8fae725c82296"
+  },
+  {
+    "sourceId": "huawei",
+    "sourceBatchLabel": "2027届应届生",
+    "batchLabelEvidence": "current campus landing-page text; API has no explicit year",
+    "advertisementId": 36384,
+    "jobId": 103891,
+    "positionIntentionId": 11585,
+    "externalPostCode": "JT2026071500153",
+    "adIdentity": "huawei:2027-fresh:36384",
+    "directionIdentity": "huawei:2027-fresh:36384:11585",
+    "company": "华为",
+    "legalRecruitingEntity": null,
+    "departmentScope": "business units and departments are not proven separate legal employers",
+    "jobName": "AI Infra工程师",
+    "positionIntention": "AI数据系统",
+    "recruitmentType": "campus-fulltime",
+    "originalResponsibilitiesHTML": "1、参与语言、多模态与 Agent 场景下数据生产与流转体系的开发，构建高吞吐、可扩展的数据基础设施，优化数据采集、处理、存储与分发效率，支撑规模化模型训练与行业调优；<br>2、参与面向异构分布式环境的数据处理与调度系统的开发，实现分布式数据流水线与推理服务化架构，支持多模型推理、数据合成与蒸馏的高并发执行，提升资源利用率与整体吞吐；<br>3、参与统一数据格式与版本管理体系的实现，参与面向大规模训练与推理的存储架构开发，提升数据可追溯性与生命周期管理能力，支撑 PB 级数据规模扩展；<br>4、参与大模型数据工程平台与工具链能力的建设，包括任务编排、指标采集、失败恢复与自动扩缩容等模块的实现，推动数据生产与验证的自动化闭环，支撑数据飞轮高效运转；<br>5、跟踪分布式计算、存储与推理加速等前沿技术，与算法及平台团队协作，推动数据工程与训练系统、推理服务及 Agent 架构的融合落地，持续提升工程成熟度与技术竞争力。<br>",
+    "originalRequirementsHTML": "1、计算机科学、软件工程、人工智能、计算机工程、机器学习、数据工程等相关专业，具备扎实的计算机系统基础；<br>2、具备较强的代码编写和算法实现能力，熟悉模型架构、数据工程、操作系统、分布式计算与存储系统、并行软件开发；<br>3、具备较强的学习能力、自驱意识、团队意识和责任意识，能够积极参与团队协作，快速适应技术迭代；<br>4、具备良好的工程实现能力，熟悉分布式计算与存储系统，有高性能数据处理与调度系统开发经验，或有推理服务化部署、集群性能优化经验者优先；<br>5、有相关实习经验或高水平竞赛（如 ACM、ICPC 等）获奖经历者优先；在领域顶级会议（如 NeurIPS、ICML、AAAI、VLDB 等）发表论文者更佳。<br>",
+    "cities": [
+      "北京",
+      "杭州",
+      "上海",
+      "深圳",
+      "西安",
+      "武汉",
+      "成都",
+      "南京",
+      "东莞",
+      "苏州",
+      "长沙",
+      "济南"
+    ],
+    "originalLocations": [
+      {
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "jobPlace": "China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "杭州"
+      },
+      {
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "jobPlace": "China\\Guangdong-Shenzhen",
+        "jobPlaceName": "深圳"
+      },
+      {
+        "jobPlace": "China\\Shaanxi-Xi'an",
+        "jobPlaceName": "西安"
+      },
+      {
+        "jobPlace": "China\\Hubei-Wuhan",
+        "jobPlaceName": "武汉"
+      },
+      {
+        "jobPlace": "China\\Sichuan-Chengdu",
+        "jobPlaceName": "成都"
+      },
+      {
+        "jobPlace": "China\\Jiangsu-Nanjing",
+        "jobPlaceName": "南京"
+      },
+      {
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "jobPlace": "China\\Jiangsu-Suzhou",
+        "jobPlaceName": "苏州"
+      },
+      {
+        "jobPlace": "China\\Hunan-Changsha",
+        "jobPlaceName": "长沙"
+      },
+      {
+        "jobPlace": "China\\Shandong-Jinan",
+        "jobPlaceName": "济南"
+      }
+    ],
+    "departmentLocationRelations": [
+      {
+        "deptCode": "079610",
+        "deptName": "AI软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan",
+        "jobPlaceName": "北京/杭州/上海/深圳/西安/武汉"
+      },
+      {
+        "deptCode": "079608",
+        "deptName": "建模仿真与数学应用院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "北京/上海/深圳/成都/杭州"
+      },
+      {
+        "deptCode": "079607",
+        "deptName": "诺亚研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "深圳/北京/上海/杭州/南京"
+      },
+      {
+        "deptCode": "079610",
+        "deptName": "AI软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan",
+        "jobPlaceName": "北京/杭州/上海/深圳/西安/武汉"
+      },
+      {
+        "deptCode": "079608",
+        "deptName": "建模仿真与数学应用院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "北京/上海/深圳/成都/杭州"
+      },
+      {
+        "deptCode": "079607",
+        "deptName": "诺亚研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "深圳/北京/上海/杭州/南京"
+      },
+      {
+        "deptCode": "079610",
+        "deptName": "AI软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan",
+        "jobPlaceName": "北京/杭州/上海/深圳/西安/武汉"
+      },
+      {
+        "deptCode": "079608",
+        "deptName": "建模仿真与数学应用院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "北京/上海/深圳/成都/杭州"
+      },
+      {
+        "deptCode": "079607",
+        "deptName": "诺亚研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "深圳/北京/上海/杭州/南京"
+      },
+      {
+        "deptCode": "079610",
+        "deptName": "AI软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan",
+        "jobPlaceName": "北京/杭州/上海/深圳/西安/武汉"
+      },
+      {
+        "deptCode": "079608",
+        "deptName": "建模仿真与数学应用院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "北京/上海/深圳/成都/杭州"
+      },
+      {
+        "deptCode": "079607",
+        "deptName": "诺亚研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "深圳/北京/上海/杭州/南京"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "深圳/东莞/北京/武汉/苏州/杭州/西安"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "深圳/东莞/北京/武汉/苏州/杭州/西安"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "深圳/东莞/北京/武汉/苏州/杭州/西安"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "深圳/东莞/北京/武汉/苏州/杭州/西安"
+      },
+      {
+        "deptCode": "050842",
+        "deptName": "终端BG CTO",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan",
+        "jobPlaceName": "上海/东莞"
+      },
+      {
+        "deptCode": "050842",
+        "deptName": "终端BG CTO",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan",
+        "jobPlaceName": "上海/东莞"
+      },
+      {
+        "deptCode": "050842",
+        "deptName": "终端BG CTO",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan",
+        "jobPlaceName": "上海/东莞"
+      },
+      {
+        "deptCode": "050842",
+        "deptName": "终端BG CTO",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan",
+        "jobPlaceName": "上海/东莞"
+      },
+      {
+        "deptCode": "079605",
+        "deptName": "计算技术研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/北京/上海/南京/杭州"
+      },
+      {
+        "deptCode": "079605",
+        "deptName": "计算技术研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/北京/上海/南京/杭州"
+      },
+      {
+        "deptCode": "079605",
+        "deptName": "计算技术研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/北京/上海/南京/杭州"
+      },
+      {
+        "deptCode": "079605",
+        "deptName": "计算技术研究院",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/北京/上海/南京/杭州"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/苏州"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/苏州"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/苏州"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/苏州"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳/南京"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳/南京"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳/南京"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "049031",
+        "deptName": "产品数字化与IT装备部",
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "deptCode": "035347",
+        "deptName": "制造部",
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/杭州/南京/成都"
+      },
+      {
+        "deptCode": "072483",
+        "deptName": "半导体平台部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "050824",
+        "deptName": "联接芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/东莞/成都/北京/武汉/南京"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "北京/成都/上海"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "上海/杭州/北京/东莞/成都"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Sichuan-Chengdu,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/成都/西安/东莞/杭州"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "东莞/上海/西安"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "024202",
+        "deptName": "终端BG流程IT与质量运营部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/东莞/南京/西安"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "049031",
+        "deptName": "产品数字化与IT装备部",
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "deptCode": "035347",
+        "deptName": "制造部",
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/杭州/南京/成都"
+      },
+      {
+        "deptCode": "072483",
+        "deptName": "半导体平台部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "050824",
+        "deptName": "联接芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/东莞/成都/北京/武汉/南京"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "北京/成都/上海"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "上海/杭州/北京/东莞/成都"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Sichuan-Chengdu,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/成都/西安/东莞/杭州"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "东莞/上海/西安"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "024202",
+        "deptName": "终端BG流程IT与质量运营部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/东莞/南京/西安"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "049031",
+        "deptName": "产品数字化与IT装备部",
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "deptCode": "035347",
+        "deptName": "制造部",
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/杭州/南京/成都"
+      },
+      {
+        "deptCode": "072483",
+        "deptName": "半导体平台部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "050824",
+        "deptName": "联接芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/东莞/成都/北京/武汉/南京"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "北京/成都/上海"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "上海/杭州/北京/东莞/成都"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Sichuan-Chengdu,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/成都/西安/东莞/杭州"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "东莞/上海/西安"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "024202",
+        "deptName": "终端BG流程IT与质量运营部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/东莞/南京/西安"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "049031",
+        "deptName": "产品数字化与IT装备部",
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "deptCode": "035347",
+        "deptName": "制造部",
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "deptCode": "043779",
+        "deptName": "云计算BU",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/深圳/杭州/南京/成都"
+      },
+      {
+        "deptCode": "072483",
+        "deptName": "半导体平台部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "050824",
+        "deptName": "联接芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/东莞/成都/北京/武汉/南京"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/东莞/杭州/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Shanghai-Shanghai",
+        "jobPlaceName": "北京/成都/上海"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Beijing-Beijing,China\\Guangdong-Dongguan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "上海/杭州/北京/东莞/成都"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Sichuan-Chengdu,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/成都/西安/东莞/杭州"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "东莞/上海/西安"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "024202",
+        "deptName": "终端BG流程IT与质量运营部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/东莞/南京/西安"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      }
+    ],
+    "minimumDegree": null,
+    "experienceRequirement": null,
+    "graduationRulesReference": "campaign-evidence.json#/qualification/campus/descList",
+    "writtenTest": "yes",
+    "writtenTestScope": "current campus fresh-graduate R&D category; official FAQ requires machine exam",
+    "officialDeadline": null,
+    "deadlineTimezone": null,
+    "status": "open",
+    "statusBasis": "present in successful current in-recruitment list, detail and direction available; actual submission untested",
+    "officialDetailUrl": "https://career.huawei.com/cn/job-details?advertisementId=36384",
+    "applyEntryUrl": "https://career.huawei.com/cn/job-details?advertisementId=36384",
+    "applyEntryLevel": "job-detail",
+    "applicationRequiresLogin": true,
+    "applicationVerification": "official page code directs anonymous users to Uniportal; no apply action performed",
+    "verifiedAt": "2026-10-13T17:30:09.203Z",
+    "contentSha256": "72411cf831cf8868596d72749a3f1d03d0df6f615a27336c65a56d8a3c5ed98a"
+  },
+  {
+    "sourceId": "huawei",
+    "sourceBatchLabel": "2027届应届生",
+    "batchLabelEvidence": "current campus landing-page text; API has no explicit year",
+    "advertisementId": 36397,
+    "jobId": 103892,
+    "positionIntentionId": 11480,
+    "externalPostCode": "JT2026071500183",
+    "adIdentity": "huawei:2027-fresh:36397",
+    "directionIdentity": "huawei:2027-fresh:36397:11480",
+    "company": "华为",
+    "legalRecruitingEntity": null,
+    "departmentScope": "business units and departments are not proven separate legal employers",
+    "jobName": "AI安全与隐私工程师",
+    "positionIntention": "AI模型与Infra安全",
+    "recruitmentType": "campus-fulltime",
+    "originalResponsibilitiesHTML": "1、模型鲁棒性与对齐： 评估大模型在面对对抗性样本（Adversarial Examples）时的稳定性，通过微调或对齐技术提升模型抗干扰能力；<br>2、训练数据安全： 负责数据采集与预处理阶段的“投毒（Poisoning）”检测，防止攻击者在训练集中埋下后门或恶意逻辑；<br>3、模型资产保护： 设计模型权重（Weights）的加密存储与访问控制方案，防止模型被盗取、非法反向工程或被恶意提取参数；<br>4、Infra 与算力平台安全： 负责 AI 集群（K8s/容器）的安全加固，监控分布式训练环境下的横向移动风险，防止算力被盗用；<br>5、供应链安全： 建立 AI 开源组件与预训练模型文件的安全扫描体系，防止加载包含恶意脚本的模型文件（如 Pickle 反序列化漏洞）。<br>",
+    "originalRequirementsHTML": "核心技术： 熟练掌握 Python/C++，深入理解 PyTorch 或 TensorFlow 的底层机制。<br>基础设施安全： 熟悉 Linux 系统安全、容器化技术（Docker/K8s）及云原生安全架构。<br>算法与数学： 具备较强的数学基础，了解对抗生成网络（GAN）、对抗攻击算法（如 FGSM, PGD）或联邦学习。<br>加分项： 熟悉可信计算（TEE/SGX）在 AI 领域的应用；在 AI 安全相关顶会（如 USENIX, CCS, NeurIPS 等）有研究成果。<br>",
+    "cities": [
+      "深圳",
+      "上海",
+      "北京",
+      "苏州",
+      "南京",
+      "杭州",
+      "东莞",
+      "武汉",
+      "西安",
+      "成都",
+      "长沙",
+      "济南"
+    ],
+    "originalLocations": [
+      {
+        "jobPlace": "China\\Guangdong-Shenzhen",
+        "jobPlaceName": "深圳"
+      },
+      {
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "jobPlace": "China\\Beijing-Beijing",
+        "jobPlaceName": "北京"
+      },
+      {
+        "jobPlace": "China\\Jiangsu-Suzhou",
+        "jobPlaceName": "苏州"
+      },
+      {
+        "jobPlace": "China\\Jiangsu-Nanjing",
+        "jobPlaceName": "南京"
+      },
+      {
+        "jobPlace": "China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "杭州"
+      },
+      {
+        "jobPlace": "China\\Guangdong-Dongguan",
+        "jobPlaceName": "东莞"
+      },
+      {
+        "jobPlace": "China\\Hubei-Wuhan",
+        "jobPlaceName": "武汉"
+      },
+      {
+        "jobPlace": "China\\Shaanxi-Xi'an",
+        "jobPlaceName": "西安"
+      },
+      {
+        "jobPlace": "China\\Sichuan-Chengdu",
+        "jobPlaceName": "成都"
+      },
+      {
+        "jobPlace": "China\\Hunan-Changsha",
+        "jobPlaceName": "长沙"
+      },
+      {
+        "jobPlace": "China\\Shandong-Jinan",
+        "jobPlaceName": "济南"
+      }
+    ],
+    "departmentLocationRelations": [
+      {
+        "deptCode": "048514",
+        "deptName": "智能汽车解决方案BU质量运营与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai",
+        "jobPlaceName": "深圳/上海"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/深圳/北京/杭州/东莞/苏州"
+      },
+      {
+        "deptCode": "048514",
+        "deptName": "智能汽车解决方案BU质量运营与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai",
+        "jobPlaceName": "深圳/上海"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/深圳/北京/杭州/东莞/苏州"
+      },
+      {
+        "deptCode": "048514",
+        "deptName": "智能汽车解决方案BU质量运营与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai",
+        "jobPlaceName": "深圳/上海"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/深圳/北京/杭州/东莞/苏州"
+      },
+      {
+        "deptCode": "048514",
+        "deptName": "智能汽车解决方案BU质量运营与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai",
+        "jobPlaceName": "深圳/上海"
+      },
+      {
+        "deptCode": "068617",
+        "deptName": "智能驾驶解决方案产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Jiangsu-Suzhou,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/北京/苏州/南京"
+      },
+      {
+        "deptCode": "068620",
+        "deptName": "智能汽车解决方案BU研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "上海/深圳/北京/杭州/东莞/苏州"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/东莞/北京/武汉/西安/苏州/杭州"
+      },
+      {
+        "deptCode": "030779",
+        "deptName": "上海海思研发部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "048290",
+        "deptName": "研发工程、IT装备与安全技术院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "北京/上海/深圳"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/杭州"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Shanghai-Shanghai",
+        "jobPlaceName": "东莞/西安/北京/上海"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Guangdong-Dongguan",
+        "jobPlaceName": "成都/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Hubei-Wuhan",
+        "jobPlaceName": "上海/东莞/武汉"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/东莞/北京/武汉/西安/苏州/杭州"
+      },
+      {
+        "deptCode": "030779",
+        "deptName": "上海海思研发部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "048290",
+        "deptName": "研发工程、IT装备与安全技术院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "北京/上海/深圳"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/杭州"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Shanghai-Shanghai",
+        "jobPlaceName": "东莞/西安/北京/上海"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Guangdong-Dongguan",
+        "jobPlaceName": "成都/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Hubei-Wuhan",
+        "jobPlaceName": "上海/东莞/武汉"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/东莞/北京/武汉/西安/苏州/杭州"
+      },
+      {
+        "deptCode": "030779",
+        "deptName": "上海海思研发部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "048290",
+        "deptName": "研发工程、IT装备与安全技术院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "北京/上海/深圳"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/杭州"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Shanghai-Shanghai",
+        "jobPlaceName": "东莞/西安/北京/上海"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Guangdong-Dongguan",
+        "jobPlaceName": "成都/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Hubei-Wuhan",
+        "jobPlaceName": "上海/东莞/武汉"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      },
+      {
+        "deptCode": "023093",
+        "deptName": "质量与流程IT部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Beijing-Beijing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Jiangsu-Suzhou,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "深圳/东莞/北京/武汉/西安/苏州/杭州"
+      },
+      {
+        "deptCode": "030779",
+        "deptName": "上海海思研发部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Guangdong-Dongguan,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "031194",
+        "deptName": "无线终端芯片业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "上海/北京/南京/杭州/深圳/西安"
+      },
+      {
+        "deptCode": "067343",
+        "deptName": "图灵业务部",
+        "jobPlace": "China\\Guangdong-Shenzhen,China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Zhejiang-Hangzhou,China\\Shaanxi-Xi'an,China\\Hubei-Wuhan,China\\Sichuan-Chengdu,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/武汉/成都/苏州"
+      },
+      {
+        "deptCode": "048290",
+        "deptName": "研发工程、IT装备与安全技术院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "北京/上海/深圳"
+      },
+      {
+        "deptCode": "023489",
+        "deptName": "基础软件院",
+        "jobPlace": "China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Jiangsu-Nanjing,China\\Shaanxi-Xi'an",
+        "jobPlaceName": "北京/杭州/上海/深圳/南京/西安"
+      },
+      {
+        "deptCode": "049944",
+        "deptName": "数据存储产品线",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Beijing-Beijing,China\\Sichuan-Chengdu,China\\Zhejiang-Hangzhou,China\\Guangdong-Dongguan,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/北京/成都/杭州/东莞/深圳"
+      },
+      {
+        "deptCode": "047289",
+        "deptName": "数据通信产品线",
+        "jobPlace": "China\\Beijing-Beijing,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Jiangsu-Suzhou",
+        "jobPlaceName": "北京/南京/上海/苏州"
+      },
+      {
+        "deptCode": "044897",
+        "deptName": "服务与软件研发管理部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shanghai-Shanghai,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Hunan-Changsha,China\\Shandong-Jinan,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+      },
+      {
+        "deptCode": "078998",
+        "deptName": "计算研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou",
+        "jobPlaceName": "上海/杭州"
+      },
+      {
+        "deptCode": "031562",
+        "deptName": "云核心网产品线",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Shanghai-Shanghai",
+        "jobPlaceName": "东莞/西安/北京/上海"
+      },
+      {
+        "deptCode": "078990",
+        "deptName": "无线网络研发部",
+        "jobPlace": "China\\Shanghai-Shanghai",
+        "jobPlaceName": "上海"
+      },
+      {
+        "deptCode": "077932",
+        "deptName": "云软件研发部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Sichuan-Chengdu,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/北京/杭州/成都/南京"
+      },
+      {
+        "deptCode": "047288",
+        "deptName": "光产品线",
+        "jobPlace": "China\\Sichuan-Chengdu,China\\Guangdong-Dongguan",
+        "jobPlaceName": "成都/东莞"
+      },
+      {
+        "deptCode": "044679",
+        "deptName": "公共开发部",
+        "jobPlace": "China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing,China\\Shanghai-Shanghai,China\\Zhejiang-Hangzhou,China\\Hubei-Wuhan,China\\Beijing-Beijing,China\\Guangdong-Shenzhen,China\\Sichuan-Chengdu",
+        "jobPlaceName": "东莞/西安/南京/上海/杭州/武汉/北京/深圳/成都"
+      },
+      {
+        "deptCode": "047076",
+        "deptName": "终端BG软件部",
+        "jobPlace": "China\\Beijing-Beijing,China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Zhejiang-Hangzhou,China\\Jiangsu-Nanjing,China\\Hubei-Wuhan,China\\Shaanxi-Xi'an,China\\Sichuan-Chengdu",
+        "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+      },
+      {
+        "deptCode": "040459",
+        "deptName": "终端BG硬件工程与产品开发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Hubei-Wuhan",
+        "jobPlaceName": "上海/东莞/武汉"
+      },
+      {
+        "deptCode": "040465",
+        "deptName": "终端云服务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "051346",
+        "deptName": "终端云服务小艺业务部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Dongguan,China\\Jiangsu-Nanjing,China\\Beijing-Beijing,China\\Zhejiang-Hangzhou,China\\Guangdong-Shenzhen",
+        "jobPlaceName": "上海/东莞/南京/北京/杭州/深圳"
+      },
+      {
+        "deptCode": "022346",
+        "deptName": "数字能源研发管理部",
+        "jobPlace": "China\\Shanghai-Shanghai,China\\Guangdong-Shenzhen,China\\Guangdong-Dongguan,China\\Shaanxi-Xi'an,China\\Jiangsu-Nanjing",
+        "jobPlaceName": "上海/深圳/东莞/西安/南京"
+      }
+    ],
+    "minimumDegree": null,
+    "experienceRequirement": null,
+    "graduationRulesReference": "campaign-evidence.json#/qualification/campus/descList",
+    "writtenTest": "yes",
+    "writtenTestScope": "current campus fresh-graduate R&D category; official FAQ requires machine exam",
+    "officialDeadline": null,
+    "deadlineTimezone": null,
+    "status": "open",
+    "statusBasis": "present in successful current in-recruitment list, detail and direction available; actual submission untested",
+    "officialDetailUrl": "https://career.huawei.com/cn/job-details?advertisementId=36397",
+    "applyEntryUrl": "https://career.huawei.com/cn/job-details?advertisementId=36397",
+    "applyEntryLevel": "job-detail",
+    "applicationRequiresLogin": true,
+    "applicationVerification": "official page code directs anonymous users to Uniportal; no apply action performed",
+    "verifiedAt": "2026-10-13T17:30:18.319Z",
+    "contentSha256": "454e6bc47336b2aa6462a3b2e914cbd0161e51704f29fbdad4a4505308ef51f7"
+  }
+]

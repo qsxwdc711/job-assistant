@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-10-13T17:26:08.797Z",
+  "finishedAt": "2026-10-13T17:26:10.271Z",
+  "elapsedMs": 1472,
+  "requestUrl": "https://career.huawei.com/-/media/hcomponent-career-campusJob-details/1.0.1.20260814183607/pc/index.js",
+  "finalUrl": "https://career.huawei.com/-/media/hcomponent-career-campusJob-details/1.0.1.20260814183607/pc/index.js",
+  "status": 200,
+  "contentType": "text/javascript",
+  "bytes": 627328,
+  "sha256": "acd29937e1b6f4e669c7cb88a4e1b09dda4c32dd842c2ee1c53499c3b665d292",
+  "responseDate": "Tue, 13 Oct 2026 17:26:09 GMT",
+  "cacheAge": "136269"
+}

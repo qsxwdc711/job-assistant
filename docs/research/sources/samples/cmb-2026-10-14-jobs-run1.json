@@ -1,0 +1,276 @@
+{
+  "validationDate": "2026-10-14",
+  "access": "public, no credentials, no cookies",
+  "observations": [
+    {
+      "label": "school-jobs-run1",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getList",
+      "method": "POST (read-only list query)",
+      "requestBody": {
+        "pageIndex": 1,
+        "locationIdList": [],
+        "recruitmentTypeId": "96574F8D-C7ED-4772-AE7C-BAC896D190C1",
+        "keywords": "",
+        "pageSize": 10,
+        "orgIdList": []
+      },
+      "httpStatus": 200,
+      "elapsedMs": 475.0,
+      "rawResponseSHA256": "e08dacb36f86e1953683fd49ca80f723de445036340fe6b6c373939a83b92d5f",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "total": 0,
+          "data": []
+        }
+      }
+    },
+    {
+      "label": "intern-jobs-run1",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getList",
+      "method": "POST (read-only list query)",
+      "requestBody": {
+        "pageIndex": 1,
+        "locationIdList": [],
+        "recruitmentTypeId": "DF94FD6D-26D3-4A19-9E69-577C4BA1DE82",
+        "keywords": "",
+        "pageSize": 10,
+        "orgIdList": []
+      },
+      "httpStatus": 200,
+      "elapsedMs": 420.0,
+      "rawResponseSHA256": "0ec4a14530bb0cbd53b206dba509223ad6ad6eb02de39a29944df1428faa56a2",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "total": 19,
+          "data": [
+            {
+              "publishGID": "1F5FB992-031D-45D9-B389-7471F06DE1FD",
+              "jobDisplay": "业务助理（海口）",
+              "branchCode": "109177",
+              "branchCodeName": "海口分行",
+              "location": "55528653-D725-432F-883E-0BCFAB9B7619",
+              "locationName": "海口市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "68FE40DC-49CF-45B3-AE75-B266ADE8907E",
+              "jobDisplay": "业务助理（三亚）",
+              "branchCode": "109177",
+              "branchCodeName": "海口分行",
+              "location": "D04D62C0-AFFC-408F-A0CF-67328D37BFF5",
+              "locationName": "三亚市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "CE9E1B6E-A878-45BD-8E95-8CFF7D5EC2E8",
+              "jobDisplay": "大堂助理（海口）",
+              "branchCode": "109177",
+              "branchCodeName": "海口分行",
+              "location": "55528653-D725-432F-883E-0BCFAB9B7619",
+              "locationName": "海口市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "F32CC738-85E5-4B15-9BB9-910441A1AD9A",
+              "jobDisplay": "大堂助理（三亚）",
+              "branchCode": "109177",
+              "branchCodeName": "海口分行",
+              "location": "D04D62C0-AFFC-408F-A0CF-67328D37BFF5",
+              "locationName": "三亚市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "ECFCAB5C-6CFA-4E9A-BAE9-64D31F135896",
+              "jobDisplay": "业务助理（青岛分行）",
+              "branchCode": "103766",
+              "branchCodeName": "青岛分行",
+              "location": "A444E8B0-7362-49F2-8051-29EFEDEEF91C",
+              "locationName": "青岛市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "131059E1-BBCC-4530-A573-7F91B26EB45F",
+              "jobDisplay": "招商银行研究院实习生（宏观经济研究方向）",
+              "branchCode": "122150",
+              "branchCodeName": "招商银行研究院",
+              "location": "76C3A9A8-EE7A-4A82-BBAA-B774E6DBC460",
+              "locationName": "深圳市",
+              "expiredOn": "2027-02-28"
+            },
+            {
+              "publishGID": "6FB5AEBE-38D6-4EF5-9E26-EB0B923A284E",
+              "jobDisplay": "招商银行研究院实习生（区域研究方向）",
+              "branchCode": "122150",
+              "branchCodeName": "招商银行研究院",
+              "location": "76C3A9A8-EE7A-4A82-BBAA-B774E6DBC460",
+              "locationName": "深圳市",
+              "expiredOn": "2027-02-28"
+            },
+            {
+              "publishGID": "8622D23D-4092-42B8-AB0F-E9EF1AD78F53",
+              "jobDisplay": "招商银行研究院实习生（资本市场研究方向）",
+              "branchCode": "122150",
+              "branchCodeName": "招商银行研究院",
+              "location": "76C3A9A8-EE7A-4A82-BBAA-B774E6DBC460",
+              "locationName": "深圳市",
+              "expiredOn": "2027-02-28"
+            },
+            {
+              "publishGID": "CA6D83B6-BF22-44C9-9228-114F7C41D7B2",
+              "jobDisplay": "招商银行研究院实习生（行业研究方向）",
+              "branchCode": "122150",
+              "branchCodeName": "招商银行研究院",
+              "location": "76C3A9A8-EE7A-4A82-BBAA-B774E6DBC460",
+              "locationName": "深圳市",
+              "expiredOn": "2027-02-28"
+            },
+            {
+              "publishGID": "E83707BF-2C3D-4720-AD2E-8B37C320EA18",
+              "jobDisplay": "招商银行研究院实习生（战略规划研究方向）",
+              "branchCode": "122150",
+              "branchCodeName": "招商银行研究院",
+              "location": "76C3A9A8-EE7A-4A82-BBAA-B774E6DBC460",
+              "locationName": "深圳市",
+              "expiredOn": "2027-02-28"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "social-software-run1",
+      "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/job/getList",
+      "method": "POST (read-only list query)",
+      "requestBody": {
+        "pageIndex": 1,
+        "locationIdList": [],
+        "keywords": "软件",
+        "pageSize": 10,
+        "jobTypeIdList": [],
+        "orgIdList": []
+      },
+      "httpStatus": 200,
+      "elapsedMs": 404.0,
+      "rawResponseSHA256": "e08dacb36f86e1953683fd49ca80f723de445036340fe6b6c373939a83b92d5f",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "total": 0,
+          "data": []
+        }
+      }
+    },
+    {
+      "label": "intern-jobs-page2-run1",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getList",
+      "method": "POST (read-only list query)",
+      "requestBody": {
+        "orgIdList": [],
+        "pageIndex": 2,
+        "locationIdList": [],
+        "recruitmentTypeId": "DF94FD6D-26D3-4A19-9E69-577C4BA1DE82",
+        "pageSize": 10,
+        "keywords": ""
+      },
+      "httpStatus": 200,
+      "elapsedMs": 433.0,
+      "rawResponseSHA256": "d30bd75236b024ddb39ffc83cd1569e4fd90cd0b824549782a20002552b43be0",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "total": 19,
+          "data": [
+            {
+              "publishGID": "6E6D8520-ACC5-4664-B6FE-5D3221ACC0E7",
+              "jobDisplay": "市场营销助理",
+              "branchCode": "103456",
+              "branchCodeName": "呼和浩特分行",
+              "location": "39D63FCA-BED9-439C-B576-9AA647ABA900,98488277-7D63-42EF-A4A2-0DBE3DA62BA3,63F025E5-7D68-4674-BCC1-B9BFD31DB5B6,2857DD34-2963-41A3-A8CB-57E325D808BA",
+              "locationName": "呼和浩特市、包头市、鄂尔多斯市、呼伦贝尔市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "0AD7A626-DB9F-43EA-A00B-444F711AF661",
+              "jobDisplay": "运营柜面实习生（江门分行）",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "84132690-DF2B-40FA-A516-187A1EF44ED1",
+              "locationName": "江门市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "0CF9AC67-2AB5-461F-8EBF-DA27EE9F6973",
+              "jobDisplay": "市场营销实习生（江门分行）",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "84132690-DF2B-40FA-A516-187A1EF44ED1",
+              "locationName": "江门市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "44EA4FB9-3B77-42E1-B609-DE8947916E95",
+              "jobDisplay": "运营柜面实习生（中山分行）",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "E802EB14-134F-4121-88F4-E6C94082689D",
+              "locationName": "中山市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "472A1A4B-570A-4FCF-BE17-DDC1B415EF00",
+              "jobDisplay": "市场营销实习生（中山分行）",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "E802EB14-134F-4121-88F4-E6C94082689D",
+              "locationName": "中山市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "554CB06F-76C3-464A-A2F8-88FF2901EDAF",
+              "jobDisplay": "业务条线数据分析实习生",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "37D85601-E006-4989-B532-7BB4A7AB9C5C",
+              "locationName": "佛山市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "6CA06FAB-C24A-4E13-A568-5D47515065D8",
+              "jobDisplay": "数字金融实习生",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "37D85601-E006-4989-B532-7BB4A7AB9C5C",
+              "locationName": "佛山市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "92974557-880A-4AAC-AD5D-B562E067BCDA",
+              "jobDisplay": "运营柜面实习生（佛山分行）",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "37D85601-E006-4989-B532-7BB4A7AB9C5C",
+              "locationName": "佛山市",
+              "expiredOn": "2026-12-31"
+            },
+            {
+              "publishGID": "F0D68E0B-D2F5-4EF7-B96C-B63B84D5637A",
+              "jobDisplay": "市场营销实习生（佛山分行）",
+              "branchCode": "105990",
+              "branchCodeName": "佛山分行",
+              "location": "37D85601-E006-4989-B532-7BB4A7AB9C5C",
+              "locationName": "佛山市",
+              "expiredOn": "2026-12-31"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "evidenceWrittenAtUTC": "2026-10-13T17:30:26.1834608Z"
+}

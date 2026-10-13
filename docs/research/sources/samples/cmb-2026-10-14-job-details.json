@@ -1,0 +1,99 @@
+{
+  "validationDate": "2026-10-14",
+  "access": "public, no credentials, no cookies",
+  "observations": [
+    {
+      "label": "job-data-intern",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getDetail?publishId=554CB06F-76C3-464A-A2F8-88FF2901EDAF",
+      "method": "GET",
+      "httpStatus": 200,
+      "elapsedMs": 484.0,
+      "rawResponseSHA256": "0e97ef9d23b8957f6d64e2bdc78b56d58412363c7e5adbe4f5e715c33bbff80e",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "publishGID": "554CB06F-76C3-464A-A2F8-88FF2901EDAF",
+          "recruitmentTypeID": "DF94FD6D-26D3-4A19-9E69-577C4BA1DE82",
+          "jobCode": "202624",
+          "jobDisplay": "业务条线数据分析实习生",
+          "jobResponsibility": "1.在银行业务条线深度参与业务数据统计分析领域的项目制实习，了解银行各类业务运营逻辑、数据管理及分析工作流程；\r\n2.协助数据分析相关项目工作，协助分行其他业务类项目等相关工作。",
+          "jobRequirement": "1.境内外普通高等院校本科及以上学历在校学生（2027届优先）；\r\n2.软件工程类、计算机类、通信工程类、信息技术类等STEM类（科学、技术、工程、数学）相关专业；\r\n3.具有较强的责任心、学习能力和良好的团队协作精神，能承受较大的工作压力，具有良好的书面及口头表达能力；\r\n4.诚实守信，性格开朗，无不良行为记录；\r\n5.符合我行近亲属回避制度有关规定；\r\n6.实习时间不少于一个月，每周出勤5天，满足出勤要求可获得实习证明。",
+          "branchCode": "105990",
+          "branchCodeName": "佛山分行",
+          "locationName": "佛山市",
+          "expiredOn": "2026-12-31",
+          "showJobAdjust": true
+        }
+      },
+      "contentTransform": "HTML tags removed in jobResponsibility and jobRequirement; text retained"
+    },
+    {
+      "label": "job-digital-intern",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getDetail?publishId=6CA06FAB-C24A-4E13-A568-5D47515065D8",
+      "method": "GET",
+      "httpStatus": 200,
+      "elapsedMs": 407.0,
+      "rawResponseSHA256": "4dcbe63da99e6722b478e82d37294bf1f65689eea05051558e15dad5fe22578d",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "publishGID": "6CA06FAB-C24A-4E13-A568-5D47515065D8",
+          "recruitmentTypeID": "DF94FD6D-26D3-4A19-9E69-577C4BA1DE82",
+          "jobCode": "202623",
+          "jobDisplay": "数字金融实习生",
+          "jobResponsibility": "1. 在信息技术部深度参与银行科技金融项目实习，全面了解银行数字金融业务及工作流程；\r\n2. 协助设计和构建数字金融展厅相关素材，为分行展示提供创意支持，提升客户体验和品牌形象；\r\n3. 参与应用开发，协助设计和构建面向银行外部客户及行内员工的应用系统，推动数字化产品的个性化定制与开发，提升系统的使用体验与业务价值；\r\n4. 协助运用大数据分析平台，构建数据分析模型，分析并输出相关数据结果，推动数据驱动的流程优化与创新；\r\n5. 利用大模型技术，提供智能化支持和优化方案，提升内部流程的执行效率和成果，提升工作效能。",
+          "jobRequirement": "1.境内外普通高等院校本科及以上学历在校学生（2027届优先）；\r\n2.软件工程类、计算机类、通信工程类、信息技术类等STEM类（科学、技术、工程、数学）相关专业；\r\n3.具有较强的责任心、学习能力和良好的团队协作精神，能承受较大的工作压力，具有良好的书面及口头表达能力；\r\n4.诚实守信，性格开朗，无不良行为记录；\r\n5.符合我行近亲属回避制度有关规定；\r\n6.实习时间不少于一个月，每周出勤5天，满足出勤要求可获得实习证明。",
+          "branchCode": "105990",
+          "branchCodeName": "佛山分行",
+          "locationName": "佛山市",
+          "expiredOn": "2026-12-31",
+          "showJobAdjust": true
+        }
+      },
+      "contentTransform": "HTML tags removed in jobResponsibility and jobRequirement; text retained"
+    },
+    {
+      "label": "job-multicity-nontech",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getDetail?publishId=6E6D8520-ACC5-4664-B6FE-5D3221ACC0E7",
+      "method": "GET",
+      "httpStatus": 200,
+      "elapsedMs": 424.0,
+      "rawResponseSHA256": "e5de4ed3675f28b8a1a2838aa89f29a43410a7e3db40bb4d77923d6907e34c49",
+      "response": {
+        "returnCode": "SUC0000",
+        "errorMsg": null,
+        "body": {
+          "publishGID": "6E6D8520-ACC5-4664-B6FE-5D3221ACC0E7",
+          "recruitmentTypeID": "DF94FD6D-26D3-4A19-9E69-577C4BA1DE82",
+          "jobCode": "20260804",
+          "jobDisplay": "市场营销助理",
+          "jobResponsibility": "1.深度参与公司与零售业务的日常工作，了解银行各项业务工作流程；\r\n2.协助完成客户维护工作，开展各项营销活动；\r\n3.学习各类银行业务和基础知识，包括产品营销、客户服务、市场拓展等。",
+          "jobRequirement": "1.境内外普通高等院校本科及以上学历在校学生；\r\n2.专业不限；\r\n3.诚实守信，性格开朗，无不良行为记录；\r\n4.具有较强的责任心、学习能力和良好的团队协作精神，能承受较大的工作压力，具有良好的书面及口头表达能力；\r\n5.累计实习时间不少于一个月。",
+          "branchCode": "103456",
+          "branchCodeName": "呼和浩特分行",
+          "locationName": "呼和浩特市、包头市、鄂尔多斯市、呼伦贝尔市",
+          "expiredOn": "2026-12-31",
+          "showJobAdjust": false
+        }
+      },
+      "contentTransform": "HTML tags removed in jobResponsibility and jobRequirement; text retained"
+    },
+    {
+      "label": "job-school-old",
+      "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getDetail?publishId=B5D72E8D-C2D7-48EA-AC1A-217C96A0BA8F",
+      "method": "GET",
+      "httpStatus": 200,
+      "elapsedMs": 333.0,
+      "rawResponseSHA256": "0b9e519aa0d27e87a9bd5a9374008195aeeb039740381777688466de393e8974",
+      "response": {
+        "returnCode": "EZPREC0001",
+        "errorMsg": "该职位已过期, 请刷新后重试",
+        "body": null
+      },
+      "contentTransform": "HTML tags removed in jobResponsibility and jobRequirement; text retained"
+    }
+  ],
+  "evidenceWrittenAtUTC": "2026-10-13T17:30:57.3647539Z"
+}
