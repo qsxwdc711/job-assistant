@@ -4,9 +4,9 @@
 
 ## 当前进度
 
-2026-10-14：S0 来源验证和 S1 后端工程与权限已完成。Go API、PostgreSQL 迁移、首个管理员初始化、登录会话和三级权限已运行验证。真实数据库权限测试、静态检查、Windows 构建和 Linux 交叉构建通过。
+2026-10-14：S0 来源验证和 S1 后端工程与权限已完成。Go API、PostgreSQL 迁移、首个管理员初始化、登录会话和三级权限已运行验证。真实数据库权限测试、静态检查、Windows 构建、完整 Docker 镜像构建和容器运行通过；Linux 下使用真实 PostgreSQL 的 `go test -race` 也已补验通过。
 
-当前尚未实现网页看板、生产采集器、简历解析、模型调用或飞书发送；Go 容器镜像构建和 race 检查存在环境验证缺口，详见验收记录。
+当前尚未实现网页看板、生产采集器、简历解析、模型调用或飞书发送。原有容器构建和 race 环境缺口已关闭，详见补验记录。
 
 ## 文档入口
 
@@ -14,7 +14,9 @@
 - [分阶段实施计划](docs/superpowers/plans/2026-10-14-job-assistant-implementation.md)：开发依赖、任务拆分、验证命令和阶段验收。
 - [招聘来源验证清单](docs/research/2026-10-14-source-validation.md)：首批 20 家目标、验证方法与接入完成标准。
 - [后端启动与接口说明](backend/README.md)：本机启动、配置、账号管理、会话与真实数据库测试。
-- [S1 验收记录](docs/verification/2026-10-14-s1-identity.md)：实际检查、代码审查和待补验证项。
+- [S1 验收记录](docs/verification/2026-10-14-s1-identity.md)：实际检查、代码审查和能力边界。
+- [S1 容器与 Linux race 补验](docs/verification/2026-10-14-s1-supplement.md)：完整验收、复现方式与原故障处理。
+- [Docker 数据盘迁移记录](docs/operations/2026-10-14-docker-storage-migration.md)：D 盘工作位置、保留备份和回退依据。
 
 ## 已实现的账号与权限
 
@@ -64,7 +66,7 @@
 | Node.js | 20.18.0 | 使用独立 Node 22 环境，最低 22.18.0 |
 | npm | 10.8.2 | 前端统一使用 pnpm 锁文件 |
 | pnpm | 11.25.0 | 已检查 CLI，尚未验证依赖安装 |
-| Docker CLI / Engine | 27.3.1 | Compose 2.30.3 配置验证、PostgreSQL 18.6 容器运行通过 |
+| Docker CLI / Engine | 27.3.1 | Compose 2.30.3；完整镜像构建、API/数据库容器运行与 Linux race 通过，Docker 数据盘已迁至 D 盘 |
 | Git | 2.47.1.windows.1 | 已安装 |
 | PostgreSQL | 容器 18.6 | 真正数据库集成测试通过；psql 使用容器内版本 |
 

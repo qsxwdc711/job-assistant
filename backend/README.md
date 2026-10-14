@@ -47,7 +47,7 @@ docker compose --env-file .env.compose -f deploy/compose.yaml --profile tools ru
 docker compose --env-file .env.compose -f deploy/compose.yaml up -d api
 ```
 
-Dockerfile 固定 Go 1.26.8，使用非 root 的静态程序运行镜像。2026-10-14 已验证 Compose 配置解析和 PostgreSQL 容器；Go 构建镜像下载未通过完整性校验，因此完整镜像构建尚未验证。本机 Go 构建、Linux 交叉构建和真实 API 启动均已通过。HTTPS、网页同源代理和云端部署属于 S5。
+Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使用非 root 的静态程序运行镜像。2026-10-14 已补验完整构建、PostgreSQL 与 API 容器运行、初始化、登录和退出，以及正常关闭。HTTPS、网页同源代理和云端部署属于 S5。
 
 生产环境默认 `APP_ENV=production`，必须填写 HTTPS 的 `APP_ORIGIN`，Cookie 自动启用 Secure；本地 HTTP 运行必须显式使用 development。
 
@@ -106,6 +106,22 @@ docker stop job-assistant-dev-test
 
 确认 `pg_isready` 返回 accepting connections 后再测试。此测试容器使用临时文件系统，停止后删除；本机开发的持久数据库不受影响。运行本机开发服务时重新加载 `.env` 中的密码配置。
 
-支持 C 编译器的环境另运行 `go -C backend test -race ./... -count=1`。本轮 Windows race 检查遇到 C 编译器 / DLL 错误，未取得通过结果，应在兼容的开发或 CI 环境补验。
+支持 C 编译器的环境另运行 `go -C backend test -race ./... -count=1`。Windows 本机检查遇到 C 编译器 / DLL 错误；已在 Linux amd64、Go 1.26.8 和 GCC 12.2.0 的容器中使用真实 PostgreSQL 补验通过。
 
-本轮实际检查和审查结果见 [S1 验收记录](../docs/verification/2026-10-14-s1-identity.md)。
+在仓库根目录使用 **PowerShell 7** 可重跑容器验收和 Linux race：
+
+```powershell
+./scripts/verify-s1.ps1
+```
+
+脚本每次生成独立项目名和随机密码，数据库使用 tmpfs 且不暴露主机端口，API 只绑定 `127.0.0.1:18080`。检查迁移、重复管理员初始化拒绝、就绪、匿名 401、管理员登录、权限查询、CSRF 退出、真实数据库 race 和正常关闭。成功或失败后均清理本次临时容器和网络；日志与临时配置写入 Git 忽略的 `.cache/verification/`。
+
+若官方下载在本机需要已配置的系统 HTTP 代理，可以使用：
+
+```powershell
+./scripts/verify-s1.ps1 -UseSystemProxy -GoProxy 'https://goproxy.cn,direct'
+```
+
+`-UseSystemProxy` 只为镜像构建客户端临时设置进程代理，构建后恢复；本机 HTTP 验收使用 IPv4 直连。默认仍为 Go 官方模块代理；示例模块代理只是本次网络环境选项，保留 `go.sum` 校验。`-HttpPort` 可修改测试端口，`-NoCache` 可在构建缓存异常时仅为本项目重建。`verify` 阶段带 Go、GCC 和测试源码；最终运行阶段只包含程序与根证书。
+
+本轮实际检查和审查结果见 [S1 验收记录](../docs/verification/2026-10-14-s1-identity.md)及[容器与 Linux race 补验](../docs/verification/2026-10-14-s1-supplement.md)。

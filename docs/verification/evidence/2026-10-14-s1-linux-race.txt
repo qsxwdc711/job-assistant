@@ -1,0 +1,60 @@
+2026-10-14; job-assistant-verify-65e5809a; real PostgreSQL jobassistant_test
+go test -race -v ./... -count=1 -timeout=180s
+
+?   	jobassistant/backend/cmd/admin	[no test files]
+?   	jobassistant/backend/cmd/api	[no test files]
+=== RUN   TestLoadAPI
+--- PASS: TestLoadAPI (0.00s)
+PASS
+ok  	jobassistant/backend/internal/config	1.010s
+?   	jobassistant/backend/internal/database	[no test files]
+?   	jobassistant/backend/internal/httpapi	[no test files]
+=== RUN   TestPolicy
+=== RUN   TestPolicy/ordinary_cannot_upload
+=== RUN   TestPolicy/ordinary_cannot_recommend
+=== RUN   TestPolicy/vip_long_term
+=== RUN   TestPolicy/vip_future
+=== RUN   TestPolicy/vip_at_exact_expiry
+=== RUN   TestPolicy/expired_can_delete_own_data
+=== RUN   TestPolicy/vip_cannot_read_other_resume
+=== RUN   TestPolicy/ordinary_cannot_delete_other_resume
+=== RUN   TestPolicy/administrator_cross_owner
+=== RUN   TestPolicy/disabled_administrator
+=== RUN   TestPolicy/unknown_action_fails_closed
+=== RUN   TestPolicy/unknown_role_fails_closed
+--- PASS: TestPolicy (0.00s)
+    --- PASS: TestPolicy/ordinary_cannot_upload (0.00s)
+    --- PASS: TestPolicy/ordinary_cannot_recommend (0.00s)
+    --- PASS: TestPolicy/vip_long_term (0.00s)
+    --- PASS: TestPolicy/vip_future (0.00s)
+    --- PASS: TestPolicy/vip_at_exact_expiry (0.00s)
+    --- PASS: TestPolicy/expired_can_delete_own_data (0.00s)
+    --- PASS: TestPolicy/vip_cannot_read_other_resume (0.00s)
+    --- PASS: TestPolicy/ordinary_cannot_delete_other_resume (0.00s)
+    --- PASS: TestPolicy/administrator_cross_owner (0.00s)
+    --- PASS: TestPolicy/disabled_administrator (0.00s)
+    --- PASS: TestPolicy/unknown_action_fails_closed (0.00s)
+    --- PASS: TestPolicy/unknown_role_fails_closed (0.00s)
+PASS
+ok  	jobassistant/backend/internal/identity	1.008s
+?   	jobassistant/backend/migrations	[no test files]
+=== RUN   TestIdentityMigrationAndBootstrapRace
+--- PASS: TestIdentityMigrationAndBootstrapRace (0.09s)
+=== RUN   TestIdentityCurrentRoleExpiryAndDisabledSessions
+--- PASS: TestIdentityCurrentRoleExpiryAndDisabledSessions (0.13s)
+=== RUN   TestIdentitySessionOwnershipAndExpiry
+--- PASS: TestIdentitySessionOwnershipAndExpiry (0.11s)
+=== RUN   TestIdentityLastAdministratorAndStaleActor
+--- PASS: TestIdentityLastAdministratorAndStaleActor (0.09s)
+=== RUN   TestIdentityConcurrentLastAdministrator
+--- PASS: TestIdentityConcurrentLastAdministrator (0.09s)
+=== RUN   TestIdentityAuditFailureRollsBack
+--- PASS: TestIdentityAuditFailureRollsBack (0.11s)
+=== RUN   TestIdentityUsernameAndCredentialFailures
+--- PASS: TestIdentityUsernameAndCredentialFailures (0.12s)
+=== RUN   TestIdentityHTTPFlow
+--- PASS: TestIdentityHTTPFlow (0.18s)
+=== RUN   TestIdentityHTTPInputAndSecureCookie
+--- PASS: TestIdentityHTTPInputAndSecureCookie (0.60s)
+PASS
+ok  	jobassistant/backend/tests/integration	2.537s
