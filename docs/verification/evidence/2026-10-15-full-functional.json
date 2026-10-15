@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "commit": "9ab78bd4d7a23ae907c90e5d0ae082926cad554f",
+  "branch": "codex/s2-jobs",
+  "functional_evidence_directory": ".cache/verification/job-assistant-full-verify-de62e27e",
+  "baseline_evidence_directory": ".cache/verification/job-assistant-s2-verify-60254d66",
+  "live_source_evidence_directory": ".cache/verification/job-assistant-live-verify-d2e230a3",
+  "frontend": {
+    "node": "22.23.3",
+    "pnpm": "11.25.0",
+    "frozen_install": "passed",
+    "type_check": "passed",
+    "production_build": "passed"
+  },
+  "backend": {
+    "go": "1.26.8",
+    "os": "linux",
+    "database": "PostgreSQL 18.6",
+    "race": "passed",
+    "vet": "passed",
+    "gofmt": "passed",
+    "top_level_passed": 32,
+    "including_subtests_passed": 44,
+    "skipped": 0
+  },
+  "baseline_browser": {
+    "passed": 2,
+    "failed": 0
+  },
+  "extended_browser": {
+    "started_at_utc": "2026-10-15T08:08:38.38Z",
+    "passed": 11,
+    "failed": 2,
+    "skipped": 0,
+    "flaky": 0,
+    "synthetic_jobs": 106,
+    "cases": [
+      {
+        "title": "health, anonymous access, CSRF, origin, pagination and strict JSON boundaries",
+        "status": "passed",
+        "duration_ms": 180
+      },
+      {
+        "title": "every job filter, coherent variant matching, sorting and full pagination",
+        "status": "passed",
+        "duration_ms": 218
+      },
+      {
+        "title": "desktop filters survive reload, detail tabs and official links, missing detail and network recovery",
+        "status": "passed",
+        "duration_ms": 2165
+      },
+      {
+        "title": "favorites add/remove idempotency, owner isolation and browser persistence",
+        "status": "passed",
+        "duration_ms": 865
+      },
+      {
+        "title": "all application states, notes, action time, history, stale deletion and UI deletion",
+        "status": "passed",
+        "duration_ms": 1033
+      },
+      {
+        "title": "administrator cross-owner create, read, edit, history, favorites and delete are audited",
+        "status": "passed",
+        "duration_ms": 55
+      },
+      {
+        "title": "admin UI edits company labels, pauses sources and hides/republishes jobs without losing private records",
+        "status": "passed",
+        "duration_ms": 1700
+      },
+      {
+        "title": "admin UI creates accounts, grants/revokes VIP, validates expiry and disables/reactivates sessions",
+        "status": "passed",
+        "duration_ms": 1250
+      },
+      {
+        "title": "device session list, cross-owner revocation and revoking another device",
+        "status": "passed",
+        "duration_ms": 70
+      },
+      {
+        "title": "phone navigation, filter sheet, favorites layout and logout guard",
+        "status": "passed",
+        "duration_ms": 744
+      },
+      {
+        "title": "login validation, return URL, ordinary-user admin guard and desktop logout",
+        "status": "passed",
+        "duration_ms": 677
+      },
+      {
+        "title": "more than 100 favorites keep saved state on later pages",
+        "status": "failed",
+        "duration_ms": 6309
+      },
+      {
+        "title": "more than 100 applications keep recorded state on the job board",
+        "status": "failed",
+        "duration_ms": 7928
+      }
+    ]
+  },
+  "live_sources": [
+    {
+      "source_code": "cmb-campus",
+      "status": "succeeded",
+      "fetched": 19,
+      "published": 2,
+      "requests": 22
+    },
+    {
+      "source_code": "huawei-campus",
+      "status": "succeeded",
+      "fetched": 71,
+      "published": 22,
+      "requests": 68
+    },
+    {
+      "source_code": "tencent-campus",
+      "status": "succeeded",
+      "fetched": 105,
+      "published": 34,
+      "requests": 46
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-01",
+      "priority": "P2",
+      "area": "favorites",
+      "expected_cancel_buttons": 6,
+      "actual_cancel_buttons": 0,
+      "incorrect_click_method": "PUT",
+      "existing_favorites_retained": true
+    },
+    {
+      "id": "F-02",
+      "priority": "P2",
+      "area": "applications",
+      "expected_progress_buttons": 100,
+      "actual_progress_buttons": 94,
+      "duplicate_create_status": 409,
+      "existing_applications_retained": true
+    }
+  ],
+  "shared_cause": "web/src/features/jobs/JobsPage.vue:31 reads only the first 100 favorites and applications",
+  "feature_fix_applied": false,
+  "cleanup_verified": {
+    "baseline": true,
+    "live_sources": true,
+    "functional": true
+  },
+  "limitations": [
+    "Edge desktop and mobile-emulation contexts only",
+    "No real company applications submitted",
+    "One live collection round, not a daily stability guarantee",
+    "S3-S5 unimplemented features excluded"
+  ]
+}

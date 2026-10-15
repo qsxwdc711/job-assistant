@@ -30,6 +30,8 @@
 - [S1 验收记录](docs/verification/2026-10-14-s1-identity.md)：实际检查、代码审查和能力边界。
 - [S1 容器与 Linux race 补验](docs/verification/2026-10-14-s1-supplement.md)：完整验收、复现方式与原故障处理。
 - [S2 验收记录](docs/verification/2026-10-15-s2-jobs.md)：真实来源数量、重复采集、网页操作、隔离、容器与审查结果。
+- [全功能测试报告](docs/verification/2026-10-15-full-functional.md)：功能覆盖、106 条个人记录边界和修复前的缺陷证据。
+- [收藏与投递状态修复验收](docs/verification/2026-10-15-personal-job-state-fix.md)：两项问题的修复、当前页状态批量查询和完整回归结果。
 - [Docker 数据盘迁移记录](docs/operations/2026-10-14-docker-storage-migration.md)：D 盘工作位置、保留备份和回退依据。
 
 ## 已实现的账号与权限

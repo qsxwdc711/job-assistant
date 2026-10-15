@@ -2,7 +2,7 @@
 import { computed, reactive, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { api } from '../../shared/api/client'
-import type { Application, Choices, Job, Page, Variant } from '../../shared/api/types'
+import type { Choices, Job, JobState, Page, Variant } from '../../shared/api/types'
 import { date, time, directions, publicStatuses, recruitmentTypes, writtenTests, notify, errorText } from '../../shared/display'
 import Icon from '../../shared/Icon.vue'
 const route = useRoute(), router = useRouter()
@@ -19,22 +19,26 @@ function query() { const values = new URLSearchParams(); for (const [key, value]
 async function load() {
   const ticket = ++requestID; loading.value = true; error.value = ''
   try {
+    let next: Page<Job>
     if (isFavorites.value) {
       const offset = Number(route.query.offset ?? 0)
       const data = await api<{ items: {job: Job}[] }>('/me/favorites?limit=20&offset=' + offset)
-      if (ticket === requestID) page.value = { items: data.items.map(item => item.job), total: offset + data.items.length, limit: 20, offset }
-    } else { const data = await api<Page<Job>>('/jobs?' + query()); if (ticket === requestID) page.value = data }
+      next = { items: data.items.map(item => item.job), total: offset + data.items.length, limit: 20, offset }
+    } else { next = await api<Page<Job>>('/jobs?' + query()) }
+    if (ticket !== requestID) return
+    const ids = [...new Set(next.items.map(item => item.id))]
+    const params = new URLSearchParams()
+    for (const id of ids) params.append('job_id', id)
+    const states = ids.length ? await api<{items: JobState[]}>('/me/job-states?' + params) : { items: [] }
+    if (ticket !== requestID) return
+    page.value = next
+    favorites.value = new Set(states.items.filter(item => item.favorite).map(item => item.job_id))
+    recorded.value = new Set(states.items.filter(item => item.recorded).map(item => item.job_id))
   } catch (value) { if (ticket === requestID) error.value = errorText(value) } finally { if (ticket === requestID) loading.value = false }
-}
-async function loadPersonal() {
-  try {
-    const [saved, progress] = await Promise.all([api<{items: {job: Job}[]}>('/me/favorites?limit=100'), api<Page<Application>>('/me/applications?limit=100')])
-    favorites.value = new Set(saved.items.map(item => item.job.id)); recorded.value = new Set(progress.items.map(item => item.job_id))
-  } catch (value) { notify(errorText(value), 'error') }
 }
 watch(() => route.fullPath, () => {
   for (const key of Object.keys(fields)) fields[key] = String(route.query[key] ?? (key === 'include_unknown' ? 'true' : key === 'sort' ? 'updated' : ''))
-  void load(); void loadPersonal()
+  void load()
 }, { immediate: true })
 void api<Choices>('/jobs/filters').then(value => { choices.value = value }).catch(value => { error.value = errorText(value) })
 function apply() { const next: Record<string, string> = { view: view.value }; for (const [key, value] of Object.entries(fields)) if (value) next[key] = value; void router.push({ path: '/jobs', query: next }); filterOpen.value = false }

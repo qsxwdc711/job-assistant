@@ -20,6 +20,7 @@ export interface Job {
 export interface Company { code: string; name: string; industry: string; nature: string; tiers: string[]; basis: string }
 export interface Choices { dictionary: {kind: string; code: string; name: string}[]; cities: Place[]; companies: Company[] }
 export interface Page<T> { items: T[]; total: number; limit: number; offset: number }
+export interface JobState { job_id: string; favorite: boolean; recorded: boolean }
 export interface Application {
   id: string; owner_user_id: string; owner_username: string; job_id: string; status: string; notes: string
   next_action: string; next_action_at: string | null; version: number; created_at: string; updated_at: string; job: Job

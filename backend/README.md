@@ -71,6 +71,7 @@ Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使�
 | GET /api/v1/admin/audit-events | 分页审计记录 | 管理员 |
 | GET /api/v1/jobs、/jobs/{id}、/jobs/filters | 组合筛选、方向详情、筛选字典 | 已登录 |
 | GET /api/v1/me/favorites | 本人收藏分页 | 已登录 |
+| GET /api/v1/me/job-states | 当前页岗位的本人收藏、投递状态；重复 job_id 参数，1–100 个 UUID | 已登录，仅本人 |
 | PUT、DELETE /api/v1/me/favorites/{jobID} | 收藏或取消 | 已登录及 CSRF |
 | GET、POST /api/v1/me/applications | 本人投递列表、创建 | 已登录；写入须 CSRF |
 | GET、PATCH、DELETE /api/v1/me/applications/{id} | 本人投递读取、修改、删除 | 归属授权；写入须 CSRF |

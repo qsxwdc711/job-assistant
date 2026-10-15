@@ -29,6 +29,7 @@ func (h *Handler) recruitmentRoutes() {
 	h.mux.HandleFunc("GET /api/v1/jobs", h.protect(h.jobs, false))
 	h.mux.HandleFunc("GET /api/v1/jobs/filters", h.protect(h.jobFilters, false))
 	h.mux.HandleFunc("GET /api/v1/jobs/{id}", h.protect(h.jobDetail, false))
+	h.mux.HandleFunc("GET /api/v1/me/job-states", h.protect(h.jobStates, false))
 	for _, prefix := range []string{"/api/v1/me", "/api/v1/admin"} {
 		h.mux.HandleFunc("GET "+prefix+"/favorites", h.protect(h.favorites, false))
 		h.mux.HandleFunc("PUT "+prefix+"/favorites/{id}", h.protect(h.favorite, true))

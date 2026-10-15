@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "9ab78bd4d7a23ae907c90e5d0ae082926cad554f",
+  "feature_fix_applied": true,
+  "source_sha256": {
+    "backend/internal/application/job_states.go": "663f4bd087aaf35a71ce0e7c649bd5f33bf58ad5d3b2fd200539d0b294458a64",
+    "backend/internal/httpapi/job_states.go": "a416e9516623a6a901aed81f7a03b564c366cdc2cc52544d817c64f9a28eb989",
+    "backend/internal/httpapi/recruitment.go": "594c8476e68fc20fc5f68a1e2b4cfa2202deb295beaa5588e85c987c669b0df5",
+    "backend/tests/integration/job_states_test.go": "9089f6a13e3de248148ab37d2d33d4d654654f48bf1edbafaacf478d16b604db",
+    "web/src/features/jobs/JobsPage.vue": "5dd944e1c97f20f6cb49561a4bb7dfb10ff1ea5875c4b2f8c51f0f87c187e19a",
+    "web/src/shared/api/types.ts": "79cd4caf447b2c7d0fc5e99e9f967053cf67fbe5536e25c2e43745d102d728cc",
+    "web/tests/functional/all-features.spec.ts": "6bd68b84d02bf9243c7db3bf07e747adb5dae286ef914ecd7ac12bddf6971999"
+  },
+  "resolved_findings": [
+    "F-01",
+    "F-02"
+  ],
+  "functional_evidence_directory": ".cache/verification/job-assistant-full-verify-298e6857",
+  "baseline_evidence_directory": ".cache/verification/job-assistant-s2-verify-ab8c94b3",
+  "enhanced_browser": {
+    "flaky": 0,
+    "skipped": 0,
+    "failed": 0,
+    "synthetic_jobs": 106,
+    "passed": 14
+  },
+  "baseline_browser": {
+    "failed": 0,
+    "passed": 2
+  },
+  "backend": {
+    "including_subtests_passed": 46,
+    "os": "linux",
+    "vet": "passed",
+    "gofmt": "passed",
+    "race": "passed",
+    "skipped": 0,
+    "go": "1.26.8",
+    "top_level_passed": 34,
+    "database": "PostgreSQL 18.6"
+  },
+  "frontend": {
+    "type_check": "passed",
+    "pnpm": "11.25.0",
+    "node": "22.23.3",
+    "build": "passed"
+  },
+  "regressions_verified": [
+    "106 favorites: sixth page has 6 cancel buttons and first click deletes",
+    "106 applications: 100 progress buttons and no duplicate POST on navigation",
+    "Only current-page IDs are requested; no full personal-list fetch",
+    "State failure hides unverified cards and can retry",
+    "Delayed old state cannot replace a newer search"
+  ],
+  "local_application": {
+    "ready": "ready",
+    "login": "passed",
+    "served_updated_frontend": true,
+    "published_jobs": 58,
+    "state_count": 20,
+    "before_counts": "1|71|0|0|0",
+    "after_counts": "1|71|0|0|0",
+    "counts_order": [
+      "users",
+      "jobs",
+      "favorites",
+      "applications",
+      "application_events"
+    ],
+    "data_preserved": true
+  },
+  "temporary_resources_removed": {
+    "enhanced": true,
+    "baseline": true
+  },
+  "review": {
+    "golangci_lint_run": false,
+    "nits": 0,
+    "should_fix": 0,
+    "must_fix": 0,
+    "skills": [
+      "go-feature-change-review",
+      "go-code-review"
+    ]
+  },
+  "live_collection_repeated": false
+}
