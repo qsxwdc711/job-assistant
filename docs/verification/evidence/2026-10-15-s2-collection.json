@@ -1,0 +1,539 @@
+{
+  "verified_on": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "scope": "three sources; computing advertisements; no personal eligibility assertion",
+  "runs": [
+    {
+      "source_code": "cmb-campus",
+      "started_at": "2026-10-15T14:55:58.018123+08:00",
+      "finished_at": "2026-10-15T14:56:11.253026+08:00",
+      "status": "succeeded",
+      "fetched_count": 19,
+      "published_count": 2,
+      "changed_count": 0,
+      "evidence_count": 22
+    },
+    {
+      "source_code": "cmb-campus",
+      "started_at": "2026-10-15T15:04:17.64555+08:00",
+      "finished_at": "2026-10-15T15:04:28.722825+08:00",
+      "status": "succeeded",
+      "fetched_count": 19,
+      "published_count": 2,
+      "changed_count": 0,
+      "evidence_count": 22
+    },
+    {
+      "source_code": "huawei-campus",
+      "started_at": "2026-10-15T14:56:11.273396+08:00",
+      "finished_at": "2026-10-15T14:59:20.906579+08:00",
+      "status": "succeeded",
+      "fetched_count": 71,
+      "published_count": 22,
+      "changed_count": 7,
+      "evidence_count": 66
+    },
+    {
+      "source_code": "huawei-campus",
+      "started_at": "2026-10-15T15:04:28.738433+08:00",
+      "finished_at": "2026-10-15T15:07:22.494437+08:00",
+      "status": "succeeded",
+      "fetched_count": 71,
+      "published_count": 22,
+      "changed_count": 0,
+      "evidence_count": 66
+    },
+    {
+      "source_code": "tencent-campus",
+      "started_at": "2026-10-15T14:59:21.389882+08:00",
+      "finished_at": "2026-10-15T14:59:47.921214+08:00",
+      "status": "succeeded",
+      "fetched_count": 105,
+      "published_count": 34,
+      "changed_count": 4,
+      "evidence_count": 45
+    },
+    {
+      "source_code": "tencent-campus",
+      "started_at": "2026-10-15T15:07:22.732321+08:00",
+      "finished_at": "2026-10-15T15:07:53.838408+08:00",
+      "status": "succeeded",
+      "fetched_count": 105,
+      "published_count": 34,
+      "changed_count": 0,
+      "evidence_count": 45
+    }
+  ],
+  "comparison": {
+    "hidden_review_candidates": 13,
+    "published_advertisements": 58,
+    "identity_hash_version_publication_differences": 0,
+    "stored_identities": 71
+  },
+  "public_jobs": [
+    {
+      "source_code": "cmb-campus",
+      "campaign_key": "type:DF94FD6D-26D3-4A19-9E69-577C4BA1DE82:unknown-year",
+      "external_id": "554CB06F-76C3-464A-A2F8-88FF2901EDAF",
+      "title": "业务条线数据分析实习生",
+      "version": 1,
+      "content_hash": "066ee80aa01aa46da9a299a784697be1e6a7f2065578dbc328fff887b59c8acf"
+    },
+    {
+      "source_code": "cmb-campus",
+      "campaign_key": "type:DF94FD6D-26D3-4A19-9E69-577C4BA1DE82:unknown-year",
+      "external_id": "6CA06FAB-C24A-4E13-A568-5D47515065D8",
+      "title": "数字金融实习生",
+      "version": 1,
+      "content_hash": "9e5d65e022082928eb8c7ecb21c812ce39ee80c236c88eaf4f88ccbcf4eec2ac"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36373",
+      "title": "软件开发工程师",
+      "version": 1,
+      "content_hash": "f42a08b739a5c1a26225bc05615af0037f62aecc72064675f465191d5ea3687d"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36383",
+      "title": "AI模型工程师",
+      "version": 2,
+      "content_hash": "47a58d81ffa36fcb1f7b6333e96a39e45d0744d5beee6d7b25ea935d6a5d05b9"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36384",
+      "title": "AI Infra工程师",
+      "version": 2,
+      "content_hash": "9f2280717e368726cfa1e52c854521abbe54e08e6fb23921d2ff1d77398d2164"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36385",
+      "title": "算法工程师",
+      "version": 2,
+      "content_hash": "a3378dee2329f3cad0cad53ebc7832a955ca013748670686ca0d64c678264fd2"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36386",
+      "title": "硬件技术工程师",
+      "version": 2,
+      "content_hash": "528b5de8fdba4b84eab61570d282c9634a19179b1108a342d7b88c08ca6ab426"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36387",
+      "title": "芯片与器件设计工程师",
+      "version": 2,
+      "content_hash": "88b873e08a2a3da0af60d432ae2680e103ec67f8d9e93a1003a05533e7f9fcce"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36388",
+      "title": "网络安全与隐私保护工程师",
+      "version": 2,
+      "content_hash": "97dc2c4c8f951e798a704c0fb1880140a87257e6dd4267080757370239e804b1"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36390",
+      "title": "AI应用工程师",
+      "version": 2,
+      "content_hash": "ba7c163ad5623d6814cd975af265d03c32b70b1c340f543859e99d237c9cfac1"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36392",
+      "title": "数据科学工程师",
+      "version": 1,
+      "content_hash": "d7cbaf28daba9c2fbf13be2e1ddce61868fd87a25b4b9446ceadb881c3f350c4"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36395",
+      "title": "云服务开发工程师",
+      "version": 2,
+      "content_hash": "35c3fe0a1fb0cce9146cbbf6fec647f55b93d941840e5b85a832c1216d45c72d"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36397",
+      "title": "AI安全与隐私工程师",
+      "version": 1,
+      "content_hash": "599a8b2e56c219e57d64399997d1e15244e0d4c7d2e6ea126b2ca290fff592c8"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36400",
+      "title": "软件开发高级工程师",
+      "version": 1,
+      "content_hash": "fdacd3a1389312d1170423071291e7a9e628452d13d4d165bd9fd43943098d93"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36411",
+      "title": "AI模型研究员",
+      "version": 2,
+      "content_hash": "e1b4da3f0ebd08cd5f5a792a80b8d0be7a7f4dc654dda140493451bec9dfd4bc"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36412",
+      "title": "算法研究员",
+      "version": 1,
+      "content_hash": "c828c8980795462b331b9d42b7f1214fd0e292c2fdadce2ef319ba55ac60032d"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36413",
+      "title": "硬件技术高级工程师",
+      "version": 2,
+      "content_hash": "9ced1fbd262d7c33568d0049a744c9709e6073816fecaf9c303cb35104ad54fa"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36414",
+      "title": "芯片与器件设计高级工程师",
+      "version": 2,
+      "content_hash": "448f6575ccd17de66c18f159c77fb73171c7b14d2b43573177a48de2e653db7a"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36415",
+      "title": "AI Infra研究员",
+      "version": 1,
+      "content_hash": "7543e8db88be1a20d6f17bd0162f41a3e55711425f2bd643cae4a1d4ee3ee8cf"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36419",
+      "title": "AI应用研究员",
+      "version": 2,
+      "content_hash": "5147fe999d7bddbd54539c601130b271b4a8cba5ac2662d1e2a5896067208aee"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36420",
+      "title": "计算技术研究员",
+      "version": 3,
+      "content_hash": "268346bba882f760fa3b7cbfa3b6320c240b422986ed732fe7038f2ec921bb80"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36421",
+      "title": "网络技术研究员",
+      "version": 2,
+      "content_hash": "553fa8dd02f1621fecfd55a12e75f34aa3a5a7a3e9976bac24354e0781d2f81d"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36422",
+      "title": "网络安全与隐私保护研究员",
+      "version": 2,
+      "content_hash": "2c1b3e87194c733d2fedd5038bd26c3938ebe38a7d54df021eed8afee7af7732"
+    },
+    {
+      "source_code": "huawei-campus",
+      "campaign_key": "fresh:2027",
+      "external_id": "36572",
+      "title": "AI安全与隐私研究员",
+      "version": 1,
+      "content_hash": "f2b5226abd6bf1a01ccc397c8fda9ab1166e91281bb02892eef0f4a2e3c96de1"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282032034373805056",
+      "title": "游戏客户端开发",
+      "version": 1,
+      "content_hash": "84c69cce6a3a15a3db81b42ef66d05d288ba0c856abd0e2997e8bd0ea2fe102e"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707383965295616",
+      "title": "后台开发",
+      "version": 1,
+      "content_hash": "67a486a2dcf4d78e5ac3875810c58c09add3faa8c564e9de6f20feb53f75691e"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707383965295617",
+      "title": "移动客户端开发",
+      "version": 1,
+      "content_hash": "59dec0be8355268e5de29e696f3133c7f141804dbdb519bc99d43c12aec04e01"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707390126745600",
+      "title": "算法-机器学习方向",
+      "version": 1,
+      "content_hash": "ba3892e59b90380faf45c34fae1f10b941547e1b8d13496213125410114b9fe9"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707395466077184",
+      "title": "Agent开发工程师",
+      "version": 1,
+      "content_hash": "4c32684a8f43231736ac75663c4b814cba1e6188f39c3bfed8d052b5da98d272"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707395466077185",
+      "title": "AI应用工程师",
+      "version": 1,
+      "content_hash": "90877269a00779b31d2ca1b079fd9149c9fcaf9bc624829d4ca6103ff02af224"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707395466077186",
+      "title": "AI算法工程",
+      "version": 1,
+      "content_hash": "9f1761a5448447f9e98208d76c7b75cb44af5122ba3755bc5236c74c83aaaef8"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707398326592512",
+      "title": "AI全栈工程师",
+      "version": 2,
+      "content_hash": "5f899a03169bd12cc7b7bb2332e5ce721cd47dda5aa59cfa17b6bd0fcc2595c5"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707403120699392",
+      "title": "算法-多媒体处理方向",
+      "version": 1,
+      "content_hash": "1755d3f6f6d194acff987582dff63916201c706ec144d33c450e67a40f47548d"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707403120699393",
+      "title": "算法-多模态方向",
+      "version": 1,
+      "content_hash": "aaa1d753dc8eb89cd67bae6c7478bd144d187d0f8adbc35ece1c857215fa912f"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707405033302016",
+      "title": "算法-自然语言处理方向",
+      "version": 1,
+      "content_hash": "483e8672f336175e95e22f81d1ce556539796404b27c7c17a0325510ef1d9795"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707405033302017",
+      "title": "算法-数据科学方向",
+      "version": 1,
+      "content_hash": "0478daf6d71cfa92787733d512054bbd63cc2bddeab8d0b2c86af9d57aad22e1"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707420237636608",
+      "title": "游戏引擎开发",
+      "version": 2,
+      "content_hash": "684b9b5799d5a90a0da614597d1299997d1ec0a4190bc25088ab3fe4c59b9416"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707439695012864",
+      "title": "PC客户端开发",
+      "version": 1,
+      "content_hash": "1fad7cf205b6a45fa2d3e2df56c944e74869e0ae214d0153f262ed19de8c222e"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1282707439695012865",
+      "title": "前端开发",
+      "version": 1,
+      "content_hash": "9b22e423266f825e2a933aa0b5075efb0bc617973433bbc043ccd9e9e0c3f34d"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126436643021824",
+      "title": "算法-推荐算法方向",
+      "version": 1,
+      "content_hash": "e94cb596b372dd8e70c80e4bffb6f4fc05fabddb42a607da0631a89abf9afb3d"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126460798018560",
+      "title": "技术研究-高性能计算方向",
+      "version": 2,
+      "content_hash": "cba22cb653493ea6f64028bf394f4e20ba9b6fc795da6483cecf30368ad1eb2e"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126465243980800",
+      "title": "算法-计算机视觉方向",
+      "version": 1,
+      "content_hash": "a337a971ec45d0589dafaad32688f7ee77e7efb23d272f3f63e67954cebac4aa"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126495480718338",
+      "title": "AI安全技术工程师（风控算法）",
+      "version": 1,
+      "content_hash": "82e80669c111b1e5f241654c01bb2b4ce26e1ab1408fb171017dde38bccffd0a"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126501084308480",
+      "title": "测试开发",
+      "version": 1,
+      "content_hash": "4b7a51f46dfd5b03860590d5d98ad7997e647f2f22da6a8840b3ad73a411f22e"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126506864059392",
+      "title": "运营开发",
+      "version": 2,
+      "content_hash": "206f3dd19d8bb0a40d5be7f9a427b9bd66c724d9c100f983f1922a4f0cae68ec"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126512731890688",
+      "title": "测试与质量管理",
+      "version": 1,
+      "content_hash": "38b85cef1fb068253310744f033c14161095c3b76ea87ff62afaee9b5ca22be1"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126524891177984",
+      "title": "技术研究-基础架构方向",
+      "version": 2,
+      "content_hash": "b652a68021a57954542a9b3854956ba3abeac2d18600590f354e741d95ebd350"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126531220382720",
+      "title": "数据工程",
+      "version": 1,
+      "content_hash": "1af3ec2ead44a6d27f822cf03714887d8be724461a241b85f69c0030a2b0a84c"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283126696601756672",
+      "title": "AI安全技术工程师",
+      "version": 1,
+      "content_hash": "49914c4b4e8072aea08b631a38903086a9560b72c2cb1725005c9a545b704feb"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283878440197760000",
+      "title": "算法-计算机图形学方向",
+      "version": 1,
+      "content_hash": "fbdd8cdf7f6cf7e4cea2112d51ba00bc166f1b69e33c7f7210eb4da2ad53ff9b"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1283878549379687424",
+      "title": "算法-其他方向",
+      "version": 1,
+      "content_hash": "f23acd724b20d955aba87b991d41faf7090d323b1b4dbafad6f73feff13dc2b9"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1284317968595231745",
+      "title": "SRE",
+      "version": 1,
+      "content_hash": "f1f63a421917c5bab85ca626c1fae7778875547893b85aedfd116aefe855011b"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1284501698043487232",
+      "title": "技术研究-机器人方向",
+      "version": 2,
+      "content_hash": "01df6efd041ccd74a29e79b4e026757e0c4514370ab905779bcfc394efa63c8e"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1284501698043487233",
+      "title": "技术运营",
+      "version": 1,
+      "content_hash": "5e9477a4026c11e86e26656984a950b86185a144e2b1587ce217148913c5d92b"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1284501739072168961",
+      "title": "硬件开发-芯片验证方向",
+      "version": 1,
+      "content_hash": "84c8accbd3d762287264f260c6ded0074c9313d3d2a0d7bf577f12808ec30db7"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1284592104206836737",
+      "title": "软件开发-渲染引擎开发",
+      "version": 2,
+      "content_hash": "4c2afb56bb0e1b894dd75f8049d2b295fbd148169b7b12c43a167c8406341274"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1284634302709277696",
+      "title": "财经线培训生-AI应用开发",
+      "version": 2,
+      "content_hash": "14f09d3afb4f4307620aa515c004bb844af0ad7f9d87df88cfdff6505c5a050f"
+    },
+    {
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "external_id": "1287398722585903104",
+      "title": "算法-强化学习方向",
+      "version": 1,
+      "content_hash": "2b2db2028bdb078a6f0682dea28c0c739b747b4cbe5b2df7348bbc74fb1e2242"
+    }
+  ]
+}

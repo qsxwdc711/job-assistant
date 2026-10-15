@@ -10,6 +10,8 @@ import (
 	"syscall"
 	"time"
 
+	"jobassistant/backend/internal/application"
+	"jobassistant/backend/internal/catalog"
 	"jobassistant/backend/internal/config"
 	"jobassistant/backend/internal/database"
 	"jobassistant/backend/internal/httpapi"
@@ -44,10 +46,16 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	handler, err := httpapi.NewHandler(service, httpapi.Config{CSRFKey: cfg.CSRFKey, SecureCookies: cfg.SecureCookies, Origin: cfg.Origin}, pool.Ping)
+	handler, err := httpapi.NewHandler(service, httpapi.Config{CSRFKey: cfg.CSRFKey, SecureCookies: cfg.SecureCookies, Origin: cfg.Origin}, pool.Ping,
+		httpapi.WithRecruitment(catalog.NewStore(pool), application.NewStore(pool)), httpapi.WithFrontend(os.Getenv("WEB_ROOT")))
 	if err != nil {
 		return err
 	}
+	defer func() {
+		if err := handler.Close(); err != nil {
+			slog.Warn("frontend directory close failed")
+		}
+	}()
 	server := &http.Server{Addr: cfg.HTTPAddr, Handler: handler, ReadHeaderTimeout: 5 * time.Second, ReadTimeout: 10 * time.Second, WriteTimeout: 30 * time.Second, IdleTimeout: 60 * time.Second, MaxHeaderBytes: 16 << 10}
 	result := make(chan error, 1)
 	go func() { result <- server.ListenAndServe() }()

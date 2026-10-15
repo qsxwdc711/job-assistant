@@ -1,0 +1,22 @@
+# Overlay on compose.verify.yaml. The caller supplies its own random project name.
+services:
+  api:
+    environment:
+      APP_ORIGIN: http://127.0.0.1:${VERIFY_HTTP_PORT:-18080}
+      WEB_ROOT: /app/web
+    volumes:
+      - ../web/dist:/app/web:ro
+  verifier:
+    environment:
+      DATABASE_URL: postgres://jobassistant_test:${VERIFY_DB_PASSWORD}@db:5432/jobassistant_test?sslmode=disable
+      S2_BROWSER_PASSWORD: ${VERIFY_ADMIN_PASSWORD}
+  collector:
+    image: ${COMPOSE_PROJECT_NAME}-api
+    entrypoint: ["/app/collector"]
+    command: ["all"]
+    profiles: ["tools"]
+    environment:
+      DATABASE_URL: postgres://jobassistant_test:${VERIFY_DB_PASSWORD}@db:5432/jobassistant_test?sslmode=disable
+    depends_on:
+      db:
+        condition: service_healthy

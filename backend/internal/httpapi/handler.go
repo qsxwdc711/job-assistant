@@ -17,8 +17,11 @@ import (
 	"net/http"
 	"regexp"
 	"strconv"
+	"strings"
 	"time"
 
+	"jobassistant/backend/internal/application"
+	"jobassistant/backend/internal/catalog"
 	"jobassistant/backend/internal/identity"
 )
 
@@ -36,21 +39,29 @@ type Config struct {
 
 // Handler owns the identity routes and bounded login protections.
 type Handler struct {
-	service   *identity.Service
-	config    Config
-	ready     func(context.Context) error
-	mux       *http.ServeMux
-	limiter   loginLimiter
-	hashSlots chan struct{}
+	service      *identity.Service
+	config       Config
+	ready        func(context.Context) error
+	mux          *http.ServeMux
+	limiter      loginLimiter
+	hashSlots    chan struct{}
+	catalog      *catalog.Store
+	applications *application.Store
+	frontend     *frontend
 }
 
 // NewHandler creates the API. Ready should check the actual database.
-func NewHandler(service *identity.Service, cfg Config, ready func(context.Context) error) (*Handler, error) {
+func NewHandler(service *identity.Service, cfg Config, ready func(context.Context) error, options ...Option) (*Handler, error) {
 	if service == nil || len(cfg.CSRFKey) != 32 || cfg.Origin == "" || ready == nil {
 		return nil, errors.New("invalid HTTP configuration")
 	}
 	cfg.CSRFKey = append([]byte(nil), cfg.CSRFKey...)
 	h := &Handler{service: service, config: cfg, ready: ready, mux: http.NewServeMux(), limiter: loginLimiter{buckets: make(map[string]loginBucket)}, hashSlots: make(chan struct{}, 2)}
+	for _, option := range options {
+		if err := option(h); err != nil {
+			return nil, errors.Join(err, h.Close())
+		}
+	}
 	h.mux.HandleFunc("GET /health/live", func(w http.ResponseWriter, r *http.Request) {
 		h.writeJSON(w, r, http.StatusOK, map[string]string{"status": "ok"})
 	})
@@ -65,7 +76,17 @@ func NewHandler(service *identity.Service, cfg Config, ready func(context.Contex
 	h.mux.HandleFunc("PATCH /api/v1/admin/users/{id}/role", h.protect(h.changeRole, true))
 	h.mux.HandleFunc("PATCH /api/v1/admin/users/{id}/disabled", h.protect(h.setDisabled, true))
 	h.mux.HandleFunc("GET /api/v1/admin/audit-events", h.protect(h.audit, false))
-	h.mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { h.fail(w, r, identity.ErrNotFound) })
+	if h.catalog != nil {
+		h.recruitmentRoutes()
+	}
+	h.mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		apiPath := r.URL.Path == "/api" || r.URL.Path == "/health" || strings.HasPrefix(r.URL.Path, "/api/") || strings.HasPrefix(r.URL.Path, "/health/")
+		if h.frontend != nil && (r.Method == http.MethodGet || r.Method == http.MethodHead) && !apiPath {
+			h.frontend.ServeHTTP(w, r)
+			return
+		}
+		h.fail(w, r, identity.ErrNotFound)
+	})
 	return h, nil
 }
 
@@ -358,6 +379,10 @@ func (h *Handler) audit(w http.ResponseWriter, r *http.Request, p identity.Princ
 
 func (h *Handler) fail(w http.ResponseWriter, r *http.Request, err error) {
 	switch {
+	case errors.Is(err, application.ErrVersionConflict):
+		h.writeError(w, r, 409, "version_conflict", "record changed on another device; refresh before saving")
+	case errors.Is(err, application.ErrAlreadyExists):
+		h.writeError(w, r, 409, "application_exists", "an application for this job already exists")
 	case errors.Is(err, identity.ErrUnauthenticated):
 		h.writeError(w, r, 401, "unauthenticated", "authentication required")
 	case errors.Is(err, identity.ErrForbidden):

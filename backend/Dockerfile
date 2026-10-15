@@ -5,7 +5,8 @@ COPY go.mod go.sum ./
 RUN GOPROXY=${GOPROXY} go mod download
 COPY . .
 RUN CGO_ENABLED=0 go build -trimpath -o /out/api ./cmd/api && \
-    CGO_ENABLED=0 go build -trimpath -o /out/admin ./cmd/admin
+    CGO_ENABLED=0 go build -trimpath -o /out/admin ./cmd/admin && \
+    CGO_ENABLED=0 go build -trimpath -o /out/collector ./cmd/collector
 
 FROM build AS verify
 ENV CGO_ENABLED=1 GOTOOLCHAIN=local
@@ -15,6 +16,7 @@ FROM scratch
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=build /out/api /app/api
 COPY --from=build /out/admin /app/admin
+COPY --from=build /out/collector /app/collector
 USER 65532:65532
 EXPOSE 8080
 ENTRYPOINT ["/app/api"]

@@ -10,11 +10,11 @@
 
 ---
 
-日期：2026-10-14。配套 [设计文档](../specs/2026-10-14-job-assistant-design.md) 定义角色和业务规则，[来源验证清单](../../research/2026-10-14-source-validation.md) 记录 S0 验证。S0、S1 已完成；S1 代码、运行和测试结果见 [验收记录](../../verification/2026-10-14-s1-identity.md)。S2–S5 仍为后续开发要求。
+日期：2026-10-14。配套 [设计文档](../specs/2026-10-14-job-assistant-design.md) 定义角色和业务规则，[来源验证清单](../../research/2026-10-14-source-validation.md) 记录 S0 验证。S0–S2 已完成；S1 代码、运行和测试结果见 [验收记录](../../verification/2026-10-14-s1-identity.md)。S3–S5 仍为后续开发要求。
 
 ## 1. 开工基线和阶段顺序
 
-当前本机已检查 Go 1.23.5、Node 20.18.0、npm 10.8.2、pnpm 11.25.0、Docker CLI / Engine 27.3.1、Compose 2.30.3、Git 2.47.1；psql 不在 PATH。S1 实际使用独立 Go 1.26.8 和容器 PostgreSQL 18.6，数据库运行已验证。浏览器端应用尚未实现。
+当前本机已检查 Go 1.23.5、Node 20.18.0、npm 10.8.2、pnpm 11.25.0、Docker CLI / Engine 27.3.1、Compose 2.30.3、Git 2.47.1；psql 不在 PATH。S1 实际使用独立 Go 1.26.8 和容器 PostgreSQL 18.6，数据库运行已验证。S2 已实现并验收 Vue 网页与手机浏览器布局。
 
 后端固定 Go 1.26.8、PostgreSQL 18.6；前端使用独立 Node 22 系列且不低于 22.18.0。初次镜像下载受第三方镜像站完整性问题影响；已固定官方 Go 1.26.8 镜像摘要，补验完整 Docker 构建和运行。实际依赖与镜像版本写入锁文件，禁止部署时隐式使用 latest。
 
@@ -111,16 +111,18 @@ go -C backend test ./tests/integration/... -run Identity -count=1
 
 计划文件：backend/internal/catalog/、backend/internal/ingest/、backend/internal/application/、对应数据库迁移，以及 web/src/features/jobs/ 和 web/src/features/applications/。
 
-- [ ] S2.1 实现公司/招聘主体、来源、批次、岗位版本、岗位子方向、多地点、分类字典；同时保存标准化字段与原文依据，部门与城市按方向成组。
-- [ ] S2.2 将 S0 已验证方法实现为来源适配器；单来源失败隔离记录，不中止所有来源，不关闭旧职位。
-- [ ] S2.3 先测试同源去重、跨批次同名、截止变化、空列表、受限页面，再实现岗位归一和版本变更。
-- [ ] S2.4 实现 GET /api/v1/jobs 和岗位详情；分页、排序及组合筛选在后端完成，未知信息具有显式值。
-- [ ] S2.5 实现本人收藏、投递、状态历史、事项和备注；主记录具有 owner/job 唯一约束与 version 冲突控制。
-- [ ] S2.6 初始化 Vue 网页、登录和统一 API 客户端；实现电脑列表/表格和手机列表，切换视图沿用筛选。
-- [ ] S2.7 实现管理员公共来源与岗位维护页面，明确区分正式岗位、待核实线索和失败来源。
-- [ ] S2.8 用电脑创建投递，在手机查看并修改；验证已关闭公共岗位仍保留个人进度。
+- [x] S2.1 实现公司/招聘主体、来源、批次、岗位版本、岗位子方向、多地点、分类字典；同时保存标准化字段与原文依据，部门与城市按方向成组。
+- [x] S2.2 将 S0 已验证方法实现为来源适配器；单来源失败隔离记录，不中止所有来源，不关闭旧职位。
+- [x] S2.3 先测试同源去重、跨批次同名、截止变化、空列表、受限页面，再实现岗位归一和版本变更。
+- [x] S2.4 实现 GET /api/v1/jobs 和岗位详情；分页、排序及组合筛选在后端完成，未知信息具有显式值。
+- [x] S2.5 实现本人收藏、投递、状态历史、事项和备注；主记录具有 owner/job 唯一约束与 version 冲突控制。
+- [x] S2.6 初始化 Vue 网页、登录和统一 API 客户端；实现电脑列表/表格和手机列表，切换视图沿用筛选。
+- [x] S2.7 实现管理员公共来源与岗位维护页面，明确区分正式岗位、待核实线索和失败来源。
+- [x] S2.8 用电脑创建投递，在手机查看并修改；验证已关闭公共岗位仍保留个人进度。
 
-测试文件：backend/internal/ingest/normalize_test.go、backend/internal/catalog/filter_test.go、backend/tests/integration/application_test.go、web/tests/e2e/jobs-and-applications.spec.ts。
+测试文件：backend/internal/ingest/normalize_test.go、client_test.go、adapters_test.go、backend/internal/catalog/filter_test.go、backend/tests/integration/catalog_test.go、application_test.go、recruitment_http_test.go、web/tests/e2e/jobs-and-applications.spec.ts。
+
+2026-10-15 S2 验收通过：三个来源两次实采后公开 58 个计算机方向广告；71 条已存身份、哈希与版本无差异，第二轮内容变更为零。网页、真实数据库、Linux race 和 Docker 通过，详见 [S2 验收记录](../../verification/2026-10-15-s2-jobs.md)。
 
 必测：未披露笔试仍为 unknown；截止为空不参与“即将截止”；国内/海外日期要求不混用；公开岗位 closed 不改变个人申请状态；同名新批次不被错误合并；并发修改返回 409；收藏与投递的跨用户读写全部拒绝。
 
@@ -221,7 +223,7 @@ go test -race ./internal/... ./tests/integration/... -count=1
 
 源代码修改提交前先做 Go 功能与风格审查；提交内容只包含该任务变更。正式部署、购买资源或发送外部消息必须具备对应的实际配置与授权，不用真实用户简历作测试数据。
 
-本计划不需要提前创建全部空目录、占位 handler 或假岗位接口。S0、S1 已完成，下一项工作为 S2 岗位和投递闭环；前三来源的公开 API、子方向及未知状态边界构成后续采集实现依据。
+本计划不需要提前创建全部空目录、占位 handler 或假岗位接口。S0–S2 已完成，下一项工作为 S2 岗位和投递闭环；前三来源的公开 API、子方向及未知状态边界构成后续采集实现依据。
 
 ## 10. 本轮文档检查记录
 

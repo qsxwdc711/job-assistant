@@ -1,0 +1,1193 @@
+{
+  "items": [
+    {
+      "external_id": "1282707383965295616",
+      "company_code": "tencent",
+      "source_code": "tencent-campus",
+      "campaign_key": "ordinary:1:2027",
+      "campaign_name": "2027校园招聘",
+      "title": "后台开发",
+      "recruitment_type": "campus",
+      "publisher": "具体招聘主体以官方申请页面为准",
+      "public_status": "unknown",
+      "status_evidence": "当前官方公开列表在列，详情可读；详情状态未明确",
+      "written_test": "unknown",
+      "written_test_evidence": "",
+      "source_url": "https://join.qq.com/post_detail.html?postid=1282707383965295616",
+      "apply_url": "https://join.qq.com/post_detail.html?postid=1282707383965295616",
+      "apply_level": "job",
+      "login_required": true,
+      "deadline_date": "",
+      "deadline_at": null,
+      "deadline_timezone": "unknown",
+      "graduation_rules": [
+        {
+          "region": "all",
+          "education": "unknown",
+          "from": "2026-01-01",
+          "through": "2027-12-31",
+          "evidence": "毕业时间：2026年1月1日-2027年12月31日"
+        }
+      ],
+      "graduation_preference": "",
+      "student_required": "unknown",
+      "minimum_education": "unknown",
+      "minimum_internship_months": null,
+      "days_per_week": null,
+      "campaign_evidence": "当前子批次：毕业时间：2026年1月1日-2027年12月31日\n父菜单显示（不作为门槛）：毕业时间：2025年1月1日 - 2026年12月31日",
+      "variants": [
+        {
+          "key": "main",
+          "name": "后台开发",
+          "direction": "backend",
+          "responsibilities": "负责实现和优化公司的产品功能，以及构建和维护关键服务与基础设施。\n1、深入理解业务需求和产品设计，高效地实现并优化产品功能；\n2、持续优化架构，提升关键服务和基础设施的稳定性与可用性，关注AI在智能运维、故障预测等领域的应用；\n3、通过引入AI编程工具和自动化流程，显著提升团队的开发效率和代码质量；\n4、通过与产品和前端工程师的紧密合作，共同推进产品的迭代与优化，参与AI能力在后端的集成与落地；\n5、对线上问题进行快速定位并解决，探索利用AI进行智能故障诊断和性能优化；\n6、参与新技术的研究和探索，特别关注AI/大模型技术在后端架构中的应用，为团队的技术进步和产品创新提供支持。",
+          "requirements": "AI应用技能：\n善于借助AI工具拆解复杂问题、探索解决方案，并能对AI的输出进行高质量判断，具备人机协同的工作意识和习惯。\n专业能力：\n1、扎实的编程能力，熟练掌握C/C++/Java/Go等其中一门开发语言；\n2、TCP/UDP网络协议及相关编程、进程间通讯编程；专业软件知识，包括算法、操作系统、软件工程、设计模式、数据结构、数据库系统、网络安全等。\n3、有一定了解的：Python、Shell等脚本语言；MySQL及SQL语言、编程；NoSQL, Key-value存储原理。",
+          "preferred": "1、分布式系统设计与开发、负载均衡技术，系统容灾设计，高可用系统等知识；\n2、对云原生相关技术有所了解；\n3、有利用AI工具完成实际项目的经验；\n4、了解大模型API调用和AI能力集成的基本方法。",
+          "major": {
+            "kind": "unknown",
+            "tags": [],
+            "evidence": ""
+          },
+          "locations": [
+            {
+              "code": "CN:广东省:深圳市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "广东省",
+              "city": "深圳市",
+              "raw": "深圳总部"
+            },
+            {
+              "code": "CN:北京市:北京市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "北京市",
+              "city": "北京市",
+              "raw": "北京"
+            },
+            {
+              "code": "CN:上海市:上海市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "上海市",
+              "city": "上海市",
+              "raw": "上海"
+            },
+            {
+              "code": "CN:广东省:广州市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "广东省",
+              "city": "广州市",
+              "raw": "广州"
+            },
+            {
+              "code": "CN:四川省:成都市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "四川省",
+              "city": "成都市",
+              "raw": "成都"
+            },
+            {
+              "code": "CN:浙江省:杭州市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "浙江省",
+              "city": "杭州市",
+              "raw": "杭州"
+            }
+          ],
+          "departments": [
+            {
+              "code": "193",
+              "name": "腾讯金融科技",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "194",
+              "name": "腾讯营销",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "215",
+              "name": "可持续社会价值事业部",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "288",
+              "name": "腾讯云-技术与产品方向",
+              "locations": [
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                },
+                {
+                  "code": "CN:四川省:成都市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "四川省",
+                  "city": "成都市",
+                  "raw": "成都"
+                },
+                {
+                  "code": "CN:浙江省:杭州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "raw": "杭州"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "289",
+              "name": "腾讯云-智慧行业方向",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "184",
+              "name": "腾讯安全",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                },
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                }
+              ]
+            },
+            {
+              "code": "185",
+              "name": "腾讯智慧出行",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "186",
+              "name": "腾讯健康",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "278",
+              "name": "元宝",
+              "locations": [
+                {
+                  "code": "CN:四川省:成都市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "四川省",
+                  "city": "成都市",
+                  "raw": "成都"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "291",
+              "name": "腾讯会议",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "302",
+              "name": "CodeBuddy系列智能体产品",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "304",
+              "name": "ima",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "276",
+              "name": "搜狗输入法",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "305",
+              "name": "腾讯文档",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "290",
+              "name": "腾讯地图",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "191",
+              "name": "量子实验室",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "165",
+              "name": "天美工作室群",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                },
+                {
+                  "code": "CN:四川省:成都市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "四川省",
+                  "city": "成都市",
+                  "raw": "成都"
+                }
+              ]
+            },
+            {
+              "code": "166",
+              "name": "光子工作室群",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:浙江省:杭州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "raw": "杭州"
+                }
+              ]
+            },
+            {
+              "code": "164",
+              "name": "魔方工作室群",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "167",
+              "name": "北极光工作室群",
+              "locations": [
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "176",
+              "name": "游戏前沿技术",
+              "locations": [
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                },
+                {
+                  "code": "CN:浙江省:杭州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "浙江省",
+                  "city": "杭州市",
+                  "raw": "杭州"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "230",
+              "name": "游戏内容中台",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "168",
+              "name": "国内发行线",
+              "locations": [
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "263",
+              "name": "WeGame游戏平台",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "292",
+              "name": "Supercell合作部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "297",
+              "name": "K6合作部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "260",
+              "name": "QQ",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "143",
+              "name": "腾讯新闻",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "204",
+              "name": "PCG技术线-应用效能技术方向",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "128",
+              "name": "腾讯视频",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "253",
+              "name": "腾讯应用宝&Marvis团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "262",
+              "name": "PCG技术线-内容与数据服务方向",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "280",
+              "name": "PCG技术线-AI创新应用方向",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "293",
+              "name": "腾讯混元AI Infra部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "85",
+              "name": "腾讯混元AI Data部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "246",
+              "name": "数据计算平台部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "81",
+              "name": "Robotics X",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "270",
+              "name": "腾讯AI平台部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "88",
+              "name": "云架构平台部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                },
+                {
+                  "code": "CN:四川省:成都市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "四川省",
+                  "city": "成都市",
+                  "raw": "成都"
+                }
+              ]
+            },
+            {
+              "code": "254",
+              "name": "数据库研发部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                },
+                {
+                  "code": "CN:上海市:上海市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "上海市",
+                  "city": "上海市",
+                  "raw": "上海"
+                }
+              ]
+            },
+            {
+              "code": "82",
+              "name": "安全平台部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "84",
+              "name": "计费平台部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "92",
+              "name": "腾讯网络研发部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "86",
+              "name": "研发管理部",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "279",
+              "name": "微信视频号团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "219",
+              "name": "公众号&小程序团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                }
+              ]
+            },
+            {
+              "code": "224",
+              "name": "技术架构团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "216",
+              "name": "企业微信团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                }
+              ]
+            },
+            {
+              "code": "225",
+              "name": "微信安全团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                },
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "218",
+              "name": "微信搜索团队",
+              "locations": [
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            },
+            {
+              "code": "222",
+              "name": "微信游戏&小游戏团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                }
+              ]
+            },
+            {
+              "code": "228",
+              "name": "微信支付团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                }
+              ]
+            },
+            {
+              "code": "271",
+              "name": "微信读书&输入法&秒剪&WeTalk团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                }
+              ]
+            },
+            {
+              "code": "285",
+              "name": "微信小店团队",
+              "locations": [
+                {
+                  "code": "CN:广东省:广州市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "广州市",
+                  "raw": "广州"
+                }
+              ]
+            },
+            {
+              "code": "57",
+              "name": "腾讯职能线",
+              "locations": [
+                {
+                  "code": "CN:广东省:深圳市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "广东省",
+                  "city": "深圳市",
+                  "raw": "深圳总部"
+                },
+                {
+                  "code": "CN:北京市:北京市",
+                  "kind": "domestic",
+                  "country": "中国",
+                  "province": "北京市",
+                  "city": "北京市",
+                  "raw": "北京"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "86fe77e0-ef5c-4bfc-ae70-2b3b97958c09",
+      "company_name": "腾讯",
+      "industry": "internet",
+      "nature": "unknown",
+      "tiers": [],
+      "company_basis": "公司官网 https://www.tencent.com/；行业标签为项目分类",
+      "version": 1,
+      "published": true,
+      "verification_status": "verified",
+      "verified_at": "2026-10-15T14:24:30.91862+08:00",
+      "updated_at": "2026-10-15T14:12:44.756306+08:00",
+      "review_note": ""
+    }
+  ]
+}

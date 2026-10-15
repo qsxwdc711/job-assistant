@@ -1,6 +1,8 @@
 # 后端开发与权限接口
 
-S1 已实现账号、会话、角色权限、管理员命令和 PostgreSQL 迁移。岗位、投递、简历、推荐与飞书按后续阶段接入；`capabilities` 描述权限策略，不代表相应功能已经上线。
+S1–S2 已实现账号、会话、角色权限、官方岗位采集、组合筛选、收藏、个人投递和管理维护。简历、推荐与飞书按后续阶段接入；`capabilities` 描述权限策略，不代表相应功能已经上线。
+
+推荐从根目录使用 `./scripts/start-local.ps1` 启动完整网页与容器服务，使用 `./scripts/collect-local.ps1` 更新岗位，详见根 README。以下也保留单独运行 Go API 的方法。
 
 ## 运行基线
 
@@ -32,13 +34,13 @@ go -C backend run ./cmd/admin bootstrap
 go -C backend run ./cmd/api
 ```
 
-访问 `http://localhost:8080/health/ready` 可查看数据库就绪状态。当前提供 JSON 接口，网页登录和看板在 S2 实现。`bootstrap` 只创建第一个管理员；此后通过已登录管理员的接口创建其他账号。
+访问 `http://localhost:8080/health/ready` 可查看数据库就绪状态。设置 `WEB_ROOT` 为已构建的 `web/dist` 绝对目录后，同一 API 同源提供网页登录和看板；不设置则只提供接口。`bootstrap` 只创建第一个管理员；此后通过已登录管理员的接口创建其他账号。
 
 API 启动会检查迁移版本和校验和。新增迁移先执行 `admin migrate`，不要修改已经应用的 SQL。缺失数据库配置或 CSRF 密钥会明确退出。
 
 ## 容器配置
 
-`deploy/compose.yaml` 提供 db、api 和 tools profile 的 admin。容器内数据库 URL 应指向服务名 `db:5432`；上述本机 `.env` 指向 `127.0.0.1:15432`，需另外准备被 Git 忽略的 `.env.compose`，填写对应容器配置。
+`deploy/compose.yaml` 提供 db、api 和 tools profile 的 admin、collector，共享 `job-assistant-local` 镜像。`compose.web.yaml` 将已构建网页只读挂载到 API。容器内数据库 URL 指向 `db:5432`；本机 `.env` 指向 `127.0.0.1:15432`，`start-local.ps1` 自动生成忽略的容器配置。手动部署则另准备 `.env.compose`。
 
 ```powershell
 docker compose --env-file .env.compose -f deploy/compose.yaml up -d db
@@ -67,6 +69,14 @@ Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使�
 | PATCH /api/v1/admin/users/{id}/role | 授予或撤销 VIP、变更角色 | 管理员及 CSRF |
 | PATCH /api/v1/admin/users/{id}/disabled | 停用或启用账号 | 管理员及 CSRF |
 | GET /api/v1/admin/audit-events | 分页审计记录 | 管理员 |
+| GET /api/v1/jobs、/jobs/{id}、/jobs/filters | 组合筛选、方向详情、筛选字典 | 已登录 |
+| GET /api/v1/me/favorites | 本人收藏分页 | 已登录 |
+| PUT、DELETE /api/v1/me/favorites/{jobID} | 收藏或取消 | 已登录及 CSRF |
+| GET、POST /api/v1/me/applications | 本人投递列表、创建 | 已登录；写入须 CSRF |
+| GET、PATCH、DELETE /api/v1/me/applications/{id} | 本人投递读取、修改、删除 | 归属授权；写入须 CSRF |
+| GET /api/v1/me/applications/{id}/events | 最近 100 条个人进度历史 | 归属授权 |
+| /api/v1/admin/applications 及对应详情/历史 | 管理员跨账号查询和维护 | 当前管理员；写入须 CSRF |
+| GET、PATCH /api/v1/admin/companies、/sources、/jobs | 管理公司、来源、岗位 | 当前管理员；PATCH 路径加 code 或 id，写入须 CSRF |
 
 列表默认 20 条，`limit` 最大 100，`offset` 最大 1000000。写入 JSON 最大 16 KiB，未知字段、多段 JSON、错误类型均拒绝。
 
@@ -78,7 +88,17 @@ Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使�
 
 没有登录返回 401，能力不允许返回 403，访问其他用户的会话返回 404。停用账号删除全部设备会话；重新启用不会恢复旧会话。角色变更保留会话，但后续请求按数据库当前角色重新判断。账号和审计读取也会在事务内复核当前权限。
 
-未来私有接口必须采用同样的能力与归属检查，并增加真实跨用户测试；后台任务须在执行和发布结果前重新检查用户状态、权限版本及相关业务版本。S1 尚未实现后台推荐任务。
+岗位查询支持 `q/company/direction/major/city/industry/nature/tier/graduation_year/recruitment_type/written_test/deadline_before/status/include_unknown/sort/limit/offset`，相同维度可重复传参或用逗号分隔（company 和 q 为单值）。方向、专业、城市在同一 variant 内匹配。毕业年份只是日期范围筛选，具体境内外、学历与优先条件请看详情。
+
+投递创建需要 `job_id`，默认 `status=draft`；修改提交 `status/notes/next_action/next_action_at/version`，删除提交 `version`。重复创建为 409 `application_exists`，旧版本修改为 409 `version_conflict`。管理员接口可用 `owner_user_id` 指定归属；列表留空查询全部，创建必须指定 owner。岗位关闭或隐藏不清空个人记录。
+
+后续私有接口继续采用当前能力与归属检查；后台推荐任务须在执行和发布结果前重新检查权限及版本。当前尚未实现后台推荐任务。
+
+## 官方采集与状态
+
+`collector all` 或指定 `tencent-campus/huawei-campus/cmb-campus`；生产镜像包含 `/app/collector`。每来源完整成功后原子发布，内容改变才增加版本。来源错误和空结果不关闭旧岗位；失踪记录标为待核验，明确不属于当前计算机范围的已存候选隐藏待复核，不伪造关闭。管理员手动隐藏不会被下一轮采集自动重新发布。
+
+腾讯暂限常规校招中国地点，华为暂限应届研发计算机方向，招商暂限校招及实习列表。接口变更、过期类别 ID 或未知关闭业务码会作为来源异常保留旧数据。没有通用关闭推断或后台调度。Node 和浏览器不进入生产 Go 镜像。
 
 ## 测试与检查
 
@@ -125,3 +145,5 @@ docker stop job-assistant-dev-test
 `-UseSystemProxy` 只为镜像构建客户端临时设置进程代理，构建后恢复；本机 HTTP 验收使用 IPv4 直连。默认仍为 Go 官方模块代理；示例模块代理只是本次网络环境选项，保留 `go.sum` 校验。`-HttpPort` 可修改测试端口，`-NoCache` 可在构建缓存异常时仅为本项目重建。`verify` 阶段带 Go、GCC 和测试源码；最终运行阶段只包含程序与根证书。
 
 本轮实际检查和审查结果见 [S1 验收记录](../docs/verification/2026-10-14-s1-identity.md)及[容器与 Linux race 补验](../docs/verification/2026-10-14-s1-supplement.md)。
+
+S2 可用 `./scripts/verify-s2.ps1` 重跑：真实 PostgreSQL、完整 Go race、vet、前端 frozen install、类型检查、构建和隔离 Edge 浏览器操作。测试库 tmpfs 无主机端口；API 只绑定本机 18080，结束后清理。本机未装 Edge 时需先准备 Playwright 配置指定的浏览器。结果见 [S2 验收记录](../docs/verification/2026-10-15-s2-jobs.md)。

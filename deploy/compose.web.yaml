@@ -1,0 +1,7 @@
+# Built Vue files are served by the API at the same origin as its secure session.
+services:
+  api:
+    environment:
+      WEB_ROOT: /app/web
+    volumes:
+      - ../web/dist:/app/web:ro
