@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-15",
+  "scope": "S3 development and isolated model acceptance",
+  "implementation_commit": "adca5ccfd44a8c57036a414ccb2ea0dd0b1c2663",
+  "branch": "codex/s3-resume-recommendations",
+  "container_verification_project": "job-assistant-s3-verify-76b41ece",
+  "browser": {
+    "passed": 4,
+    "failed": 0,
+    "desktop_viewport": [1440, 1000],
+    "mobile_viewport": [390, 844],
+    "model_provider": "isolated HTTP fixture",
+    "synthetic_documents_only": true
+  },
+  "backend": {
+    "all_source_race": "passed with real PostgreSQL",
+    "vet": "passed",
+    "gofmt": "clean",
+    "pdf_extraction": "real Poppler, including encrypted document rejection",
+    "postgresql": "18.6",
+    "poppler": "22.12.0",
+    "go": "1.26.8"
+  },
+  "local_delivery": {
+    "api": "ready",
+    "worker": "running",
+    "migrations": 4,
+    "private_api_without_session": 401,
+    "private_storage_process_uid": 65532,
+    "model_configured": false,
+    "database_backup_format_checked": true,
+    "existing_record_counts_preserved": true
+  },
+  "real_deepseek_acceptance": "deferred by user until local key configuration",
+  "test_containers_and_private_volume_removed": true,
+  "temporary_worktree_registration_removed": true,
+  "ignored_directory_residue_retained": true
+}
