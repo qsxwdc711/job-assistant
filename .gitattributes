@@ -1,2 +1,23 @@
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.env.example text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+*.vue text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.go text eol=lf
+*.sql text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=lf
+go.mod text eol=lf
+go.sum text eol=lf
+
+# Preserve captured response bytes so archived SHA-256 checks survive checkout.
+docs/research/sources/huawei-samples/*.body.txt -text -diff
 *.pdf binary
 *.docx binary
