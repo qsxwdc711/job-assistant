@@ -10,3 +10,7 @@ export const writtenTests: Record<string, string> = { yes: '有笔试', no: '官
 export function date(value?: string | null) { if (!value) return '未公布'; return new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(value)) }
 export function time(value?: string | null) { if (!value) return '尚未核验'; return new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(value)) }
 export function errorText(error: unknown) { return error instanceof Error ? error.message : '操作未完成，请稍后重试。' }
+export function processingError(code: string) {
+  const messages: Record<string,string> = {invalid_document:'文件无法可靠提取，请换用文字版 PDF 或 DOCX。',extractor_unavailable:'本地提取服务暂不可用。',model_not_configured:'模型尚未配置。',invalid_model_output:'模型输出未通过格式或原文依据校验，请重试或手动确认。',model_rejected:'模型服务拒绝请求，请联系管理员检查配置。',model_unavailable:'模型服务暂时不可用，请稍后重试。',cancelled:'权限、资料或岗位已变化，任务已取消。',interrupted:'任务已中断，可重新提交。'}
+  return messages[code] ?? '处理未完成，请稍后重试。'
+}

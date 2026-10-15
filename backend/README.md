@@ -1,6 +1,6 @@
 # 后端开发与权限接口
 
-S1–S2 已实现账号、会话、角色权限、官方岗位采集、组合筛选、收藏、个人投递和管理维护。简历、推荐与飞书按后续阶段接入；`capabilities` 描述权限策略，不代表相应功能已经上线。
+S1–S3 已实现账号、会话、角色权限、官方岗位采集、组合筛选、收藏、个人投递、私有简历、脱敏预览、确认资料版本及按方向的资格/语义匹配。DeepSeek 已完成隔离模拟验收；真实账号验收等待密钥。飞书与每日调度在 S4。详见 [S3 运行与接口说明](../docs/operations/s3-resumes.md)。
 
 推荐从根目录使用 `./scripts/start-local.ps1` 启动完整网页与容器服务，使用 `./scripts/collect-local.ps1` 更新岗位，详见根 README。以下也保留单独运行 Go API 的方法。
 
@@ -31,6 +31,8 @@ foreach ($taskLine in (Get-Content .env)) {
 }
 go -C backend run ./cmd/admin migrate
 go -C backend run ./cmd/admin bootstrap
+$env:PRIVATE_STORAGE_DIR = [IO.Path]::GetFullPath('.cache/private')
+# 原生启动需将 Poppler 的 pdfinfo、pdftotext 加入 PATH。
 go -C backend run ./cmd/api
 ```
 
@@ -40,16 +42,16 @@ API 启动会检查迁移版本和校验和。新增迁移先执行 `admin migra
 
 ## 容器配置
 
-`deploy/compose.yaml` 提供 db、api 和 tools profile 的 admin、collector，共享 `job-assistant-local` 镜像。`compose.web.yaml` 将已构建网页只读挂载到 API。容器内数据库 URL 指向 `db:5432`；本机 `.env` 指向 `127.0.0.1:15432`，`start-local.ps1` 自动生成忽略的容器配置。手动部署则另准备 `.env.compose`。
+`deploy/compose.yaml` 提供 db、api、worker 和 tools profile 的 admin、collector，共享 `job-assistant-local` 镜像。`compose.web.yaml` 将已构建网页只读挂载到 API。容器内数据库 URL 指向 `db:5432`；本机 `.env` 指向 `127.0.0.1:15432`，`start-local.ps1` 自动生成忽略的容器配置。手动部署则另准备 `.env.compose`。
 
 ```powershell
 docker compose --env-file .env.compose -f deploy/compose.yaml up -d db
 docker compose --env-file .env.compose -f deploy/compose.yaml --profile tools run --rm admin migrate
 docker compose --env-file .env.compose -f deploy/compose.yaml --profile tools run --rm admin bootstrap
-docker compose --env-file .env.compose -f deploy/compose.yaml up -d api
+docker compose --env-file .env.compose -f deploy/compose.yaml up -d api worker
 ```
 
-Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使用非 root 的静态程序运行镜像。2026-10-14 已补验完整构建、PostgreSQL 与 API 容器运行、初始化、登录和退出，以及正常关闭。HTTPS、网页同源代理和云端部署属于 S5。
+Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使用固定 Debian slim 摘要、含 Poppler 的非 root 运行镜像。2026-10-14 已补验完整构建、PostgreSQL 与 API 容器运行、初始化、登录和退出，以及正常关闭。HTTPS、网页同源代理和云端部署属于 S5。
 
 生产环境默认 `APP_ENV=production`，必须填写 HTTPS 的 `APP_ORIGIN`，Cookie 自动启用 Secure；本地 HTTP 运行必须显式使用 development。
 

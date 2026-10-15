@@ -1,0 +1,1 @@
+`synthetic.docx` is a minimal, generated DOCX used only in isolated S3 browser tests. All names, telephone numbers, email addresses and addresses are synthetic. No personal resume is included or sent to a real model.

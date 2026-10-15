@@ -30,3 +30,19 @@ export interface Source {
   code: string; name: string; coverage: string; official_url: string; enabled: boolean; last_status: string
   last_error: string; last_checked_at: string | null; last_succeeded_at: string | null; job_count: number
 }
+export interface Candidate {
+  education: string; education_region: string; graduation_date: string; major_codes: string[] | null
+  student: boolean | null; experience_months: number | null; internship_months: number | null; days_per_week: number | null
+  skills: string[] | null; evidence: {field: string; quote: string}[] | null
+}
+export interface Resume { id: string; owner_user_id: string; filename: string; size_bytes: number; status: string; error_code: string; revision: number; task_id: string | null; created_at: string; updated_at: string }
+export interface ProfileVersion { id: string; resume_id: string; candidate: Candidate; cloud_approved: boolean; current: boolean; created_at: string }
+export interface ResumeDetail { resume: Resume; redacted_text: string; draft: Candidate; versions: ProfileVersion[] }
+export interface PrivateTask {id: string; kind: string; state: string; attempts: number; error_code: string}
+export interface Citation {statement: string; resume_quote: string; jd_quote: string}
+export interface Recommendation {
+  id: string; owner_user_id: string; profile_version_id: string; job_id: string; job_version: number; variant_key: string
+  eligibility: {status: string; checks: {field: string; status: string; reason: string; evidence: string}[]}
+  semantic: {level: string; required: Citation[] | null; preferred: Citation[] | null; gaps: Citation[] | null}
+  semantic_status: string; error_code: string; task_id: string | null; job: Job; created_at: string
+}

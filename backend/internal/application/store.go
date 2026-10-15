@@ -72,11 +72,11 @@ func validate(input Input) error {
 
 type scanner interface{ Scan(...any) error }
 
-const recordColumns = `a.id::text,a.owner_user_id::text,u.username,a.job_id::text,a.status,a.notes,a.next_action,a.next_action_at,a.version,a.created_at,a.updated_at`
+const recordColumns = `a.id::text,a.owner_user_id::text,u.username,a.job_id::text,a.status,a.notes,a.next_action,a.next_action_at,a.version,a.created_at,a.updated_at,a.resume_version_id::text`
 
 func scanRecord(row scanner) (Record, error) {
 	var record Record
-	err := row.Scan(&record.ID, &record.OwnerUserID, &record.OwnerUsername, &record.JobID, &record.Status, &record.Notes, &record.NextAction, &record.NextActionAt, &record.Version, &record.CreatedAt, &record.UpdatedAt)
+	err := row.Scan(&record.ID, &record.OwnerUserID, &record.OwnerUsername, &record.JobID, &record.Status, &record.Notes, &record.NextAction, &record.NextActionAt, &record.Version, &record.CreatedAt, &record.UpdatedAt, &record.ResumeVersionID)
 	if errors.Is(err, pgx.ErrNoRows) {
 		return Record{}, identity.ErrNotFound
 	}

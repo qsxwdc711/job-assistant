@@ -34,18 +34,19 @@ type Input struct {
 
 // Record preserves personal progress independently of a public job's current status.
 type Record struct {
-	ID            string      `json:"id"`
-	OwnerUserID   string      `json:"owner_user_id"`
-	OwnerUsername string      `json:"owner_username"`
-	JobID         string      `json:"job_id"`
-	Status        string      `json:"status"`
-	Notes         string      `json:"notes"`
-	NextAction    string      `json:"next_action"`
-	NextActionAt  *time.Time  `json:"next_action_at"`
-	Version       int64       `json:"version"`
-	CreatedAt     time.Time   `json:"created_at"`
-	UpdatedAt     time.Time   `json:"updated_at"`
-	Job           catalog.Job `json:"job"`
+	ID              string      `json:"id"`
+	OwnerUserID     string      `json:"owner_user_id"`
+	OwnerUsername   string      `json:"owner_username"`
+	JobID           string      `json:"job_id"`
+	ResumeVersionID *string     `json:"resume_version_id"`
+	Status          string      `json:"status"`
+	Notes           string      `json:"notes"`
+	NextAction      string      `json:"next_action"`
+	NextActionAt    *time.Time  `json:"next_action_at"`
+	Version         int64       `json:"version"`
+	CreatedAt       time.Time   `json:"created_at"`
+	UpdatedAt       time.Time   `json:"updated_at"`
+	Job             catalog.Job `json:"job"`
 }
 
 // Event stores the actual state after an edit, including its revision and actor.

@@ -12,7 +12,7 @@ const education: Record<string, string> = { bachelor_master: '本科 / 硕士', 
 const linkLevels: Record<string, string> = { job: '岗位详情', campaign: '招聘批次', company: '公司入口' }
 watch(() => route.params.id, async () => {
   error.value = ''; job.value = null
-  try { const result = await api<{job: Job}>('/jobs/' + encodeURIComponent(String(route.params.id))); job.value = result.job; const direction = String(route.query.direction ?? ''), city = String(route.query.city ?? ''); selected.value = result.job.variants.find(v => (!direction || v.direction === direction) && (!city || v.locations.some(p => p.code === city || p.city === city || p.kind === city)))?.key ?? result.job.variants[0]?.key ?? '' }
+  try { const result = await api<{job: Job}>('/jobs/' + encodeURIComponent(String(route.params.id))); job.value = result.job; const direction = String(route.query.direction ?? ''), city = String(route.query.city ?? ''); selected.value = result.job.variants.find(v => v.key === route.query.variant)?.key ?? result.job.variants.find(v => (!direction || v.direction === direction) && (!city || v.locations.some(p => p.code === city || p.city === city || p.kind === city)))?.key ?? result.job.variants[0]?.key ?? '' }
   catch (value) { error.value = errorText(value) }
 }, { immediate: true })
 async function record() { if (!job.value) return; busy.value = true; try { await api('/me/applications', { method: 'POST', body: { job_id: job.value.id, status: 'draft' } }); notify('已记录为待投递，实际申请请通过官方入口完成。') } catch (value) { notify(errorText(value), 'error') } finally { busy.value = false } }

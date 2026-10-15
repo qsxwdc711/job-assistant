@@ -16,6 +16,10 @@ import (
 	"jobassistant/backend/internal/database"
 	"jobassistant/backend/internal/httpapi"
 	"jobassistant/backend/internal/identity"
+	"jobassistant/backend/internal/llm"
+	"jobassistant/backend/internal/matching"
+	"jobassistant/backend/internal/profile"
+	"jobassistant/backend/internal/task"
 	"jobassistant/backend/migrations"
 )
 
@@ -39,6 +43,24 @@ func run() error {
 		return err
 	}
 	defer pool.Close()
+	features, err := config.LoadFeatures()
+	if err != nil {
+		return err
+	}
+	model, err := llm.New(llm.Options{BaseURL: features.ModelBaseURL, Model: features.ModelName, APIKey: features.ModelAPIKey, AllowHTTP: features.AllowHTTP})
+	if err != nil {
+		return err
+	}
+	defer model.Close()
+	vault, err := profile.OpenVault(features.PrivateDir)
+	if err != nil {
+		return err
+	}
+	defer func() {
+		if err := vault.Close(); err != nil {
+			slog.Warn("private storage close failed")
+		}
+	}()
 	if err := migrations.Check(ctx, pool); err != nil {
 		return err
 	}
@@ -47,7 +69,7 @@ func run() error {
 		return err
 	}
 	handler, err := httpapi.NewHandler(service, httpapi.Config{CSRFKey: cfg.CSRFKey, SecureCookies: cfg.SecureCookies, Origin: cfg.Origin}, pool.Ping,
-		httpapi.WithRecruitment(catalog.NewStore(pool), application.NewStore(pool)), httpapi.WithFrontend(os.Getenv("WEB_ROOT")))
+		httpapi.WithRecruitment(catalog.NewStore(pool), application.NewStore(pool)), httpapi.WithFrontend(os.Getenv("WEB_ROOT")), httpapi.WithResumes(profile.NewStore(pool, vault), matching.NewStore(pool), task.NewStore(pool), model.Configured(), model.Version()))
 	if err != nil {
 		return err
 	}

@@ -23,6 +23,9 @@ import (
 	"jobassistant/backend/internal/application"
 	"jobassistant/backend/internal/catalog"
 	"jobassistant/backend/internal/identity"
+	"jobassistant/backend/internal/matching"
+	"jobassistant/backend/internal/profile"
+	"jobassistant/backend/internal/task"
 )
 
 // CookieName is the opaque, HttpOnly session cookie name.
@@ -39,15 +42,20 @@ type Config struct {
 
 // Handler owns the identity routes and bounded login protections.
 type Handler struct {
-	service      *identity.Service
-	config       Config
-	ready        func(context.Context) error
-	mux          *http.ServeMux
-	limiter      loginLimiter
-	hashSlots    chan struct{}
-	catalog      *catalog.Store
-	applications *application.Store
-	frontend     *frontend
+	service         *identity.Service
+	config          Config
+	ready           func(context.Context) error
+	mux             *http.ServeMux
+	limiter         loginLimiter
+	hashSlots       chan struct{}
+	catalog         *catalog.Store
+	applications    *application.Store
+	frontend        *frontend
+	profiles        *profile.Store
+	matches         *matching.Store
+	tasks           *task.Store
+	modelConfigured bool
+	modelVersion    string
 }
 
 // NewHandler creates the API. Ready should check the actual database.
@@ -78,6 +86,9 @@ func NewHandler(service *identity.Service, cfg Config, ready func(context.Contex
 	h.mux.HandleFunc("GET /api/v1/admin/audit-events", h.protect(h.audit, false))
 	if h.catalog != nil {
 		h.recruitmentRoutes()
+	}
+	if h.profiles != nil {
+		h.resumeRoutes()
 	}
 	h.mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		apiPath := r.URL.Path == "/api" || r.URL.Path == "/health" || strings.HasPrefix(r.URL.Path, "/api/") || strings.HasPrefix(r.URL.Path, "/health/")
@@ -379,6 +390,12 @@ func (h *Handler) audit(w http.ResponseWriter, r *http.Request, p identity.Princ
 
 func (h *Handler) fail(w http.ResponseWriter, r *http.Request, err error) {
 	switch {
+	case errors.Is(err, profile.ErrInvalidFile):
+		h.writeError(w, r, 400, "invalid_document", "PDF or DOCX required; document may be corrupt, encrypted, scanned or too large")
+	case errors.Is(err, profile.ErrUnconfigured):
+		h.writeError(w, r, 503, "model_not_configured", "model key is not configured; local review and manual confirmation remain available")
+	case errors.Is(err, profile.ErrStale):
+		h.writeError(w, r, 409, "profile_changed", "refresh the current profile or wait for its active task")
 	case errors.Is(err, application.ErrVersionConflict):
 		h.writeError(w, r, 409, "version_conflict", "record changed on another device; refresh before saving")
 	case errors.Is(err, application.ErrAlreadyExists):

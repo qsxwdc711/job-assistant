@@ -1,0 +1,1 @@
+`owner-encrypted.pdf` is a generated blank page with an empty open password and a synthetic owner password. It contains no personal data. The test checks `pdfinfo` identifies actual encryption and that extraction refuses it even when opening without a password is possible. Generated with bundled pypdf; the project does not depend on Python or pypdf at runtime.

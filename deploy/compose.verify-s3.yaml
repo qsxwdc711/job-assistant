@@ -1,0 +1,37 @@
+# Isolated S3 fixture. Only this overlay uses the QA model executable and fake key.
+services:
+  api:
+    environment:
+      PRIVATE_STORAGE_DIR: /app/private
+      MODEL_BASE_URL: http://model:8090
+      MODEL_NAME: isolated-qa-model
+      MODEL_API_KEY: isolated-test-key
+      MODEL_ALLOW_HTTP: "true"
+    volumes:
+      - private_files:/app/private
+  worker:
+    image: ${COMPOSE_PROJECT_NAME}-api
+    entrypoint: ["/app/worker"]
+    environment:
+      DATABASE_URL: postgres://jobassistant_test:${VERIFY_DB_PASSWORD}@db:5432/jobassistant_test?sslmode=disable
+      APP_ENV: development
+      PRIVATE_STORAGE_DIR: /app/private
+      MODEL_BASE_URL: http://model:8090
+      MODEL_NAME: isolated-qa-model
+      MODEL_API_KEY: isolated-test-key
+      MODEL_ALLOW_HTTP: "true"
+    volumes:
+      - private_files:/app/private
+    depends_on:
+      db:
+        condition: service_healthy
+  model:
+    image: ${COMPOSE_PROJECT_NAME}-tests
+    entrypoint: ["go", "run", "./tests/modelserver"]
+    environment:
+      S3_ISOLATED_MODEL: "true"
+  verifier:
+    environment:
+      S3_BROWSER_FIXTURE: "true"
+volumes:
+  private_files:

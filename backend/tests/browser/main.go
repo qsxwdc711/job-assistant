@@ -54,6 +54,13 @@ func run() error {
 			return err
 		}
 	}
+	if os.Getenv("S3_BROWSER_FIXTURE") == "true" {
+		for _, name := range []string{"web-vip-a", "web-vip-b"} {
+			if _, err := service.CreateUser(ctx, admin, identity.CreateUserInput{Username: name, Password: os.Getenv("S2_BROWSER_PASSWORD"), Role: identity.RoleVIP}, "s3-browser-fixture"); err != nil {
+				return err
+			}
+		}
+	}
 	filename := os.Getenv("S2_BROWSER_JOB_FILE")
 	if filename == "" {
 		filename = "tests/browser/testdata/tencent-job.json"

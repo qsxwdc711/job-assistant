@@ -38,7 +38,7 @@ func (s *Store) Create(ctx context.Context, scope Scope, input Input, requestID 
 		return Record{}, identity.ErrNotFound
 	}
 	var id string
-	err = tx.QueryRow(ctx, "INSERT INTO applications(owner_user_id,job_id,status,notes,next_action,next_action_at,created_at,updated_at) VALUES($1,$2,$3,$4,$5,$6,$7,$7) RETURNING id::text", owner, input.JobID, input.Status, input.Notes, input.NextAction, input.NextActionAt, now).Scan(&id)
+	err = tx.QueryRow(ctx, "INSERT INTO applications(owner_user_id,job_id,status,notes,next_action,next_action_at,created_at,updated_at,resume_version_id) VALUES($1,$2,$3,$4,$5,$6,$7,$7,(SELECT profile_version_id FROM current_profiles WHERE owner_user_id=$1)) RETURNING id::text", owner, input.JobID, input.Status, input.Notes, input.NextAction, input.NextActionAt, now).Scan(&id)
 	var pgErr *pgconn.PgError
 	if errors.As(err, &pgErr) && pgErr.Code == "23505" {
 		return Record{}, ErrAlreadyExists

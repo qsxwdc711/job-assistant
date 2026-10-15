@@ -134,15 +134,15 @@ S0 新增实际反例：华为 AI 数据系统方向不能继承广告层额外�
 
 计划文件：backend/internal/profile/、backend/internal/matching/、backend/internal/task/、对应迁移，web/src/features/resume/ 和 web/src/features/recommendations/。
 
-- [ ] S3.1 在接受上传前校验能力；实现 10 MiB 文件限制、真实类型识别、私有存储和授权下载。
-- [ ] S3.2 本地 PDF/DOCX 文本提取，扫描/加密/损坏文件明确失败；DOCX 解压大小有限制。
-- [ ] S3.3 先验证脱敏样本不会发送姓名、电话、邮箱和证件信息，再接入云端解析；没有密钥时清楚显示服务未配置。
-- [ ] S3.4 用户确认草稿后创建 profile_version，指定当前版本；未确认草稿不触发推荐。
-- [ ] S3.5 编写学历、毕业时间、专业、经验、学生身份与实习出勤/时长的规则用例，按岗位子方向实现 eligible/needs_confirmation/ineligible 及逐项原文依据。
-- [ ] S3.6 对非 ineligible 岗位实现语义匹配，区分必需/优先条件，校验输出结构和证据引用；不生成录用概率。
-- [ ] S3.7 按用户、简历、JD、规则和模型版本缓存结果；变化后使旧结果失效，任务处理期间版本变化则取消旧任务。
-- [ ] S3.8 覆盖 VIP 撤销、账号停用、简历删除时的请求及后台任务阻断，包含外部调用前与结果返回前的检查。
-- [ ] S3.9 网页展示解析确认、可投条件与技能解释；待确认机会单独标明，不静默隐藏。
+- [x] S3.1 在接受上传前校验能力；实现 10 MiB 文件限制、真实类型识别、私有存储和授权下载。
+- [x] S3.2 本地 PDF/DOCX 文本提取，扫描/加密/损坏文件明确失败；DOCX 解压大小有限制。
+- [x] S3.3 先验证脱敏样本不会发送姓名、电话、邮箱和证件信息，再接入云端解析；没有密钥时清楚显示服务未配置。
+- [x] S3.4 用户确认草稿后创建 profile_version，指定当前版本；未确认草稿不触发推荐。
+- [x] S3.5 编写学历、毕业时间、专业、经验、学生身份与实习出勤/时长的规则用例，按岗位子方向实现 eligible/needs_confirmation/ineligible 及逐项原文依据。
+- [x] S3.6 对非 ineligible 岗位实现语义匹配，区分必需/优先条件，校验输出结构和证据引用；不生成录用概率。
+- [x] S3.7 按用户、简历、JD、规则和模型版本缓存结果；变化后使旧结果失效，任务处理期间版本变化则取消旧任务。
+- [x] S3.8 覆盖 VIP 撤销、账号停用、简历删除时的请求及后台任务阻断，包含外部调用前与结果返回前的检查。
+- [x] S3.9 网页展示解析确认、可投条件与技能解释；待确认机会单独标明，不静默隐藏。
 
 测试文件：backend/internal/profile/redaction_test.go、backend/internal/matching/eligibility_test.go、backend/internal/matching/evidence_test.go、backend/tests/integration/recommendation_authorization_test.go、web/tests/e2e/vip-recommendations.spec.ts。
 
@@ -164,6 +164,8 @@ S0 新增实际反例：华为 AI 数据系统方向不能继承广告层额外�
 | 模型运行中用户删除简历 | 不重新创建内容，结果与通知不发布 |
 
 阶段验收：普通用户不能通过接口、任务状态、下载路径或缓存读取推荐；有效 VIP 可完成上传、确认、推荐、解释；不满足和待确认结论有可靠依据。
+
+S3 开发与隔离模拟模型验收已完成，见 [2026-10-15 S3 验收](../../verification/2026-10-15-s3-resume-recommendations.md)。真实 DeepSeek 账号验收按用户选择等待本机密钥；不计作已完成的真实模型质量/费用验收。
 
 ## 7. S4：持久化任务、站内与飞书
 

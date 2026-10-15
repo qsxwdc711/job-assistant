@@ -28,5 +28,5 @@ Invoke-LocalCompose @('--profile','tools','run','--rm','admin','migrate')
 $count = & docker @compose exec -T db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -At -c "SELECT count(*) FROM users WHERE role=''admin''"'
 if ($LASTEXITCODE -ne 0) { throw 'Administrator initialization check failed.' }
 if ($count.Trim() -eq '0') { Invoke-LocalCompose @('--profile','tools','run','--rm','admin','bootstrap') }
-Invoke-LocalCompose @('up','-d','api')
+Invoke-LocalCompose @('up','-d','api','worker')
 Write-Output 'Local application started: http://127.0.0.1:8080 . Credentials remain in the ignored .env file.'
