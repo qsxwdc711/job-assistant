@@ -87,11 +87,11 @@ func (r *Reader) TencentInternships(ctx context.Context) ([]catalog.Document, in
 
 实际采集发现列表 `-2 / project 12` 为“项目实习生-技术”聚合入口，父级 ID 为 null，真实方向在 `projectInternDirections`。已在同一日常实习范围补做两次详情核验，增加独立解析与身份、空方向、重复方向、条件覆盖测试，及 PostgreSQL 持久化回归。未知负 ID 不享有该例外；青云仍不在本轮实现范围。
 
-- [ ] 对改动执行 `gofmt`；运行 `go vet ./...` 和针对本轮测试。使用唯一 Compose 项目及随机测试凭据启动 `deploy/compose.verify.yaml` 的临时 PostgreSQL，构建 verifier 并执行 `go test -race -v ./... -count=1 -timeout=180s`，不能将跳过数据库测试计为通过。
-- [ ] 按 go-feature-change-review / go-code-review 检查请求范围、错误路径、发布事务、既有校园行为、SQL、CLI 和测试；发现问题先修复，再重跑相关检查。
-- [ ] 只提交本轮代码和验收文档，合并回原开发分支，保留原先未提交的研究文档。构建本机镜像，执行新增迁移，等待服务就绪，分别真实采集两个新来源。
-- [ ] 查询实际岗位数、来源运行状态；用现有网页登录验证“实习”筛选及一个实习详情的官方链接和条件。确认原校园岗位仍在，原简历和个人投递数据不改动。
-- [ ] 将实际命令、结果、采集范围和未验证边界写入验收记录；关闭本轮自建浏览器标签，清理唯一测试项目与已合并的干净 worktree，保留项目数据库。
+- [x] 对改动执行 `gofmt`；运行 `go vet ./...` 和针对本轮测试。使用唯一 Compose 项目及随机测试凭据启动 `deploy/compose.verify.yaml` 的临时 PostgreSQL，构建 verifier 并执行 `go test -race -v ./... -count=1 -timeout=180s`，不能将跳过数据库测试计为通过。
+- [x] 按 go-feature-change-review / go-code-review 检查请求范围、错误路径、发布事务、既有校园行为、SQL、CLI 和测试；发现问题先修复，再重跑相关检查。
+- [x] 只提交本轮代码和验收文档，合并回原开发分支，保留原先未提交的研究文档。构建本机镜像，执行新增迁移，等待服务就绪，分别真实采集两个新来源。
+- [x] 查询实际岗位数、来源运行状态；用现有网页登录验证“实习”筛选及一个实习详情的官方链接和条件。确认原校园岗位仍在，原简历和个人投递数据不改动。
+- [x] 将实际命令、结果、采集范围和未验证边界写入验收记录；关闭本轮自建浏览器标签，清理唯一测试项目与已合并的干净 worktree，保留项目数据库。
 
 ## 本轮完成条件
 

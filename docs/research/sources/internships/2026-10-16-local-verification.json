@@ -1,0 +1,89 @@
+{
+  "at": "2026-10-16T15:42:16.685Z",
+  "scope": "Local verification snapshot, not enterprise-wide coverage or personal eligibility",
+  "collections": [
+    {
+      "source_code": "tencent-internships",
+      "status": "succeeded",
+      "fetched": 164,
+      "published": 53,
+      "requests": 64
+    },
+    {
+      "source_code": "huawei-internships",
+      "status": "succeeded",
+      "fetched": 31,
+      "published": 11,
+      "requests": 34
+    }
+  ],
+  "current_internship_advertisements": 66,
+  "current_total_published_advertisements": 122,
+  "original_sources": [
+    {
+      "source_code": "cmb-campus",
+      "count": 3,
+      "content_version_publication_verification_hash": "feb2a218cf01bdafe937c62f3e9ef0fc",
+      "unchanged": true
+    },
+    {
+      "source_code": "huawei-campus",
+      "count": 30,
+      "content_version_publication_verification_hash": "5abb8a178017adf0ff753949506247ef",
+      "unchanged": true
+    },
+    {
+      "source_code": "tencent-campus",
+      "count": 38,
+      "content_version_publication_verification_hash": "74b0fa26015a84861ab455108b404077",
+      "unchanged": true
+    }
+  ],
+  "personal_record_counts_unchanged": true,
+  "isolated_tests": {
+    "project": "job-assistant-intern-verify-d469402b",
+    "linux_race": true,
+    "real_postgresql": true,
+    "go_vet": true,
+    "migration_repeated": true,
+    "tests_and_subtests": 120,
+    "skipped": 0
+  },
+  "browser_checks": [
+    {
+      "check": "desktop internship tab and API",
+      "total": 66,
+      "counts": {
+        "tencent-internships": 53,
+        "huawei-internships": 11,
+        "cmb-campus": 2
+      },
+      "displayedCards": 20
+    },
+    {
+      "check": "desktop table view",
+      "passed": true
+    },
+    {
+      "check": "official internship detail",
+      "source": "tencent-internships",
+      "title": "项目实习生-技术",
+      "variants": 2
+    },
+    {
+      "check": "official internship detail",
+      "source": "huawei-internships",
+      "title": "AI安全与隐私工程师",
+      "variants": 2
+    },
+    {
+      "check": "mobile internship list",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "displayedCards": 20,
+      "horizontalOverflow": false
+    }
+  ]
+}
