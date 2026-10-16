@@ -1,0 +1,68 @@
+{
+  "status": 0,
+  "data": {
+    "postId": "1210646470286783494",
+    "title": "技术研究-高性能计算方向",
+    "desc": "包含GPU、网络、大模型框架等细分方向。\n\n1、针对业务需求，解决算力瓶颈、通信延迟、分布式系统扩展性等问题；\n2、协同算法、硬件及运维团队，构建高效、稳定的计算基础设施。\n\n1）GPU方向：研究GPU集群的调度策略，优化资源利用率。探索混合精度计算、模型量化等GPU加速技术；\n2）网络方向：设计低延迟、高吞吐的分布式网络架构（如InfiniBand/RoCE/DPU）。优化MPI、NCCL等通信库性能，解决大规模集群中的网络拥塞问题；\n3）大模型工程框架方向：开发或优化大模型训练框架（如PyTorch/TensorFlow/DeepSpeed/Megatron-LM），设计分布式训练策略（模型并行、流水线并行、混合并行），提升千亿级参数模型的训练效率。研究训练加速技术（梯度压缩、显存优化、动态计算图调度）。",
+    "request": "1、扎实的计算机体系结构基础，熟悉并行计算、数据密集型系统设计；\n2、良好的数学基础（线性代数、数值分析、算法复杂度优化）。",
+    "graduateBonus": "1、有TensorRT/Triton Inference Server等推理框架经验者优先；\n2、深入理解TCP/IP、RDMA协议栈，熟悉DPDK/SPDK开发、有超算中心或云计算网络调优经验者优先；\n3、熟悉Transformer架构及主流大模型训练流程。",
+    "internBonus": "1、有TensorRT/Triton Inference Server等推理框架经验者优先；\n2、深入理解TCP/IP、RDMA协议栈，熟悉DPDK/SPDK开发、有超算中心或云计算网络调优经验者优先；\n3、熟悉Transformer架构及主流大模型训练流程。",
+    "workCityList": [
+      "深圳总部",
+      "北京"
+    ],
+    "intentionBGDList": [
+      {
+        "id": 958,
+        "title": "TEG技术工程事业群",
+        "showTitle": "TEG",
+        "showTxt": "技术工程事业群",
+        "isLock": null,
+        "status": null,
+        "ordering": 958,
+        "departmentList": [
+          {
+            "id": 282,
+            "name": "腾讯混元基础模型部",
+            "bgid": 958,
+            "comment": "基础模型部负责混元大模型的前沿技术探索与基础模型研发，聚焦模型结构、数据与训练策略、强化学习及Agent能力，协同各模态研发能力，高效开发并迭代基础模型架构，面向AGI愿景探索智能上限、确保技术领先；同时构建基于大模型的AI PaaS中台能力，赋能公司内外部的产品创新与业务应用。",
+            "ordering": 1,
+            "enableFlag": 1,
+            "workCity": "2,1",
+            "workCityList": [
+              "北京",
+              "深圳总部"
+            ]
+          },
+          {
+            "id": 293,
+            "name": "腾讯混元AI Infra部",
+            "bgid": 958,
+            "comment": "AI Infra部负责大模型训练及推理平台技术能力建设，聚焦大规模分布式训练、高性能推理服务等核心技术能力，构建大模型AI Infra核心竞争力，为大模型算法研发和业务场景落地提供稳定高效的技术支持和服务。",
+            "ordering": 3,
+            "enableFlag": 1,
+            "workCity": "2",
+            "workCityList": [
+              "北京"
+            ]
+          },
+          {
+            "id": 270,
+            "name": "腾讯AI平台部",
+            "bgid": 958,
+            "comment": "腾讯AI平台部聚焦决策AI和生成式AI两大技术研发方向，致力于探索AI与游戏娱乐行业的深度融合，为游戏研发和运营提供全链路AI解决方案，助力游戏行业发展。在决策AI方面，我们研发出屡获国际大奖的棋牌类 AI“绝艺”，以及攻克了 MOBA、FPS、RTS、3D 开放世界等多类游戏场景的决策智能 AI“绝悟”。在游戏生成式AI方向，我们聚焦于提高工程化效率和拓展游玩内容，自主研发了游戏AI引擎GiiNEX，支持AI NPC的创建、驱动和智能交互等技术，并且能够辅助生成关卡、剧情等游戏体验内容。在学术合作方面，我们与王者荣耀联合打造“开悟”AI开放研究平台，通过赛事、课程、共研项目等推动AI青年人才培养及产业发展。",
+            "ordering": 7,
+            "enableFlag": 1,
+            "workCity": "1",
+            "workCityList": [
+              "深圳总部"
+            ]
+          }
+        ]
+      }
+    ],
+    "projectId": 4,
+    "projectName": "日常实习",
+    "recruitType": 2
+  }
+}

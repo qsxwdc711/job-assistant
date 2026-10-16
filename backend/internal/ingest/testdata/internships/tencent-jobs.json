@@ -1,0 +1,54 @@
+[
+  {
+    "mappingId": 2,
+    "postId": "1200791473415778304",
+    "position": 101,
+    "positionTitle": "后台开发",
+    "positionFamily": 2,
+    "projectId": 2,
+    "projectName": "应届实习",
+    "positionSource": "oa",
+    "positionUrl": null,
+    "workCities": "深圳总部 北京 上海 广州 成都 杭州 ",
+    "recruitLabelName": "应届实习"
+  },
+  {
+    "mappingId": 104,
+    "postId": "1210646470286783494",
+    "position": 353,
+    "positionTitle": "技术研究-高性能计算方向",
+    "positionFamily": 2,
+    "projectId": 4,
+    "projectName": "日常实习",
+    "positionSource": "oa",
+    "positionUrl": null,
+    "workCities": "深圳总部 北京 ",
+    "recruitLabelName": "日常实习"
+  },
+  {
+    "mappingId": 104,
+    "postId": "1210646470286783488",
+    "position": 101,
+    "positionTitle": "后台开发",
+    "positionFamily": 2,
+    "projectId": 4,
+    "projectName": "日常实习",
+    "positionSource": "oa",
+    "positionUrl": null,
+    "workCities": "深圳总部 北京 上海 广州 武汉 杭州 ",
+    "recruitLabelName": "日常实习"
+  },
+  {
+    "mappingId": 104,
+    "postId": "1210646470286783489",
+    "position": 109,
+    "positionTitle": "视觉设计",
+    "positionFamily": 4,
+    "projectId": 4,
+    "projectName": "日常实习",
+    "positionSource": "oa",
+    "positionUrl": null,
+    "workCities": "深圳总部 北京 广州 ",
+    "recruitLabelName": "日常实习"
+  }
+]

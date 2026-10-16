@@ -36,6 +36,10 @@ func Collect(ctx context.Context, store *catalog.Store, reader *Reader, source s
 		documents, fetched, err = reader.Tencent(readCtx)
 	case "huawei-campus":
 		documents, fetched, err = reader.Huawei(readCtx)
+	case "tencent-internships":
+		documents, fetched, err = reader.TencentInternships(readCtx)
+	case "huawei-internships":
+		documents, fetched, err = reader.HuaweiInternships(readCtx)
 	case "cmb-campus":
 		documents, fetched, err = reader.CMB(readCtx)
 	default:

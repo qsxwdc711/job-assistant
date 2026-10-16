@@ -13,6 +13,8 @@ import (
 
 var dateRange = regexp.MustCompile(`(\d{4})年(\d{1,2})月(\d{1,2})日\s*[-—至]\s*(\d{4})年(\d{1,2})月(\d{1,2})日`)
 var campusYear = regexp.MustCompile(`(\d{4})届应届生招聘对象`)
+var internshipQuestion = regexp.MustCompile(`^(\d{4})届实习生招聘面向哪些人群[？?]?$`)
+var internshipAudience = regexp.MustCompile(`^华为(\d{4})届实习生招聘对象主要面向(\d{4})届毕业的在校学生[。.]?$`)
 var configScript = regexp.MustCompile(`(?is)<script\b[^>]*type\s*=\s*["']application/json["'][^>]*>(.*?)</script\s*>`)
 
 func graduationRange(value string) (string, string, bool) {
@@ -98,4 +100,49 @@ func huaweiCampaign(body []byte) (string, []catalog.GraduationRule, string, stri
 		}
 	}
 	return yearMatch[1], rules, evidence, exam, nil
+}
+
+// huaweiInternshipCampaign binds the internship entry to its own audience FAQ.
+// The verified "mainly" wording is a preference, never an exclusive graduation gate.
+func huaweiInternshipCampaign(body []byte) (huaweiProgramme, error) {
+	var descriptions []string
+	year, preference := "", ""
+	invalid := false
+	for _, script := range configScript.FindAllSubmatch(body, -1) {
+		var root any
+		if err := json.Unmarshal(script[1], &root); err != nil {
+			continue
+		}
+		walk(root, func(entry map[string]any) {
+			if text(entry["key"]) == "INTERN" {
+				for _, item := range array(entry["descList"]) {
+					description := PlainText(text(object(item)["description"]))
+					if description != "" {
+						descriptions = append(descriptions, description)
+					}
+				}
+			}
+			question := internshipQuestion.FindStringSubmatch(PlainText(text(entry["title"])))
+			if len(question) != 2 {
+				return
+			}
+			content := array(entry["contentList"])
+			if len(content) != 1 {
+				invalid = true
+				return
+			}
+			description := PlainText(text(object(content[0])["description"]))
+			audience := internshipAudience.FindStringSubmatch(description)
+			if len(audience) != 3 || audience[1] != question[1] || audience[2] != question[1] || (year != "" && year != question[1]) {
+				invalid = true
+				return
+			}
+			year, preference = question[1], description
+		})
+	}
+	evidence := strings.Join(descriptions, "\n")
+	if invalid || year == "" || !strings.Contains(evidence, "在校") || strings.Contains(evidence, "毕业") {
+		return huaweiProgramme{}, ErrSchema
+	}
+	return huaweiProgramme{officialType: "INTERN", sourceCode: "huawei-internships", recruitmentType: "internship", campaignKey: "intern:" + year, campaignName: year + "届实习生招聘", evidence: evidence + "\n" + preference, graduationPreference: preference, studentRequired: "yes", rules: []catalog.GraduationRule{}}, nil
 }

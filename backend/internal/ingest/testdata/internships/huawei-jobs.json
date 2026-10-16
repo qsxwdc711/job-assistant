@@ -1,0 +1,26 @@
+[
+  {
+    "advertisementId": 30859,
+    "jobId": 95290,
+    "jobName": "AI模型工程师",
+    "categoryName": "研发类",
+    "workPlace": "苏州/杭州/北京/长沙/济南/东莞/南京/西安/武汉/成都/上海/合肥/深圳",
+    "scenarioName": "实习生"
+  },
+  {
+    "advertisementId": 30865,
+    "jobId": 95287,
+    "jobName": "AI Infra工程师",
+    "categoryName": "研发类",
+    "workPlace": "苏州/杭州/北京/长沙/济南/东莞/南京/西安/武汉/成都/上海/合肥/深圳",
+    "scenarioName": "实习生"
+  },
+  {
+    "advertisementId": 30835,
+    "jobId": 95302,
+    "jobName": "软件开发工程师",
+    "categoryName": "研发类",
+    "workPlace": "苏州/杭州/北京/长沙/济南/东莞/南京/西安/武汉/成都/上海/合肥/深圳",
+    "scenarioName": "实习生"
+  }
+]

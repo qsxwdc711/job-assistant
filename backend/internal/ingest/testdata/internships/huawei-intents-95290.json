@@ -1,0 +1,1525 @@
+{
+  "status": "SUCCESS",
+  "data": [
+    {
+      "positionIntentionId": 11349,
+      "positionIntention": "端侧大模型",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、负责语言模型、多模态基础模型的开发与优化，参与从预训练（Pre-training）到指令微调（SFT）的全链路开发。<br>2、针对端侧场景，构建高质量、高多样性的数据清洗与合成流水线，通过“以质取胜”提升小模型在特定任务上的表现。<br>3、应用 DPO、PPO 等对齐技术，针对端侧交互场景优化模型回复的准确性与安全性。<br>4、负责入端模型探索调优，极致优化首字延迟（Prefill）与生成速度（Decoding），确保端侧交互的高流畅度与低功耗。<br>",
+      "jobDemand": "1、计算机科学、人工智能、软件工程、电子信息、自动化、统计数学等相关专业，具备扎实的机器学习与深度学习理论基础；<br>2、深入理解 Transformer 架构及主流 LLM 训练技术栈，有大模型训练、微调经验、熟练使用 分布式训练框架（如 Megatron）者优先。<br>3、熟练使用 PyTorch 等框架，熟悉vllm 等高效部署框架。<br>4、熟悉语言大模型、多模态大模型、深度神经网络、和机器学习算法等的至少一种，能够针对芯片硬件特点提出算法特点设计者优先。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "东莞/杭州/上海/武汉/西安/北京"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京/西安"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/上海/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "武汉/东莞/北京/上海/杭州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都/西安"
+        },
+        {
+          "deptCode": "050842",
+          "deptName": "终端BG CTO",
+          "jobPlaceName": "上海/深圳"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海/南京"
+        },
+        {
+          "deptCode": "030779",
+          "deptName": "上海海思研发部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海/杭州/东莞"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11350,
+      "positionIntention": "AI模型评测",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1. 设计和开发自然语言和多模态理解，多模态生成AI大模型和Agent评测体系，评测方法和流程，开发评测所需要的工具、沙箱、脚手架。<br>2. 设计和开发评测集，评测观测指标和打分标准，对评测集质量进行评估。<br>3. 对评测结果进行系统分析，开发自动化打标，自动聚类算法，实现自动化分析。<br>",
+      "jobDemand": "1、计算机科学、人工智能、数据科学、软件工程、统计数学等相关专业；<br>2、精通Python等编程语言，熟悉深度学习框架，具备软件工程和算法实现能力;<br>3、具备较强的学习力、自驱力、团队协同和责任意识；<br>4、具备语言/语音/多模态/空间智能相关模型训推、部署经验，掌握数据处理、分析或模型验证的相关方法和工具者优先；<br>5、在领域顶级会议（如NeurlPS, ICML, AAAI, VLDB等）发表论文，或有相关实习经验/高水平竞赛（如ACM, ICPC等）获奖经历者优先。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "北京/东莞/杭州/上海/西安"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/上海/苏州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都/西安"
+        },
+        {
+          "deptCode": "045908",
+          "deptName": "中央媒体技术院",
+          "jobPlaceName": "深圳/上海/杭州"
+        },
+        {
+          "deptCode": "050842",
+          "deptName": "终端BG CTO",
+          "jobPlaceName": "上海/深圳"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海"
+        },
+        {
+          "deptCode": "030779",
+          "deptName": "上海海思研发部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "北京/深圳/成都"
+        },
+        {
+          "deptCode": "048290",
+          "deptName": "研发工程、IT装备与安全技术院",
+          "jobPlaceName": "北京/深圳/上海/杭州/东莞/西安"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海"
+        },
+        {
+          "deptCode": "068618",
+          "deptName": "智能车控领域",
+          "jobPlaceName": "上海/南京/苏州"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "杭州/东莞"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11351,
+      "positionIntention": "后训练与强化学习",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、围绕语言、多模态、Agent能力，探索后训练SFT数据配比、SFT策略、SFT&amp;RL协同策略、RL训练算法；<br>2、参与研究面向Agentic（Planning、Tool-use、Skills-use等），Reasoning（STEM、Logic、TIR等）、Coding（Bug-fix、Feature-implementation等）、General（Instruction Following、Hallucination Control、Context Learning、Content Understand and Generation）等高优场景的针对性Reward System 构建、环境模拟、强化学习训练策略<br>3、参与研究强化学习算法、提升强化学习训练稳定性，包括但不限于探索重要性采样策略、细粒度Reward设计、Credit Assignment策略、Off-policy Masking等提升RL训推一致性策略<br>4、参与探索Model Merge（模型融合）、On-policy KD（在线蒸馏）、Multi-task RL（多任务强化学习）等专项能力融合策略<br>",
+      "jobDemand": "1、计算机科学、人工智能、数据科学、软件工程、统计数学等相关专业；<br>2、具备软件工程和算法实现能力，熟悉模型架构、深度学习框架;<br>3、具备较强的学习力、自驱力、团队协同和责任意识；<br>4、具备语言/语音/多模态/空间智能相关模型后训练SFT或RL验证的相关方法者优先；<br>5、在领域顶级会议（如NeurlPS, ICML, AAAI, VLDB等）发表论文，或有相关实习经验/高水平竞赛（如ACM, ICPC等）获奖经历者优先。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "北京/东莞/杭州/上海/西安"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京/西安"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/东莞/上海/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "武汉/东莞/北京/上海/杭州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "033840",
+          "deptName": "UCD与翻译中心",
+          "jobPlaceName": "北京/西安/南京/深圳"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都"
+        },
+        {
+          "deptCode": "050842",
+          "deptName": "终端BG CTO",
+          "jobPlaceName": "上海/深圳"
+        },
+        {
+          "deptCode": "023489",
+          "deptName": "基础软件院",
+          "jobPlaceName": "北京/上海/杭州/深圳/南京"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海/南京"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "深圳/北京/成都"
+        },
+        {
+          "deptCode": "048290",
+          "deptName": "研发工程、IT装备与安全技术院",
+          "jobPlaceName": "北京/深圳/上海/杭州/东莞/西安"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海/深圳/东莞"
+        },
+        {
+          "deptCode": "048520",
+          "deptName": "智能车云领域",
+          "jobPlaceName": "深圳"
+        },
+        {
+          "deptCode": "068618",
+          "deptName": "智能车控领域",
+          "jobPlaceName": "上海/南京/苏州"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "杭州"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11352,
+      "positionIntention": "搜索推荐",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/长沙/济南/合肥/苏州",
+      "jobResponsibilities": "1、参与算法设计与迭代，对搜索/推荐系统中召回、排序等模块进行算法设计、训练与优化，持续提升点击率、转化率等业务核心指标。<br>2、研究LLM如何赋能搜索/推荐系统中的个性化用户理解，利用多模态Tokenizer、长序列建模、推理增强等技术，构建高效的内容理解用户建模模型，增强系统个性化能力。<br>3、负责性能优化与系统部署，深度参与数据工程、训练推理优化、模型部署、和算子性能分析，进行硬件亲和的算法方案设计和链路优化，确保模型在大规模场景下的延迟、吞吐和资源成本可控。<br>4、参与效果评估与闭环迭代，建立算法评估机制，设计并执行A/B实验，推动算法效果稳定迭代与线上持续优化。<br>",
+      "jobDemand": "1、计算机科学与技术、软件工程、人工智能、控制科学与工程、数据科学与大数据技术、自动化（偏AI控制方向）等相关专业；熟悉主流搜索/推荐模型（如FM、DSSM、DIN、Transformer等），具备良好的建模思维和机器学习基础；<br>2、系统与工程能力强，熟悉Python/C++等，掌握至少一种深度学习框架，具备模型训练、上线、性能调优等完整落地经验；<br>3、具备性能意识，理解关键算子（如embedding、attention、topk等）对延迟/QPS的影响，具备协同优化模型结构与部署效率的能力；<br>4、具有良好的产品意识与协作能力，具备业务理解能力，能将算法与业务目标对齐，并与产品、后端、运营等多团队高效配合推动方案落地。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都"
+        },
+        {
+          "deptCode": "023489",
+          "deptName": "基础软件院",
+          "jobPlaceName": "北京/上海/杭州/深圳/南京/西安"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11353,
+      "positionIntention": "大模型数据技术",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、围绕语言、多模态和空间智能数据技术，持续提升预训练/后训练数据的构建、质检、分析和验证能力，支撑基础模型训练和行业模型调优所需的高质量数据生产；<br>2、开发数据生产管线，协同构造长上下文理解、长轨迹交互等高阶数据，强化内容质量、知识密度和任务复杂度，拓展模型能力上限；<br>3、协同开展数据分析与验证，优化多领域、多模态、多任务数据的采样/配比方法，提升基础模型的数据效能；<br>4、构建大模型数据工程和数据飞轮的关键工具与平台能力，提升数据技术的创新验证效率，支撑规模化数据生产、验证和版本管理；<br>5、参与业界前沿技术分析和规划，与领军专家和科研团队合作创新，探索大模型数据技术前沿，提升技术竞争力与影响力。<br>",
+      "jobDemand": "1、计算机科学、人工智能、数据科学、软件工程、统计数学等相关专业；<br>2、具备软件工程和算法实现能力，熟悉模型架构、数据工程、深度学习框架和分布式并行软件开发环境;<br>3、具备较强的学习力、自驱力、团队协同和责任意识；<br>4、具备语言/语音/多模态/空间智能相关模型训推、部署经验，掌握数据处理、合成、质检、分析或模型验证的相关方法和工具者优先；<br>5、在领域顶级会议（如NeurlPS, ICML, AAAI, VLDB等）发表论文，或有相关实习经验/高水平竞赛（如ACM, ICPC等）获奖经历者优先。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "北京/东莞/上海/西安"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/东莞/上海/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "武汉/东莞/北京/上海/杭州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "033840",
+          "deptName": "UCD与翻译中心",
+          "jobPlaceName": "北京/西安/南京/深圳"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都"
+        },
+        {
+          "deptCode": "050842",
+          "deptName": "终端BG CTO",
+          "jobPlaceName": "上海/深圳"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海/南京"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/成都"
+        },
+        {
+          "deptCode": "048290",
+          "deptName": "研发工程、IT装备与安全技术院",
+          "jobPlaceName": "北京/深圳/上海/杭州/东莞/西安"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "048520",
+          "deptName": "智能车云领域",
+          "jobPlaceName": "深圳"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "杭州"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11354,
+      "positionIntention": "Agent技术",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、深耕记忆管理、自主决策、代码生成技术，持续提升Agent上下文管理、规划推理和工具调用等核心能力，支撑信息获取、应用生成、代码生成、办公文档、GUI操控智能体的构建；<br>2、面向预训练/后训练构建Agent的复杂任务规划、Repo级长程轨迹交互、多步工具编排等高价值数据生产管线，强化推理深度、决策鲁棒性与复杂场景适应力，拓展智能体能力边界；<br>3、探索强化学习与Agent的深度融合，构建环境反馈驱动的策略优化机制，提升复杂决策场景的泛化性和准确性；<br>4、负责业界前沿技术分析和规划，与领军专家和科研团队合作创新，探索自主演化、多智能体协作、复杂代码生成等Agent技术前沿，提升技术竞争力与影响力。<br>",
+      "jobDemand": "1、人工智能、机器学习、自然语言处理、计算机科学、统计数学等相关专业。<br>2、具备扎实的算法研究功底和代码实现能力，深入理解大语言模型原理、Agent架构设计、强化学习、认知推理与决策规划，熟悉主流AI框架与分布式训练系统。<br>3、具备敏锐的科研洞察力、创新思维和独立攻关能力，能够主动追踪前沿技术动态，善于从复杂问题中抽象核心科学问题并推动技术突破。<br>4、具有Agent系统研发经验者优先，包括但不限于自主规划、工具学习、多智能体协作、环境交互、长程任务执行等方向；具备强化学习在复杂决策场景中应用经验者优先。<br>5、在领域顶级会议（如NeurIPS、ICML、ICLR、ACL、CVPR等）发表过相关论文者优先；具有开源项目贡献、高水平竞赛获奖或知名研究机构实习经历者更佳。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "东莞/杭州/上海"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州/苏州/东莞"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞/杭州"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/东莞/上海/杭州/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "武汉/东莞/北京/上海/杭州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "033840",
+          "deptName": "UCD与翻译中心",
+          "jobPlaceName": "北京/西安/南京/深圳"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都/西安"
+        },
+        {
+          "deptCode": "023489",
+          "deptName": "基础软件院",
+          "jobPlaceName": "北京/上海/杭州/深圳/南京/西安"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海/南京"
+        },
+        {
+          "deptCode": "072483",
+          "deptName": "半导体平台部",
+          "jobPlaceName": "上海/东莞/深圳/成都/北京/武汉/南京/西安"
+        },
+        {
+          "deptCode": "030779",
+          "deptName": "上海海思研发部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "048290",
+          "deptName": "研发工程、IT装备与安全技术院",
+          "jobPlaceName": "北京/深圳/上海/杭州/东莞/西安"
+        },
+        {
+          "deptCode": "031279",
+          "deptName": "光电业务部",
+          "jobPlaceName": "武汉/深圳/北京/上海"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海/深圳/东莞"
+        },
+        {
+          "deptCode": "048520",
+          "deptName": "智能车云领域",
+          "jobPlaceName": "深圳"
+        },
+        {
+          "deptCode": "068618",
+          "deptName": "智能车控领域",
+          "jobPlaceName": "上海/南京/苏州"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11355,
+      "positionIntention": "语言大模型",
+      "jobId": 95290,
+      "jobPlaceName": "杭州/东莞/上海/北京/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、参与大语言模型架构的工程实现与优化，基于昇腾等硬件平台，开发和维护模型训练与推理流程，重点解决长序列处理、训练效率、推理延迟等工程挑战，支撑业务场景的快速迭代。<br>2、 参与代码大模型技术体系的工程构建，围绕软件工程全生命周期（如代码生成、缺陷检测、自动化测试等）开发模型服务、API接口及工具链，提升代码生成质量和工程规范符合度。<br>3、面向终端智慧助手、软件开发助手等业务场景，负责大模型应用的工程化实现，协同算法、系统和产品团队，解决计算复杂度高、存储开销大等实际问题，确保解决方案的高效稳定落地。<br>",
+      "jobDemand": "1、人工智能、软件工程、计算机科学、数学、物理等相关专业；具备扎实的编程基础（Python/C++等），熟悉数据结构和算法，掌握Linux环境下的开发与调试。<br>2、 深入理解主流大模型架构及训练/推理流程；具有大模型性能优化经验（长序列处理、高并发推理、显存优化等），熟悉PyTorch等框架，有昇腾等国产硬件适配经验者优先。<br>3.、具备快速学习能力和自驱力，能紧跟技术迭代；良好的沟通能力和团队意识，能够有效推动跨部门（算法、系统、产品）协作，完成复杂项目落地。<br>4、掌握训推系统优化、算子调测工具（Profiling、Tiling）者优先；在顶级竞赛（如ACM/ICPC）中获奖或相关领域顶级会议发表论文者更佳。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "049031",
+          "deptName": "产品数字化与IT装备部",
+          "jobPlaceName": "杭州/东莞/上海/北京"
+        },
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "东莞/上海/西安"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京/西安"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/东莞/杭州"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/东莞/上海/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "武汉/东莞/北京/上海/杭州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海"
+        },
+        {
+          "deptCode": "030779",
+          "deptName": "上海海思研发部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "深圳/东莞/西安/南京/北京/成都"
+        },
+        {
+          "deptCode": "048290",
+          "deptName": "研发工程、IT装备与安全技术院",
+          "jobPlaceName": "北京/深圳/上海/杭州/东莞/西安"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11356,
+      "positionIntention": "空间智能",
+      "jobId": 95290,
+      "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都/深圳/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、参与空间智能(含具身、智驾)大模型前沿算法研究，涵盖4D通用表征、多模态感知融合（视觉/触觉/力觉）、空间理解与推理、端到端运动规划、动作生成等模块的数据生成、算法开发、模型训练优化及评测迭代等工作，持续提升大模型空间智能竞争力。<br>2、开展细粒度4D空间对齐与推理技术研究，在VLM中引入4D空间特征编码网络并对齐到LLM语义空间，同时通过DiT/世界模型等技术提升模型的空间推理能力，实现对4D场景的精细化理解。<br>3、参与构建大模型的时空间理解与推理能力，实现快慢思考自适应切换，基于CoT压缩与推理加速、高质量CoT生成、强化微调等技术，在保持因果推理能力的同时降低时延，应用于自动驾驶与具身智能。<br>4、将业界先进VLA, VLN, World Model, Agent, 强化学习, 迁移学习等技术应用于自动驾驶、具身智能领域，实现安全高效的动作生成，提升自动驾驶在复杂场景下的推理、规划和决策能力，以及机器人各类应用的通用技能。<br>5、协同团队推动算法落地应用与技术竞争力构建：包括大规模数据采集与生成、Sim-to-Real迁移、真机部署等工作，搭建空间智能/具身智能技术平台，确保技术方案领先性与差异化；紧跟业界和学术界空间智能领域最新研究进展，参与业界顶会，将前沿成果融入研发。<br>",
+      "jobDemand": "1、计算机、人工智能、数学、控制科学与工程、机器人学、自动化等相关专业。<br>2、具备较强的代码编写和算法实现能力，熟悉Pytorch、Megatron等开源训练框架。<br>3、具备较强的学习能力、自驱意识、团队意识和责任意识，能够积极参与团队协作，快速适应技术迭代。<br>4、具有大模型预训练/后训练、视频理解模型、3D/4D大模型、多模态对齐、大模型记忆、VLA、具身强化学习等实践经验者优先。<br>5、在相关方向发表过顶级会议（如NeurIPS、CVPR、ICCV、ICLR、ECCV、ICML、AAAI等）优先。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "东莞/上海/武汉"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/上海"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "武汉/东莞/北京/上海/杭州"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都"
+        },
+        {
+          "deptCode": "050842",
+          "deptName": "终端BG CTO",
+          "jobPlaceName": "上海/深圳"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "北京/深圳/成都"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "南京/深圳/上海/杭州/西安/成都/北京"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海"
+        },
+        {
+          "deptCode": "068618",
+          "deptName": "智能车控领域",
+          "jobPlaceName": "上海/南京/苏州"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "南京/苏州"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11357,
+      "positionIntention": "多模态大模型",
+      "jobId": 95290,
+      "jobPlaceName": "上海/深圳/北京/杭州/东莞/南京/武汉/西安/成都/苏州/长沙/济南/合肥",
+      "jobResponsibilities": "1、负责多模态大模型（如结合视觉、文本、音频等模态的LLM）的开发、优化和部署，包括模型训练、推理加速和系统集成。<br>2、参与数据预处理、标注和多模态数据集构建，确保数据质量和多样性。<br>3、设计和实现多模态模型的工程化解决方案，如API接口、分布式训练框架和实时应用模块。<br>4、与团队协作，进行模型性能评估、调试和迭代优化，解决工程化中的实际问题（如计算资源管理、模型压缩）。<br>5、跟踪多模态AI领域的最新技术趋势，并应用于实际项目中，提升系统效率和稳定性。<br>6、编写技术文档、代码注释，并参与代码审查和知识分享。<br>",
+      "jobDemand": "1、计算机科学、人工智能、数据科学或相关专业。<br>2、熟练掌握Python编程，以及PyTorch或TensorFlow等深度学习框架。<br>3、具备多模态学习（如CLIP、DALL-E等模型）的实际项目经验，了解计算机视觉、自然语言处理等基础知识。<br>4、熟悉分布式计算、GPU加速和模型部署工具（如Docker、Kubernetes）。<br>5、良好的问题解决能力和团队协作精神，能够在快节奏环境中工作。<br>6、英语阅读和写作能力良好，能阅读AI相关论文和技术文档。<br>7、加分项：有开源项目贡献或相关实习经验。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "050842",
+          "deptName": "终端BG CTO",
+          "jobPlaceName": "上海/深圳/北京"
+        },
+        {
+          "deptCode": "049031",
+          "deptName": "产品数字化与IT装备部",
+          "jobPlaceName": "杭州/东莞/上海/北京"
+        },
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "北京/东莞/杭州/上海/武汉/西安"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞/杭州/北京"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/上海/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "北京/成都/东莞/杭州/上海/武汉/西安"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "033840",
+          "deptName": "UCD与翻译中心",
+          "jobPlaceName": "北京/西安/南京/深圳"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都/西安"
+        },
+        {
+          "deptCode": "045908",
+          "deptName": "中央媒体技术院",
+          "jobPlaceName": "深圳/北京/上海/杭州"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海"
+        },
+        {
+          "deptCode": "072483",
+          "deptName": "半导体平台部",
+          "jobPlaceName": "上海/东莞/深圳/成都/北京/武汉/南京/西安"
+        },
+        {
+          "deptCode": "030779",
+          "deptName": "上海海思研发部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "深圳/上海/北京/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海/东莞"
+        }
+      ]
+    },
+    {
+      "positionIntentionId": 11358,
+      "positionIntention": "AI算法",
+      "jobId": 95290,
+      "jobPlaceName": "杭州/东莞/上海/北京/深圳/南京/西安/苏州/武汉/成都/长沙/济南/合肥",
+      "jobResponsibilities": "1. 决策推理：应用强化学习、图算法等技术构建决策系统，解决复杂业务场景下的策略优化难题。<br>2. 语音语义：负责音频处理、语音处理、语音唤醒、说话人识别、语音识别、语音合成、语音大模型、音频大模型、多模态语音大模型、全双工语音交互、端到端语音交互、语音智能体、语音翻译、声学数据仿真等语音关键技术方向的工程开发与交付，以及在手机、座舱、手表、PC、耳机、眼镜、全屋、智慧屏、音箱等1+8产品语音助手场景的落地，保障语音助手的极致稳定体验。<br>3. 计算机视觉：落地OCR、3D重建等视觉算法，解决多媒体分析场景下的具体工程问题与技术难点。<br>",
+      "jobDemand": "1、计算机科学与技术、软件工程、人工智能、控制科学与工程、数据科学与大数据技术、自动化（偏AI控制方向）等相关专业；熟悉主流推荐/搜索模型（如FM、DSSM、DIN、Transformer等），具备良好的建模思维和机器学习基础；<br>2、具有音频回声消除、多麦克风处理、语音唤醒、说话人识别、语音识别、语音合成、语音情感识别、语音大模型、多模态语音大模型、智能体等语音方向开发经验，了解计算机视觉、自然语言处理、机器学习、语音处理等基础知识。<br>3、有一定的研究能力，在语音和AI顶级会议期刊InterSpeech/ICASSP/IEEE TASLP、ICML/ICLR/NeurIPS/ACL等发表过具有影响力论文者优先<br>4、系统与工程能力强，精通Python/C++等，掌握至少一种深度学习框架，具备模型训练、上线、性能调优等完整落地经验；<br>5、具备性能意识，理解关键算子（如embedding、attention、topk等）对延迟/QPS的影响，具备协同优化模型结构与部署效率的能力；<br>6、具有良好的产品意识与协作能力，具备业务理解能力，能将算法与业务目标对齐，并与产品、后端、运营等多团队高效配合推动方案落地。<br>",
+      "deptAndPlaceList": [
+        {
+          "deptCode": "049031",
+          "deptName": "产品数字化与IT装备部",
+          "jobPlaceName": "杭州/东莞/上海/北京"
+        },
+        {
+          "deptCode": "051346",
+          "deptName": "终端云服务小艺业务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "024202",
+          "deptName": "终端BG流程IT与质量运营部",
+          "jobPlaceName": "上海/东莞/南京/西安"
+        },
+        {
+          "deptCode": "048519",
+          "deptName": "智能座舱领域",
+          "jobPlaceName": "上海/北京/南京/苏州"
+        },
+        {
+          "deptCode": "047076",
+          "deptName": "终端BG软件部",
+          "jobPlaceName": "北京/上海/东莞/杭州/南京/武汉/西安/成都"
+        },
+        {
+          "deptCode": "040465",
+          "deptName": "终端云服务部",
+          "jobPlaceName": "北京/深圳/东莞/杭州/上海/南京"
+        },
+        {
+          "deptCode": "040459",
+          "deptName": "终端BG硬件工程与产品开发管理部",
+          "jobPlaceName": "北京/东莞/杭州/上海/武汉/西安"
+        },
+        {
+          "deptCode": "049944",
+          "deptName": "数据存储产品线",
+          "jobPlaceName": "上海/北京/成都/杭州/南京/深圳/东莞"
+        },
+        {
+          "deptCode": "023093",
+          "deptName": "质量与流程IT部",
+          "jobPlaceName": "深圳/东莞/西安/武汉/北京/杭州/苏州"
+        },
+        {
+          "deptCode": "023958",
+          "deptName": "无线网络产品线",
+          "jobPlaceName": "上海/成都/西安/东莞/杭州"
+        },
+        {
+          "deptCode": "044679",
+          "deptName": "公共开发部",
+          "jobPlaceName": "上海/东莞/西安/南京/武汉/深圳/北京/杭州/成都"
+        },
+        {
+          "deptCode": "031562",
+          "deptName": "云核心网产品线",
+          "jobPlaceName": "北京/上海/杭州/南京/东莞/西安"
+        },
+        {
+          "deptCode": "068617",
+          "deptName": "智能驾驶解决方案产品线",
+          "jobPlaceName": "上海/深圳/北京/南京/苏州"
+        },
+        {
+          "deptCode": "068620",
+          "deptName": "智能汽车解决方案BU研发管理部",
+          "jobPlaceName": "上海/深圳/北京/杭州/武汉/东莞"
+        },
+        {
+          "deptCode": "045969",
+          "deptName": "计算产品线",
+          "jobPlaceName": "上海/杭州/北京/东莞"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "北京/南京/东莞/上海/苏州"
+        },
+        {
+          "deptCode": "047288",
+          "deptName": "光产品线",
+          "jobPlaceName": "北京/成都/东莞/杭州/上海/武汉/西安"
+        },
+        {
+          "deptCode": "044897",
+          "deptName": "服务与软件研发管理部",
+          "jobPlaceName": "东莞/上海/西安/南京/北京/长沙/济南/成都"
+        },
+        {
+          "deptCode": "033840",
+          "deptName": "UCD与翻译中心",
+          "jobPlaceName": "北京/西安/南京/深圳"
+        },
+        {
+          "deptCode": "023600",
+          "deptName": "中央研究院",
+          "jobPlaceName": "上海/深圳/北京/南京/杭州/合肥/成都/东莞/西安"
+        },
+        {
+          "deptCode": "045908",
+          "deptName": "中央媒体技术院",
+          "jobPlaceName": "深圳/北京/上海/杭州"
+        },
+        {
+          "deptCode": "023489",
+          "deptName": "基础软件院",
+          "jobPlaceName": "北京/上海/杭州/深圳/南京/西安"
+        },
+        {
+          "deptCode": "035347",
+          "deptName": "制造部",
+          "jobPlaceName": "东莞"
+        },
+        {
+          "deptCode": "022346",
+          "deptName": "数字能源研发管理部",
+          "jobPlaceName": "深圳/东莞/西安/上海/南京"
+        },
+        {
+          "deptCode": "072483",
+          "deptName": "半导体平台部",
+          "jobPlaceName": "上海/东莞/深圳/成都/北京/武汉/南京/西安"
+        },
+        {
+          "deptCode": "030779",
+          "deptName": "上海海思研发部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安/东莞/武汉/成都/苏州"
+        },
+        {
+          "deptCode": "067343",
+          "deptName": "图灵业务部",
+          "jobPlaceName": "南京/上海/杭州/深圳"
+        },
+        {
+          "deptCode": "031194",
+          "deptName": "无线终端芯片业务部",
+          "jobPlaceName": "深圳/上海/北京/南京/杭州/西安"
+        },
+        {
+          "deptCode": "043779",
+          "deptName": "云计算BU",
+          "jobPlaceName": "深圳/东莞/西安/南京/北京"
+        },
+        {
+          "deptCode": "031279",
+          "deptName": "光电业务部",
+          "jobPlaceName": "武汉/深圳/北京/上海"
+        },
+        {
+          "deptCode": "077932",
+          "deptName": "云软件研发部",
+          "jobPlaceName": "深圳/上海/北京/杭州/东莞/西安/南京/成都"
+        },
+        {
+          "deptCode": "051047",
+          "deptName": "芯片与器件BU显示驱动产品领域",
+          "jobPlaceName": "深圳/上海/成都/武汉"
+        },
+        {
+          "deptCode": "068619",
+          "deptName": "智能汽车解决方案BU解决方案部",
+          "jobPlaceName": "上海/杭州/东莞"
+        },
+        {
+          "deptCode": "048520",
+          "deptName": "智能车云领域",
+          "jobPlaceName": "深圳"
+        },
+        {
+          "deptCode": "067557",
+          "deptName": "智能车载光领域",
+          "jobPlaceName": "武汉/东莞"
+        },
+        {
+          "deptCode": "068618",
+          "deptName": "智能车控领域",
+          "jobPlaceName": "上海/南京/苏州"
+        },
+        {
+          "deptCode": "047289",
+          "deptName": "数据通信产品线",
+          "jobPlaceName": "杭州"
+        }
+      ]
+    }
+  ]
+}

@@ -9,8 +9,8 @@ import (
 	"jobassistant/backend/internal/catalog"
 )
 
-func (r *Reader) huaweiRequest(ctx context.Context, endpoint string, input any) (any, error) {
-	headers := map[string]string{"X-HW-ID": "app_000000035886", "x-jalor-tenantAlias": "hcm", "x-language": "zh_CN", "x-Referer": r.HuaweiBase + "/cn", "x-alb-gray": "prod", "Origin": r.HuaweiBase, "Referer": r.HuaweiBase + "/cn/campus-recruitment-job-list?recruitmentType=FRESH_GRADUATE"}
+func (r *Reader) huaweiRequest(ctx context.Context, recruitmentType, endpoint string, input any) (any, error) {
+	headers := map[string]string{"X-HW-ID": "app_000000035886", "x-jalor-tenantAlias": "hcm", "x-language": "zh_CN", "x-Referer": r.HuaweiBase + "/cn", "x-alb-gray": "prod", "Origin": r.HuaweiBase, "Referer": r.HuaweiBase + "/cn/campus-recruitment-job-list?recruitmentType=" + url.QueryEscape(recruitmentType)}
 	response, err := r.json(ctx, http.MethodPost, r.HuaweiAPI+"/recruitmentPosition/pub/"+endpoint+"?X-HW-ID=app_000000035886", input, headers)
 	if err != nil {
 		return nil, err
@@ -20,11 +20,34 @@ func (r *Reader) huaweiRequest(ctx context.Context, endpoint string, input any) 
 
 // Huawei reads job intentions and preserves their department/place relationships.
 func (r *Reader) Huawei(ctx context.Context) ([]catalog.Document, int, error) {
+	return r.huawei(ctx, false)
+}
+
+// HuaweiInternships reads the INTERN programme without inheriting full-time conditions.
+func (r *Reader) HuaweiInternships(ctx context.Context) ([]catalog.Document, int, error) {
+	return r.huawei(ctx, true)
+}
+
+type huaweiProgramme struct {
+	officialType, sourceCode, recruitmentType, campaignKey, campaignName string
+	evidence, examEvidence, graduationPreference, studentRequired        string
+	rules                                                                []catalog.GraduationRule
+}
+
+func (r *Reader) huawei(ctx context.Context, internship bool) ([]catalog.Document, int, error) {
 	body, err := r.read(ctx, http.MethodGet, r.HuaweiBase+"/cn/campus-recruitment", nil, nil)
 	if err != nil {
 		return nil, 0, err
 	}
-	year, rules, campaignEvidence, examEvidence, err := huaweiCampaign(body)
+	var programme huaweiProgramme
+	if internship {
+		programme, err = huaweiInternshipCampaign(body)
+	} else {
+		var year, evidence, exam string
+		var rules []catalog.GraduationRule
+		year, rules, evidence, exam, err = huaweiCampaign(body)
+		programme = huaweiProgramme{officialType: "FRESH_GRADUATE", sourceCode: "huawei-campus", recruitmentType: "campus", campaignKey: "fresh:" + year, campaignName: year + "届应届生招聘", evidence: evidence, examEvidence: exam, studentRequired: "unknown", rules: rules}
+	}
 	if err != nil {
 		return nil, 0, err
 	}
@@ -32,7 +55,7 @@ func (r *Reader) Huawei(ctx context.Context) ([]catalog.Document, int, error) {
 	seen := map[string]bool{}
 	total := -1
 	for page := 1; page <= 100; page++ {
-		data, err := r.huaweiRequest(ctx, "getJobPage", map[string]any{"curPage": page, "pageSize": 100, "jobType": "CR", "recruitmentType": []string{"FRESH_GRADUATE"}})
+		data, err := r.huaweiRequest(ctx, programme.officialType, "getJobPage", map[string]any{"curPage": page, "pageSize": 100, "jobType": "CR", "recruitmentType": []string{programme.officialType}})
 		if err != nil {
 			return nil, 0, err
 		}
@@ -54,7 +77,11 @@ func (r *Reader) Huawei(ctx context.Context) ([]catalog.Document, int, error) {
 		if total != n {
 			return nil, 0, ErrSchema
 		}
-		entries := array(payload["result"])
+		list, exists := payload["result"]
+		entries, valid := list.([]any)
+		if !exists || (list != nil && !valid) {
+			return nil, 0, ErrSchema
+		}
 		if total == 0 && len(entries) == 0 {
 			break
 		}
@@ -80,11 +107,11 @@ func (r *Reader) Huawei(ctx context.Context) ([]catalog.Document, int, error) {
 	documents := []catalog.Document{}
 	for _, item := range items {
 		if text(item["categoryName"]) != "研发类" {
-			r.Exclusions = append(r.Exclusions, catalog.Exclusion{CampaignKey: "fresh:" + year, ExternalID: text(item["advertisementId"]), Reason: "当前官方类别不在已验证的研发计算机范围"})
+			r.Exclusions = append(r.Exclusions, catalog.Exclusion{CampaignKey: programme.campaignKey, ExternalID: text(item["advertisementId"]), Reason: "当前官方类别不在已验证的研发计算机范围"})
 			continue
 		}
 		id := text(item["advertisementId"])
-		data, err := r.huaweiRequest(ctx, "getRecruitmentPositionDetail", map[string]any{"advertisementId": item["advertisementId"]})
+		data, err := r.huaweiRequest(ctx, programme.officialType, "getRecruitmentPositionDetail", map[string]any{"advertisementId": item["advertisementId"]})
 		if err != nil {
 			return nil, total, err
 		}
@@ -95,7 +122,7 @@ func (r *Reader) Huawei(ctx context.Context) ([]catalog.Document, int, error) {
 		if text(detail["advertisementId"]) != id || text(detail["jobId"]) == "" {
 			return nil, total, ErrSchema
 		}
-		data, err = r.huaweiRequest(ctx, "getPositionIntentionList", map[string]any{"jobId": detail["jobId"]})
+		data, err = r.huaweiRequest(ctx, programme.officialType, "getPositionIntentionList", map[string]any{"jobId": detail["jobId"]})
 		if err != nil {
 			return nil, total, err
 		}
@@ -137,15 +164,15 @@ func (r *Reader) Huawei(ctx context.Context) ([]catalog.Document, int, error) {
 			variants = append(variants, catalog.Variant{Key: key, Name: name, Direction: direction, Responsibilities: duties, Requirements: requirements, Major: ParseMajor(requirements), Locations: Locations(text(intent["jobPlaceName"])), Departments: departments})
 		}
 		if len(variants) == 0 {
-			r.Exclusions = append(r.Exclusions, catalog.Exclusion{CampaignKey: "fresh:" + year, ExternalID: id, Reason: "当前岗位意向未确认属于计算机方向，需人工复核"})
+			r.Exclusions = append(r.Exclusions, catalog.Exclusion{CampaignKey: programme.campaignKey, ExternalID: id, Reason: "当前岗位意向未确认属于计算机方向，需人工复核"})
 			continue
 		}
 		link := "https://career.huawei.com/cn/job-details?advertisementId=" + url.QueryEscape(id)
 		written := "unknown"
-		if examEvidence != "" {
+		if programme.examEvidence != "" {
 			written = "yes"
 		}
-		documents = append(documents, catalog.Document{ExternalID: id, CompanyCode: "huawei", SourceCode: "huawei-campus", CampaignKey: "fresh:" + year, CampaignName: year + "届应届生招聘", Title: title, RecruitmentType: "campus", Publisher: "法律招聘主体未披露；具体部门和地点见各岗位方向", PublicStatus: "open", StatusEvidence: "当前官方在招职位列表、广告详情和岗位意向均可读", WrittenTest: written, WrittenTestEvidence: examEvidence, SourceURL: link, ApplyURL: link, ApplyLevel: "job", LoginRequired: true, DeadlineTimezone: "unknown", GraduationRules: rules, StudentRequired: "unknown", MinimumEducation: "unknown", CampaignEvidence: fmt.Sprintf("%s\n依据：https://career.huawei.com/cn/campus-recruitment", campaignEvidence), Variants: variants})
+		documents = append(documents, catalog.Document{ExternalID: id, CompanyCode: "huawei", SourceCode: programme.sourceCode, CampaignKey: programme.campaignKey, CampaignName: programme.campaignName, Title: title, RecruitmentType: programme.recruitmentType, Publisher: "法律招聘主体未披露；具体部门和地点见各岗位方向", PublicStatus: "open", StatusEvidence: "当前官方在招职位列表、广告详情和岗位意向均可读", WrittenTest: written, WrittenTestEvidence: programme.examEvidence, SourceURL: link, ApplyURL: link, ApplyLevel: "job", LoginRequired: true, DeadlineTimezone: "unknown", GraduationRules: programme.rules, GraduationPreference: programme.graduationPreference, StudentRequired: programme.studentRequired, MinimumEducation: "unknown", CampaignEvidence: fmt.Sprintf("%s\n依据：https://career.huawei.com/cn/campus-recruitment", programme.evidence), Variants: variants})
 	}
 	return documents, total, nil
 }
