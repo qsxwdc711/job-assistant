@@ -159,33 +159,16 @@ func (r *Reader) tencentBatch(ctx context.Context, programme tencentProgramme, c
 		if err != nil {
 			return nil, total, err
 		}
-		if text(detail["postId"]) != id || text(detail["title"]) == "" {
-			return nil, total, ErrSchema
+		variants, err := tencentVariants(programme, mappingID, id, detail)
+		if err != nil {
+			return nil, total, err
 		}
-		title := PlainText(text(detail["title"]))
-		duties := PlainText(text(detail["desc"]))
-		requirements := PlainText(text(detail["request"]))
-		if duties == "" || requirements == "" {
-			return nil, total, ErrSchema
-		}
-		direction := Direction(title, duties)
-		if direction == "unknown" {
+		if len(variants) == 0 {
 			r.Exclusions = append(r.Exclusions, catalog.Exclusion{CampaignKey: batchKey, ExternalID: id, Reason: "岗位名称与职责未确认属于计算机方向，需人工复核"})
 			continue
 		}
-		departments := []catalog.DepartmentGroup{}
-		for _, bg := range array(detail["intentionBGDList"]) {
-			for _, dept := range array(object(bg)["departmentList"]) {
-				d := object(dept)
-				departments = append(departments, catalog.DepartmentGroup{Code: text(d["id"]), Name: PlainText(text(d["name"])), Locations: Locations(joinedStrings(d["workCityList"], ""))})
-			}
-		}
 		link := "https://join.qq.com/post_detail.html?postid=" + url.QueryEscape(id)
-		bonus := "graduateBonus"
-		if programme.recruitmentType == "internship" {
-			bonus = "internBonus"
-		}
-		documents = append(documents, catalog.Document{ExternalID: id, CompanyCode: "tencent", SourceCode: programme.sourceCode, CampaignKey: batchKey, CampaignName: text(campaign["projectName"]), Title: title, RecruitmentType: programme.recruitmentType, Publisher: "具体招聘主体以官方申请页面为准", PublicStatus: "unknown", StatusEvidence: "当前官方公开列表在列，详情可读；详情状态未明确", WrittenTest: "unknown", SourceURL: link, ApplyURL: link, ApplyLevel: "job", LoginRequired: true, DeadlineTimezone: "unknown", GraduationRules: rules, StudentRequired: programme.studentRequired, MinimumEducation: "unknown", CampaignEvidence: fmt.Sprintf("当前子批次：%s\n父菜单显示（不作为门槛）：%s", condition, parentDisplay), Variants: []catalog.Variant{{Key: "main", Name: title, Direction: direction, Responsibilities: duties, Requirements: requirements, Preferred: PlainText(text(detail[bonus])), Major: ParseMajor(requirements), Locations: Locations(joinedStrings(detail["workCityList"], "")), Departments: departments}}})
+		documents = append(documents, catalog.Document{ExternalID: id, CompanyCode: "tencent", SourceCode: programme.sourceCode, CampaignKey: batchKey, CampaignName: text(campaign["projectName"]), Title: PlainText(text(detail["title"])), RecruitmentType: programme.recruitmentType, Publisher: "具体招聘主体以官方申请页面为准", PublicStatus: "unknown", StatusEvidence: "当前官方公开列表在列，详情可读；详情状态未明确", WrittenTest: "unknown", SourceURL: link, ApplyURL: link, ApplyLevel: "job", LoginRequired: true, DeadlineTimezone: "unknown", GraduationRules: rules, StudentRequired: programme.studentRequired, MinimumEducation: "unknown", CampaignEvidence: fmt.Sprintf("当前子批次：%s\n父菜单显示（不作为门槛）：%s", condition, parentDisplay), Variants: variants})
 	}
 	return documents, total, nil
 }

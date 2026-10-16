@@ -7639,7 +7639,51 @@
         "official_url": "https://join.qq.com/post_detail.html?postid=1210646470286783489",
         "selected_detail_sha256": "1bb545a94f15abacee1ebf54467dc3c964b8aaa41e8c880f146bf02ca658bff6"
       }
-    ]
+    ],
+    "project_pool": {
+      "list_id": "-2",
+      "mapping_id": 104,
+      "project_id": 12,
+      "parent_post_id": null,
+      "title": "项目实习生-技术",
+      "official_url": "https://join.qq.com/post_detail.html?postid=-2",
+      "common_responsibilities": "本岗位为项目制实习生招聘，你将协助项目团队完成短期的技术类工作支持。\n\n划分为以下方向：\n（1）软件开发：后台开发、客户端开发、游戏客户端开发、测试开发、运营开发、前端开发、全栈开发、数据工程等；\n（2）技术研究：机器学习、计算机视觉、多媒体处理、自然语言处理、机器人、计算机图形学、数据科学等；\n（3）技术运营；\n（4）测试与质量管理。",
+      "common_requirements": "我们期望你：\n1. 具备编程能力，掌握C/C++/Java/Go/PHP/JavaScript/Python等其中一门编程语言。\n2. 具有一定的学习能力、分析及解决问题能力，有责任心与合作意识",
+      "directions": [
+        {
+          "post_id": "1216426561818062848",
+          "title": "项目实习生-全栈开发",
+          "work_cities": [
+            "深圳总部"
+          ],
+          "individual_responsibilities": null,
+          "individual_requirements": null
+        },
+        {
+          "post_id": "1226320039750543360",
+          "title": "项目实习生-应用运维安全",
+          "work_cities": [
+            "深圳总部"
+          ],
+          "individual_responsibilities": null,
+          "individual_requirements": null
+        }
+      ],
+      "reads": [
+        {
+          "at": "2026-10-16T15:34:16.090Z",
+          "status": 200,
+          "business_status": 0,
+          "selected_content_sha256": "5317f98a1f106646c4af0c420f48e97b5135d349dc2608d442a599b1398cfc0c"
+        },
+        {
+          "at": "2026-10-16T15:35:23.895Z",
+          "status": 200,
+          "business_status": 0,
+          "selected_content_sha256": "5317f98a1f106646c4af0c420f48e97b5135d349dc2608d442a599b1398cfc0c"
+        }
+      ]
+    }
   },
   "huawei": {
     "list_endpoint": "https://apigw-dgg-b0.huawei.com/api/apig/channelhw/recruitmentPosition/pub/getJobPage",

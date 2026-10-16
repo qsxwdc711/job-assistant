@@ -23,6 +23,7 @@
 | 文件 | 改动职责 |
 | --- | --- |
 | `backend/internal/ingest/tencent.go` | 两种来源共用普通详情解析；精确选择批次、验证分页及跨批次身份 |
+| `backend/internal/ingest/tencent_project.go` | 日常实习的已核实项目制聚合入口；保留真实方向 ID、项目共同条件和方向地点 |
 | `backend/internal/ingest/huawei.go` | 按项目传入请求参数、来源、资格与批次元数据；复用意向解析 |
 | `backend/internal/ingest/campaign.go` | 只从实习配置与实习对象 FAQ 提取实习证据 |
 | `backend/internal/ingest/internships_test.go` | 真实最小样本、成功与异常响应、资格边界回归 |
@@ -83,6 +84,8 @@ func (r *Reader) TencentInternships(ctx context.Context) ([]catalog.Document, in
 - [x] 验证重复成功采集不增版本、无依据的毕业年份不被写成硬范围；迁移可再次执行且不新增重复来源。
 
 ## Task 5: 验收、审查与本机运行
+
+实际采集发现列表 `-2 / project 12` 为“项目实习生-技术”聚合入口，父级 ID 为 null，真实方向在 `projectInternDirections`。已在同一日常实习范围补做两次详情核验，增加独立解析与身份、空方向、重复方向、条件覆盖测试，及 PostgreSQL 持久化回归。未知负 ID 不享有该例外；青云仍不在本轮实现范围。
 
 - [ ] 对改动执行 `gofmt`；运行 `go vet ./...` 和针对本轮测试。使用唯一 Compose 项目及随机测试凭据启动 `deploy/compose.verify.yaml` 的临时 PostgreSQL，构建 verifier 并执行 `go test -race -v ./... -count=1 -timeout=180s`，不能将跳过数据库测试计为通过。
 - [ ] 按 go-feature-change-review / go-code-review 检查请求范围、错误路径、发布事务、既有校园行为、SQL、CLI 和测试；发现问题先修复，再重跑相关检查。

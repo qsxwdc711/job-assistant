@@ -26,4 +26,8 @@ for(const read of evidence.huawei.reads){
 }
 check(JSON.stringify(evidence.huawei.reads[0].ids)===JSON.stringify(evidence.huawei.reads[1].ids),'Huawei identity set changed between reads');
 check(evidence.tencent.detail_samples.length===4&&evidence.huawei.detail_samples.length===3,'Missing technical or nontechnical control');
+const project=evidence.tencent.project_pool;
+check(project.list_id==='-2'&&project.mapping_id===104&&project.project_id===12&&project.parent_post_id===null,'Project pool identity changed');
+check(project.reads.length===2&&project.reads.every(read=>read.status===200&&read.business_status===0)&&project.reads[0].selected_content_sha256===project.reads[1].selected_content_sha256,'Repeated project detail changed');
+check(project.directions.length===2&&new Set(project.directions.map(direction=>direction.post_id)).size===2&&project.directions.every(direction=>direction.individual_responsibilities===null&&direction.individual_requirements===null),'Project directions or shared-condition provenance changed');
 console.log(`PASS: ${checks} internship evidence checks; Tencent 521 research IDs, Huawei two complete 31-ID reads.`);

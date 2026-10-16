@@ -44,7 +44,11 @@ func internshipServer(t *testing.T, source, mode string) *httptest.Server {
 			return
 		}
 		if strings.HasSuffix(request.URL.Path, "getJobDetailsByPostId") {
-			write(internshipFixture(t, "tencent-"+request.URL.Query().Get("postId")+".json"))
+			name := "tencent-" + request.URL.Query().Get("postId") + ".json"
+			if request.URL.Query().Get("postId") == "-2" {
+				name = "tencent-project-pool.json"
+			}
+			write(internshipFixture(t, name))
 			return
 		}
 		var input struct {
@@ -74,6 +78,10 @@ func internshipServer(t *testing.T, source, mode string) *httptest.Server {
 				id = "1210646470286783488"
 			}
 			total, items := 1, []any{map[string]any{"postId": id, "positionFamily": 2}}
+			if input.Mappings[0] == 104 {
+				items = append(items, map[string]any{"postId": "-2", "positionFamily": 2})
+				total = len(items)
+			}
 			if mode == "empty" {
 				total, items = 0, nil
 			}
@@ -140,7 +148,7 @@ func TestInternshipCollectionPublicationAndSourceIsolation(t *testing.T) {
 			result := collect("success")
 			want := 1
 			if source == "tencent-internships" {
-				want = 2
+				want = 3
 			}
 			if result.Status != "succeeded" || result.Published != want || result.Requests == 0 {
 				t.Fatalf("source dispatch/publication: %#v", result)
@@ -160,6 +168,9 @@ func TestInternshipCollectionPublicationAndSourceIsolation(t *testing.T) {
 				}
 				if source == "huawei-internships" && (len(current.GraduationRules) != 0 || !strings.Contains(current.GraduationPreference, "主要面向2027届")) {
 					t.Fatal("preference became a hard graduation gate after persistence")
+				}
+				if current.ExternalID == "-2" && (len(current.Variants) != 2 || current.Variants[0].Key != "1216426561818062848" || current.Variants[1].Key != "1226320039750543360") {
+					t.Fatal("project child identities changed after persistence")
 				}
 			}
 			var contentBefore []byte

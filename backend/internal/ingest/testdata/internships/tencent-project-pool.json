@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "data": {
+    "postId": null,
+    "title": "项目实习生-技术",
+    "desc": "本岗位为项目制实习生招聘，你将协助项目团队完成短期的技术类工作支持。\n\n划分为以下方向：\n（1）软件开发：后台开发、客户端开发、游戏客户端开发、测试开发、运营开发、前端开发、全栈开发、数据工程等；\n（2）技术研究：机器学习、计算机视觉、多媒体处理、自然语言处理、机器人、计算机图形学、数据科学等；\n（3）技术运营；\n（4）测试与质量管理。",
+    "request": "我们期望你：\n1. 具备编程能力，掌握C/C++/Java/Go/PHP/JavaScript/Python等其中一门编程语言。\n2. 具有一定的学习能力、分析及解决问题能力，有责任心与合作意识",
+    "projectId": 12,
+    "projectName": "项目实习生",
+    "recruitType": 2,
+    "workCityList": null,
+    "projectInternDirections": [
+      {
+        "positionFid": 75,
+        "positionFidName": "软件开发类",
+        "subProjectInterns": [
+          {
+            "postId": "1216426561818062848",
+            "title": "项目实习生-全栈开发",
+            "desc": null,
+            "request": null,
+            "projectId": 12,
+            "workCityList": [
+              "深圳总部"
+            ],
+            "intentionBGDList": [
+              {
+                "departmentList": [
+                  {
+                    "id": 193,
+                    "name": "腾讯金融科技",
+                    "workCityList": [
+                      "深圳总部"
+                    ]
+                  },
+                  {
+                    "id": 287,
+                    "name": "集团金融消费者权益保护部",
+                    "workCityList": [
+                      "深圳总部"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "positionFid": 77,
+        "positionFidName": "安全技术类",
+        "subProjectInterns": [
+          {
+            "postId": "1226320039750543360",
+            "title": "项目实习生-应用运维安全",
+            "desc": null,
+            "request": null,
+            "projectId": 12,
+            "workCityList": [
+              "深圳总部"
+            ],
+            "intentionBGDList": [
+              {
+                "departmentList": [
+                  {
+                    "id": 243,
+                    "name": "PCG技术线-技术战略方向",
+                    "workCityList": [
+                      "深圳总部"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

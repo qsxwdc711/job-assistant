@@ -15,6 +15,8 @@
 
 腾讯普通与日常实习沿用普通详情字段 `desc/request`；青云样本的这两字段为空，职责与要求位于 `topicDetail/topicRequirement`，因此未复用普通解析器发布。四份普通／日常样本包含两个后台开发、高性能计算和视觉设计对照；视觉设计不会因出现 AIGC 技能就被纳入计算机岗位。
 
+首次真实采集在完整读取 164 条后发现日常实习的 `-2 / project 12` 聚合入口，详情父级 `postId=null`，因此按严格身份校验失败并整轮保留旧数据。补读两次官方详情，所选字段内容一致：真实方向是全栈开发 `1216426561818062848`、应用运维安全 `1226320039750543360`，位于 `projectInternDirections`。官网聚合详情页可读。本轮补充专门解析，在一个广告内保留两个真实方向；子方向未单独披露职责、要求时，标注“项目共同职责／要求”，地点与部门始终取各方向。子方向将来披露独立条件时优先保留，未知负 ID 不享有此例外。
+
 华为补读软件开发 30835、AI Infra 30865、AI 模型 30859，分别有 4、4、10 个岗位意向。标题实际字段是 `jobname`；每个意向的职责、要求、城市与 `deptAndPlaceList` 对应关系单独保留，不把广告全部城市套到每个方向。
 
 原始浏览器研究记录保存在被忽略的 `.cache/research/internship-20261016/`。可复查的公开字段、分页 ID、读取时间及摘要见 [结构化证据](sources/internships/2026-10-16-evidence.json)。研究读取使用匿名请求，没有导出就业平台登录信息、简历或投递记录。正式 Go 采集器重新读取官方公开接口，不依赖 Chrome 或用户 Cookie。
@@ -42,7 +44,7 @@
 | 重复采集版本、失败保留、有效空结果及校园来源隔离 | 实际 PostgreSQL 均通过 |
 | 新增迁移及重复迁移 | 均通过 |
 
-独立测试项目为 `job-assistant-intern-verify-919e7311`，数据库名 `jobassistant_test`，使用随机凭据、tmpfs、每测试独立 schema。日志位于 `.cache/verification/job-assistant-intern-verify-919e7311/`；容器与网络已清理，没有使用开发数据库做集成测试。
+独立测试项目为 `job-assistant-intern-verify-919e7311`，补充项目制解析后再次运行 `job-assistant-intern-verify-d469402b`。数据库名 `jobassistant_test`，使用随机凭据、tmpfs、每测试独立 schema；日志位于 `.cache/verification/` 的对应项目目录。两轮均完成镜像、go vet、全量 Linux race、实际 PostgreSQL 和重复迁移验证，容器与网络已清理，没有使用开发数据库做集成测试。
 
 按 `go-feature-change-review` 和 `go-code-review` 对输入、解析、项目选择、发布事务、数据库来源约束及 CLI 入口做了审查，未发现遗留阻断项。审查中已修正“实习标签直接推断在校要求”和“错误列表类型被当作有效空列表”的问题，并补充回归测试。当前无通用官方关闭样本，不能通过失踪或 HTTP 错误推断岗位关闭。
 

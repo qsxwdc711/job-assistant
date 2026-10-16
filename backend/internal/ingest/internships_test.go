@@ -59,6 +59,10 @@ func tencentInternshipServer(t *testing.T, mode string) *httptest.Server {
 				}
 			}
 			total := len(items)
+			if mode == "project_pool" && mapping == "104" {
+				items = append(items, fixture(t, "internships/tencent-project-entry.json"))
+				total = len(items)
+			}
 			if mode == "empty" {
 				total, items = 0, nil
 			}
@@ -79,6 +83,10 @@ func tencentInternshipServer(t *testing.T, mode string) *httptest.Server {
 			respond(map[string]any{"count": total, "positionList": items})
 		case "/api/v1/jobDetails/getJobDetailsByPostId":
 			id := request.URL.Query().Get("postId")
+			if id == "-2" {
+				writeFixture(t, w, "internships/tencent-project-pool.json")
+				return
+			}
 			detail := object(object(fixture(t, "internships/tencent-"+id+".json"))["data"])
 			if mode == "missing_detail" {
 				detail["desc"] = ""
@@ -145,6 +153,70 @@ func TestTencentInternshipSuccessfulEmpty(t *testing.T) {
 	docs, total, err := reader.TencentInternships(context.Background())
 	if err != nil || total != 0 || len(docs) != 0 {
 		t.Fatalf("explicit empty snapshot: docs=%d total=%d err=%v", len(docs), total, err)
+	}
+}
+
+func TestTencentInternshipProjectPoolKeepsDirectionIdentity(t *testing.T) {
+	server := tencentInternshipServer(t, "project_pool")
+	defer server.Close()
+	reader := NewReader()
+	reader.TencentBase = server.URL
+	docs, total, err := reader.TencentInternships(context.Background())
+	if err != nil || total != 5 || len(docs) != 4 {
+		t.Fatalf("project pool snapshot: docs=%d total=%d err=%v", len(docs), total, err)
+	}
+	for _, doc := range docs {
+		if doc.ExternalID != "-2" {
+			continue
+		}
+		if len(doc.Variants) != 2 || doc.Variants[0].Key != "1216426561818062848" || doc.Variants[1].Key != "1226320039750543360" || doc.Variants[0].Direction != "backend" || doc.Variants[1].Direction != "security" {
+			t.Fatal("project direction identities were dropped or merged")
+		}
+		for _, variant := range doc.Variants {
+			if !strings.HasPrefix(variant.Requirements, "项目共同要求：") || len(variant.Departments) == 0 || len(variant.Locations) != 1 || variant.Locations[0].City != "深圳市" {
+				t.Fatal("project shared conditions or direction places disappeared")
+			}
+		}
+		return
+	}
+	t.Fatal("verified project internship was silently excluded")
+}
+
+func TestTencentInternshipProjectPoolRejectsAmbiguousIdentity(t *testing.T) {
+	for _, mode := range []string{"wrong_parent", "missing_children", "duplicate_child", "partial_child_conditions"} {
+		t.Run(mode, func(t *testing.T) {
+			detail := object(object(fixture(t, "internships/tencent-project-pool.json"))["data"])
+			groups := array(detail["projectInternDirections"])
+			children := array(object(groups[0])["subProjectInterns"])
+			switch mode {
+			case "wrong_parent":
+				detail["projectId"] = "20"
+			case "missing_children":
+				object(groups[0])["subProjectInterns"] = nil
+			case "duplicate_child":
+				object(groups[0])["subProjectInterns"] = append(children, children[0])
+			case "partial_child_conditions":
+				object(children[0])["desc"] = "独立职责已经变更，但要求不完整"
+			}
+			if _, err := tencentProjectVariants(detail); !errors.Is(err, ErrSchema) {
+				t.Fatalf("ambiguous project %s accepted: %v", mode, err)
+			}
+		})
+	}
+	detail := object(object(fixture(t, "internships/tencent-project-pool.json"))["data"])
+	if _, err := tencentVariants(tencentProgramme{recruitmentType: "campus"}, 1, "-2", detail); !errors.Is(err, ErrSchema) {
+		t.Fatal("project pool exception leaked into full-time recruitment")
+	}
+}
+
+func TestTencentInternshipProjectChildConditionsAndPlacesWin(t *testing.T) {
+	detail := object(object(fixture(t, "internships/tencent-project-pool.json"))["data"])
+	child := object(array(object(array(detail["projectInternDirections"])[0])["subProjectInterns"])[0])
+	child["desc"], child["request"] = "软件系统开发", "计算机专业，硕士及以上"
+	child["workCityList"] = []any{"上海"}
+	variants, err := tencentProjectVariants(detail)
+	if err != nil || len(variants) != 2 || variants[0].Requirements != "计算机专业，硕士及以上" || variants[0].Locations[0].City != "上海市" {
+		t.Fatalf("child-specific conditions overwritten by parent: %v", err)
 	}
 }
 
