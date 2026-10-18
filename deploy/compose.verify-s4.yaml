@@ -1,0 +1,14 @@
+services:
+  verifier:
+    environment:
+      S4_BROWSER_FIXTURE: "true"
+  api:
+    environment:
+      NOTIFICATION_KEY: ${VERIFY_NOTIFICATION_KEY:?isolated encryption key required}
+      NOTIFICATIONS_SEND_ENABLED: "false"
+  worker:
+    environment:
+      APP_ORIGIN: http://127.0.0.1:${VERIFY_HTTP_PORT:-18080}
+      NOTIFICATION_KEY: ${VERIFY_NOTIFICATION_KEY:?isolated encryption key required}
+      NOTIFICATIONS_SEND_ENABLED: "false"
+      AUTOMATION_ENABLED: "false"

@@ -15,6 +15,7 @@ services:
     environment:
       DATABASE_URL: postgres://jobassistant_test:${VERIFY_DB_PASSWORD}@db:5432/jobassistant_test?sslmode=disable
       APP_ENV: development
+      AUTOMATION_ENABLED: "false"
       PRIVATE_STORAGE_DIR: /app/private
       MODEL_BASE_URL: http://model:8090
       MODEL_NAME: isolated-qa-model

@@ -7,10 +7,14 @@ import (
 	"os/signal"
 	"syscall"
 
+	"golang.org/x/sync/errgroup"
+	"jobassistant/backend/internal/automation"
+	"jobassistant/backend/internal/catalog"
 	"jobassistant/backend/internal/config"
 	"jobassistant/backend/internal/database"
 	"jobassistant/backend/internal/llm"
 	"jobassistant/backend/internal/matching"
+	"jobassistant/backend/internal/notification"
 	"jobassistant/backend/internal/profile"
 	"jobassistant/backend/internal/task"
 	"jobassistant/backend/internal/workflow"
@@ -58,6 +62,18 @@ func run() error {
 		}
 	}()
 	worker := workflow.New(task.NewStore(pool), profile.NewStore(pool, vault), matching.NewStore(pool), model, model)
+	notificationConfig, err := config.LoadNotifications()
+	if err != nil {
+		return err
+	}
+	notifications, err := notification.NewStore(pool, notification.Options{Key: notificationConfig.Key, Origin: notificationConfig.Origin, ModelVersion: model.Version(), SendEnabled: notificationConfig.SendEnabled})
+	if err != nil {
+		return err
+	}
+	publicWorker := automation.New(task.NewCollectionStore(pool), notifications, catalog.NewStore(pool), notificationConfig.ScheduleEnabled)
 	slog.Info("private worker started", "model_configured", model.Configured())
-	return worker.Run(ctx)
+	group, workerCtx := errgroup.WithContext(ctx)
+	group.Go(func() error { return worker.Run(workerCtx) })
+	group.Go(func() error { return publicWorker.Run(workerCtx) })
+	return group.Wait()
 }

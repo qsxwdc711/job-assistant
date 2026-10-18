@@ -1,4 +1,5 @@
 const messages: Record<string, string> = {
+  notification_not_configured: '服务尚未配置通知加密密钥，请联系管理员。',
   unauthenticated: '登录状态已失效，请重新登录。', invalid_credentials: '账号或密码不正确。',
   forbidden: '当前账号没有这项操作权限。', not_found: '这条记录不存在，或你没有访问权限。',
   invalid_input: '填写的信息不符合要求，请检查后重试。', version_conflict: '这条记录已在其他设备修改。请刷新记录后再保存。',

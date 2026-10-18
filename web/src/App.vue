@@ -7,7 +7,7 @@ import Icon from './shared/Icon.vue'
 const session = useSession(), route = useRoute(), router = useRouter()
 const roleNames: Record<string, string> = { admin: '管理员', vip: 'VIP', standard: '普通用户' }
 const label = computed(() => roleNames[session.role] ?? '用户')
-const navigation = computed(() => [ { to: '/jobs', label: '机会看板', icon: 'grid' }, { to: '/applications', label: '投递管理', icon: 'briefcase' }, { to: '/favorites', label: '我的收藏', icon: 'bookmark' }, { to: '/resumes', label: '简历资料', icon: 'briefcase' }, { to: '/recommendations', label: '岗位匹配', icon: 'grid' }, ...(session.isAdmin ? [{ to: '/admin', label: '管理中心', icon: 'shield' }] : []) ])
+const navigation = computed(() => [ { to: '/jobs', label: '机会看板', icon: 'grid' }, { to: '/applications', label: '投递管理', icon: 'briefcase' }, { to: '/favorites', label: '我的收藏', icon: 'bookmark' }, { to: '/resumes', label: '简历资料', icon: 'briefcase' }, { to: '/recommendations', label: '岗位匹配', icon: 'grid' }, { to: '/notifications', label: '订阅通知', icon: 'bookmark' }, ...(session.isAdmin ? [{ to: '/admin', label: '管理中心', icon: 'shield' }] : []) ])
 const timer = window.setInterval(() => { if (session.user) void session.refresh() }, 60000)
 onBeforeUnmount(() => clearInterval(timer))
 watch(() => session.isAdmin, value => { if (!value && route.meta.admin) void router.replace('/jobs') })
@@ -24,7 +24,7 @@ async function logout() { try { await session.logout(); await router.replace('/l
       <div class="account"><span class="avatar">{{ session.user?.username.slice(0, 1).toUpperCase() }}</span><span class="account-name">{{ session.user?.username }}<small>{{ label }}</small></span><button class="icon-button" aria-label="退出登录" title="退出登录" @click="logout"><Icon name="logout" /></button></div>
     </aside>
     <div class="workspace">
-      <header class="topbar"><span class="topbar-brand">职序 <span>／</span> {{ route.name === 'resumes' ? '简历资料' : route.name === 'recommendations' ? '岗位匹配' : route.name === 'applications' ? '投递管理' : route.name === 'favorites' ? '我的收藏' : route.name === 'admin' ? '管理中心' : '机会看板' }}</span><span class="topbar-right"><span class="status-dot"></span> 个人求职工作台 <span class="role-badge">{{ label }}</span></span></header>
+      <header class="topbar"><span class="topbar-brand">职序 <span>／</span> {{ route.name === 'notifications' ? '订阅通知' : route.name === 'resumes' ? '简历资料' : route.name === 'recommendations' ? '岗位匹配' : route.name === 'applications' ? '投递管理' : route.name === 'favorites' ? '我的收藏' : route.name === 'admin' ? '管理中心' : '机会看板' }}</span><span class="topbar-right"><span class="status-dot"></span> 个人求职工作台 <span class="role-badge">{{ label }}</span></span></header>
       <main class="main-content"><RouterView /></main>
       <nav class="mobile-nav" aria-label="手机导航"><RouterLink v-for="item in navigation" :key="item.to" :to="item.to"><Icon :name="item.icon" /><span>{{ item.label }}</span></RouterLink><button aria-label="退出登录" @click="logout"><Icon name="logout" /><span>退出</span></button></nav>
     </div>

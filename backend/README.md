@@ -1,6 +1,6 @@
 # 后端开发与权限接口
 
-S1–S3 已实现账号、会话、角色权限、官方岗位采集、组合筛选、收藏、个人投递、私有简历、脱敏预览、确认资料版本及按方向的资格/语义匹配。DeepSeek 已完成隔离模拟验收；真实账号验收等待密钥。飞书与每日调度在 S4。详见 [S3 运行与接口说明](../docs/operations/s3-resumes.md)。
+S1–S4 已实现账号、会话、角色权限、官方岗位采集、组合筛选、收藏、个人投递、私有简历、脱敏预览、确认资料版本、按方向的资格/语义匹配、每日调度、站内摘要与飞书发件箱。DeepSeek 与飞书已完成隔离模拟验收；真实模型和群送达未验收，本轮保持 `NOTIFICATIONS_SEND_ENABLED=false`。详见 [S3 说明](../docs/operations/s3-resumes.md)和 [S4 运行与接口说明](../docs/operations/s4-notifications.md)。
 
 推荐从根目录使用 `./scripts/start-local.ps1` 启动完整网页与容器服务，使用 `./scripts/collect-local.ps1` 更新岗位，详见根 README。以下也保留单独运行 Go API 的方法。
 
@@ -95,13 +95,13 @@ Dockerfile 固定官方 Go 1.26.8 bookworm 镜像及 SHA-256 摘要，最终使�
 
 投递创建需要 `job_id`，默认 `status=draft`；修改提交 `status/notes/next_action/next_action_at/version`，删除提交 `version`。重复创建为 409 `application_exists`，旧版本修改为 409 `version_conflict`。管理员接口可用 `owner_user_id` 指定归属；列表留空查询全部，创建必须指定 owner。岗位关闭或隐藏不清空个人记录。
 
-后续私有接口继续采用当前能力与归属检查；后台推荐任务须在执行和发布结果前重新检查权限及版本。当前尚未实现后台推荐任务。
+私有接口采用当前能力与归属检查；已实现的后台推荐任务在执行和发布结果前重新检查权限及版本。通知同样在生成和发送前核验权限、配置及当前资料/岗位版本；接口见 S4 说明。
 
 ## 官方采集与状态
 
 `collector all` 或指定 `tencent-campus/huawei-campus/cmb-campus/tencent-internships/huawei-internships`；生产镜像包含 `/app/collector`。每来源完整成功后原子发布，内容改变才增加版本。来源错误和空结果不关闭旧岗位；失踪记录标为待核验，明确不属于当前计算机范围的已存候选隐藏待复核，不伪造关闭。管理员手动隐藏不会被下一轮采集自动重新发布。
 
-腾讯暂限常规校招、应届实习和日常实习中国地点，华为暂限应届与 INTERN 实习的研发计算机方向，招商暂限校招及实习列表。腾讯青云等专项尚未接入。两个新增实习来源独立于全职来源：腾讯日常实习不继承应届实习的毕业范围；华为“主要面向2027届”保留为偏好，不按仅限该届排除。未披露的实习时长、出勤和笔试保持未知，推荐仍需本人确认资料。新增来源先执行 `admin migrate`，再使用 `./scripts/collect-local.ps1 -Source tencent-internships` 或 `-Source huawei-internships`。接口变更、过期类别 ID 或未知关闭业务码会作为来源异常保留旧数据。没有通用关闭推断或后台调度。Node 和浏览器不进入生产 Go 镜像。
+腾讯暂限常规校招、应届实习和日常实习中国地点，华为暂限应届与 INTERN 实习的研发计算机方向，招商暂限校招及实习列表。腾讯青云等专项尚未接入。两个实习来源独立于全职来源：腾讯日常实习不继承应届实习的毕业范围；华为“主要面向2027届”保留为偏好，不按仅限该届排除。未披露的实习时长、出勤和笔试保持未知，推荐仍需本人确认资料。新增来源先执行 `admin migrate`，再使用 `./scripts/collect-local.ps1 -Source tencent-internships` 或 `-Source huawei-internships`。S4 worker 会在北京时间 08:00 后为当天启用来源排队；自动采集与 CLI 共享域名锁和三个全局读取名额。接口变更、过期类别 ID 或未知关闭业务码会作为来源异常保留旧数据。没有通用关闭推断。Node 和浏览器不进入生产 Go 镜像。
 
 ## 测试与检查
 

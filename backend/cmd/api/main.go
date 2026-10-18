@@ -18,6 +18,7 @@ import (
 	"jobassistant/backend/internal/identity"
 	"jobassistant/backend/internal/llm"
 	"jobassistant/backend/internal/matching"
+	"jobassistant/backend/internal/notification"
 	"jobassistant/backend/internal/profile"
 	"jobassistant/backend/internal/task"
 	"jobassistant/backend/migrations"
@@ -68,7 +69,15 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	handler, err := httpapi.NewHandler(service, httpapi.Config{CSRFKey: cfg.CSRFKey, SecureCookies: cfg.SecureCookies, Origin: cfg.Origin}, pool.Ping,
+	notificationConfig, err := config.LoadNotifications()
+	if err != nil {
+		return err
+	}
+	notifications, err := notification.NewStore(pool, notification.Options{Key: notificationConfig.Key, Origin: cfg.Origin, ModelVersion: model.Version(), SendEnabled: notificationConfig.SendEnabled})
+	if err != nil {
+		return err
+	}
+	handler, err := httpapi.NewHandler(service, httpapi.Config{CSRFKey: cfg.CSRFKey, SecureCookies: cfg.SecureCookies, Origin: cfg.Origin}, pool.Ping, httpapi.WithNotifications(notifications),
 		httpapi.WithRecruitment(catalog.NewStore(pool), application.NewStore(pool)), httpapi.WithFrontend(os.Getenv("WEB_ROOT")), httpapi.WithResumes(profile.NewStore(pool, vault), matching.NewStore(pool), task.NewStore(pool), model.Configured(), model.Version()))
 	if err != nil {
 		return err

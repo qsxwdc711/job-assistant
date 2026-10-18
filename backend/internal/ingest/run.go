@@ -3,6 +3,7 @@ package ingest
 import (
 	"context"
 	"errors"
+	"log/slog"
 	"time"
 
 	"jobassistant/backend/internal/catalog"
@@ -22,6 +23,19 @@ type Result struct {
 func Collect(ctx context.Context, store *catalog.Store, reader *Reader, source string) Result {
 	defer reader.Client.CloseIdleConnections()
 	result := Result{SourceCode: source, Status: "failed"}
+	release, err := store.CollectionLease(ctx, source)
+	if err != nil {
+		result.ErrorCode = "source_unavailable"
+		if errors.Is(err, catalog.ErrCollectionBusy) {
+			result.ErrorCode = "source_busy"
+		}
+		return result
+	}
+	defer func() {
+		if err := release(); err != nil {
+			slog.Warn("collection lease cleanup failed")
+		}
+	}()
 	run, err := store.BeginRun(ctx, source, time.Now().UTC())
 	if err != nil {
 		result.ErrorCode = "source_unavailable"

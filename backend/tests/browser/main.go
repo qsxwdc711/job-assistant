@@ -62,6 +62,13 @@ func run() error {
 		}
 	}
 	filename := os.Getenv("S2_BROWSER_JOB_FILE")
+	if os.Getenv("S4_BROWSER_FIXTURE") == "true" {
+		for _, name := range []string{"notify-user-a", "notify-user-b"} {
+			if _, err := service.CreateUser(ctx, admin, identity.CreateUserInput{Username: name, Password: os.Getenv("S2_BROWSER_PASSWORD"), Role: identity.RoleStandard}, "s4-browser-fixture"); err != nil {
+				return err
+			}
+		}
+	}
 	if filename == "" {
 		filename = "tests/browser/testdata/tencent-job.json"
 	}

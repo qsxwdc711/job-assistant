@@ -24,6 +24,7 @@ import (
 	"jobassistant/backend/internal/catalog"
 	"jobassistant/backend/internal/identity"
 	"jobassistant/backend/internal/matching"
+	"jobassistant/backend/internal/notification"
 	"jobassistant/backend/internal/profile"
 	"jobassistant/backend/internal/task"
 )
@@ -56,6 +57,7 @@ type Handler struct {
 	tasks           *task.Store
 	modelConfigured bool
 	modelVersion    string
+	notifications   *notification.Store
 }
 
 // NewHandler creates the API. Ready should check the actual database.
@@ -89,6 +91,9 @@ func NewHandler(service *identity.Service, cfg Config, ready func(context.Contex
 	}
 	if h.profiles != nil {
 		h.resumeRoutes()
+	}
+	if h.notifications != nil {
+		h.notificationRoutes()
 	}
 	h.mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		apiPath := r.URL.Path == "/api" || r.URL.Path == "/health" || strings.HasPrefix(r.URL.Path, "/api/") || strings.HasPrefix(r.URL.Path, "/health/")
@@ -390,6 +395,10 @@ func (h *Handler) audit(w http.ResponseWriter, r *http.Request, p identity.Princ
 
 func (h *Handler) fail(w http.ResponseWriter, r *http.Request, err error) {
 	switch {
+	case errors.Is(err, notification.ErrUnconfigured):
+		h.writeError(w, r, 503, "notification_not_configured", "notification encryption key is not configured")
+	case errors.Is(err, notification.ErrVersionConflict):
+		h.writeError(w, r, 409, "version_conflict", "notification settings changed; refresh before saving")
 	case errors.Is(err, profile.ErrInvalidFile):
 		h.writeError(w, r, 400, "invalid_document", "PDF or DOCX required; document may be corrupt, encrypted, scanned or too large")
 	case errors.Is(err, profile.ErrUnconfigured):

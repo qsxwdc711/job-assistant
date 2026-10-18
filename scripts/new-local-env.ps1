@@ -25,6 +25,9 @@ $taskSettings = [ordered]@{
     POSTGRES_PASSWORD = $taskDatabasePassword
     DATABASE_URL = 'postgres://jobassistant:' + $taskDatabasePassword + '@127.0.0.1:15432/jobassistant?sslmode=disable'
     CSRF_SECRET = New-LocalSecret
+    NOTIFICATION_KEY = New-LocalSecret
+    NOTIFICATIONS_SEND_ENABLED = 'false'
+    AUTOMATION_ENABLED = 'true'
     ADMIN_USERNAME = 'admin'
     ADMIN_PASSWORD = $taskAdminPassword
     APP_ENV = 'development'

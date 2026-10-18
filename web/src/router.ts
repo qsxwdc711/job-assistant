@@ -7,6 +7,7 @@ import ApplicationsPage from './features/applications/ApplicationsPage.vue'
 import AdminPage from './features/admin/AdminPage.vue'
 import ResumePage from './features/resumes/ResumePage.vue'
 import RecommendationsPage from './features/recommendations/RecommendationsPage.vue'
+import NotificationsPage from './features/notifications/NotificationsPage.vue'
 export const router = createRouter({ history: createWebHistory(), routes: [
   { path: '/', redirect: '/jobs' }, { path: '/login', name: 'login', component: LoginPage },
   { path: '/jobs', name: 'jobs', component: JobsPage }, { path: '/jobs/:id', name: 'job', component: JobDetail },
@@ -14,6 +15,7 @@ export const router = createRouter({ history: createWebHistory(), routes: [
   { path: '/applications', name: 'applications', component: ApplicationsPage },
   { path: '/resumes', name: 'resumes', component: ResumePage },
   { path: '/recommendations', name: 'recommendations', component: RecommendationsPage },
+  { path: '/notifications', name: 'notifications', component: NotificationsPage },
   { path: '/admin', name: 'admin', component: AdminPage, meta: { admin: true } },
   { path: '/:pathMatch(.*)*', redirect: '/jobs' },
 ] })
