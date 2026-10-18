@@ -5,6 +5,7 @@ import (
 	"log/slog"
 	"os"
 	"os/signal"
+	"strings"
 	"syscall"
 
 	"golang.org/x/sync/errgroup"
@@ -70,7 +71,13 @@ func run() error {
 	if err != nil {
 		return err
 	}
-	publicWorker := automation.New(task.NewCollectionStore(pool), notifications, catalog.NewStore(pool), notificationConfig.ScheduleEnabled)
+	var excluded []string
+	for _, source := range strings.Split(os.Getenv("COLLECTOR_EXCLUDED_SOURCES"), ",") {
+		if source = strings.TrimSpace(source); source != "" {
+			excluded = append(excluded, source)
+		}
+	}
+	publicWorker := automation.New(task.NewCollectionStore(pool).WithSources(nil, excluded), notifications, catalog.NewStore(pool), notificationConfig.ScheduleEnabled)
 	slog.Info("private worker started", "model_configured", model.Configured())
 	group, workerCtx := errgroup.WithContext(ctx)
 	group.Go(func() error { return worker.Run(workerCtx) })

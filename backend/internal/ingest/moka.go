@@ -39,7 +39,7 @@ func mokaConfig(source string) (mokaSite, bool) {
 // SupportsSource identifies implemented adapters, never arbitrary user-supplied URLs.
 func SupportsSource(source string) bool {
 	switch source {
-	case "tencent-campus", "tencent-internships", "huawei-campus", "huawei-internships", "cmb-campus":
+	case "tencent-campus", "tencent-internships", "huawei-campus", "huawei-internships", "cmb-campus", zjditSource:
 		return true
 	}
 	_, ok := mokaConfig(source)

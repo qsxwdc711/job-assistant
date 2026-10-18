@@ -35,6 +35,7 @@ type Reader struct {
 	HuaweiAPI   string
 	CMBBase     string
 	MokaBase    string
+	ZJDITBase   string
 	readSpacing time.Duration
 	lastRead    time.Time
 	Requests    int
@@ -49,7 +50,7 @@ func NewReader() *Reader {
 		}
 		return nil
 	}}
-	return &Reader{Client: client, Evidence: []catalog.Evidence{}, TencentBase: "https://join.qq.com", HuaweiBase: "https://career.huawei.com", HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com", MokaBase: "https://app.mokahr.com"}
+	return &Reader{Client: client, Evidence: []catalog.Evidence{}, TencentBase: "https://join.qq.com", HuaweiBase: "https://career.huawei.com", HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com", MokaBase: "https://app.mokahr.com", ZJDITBase: "https://zp.zjdit.com"}
 }
 
 func trustedURL(u *url.URL) bool {
@@ -57,7 +58,7 @@ func trustedURL(u *url.URL) bool {
 		return false
 	}
 	switch u.Hostname() {
-	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com":
+	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com", "zp.zjdit.com":
 		return true
 	}
 	return false
@@ -98,7 +99,10 @@ func (r *Reader) readOnce(ctx context.Context, method, rawURL string, input any,
 		}
 	}
 	var body io.Reader
-	if input != nil {
+	form, isForm := input.(url.Values)
+	if isForm {
+		body = strings.NewReader(form.Encode())
+	} else if input != nil {
 		data, err := json.Marshal(input)
 		if err != nil {
 			return nil, err
@@ -111,7 +115,9 @@ func (r *Reader) readOnce(ctx context.Context, method, rawURL string, input any,
 	}
 	request.Header.Set("User-Agent", "JobAssistant/0.1 (public recruitment reader)")
 	request.Header.Set("Accept", "application/json,text/html;q=0.8")
-	if input != nil {
+	if isForm {
+		request.Header.Set("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8")
+	} else if input != nil {
 		request.Header.Set("Content-Type", "application/json;charset=UTF-8")
 	}
 	for key, value := range headers {

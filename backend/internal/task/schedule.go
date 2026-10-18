@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"net/url"
+	"slices"
 	"time"
 
 	"github.com/jackc/pgx/v5"
@@ -31,10 +32,19 @@ type Collection struct {
 }
 
 // CollectionStore owns the public-source schedule independently of private resume tasks.
-type CollectionStore struct{ pool *pgxpool.Pool }
+type CollectionStore struct {
+	pool              *pgxpool.Pool
+	allowed, excluded []string
+}
 
 // NewCollectionStore uses the shared database for persistent scheduling and leases.
 func NewCollectionStore(pool *pgxpool.Pool) *CollectionStore { return &CollectionStore{pool: pool} }
+
+// WithSources returns a queue view for one runtime without changing shared plans.
+// Empty allowed means all sources; exclusions apply only to this view's claims.
+func (s *CollectionStore) WithSources(allowed, excluded []string) *CollectionStore {
+	return &CollectionStore{pool: s.pool, allowed: slices.Clone(allowed), excluded: slices.Clone(excluded)}
+}
 
 // Plan idempotently enqueues today's enabled sources after 08:00 in Shanghai.
 func (s *CollectionStore) Plan(ctx context.Context, now time.Time) error {
@@ -97,8 +107,10 @@ WHERE (state='queued' OR(state='running' AND lease_until<=$1)) AND EXISTS(SELECT
 	var j Collection
 	err = tx.QueryRow(ctx, `SELECT t.id::text,t.source_code,t.domain,t.attempts FROM scheduled_collections t JOIN sources s ON s.code=t.source_code
 WHERE s.enabled AND t.available_at<=$1 AND (t.state='queued' OR (t.state='running' AND t.lease_until<=$1))
+AND (COALESCE(cardinality($2::text[]),0)=0 OR t.source_code=ANY($2))
+AND NOT(t.source_code=ANY(COALESCE($3::text[],'{}'::text[])))
 AND NOT EXISTS(SELECT 1 FROM scheduled_collections active WHERE active.domain=t.domain AND active.state='running' AND active.lease_until>$1)
-ORDER BY t.available_at,t.created_at,t.id FOR UPDATE OF t SKIP LOCKED LIMIT 1`, now).Scan(&j.ID, &j.SourceCode, &j.Domain, &j.Attempts)
+ORDER BY t.available_at,t.created_at,t.id FOR UPDATE OF t SKIP LOCKED LIMIT 1`, now, s.allowed, s.excluded).Scan(&j.ID, &j.SourceCode, &j.Domain, &j.Attempts)
 	if errors.Is(err, pgx.ErrNoRows) {
 		if err = tx.Commit(ctx); err != nil {
 			return j, err

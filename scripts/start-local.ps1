@@ -29,4 +29,5 @@ $count = & docker @compose exec -T db sh -c 'psql -U "$POSTGRES_USER" -d "$POSTG
 if ($LASTEXITCODE -ne 0) { throw 'Administrator initialization check failed.' }
 if ($count.Trim() -eq '0') { Invoke-LocalCompose @('--profile','tools','run','--rm','admin','bootstrap') }
 Invoke-LocalCompose @('up','-d','api','worker')
+& (Join-Path $PSScriptRoot 'start-host-collector.ps1')
 Write-Output 'Local application started: http://127.0.0.1:8080 . Credentials remain in the ignored .env file.'
