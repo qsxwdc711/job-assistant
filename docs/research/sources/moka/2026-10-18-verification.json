@@ -1,0 +1,294 @@
+{
+  "verified_at": "2026-10-18T08:59:15.141Z",
+  "scope": "S5 first Moka sources; not all S5",
+  "real_feishu_send_enabled": false,
+  "image_id": "sha256:2103e991ba0b7c430e6b39edf902d785328e65c3a036d9640a39f05405071a91",
+  "sources": [
+    {
+      "code": "nsfocus-campus",
+      "fetched": 188,
+      "published": 117,
+      "internships": 1,
+      "document_sha256": "a2a8105ec05c4f4abcb5a51b11c940e19a8408538f81b36331a83a3454245e9f",
+      "identity_sha256": "5e53e2847df0f8e84bd33c907b28e372f3bb3053c359f0106b1bb95cdde0815c",
+      "probe": {
+        "started_at": "2026-10-18T08:34:16.557238047Z",
+        "finished_at": "2026-10-18T08:36:47.174462283Z",
+        "requests": 132
+      },
+      "repeat_probe": {
+        "started_at": "2026-10-18T08:50:43.146159577Z",
+        "finished_at": "2026-10-18T08:52:52.80854822Z",
+        "requests": 131,
+        "document_sha256": "a2a8105ec05c4f4abcb5a51b11c940e19a8408538f81b36331a83a3454245e9f"
+      },
+      "scheduled_run": {
+        "started_at": "2026-10-18T08:54:00.082446+00:00",
+        "finished_at": "2026-10-18T08:56:11.295877+00:00",
+        "status": "succeeded",
+        "attempts": 1,
+        "evidence_count": 131,
+        "content_equals_probe": true,
+        "all_versions": 1
+      },
+      "exclusions": [
+        {
+          "reason": "当前岗位标题未确认属于计算机技术方向，需人工复核",
+          "count": 69
+        },
+        {
+          "reason": "官方列表状态为 pause，暂不作为开放岗位发布；保留待复核，不推断永久关闭",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "code": "shokz-campus",
+      "fetched": 198,
+      "published": 35,
+      "internships": 16,
+      "document_sha256": "db9d4e4433269c91ff491745f7d0cc68d9d168e8b56656d5cedec90b0a9536d9",
+      "identity_sha256": "bbb65156e203d1545151468ca526076e55ed7fee8e47813b3cf984f06f11c817",
+      "probe": {
+        "started_at": "2026-10-18T08:49:23.120846483Z",
+        "finished_at": "2026-10-18T08:50:19.987675918Z",
+        "requests": 58
+      },
+      "scheduled_run": {
+        "started_at": "2026-10-18T08:56:18.698894+00:00",
+        "finished_at": "2026-10-18T08:57:06.878243+00:00",
+        "status": "succeeded",
+        "attempts": 1,
+        "evidence_count": 58,
+        "content_equals_probe": true,
+        "all_versions": 1
+      },
+      "exclusions": [
+        {
+          "reason": "当前岗位标题未确认属于计算机技术方向，需人工复核",
+          "count": 153
+        },
+        {
+          "reason": "官方联培课题未披露岗位职责及投递条件，暂不作为标准招聘岗位发布，需人工核验",
+          "count": 6
+        },
+        {
+          "reason": "测试职责未确认属于软件技术方向，需人工复核",
+          "count": 2
+        },
+        {
+          "reason": "官方列表状态为 pause，暂不作为开放岗位发布；保留待复核，不推断永久关闭",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "code": "bluepoch-careers",
+      "fetched": 57,
+      "published": 1,
+      "internships": 0,
+      "document_sha256": "3c1bb323139652d54e6cc5ce8774c2faca1108f7eb082dc4fcaab96f9d4aa228",
+      "identity_sha256": "82204b773fa17149ca55d596038fc9862aa01ec47063a651313edca0e686d2b2",
+      "probe": {
+        "started_at": "2026-10-18T08:46:43.8001143Z",
+        "finished_at": "2026-10-18T08:46:52.8307407Z",
+        "requests": 10
+      },
+      "repeat_probe": {
+        "started_at": "2026-10-18T08:48:34.918251894Z",
+        "finished_at": "2026-10-18T08:48:47.559191606Z",
+        "requests": 10,
+        "document_sha256": "3c1bb323139652d54e6cc5ce8774c2faca1108f7eb082dc4fcaab96f9d4aa228"
+      },
+      "scheduled_run": {
+        "started_at": "2026-10-18T08:56:11.649752+00:00",
+        "finished_at": "2026-10-18T08:56:18.677508+00:00",
+        "status": "succeeded",
+        "attempts": 1,
+        "evidence_count": 10,
+        "content_equals_probe": true,
+        "all_versions": 1
+      },
+      "exclusions": [
+        {
+          "reason": "当前岗位标题未确认属于计算机技术方向，需人工复核",
+          "count": 46
+        },
+        {
+          "reason": "社招接受应届或低经验的依据不足，需人工确认",
+          "count": 2
+        },
+        {
+          "reason": "社招正文要求超过一年经验，不属于本版范围",
+          "count": 2
+        },
+        {
+          "reason": "官方列表状态为 pause，暂不作为开放岗位发布；保留待复核，不推断永久关闭",
+          "count": 6
+        }
+      ]
+    }
+  ],
+  "authority_reads": [
+    {
+      "label": "nsfocus-official",
+      "url": "https://www.nsfocus.com.cn/campus/",
+      "status": 200,
+      "bytes": 4624,
+      "sha256": "c32b58b8a7d3c5629c9c3fadb3f0640ec6dd276227d9665ec457afb22e720956",
+      "started_at": "2026-10-18T08:13:16.593Z",
+      "finished_at": "2026-10-18T08:13:17.350Z"
+    },
+    {
+      "label": "shokz-official",
+      "url": "https://shokz.com.cn/",
+      "status": 200,
+      "bytes": 215981,
+      "sha256": "2a0c5468997aa7a2b433f2ec7e0eb06b09f6b3bb5aa11d0492ef60e04684c534",
+      "started_at": "2026-10-18T08:13:18.182Z",
+      "finished_at": "2026-10-18T08:13:19.130Z"
+    },
+    {
+      "label": "bluepoch-official",
+      "url": "https://www.bluepoch.com/",
+      "status": 200,
+      "bytes": 9160,
+      "sha256": "b959682a3864c61b6e96ab2767f02cb56a70c6ffc848a3ee1dfb03736406e63a",
+      "started_at": "2026-10-18T08:13:19.642Z",
+      "finished_at": "2026-10-18T08:13:20.583Z"
+    },
+    {
+      "label": "moka-nsfocus",
+      "url": "https://app.mokahr.com/campus_apply/nsfocus/29118",
+      "status": 200,
+      "bytes": 91794,
+      "sha256": "fc5bc4c7da7375499bb7a9d2d8d15b597b552472d99c3fad0b00c40db35251de",
+      "started_at": "2026-10-18T08:13:22.351Z",
+      "finished_at": "2026-10-18T08:13:23.325Z"
+    },
+    {
+      "label": "moka-shokz",
+      "url": "https://app.mokahr.com/campus-recruitment/aftershokzhr/36940",
+      "status": 200,
+      "bytes": 185794,
+      "sha256": "e333b74e4467ca2e8d1bf0205ea1cc49ffa00a33890bc0700d671b5fcf607d97",
+      "started_at": "2026-10-18T08:13:23.837Z",
+      "finished_at": "2026-10-18T08:13:27.497Z"
+    },
+    {
+      "label": "moka-bluepoch",
+      "url": "https://app.mokahr.com/apply/blueinteractive/38433",
+      "status": 200,
+      "bytes": 51775,
+      "sha256": "3c558d534e9772e89b48082e02097a8d41114721898a077ed8458e1e3a8d47c2",
+      "started_at": "2026-10-18T08:13:28.012Z",
+      "finished_at": "2026-10-18T08:13:28.812Z"
+    },
+    {
+      "label": "shokz-official-social",
+      "url": "https://app.mokahr.com/apply/aftershokzhr/40779",
+      "status": 200,
+      "bytes": 123169,
+      "sha256": "372c8a82d900a70a80900d6ec70b42a02bdfda192adcb46ef750d8425313e55b",
+      "started_at": "2026-10-18T08:16:39.532Z",
+      "finished_at": "2026-10-18T08:16:40.456Z"
+    },
+    {
+      "label": "moka-shokz-missing-description",
+      "url": "https://app.mokahr.com/api/outer/ats-apply/website/job",
+      "status": 200,
+      "bytes": 1988,
+      "sha256": "f312157197629846e48f8ccdfe71e6190b5ef4dda7cdac5b9185b495446ddc51",
+      "started_at": "2026-10-18T08:46:26.162Z",
+      "finished_at": "2026-10-18T08:46:27.080Z"
+    }
+  ],
+  "local_catalog": {
+    "companies": 6,
+    "sources": 8,
+    "stored": 288,
+    "published": 275,
+    "internships": 83,
+    "job_versions": 312,
+    "new_published": 153,
+    "old_jobs_unchanged": true,
+    "old_versions_unchanged": true,
+    "personal_counts_unchanged": true,
+    "notification_rows_unchanged": true
+  },
+  "isolated_checks": {
+    "project": "job-assistant-s5-moka-verify-5515dd49",
+    "linux_race_passes_including_subtests": 185,
+    "skipped": 0,
+    "failed": 0,
+    "desktop_mobile_browser_tests": 5,
+    "clean_shutdown_exit_codes": {
+      "api": 0,
+      "worker": 0
+    }
+  },
+  "browser": {
+    "layouts": [
+      {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "companies": [
+          {
+            "company": "绿盟科技",
+            "total": 117,
+            "source": "nsfocus-campus",
+            "detail_link_checked": true
+          },
+          {
+            "company": "韶音科技",
+            "total": 35,
+            "source": "shokz-campus",
+            "detail_link_checked": true
+          },
+          {
+            "company": "深蓝互动",
+            "total": 1,
+            "source": "bluepoch-careers",
+            "detail_link_checked": true
+          }
+        ],
+        "horizontal_overflow": false
+      },
+      {
+        "name": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "companies": [
+          {
+            "company": "绿盟科技",
+            "total": 117,
+            "source": "nsfocus-campus",
+            "detail_link_checked": true
+          },
+          {
+            "company": "韶音科技",
+            "total": 35,
+            "source": "shokz-campus",
+            "detail_link_checked": true
+          },
+          {
+            "company": "深蓝互动",
+            "total": 1,
+            "source": "bluepoch-careers",
+            "detail_link_checked": true
+          }
+        ],
+        "horizontal_overflow": false
+      }
+    ],
+    "page_errors": [],
+    "real_send_enabled": false,
+    "public_jobs": 275,
+    "internships": 83
+  }
+}
