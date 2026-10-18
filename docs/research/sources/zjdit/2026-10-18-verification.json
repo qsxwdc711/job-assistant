@@ -1,0 +1,674 @@
+{
+  "verified_at": "2026-10-18T15:13:31.009Z",
+  "scope": "S5 ZJDIT public technical source; not all S5",
+  "real_feishu_send_enabled": false,
+  "image_id": "sha256:15273b490b4cd108266ccf1fcc1bf1aa0ff86587cfe5dee2b4046f970693dd48",
+  "source": {
+    "code": "zjdit-careers",
+    "official_chain": [
+      "https://www.zjdit.com/",
+      "https://zp.zjdit.com/"
+    ],
+    "list_url": "https://zp.zjdit.com/position/index.html?class_id=1",
+    "list_method": "POST form /Position/loading_list_data.html",
+    "page_size": 15,
+    "pages": 2,
+    "fetched": 26,
+    "list_ids": [
+      "10",
+      "11",
+      "13",
+      "15",
+      "16",
+      "18",
+      "20",
+      "21",
+      "23",
+      "24",
+      "25",
+      "27",
+      "28",
+      "31",
+      "32",
+      "34",
+      "41",
+      "56",
+      "61",
+      "76",
+      "78",
+      "79",
+      "8",
+      "80",
+      "85",
+      "9"
+    ],
+    "candidate_ids": [
+      "10",
+      "15",
+      "18",
+      "21",
+      "23",
+      "24",
+      "25",
+      "34",
+      "41",
+      "56",
+      "78",
+      "8"
+    ],
+    "published": 12,
+    "internships": 0,
+    "degree_scope": "All twelve require master or above; major and domain restrictions still apply",
+    "nature": "unknown",
+    "tiers": [],
+    "document_sha256": "268a0d90eac243eca3886f63f0112d42e5bf4f1cdfd87bd56b8ae98df3e61106",
+    "probes": [
+      {
+        "started_at": "2026-10-18T12:28:20.1151828Z",
+        "finished_at": "2026-10-18T12:28:31.6316945Z",
+        "requests": 18,
+        "document_sha256": "268a0d90eac243eca3886f63f0112d42e5bf4f1cdfd87bd56b8ae98df3e61106"
+      },
+      {
+        "started_at": "2026-10-18T12:30:04.9699244Z",
+        "finished_at": "2026-10-18T12:30:19.7721266Z",
+        "requests": 18,
+        "document_sha256": "268a0d90eac243eca3886f63f0112d42e5bf4f1cdfd87bd56b8ae98df3e61106"
+      },
+      {
+        "started_at": "2026-10-18T14:57:14.7209901Z",
+        "finished_at": "2026-10-18T14:57:28.3784098Z",
+        "requests": 18,
+        "document_sha256": "268a0d90eac243eca3886f63f0112d42e5bf4f1cdfd87bd56b8ae98df3e61106"
+      }
+    ],
+    "exclusions": [
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "61",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "31",
+        "Reason": "未限定为社招的任职条件要求超过一年经验，暂不发布，保留人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "32",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "9",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "11",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "13",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "16",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "20",
+        "Reason": "未限定为社招的任职条件要求超过一年经验，暂不发布，保留人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "27",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "28",
+        "Reason": "未限定为社招的任职条件要求超过一年经验，暂不发布，保留人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "76",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "79",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "80",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      },
+      {
+        "CampaignKey": "zjdit:technical",
+        "ExternalID": "85",
+        "Reason": "当前职责方向未确认属于计算机技术岗位，保留待人工核验"
+      }
+    ],
+    "detail_scope": "Unique main panel plus current page ID; sidebar recommendations excluded",
+    "empty_result_verified": true,
+    "missing_detail_http": 500
+  },
+  "public_reads": [
+    {
+      "label": "hoson-official",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://www.hosonsoft.com/",
+      "method": "GET",
+      "started_at": "2026-10-18T12:12:51.518Z",
+      "finished_at": "2026-10-18T12:12:56.935Z",
+      "status": 200,
+      "effective_url": "https://www.hosonsoft.com/",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 5.162224,
+      "bytes": 121338,
+      "sha256": "aa6de8412c81794fc10aa16ea210c5e08181768b187735c5add57539c84ca17f",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "hoson-society",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://www.hosonsoft.com/about/society/",
+      "method": "GET",
+      "started_at": "2026-10-18T12:12:57.449Z",
+      "finished_at": "2026-10-18T12:12:58.371Z",
+      "status": 200,
+      "effective_url": "https://www.hosonsoft.com/about/society/",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.725945,
+      "bytes": 122861,
+      "sha256": "54c03af584062fb66c176dec4c72f4a763bdb68e7ce6b371b2d00dc1ead7f4d0",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-official",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://www.zjdit.com/",
+      "method": "GET",
+      "started_at": "2026-10-18T12:12:58.874Z",
+      "finished_at": "2026-10-18T12:13:00.806Z",
+      "status": 200,
+      "effective_url": "https://www.zjdit.com/",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 1.721766,
+      "bytes": 63754,
+      "sha256": "e65e1b54667e6885408d24c31ab7985ef9f8fa540903ec68ba2a703169dcfe4f",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-recruit",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/",
+      "method": "GET",
+      "started_at": "2026-10-18T12:13:01.313Z",
+      "finished_at": "2026-10-18T12:13:02.053Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.485891,
+      "bytes": 32431,
+      "sha256": "76be4384d82ca7ebdde5c770815f0be4e72fd620ad607e3993b66f05e2ab6896",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "hoson-campus",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://www.hosonsoft.com/about/school/",
+      "method": "GET",
+      "started_at": "2026-10-18T12:13:59.485Z",
+      "finished_at": "2026-10-18T12:14:00.317Z",
+      "status": 200,
+      "effective_url": "https://www.hosonsoft.com/about/school/",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.592014,
+      "bytes": 60900,
+      "sha256": "c857991c38a5b5eda4e320b5daf85f16e6e3038a356e4a9be9f3edde4ab4c20a",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "hoson-profile",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://www.hosonsoft.com/about/introduce/",
+      "method": "GET",
+      "started_at": "2026-10-18T12:14:00.833Z",
+      "finished_at": "2026-10-18T12:14:01.583Z",
+      "status": 200,
+      "effective_url": "https://www.hosonsoft.com/about/introduce/",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.587012,
+      "bytes": 63749,
+      "sha256": "b8c52b560f2f66bd41f4dd03f780257fb17f180443bb7d21ab2c474551f0dbb1",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-technical",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/position/index.html?class_id=1",
+      "method": "GET",
+      "started_at": "2026-10-18T12:14:02.096Z",
+      "finished_at": "2026-10-18T12:14:02.616Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/position/index.html?class_id=1",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.31519,
+      "bytes": 14874,
+      "sha256": "e4f5327eb6826e6bbb3b11da28c5cd822d6175a513aeeaa3db482697f47288cb",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-faq",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/question_answering/index.html",
+      "method": "GET",
+      "started_at": "2026-10-18T12:14:03.125Z",
+      "finished_at": "2026-10-18T12:14:03.615Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/question_answering/index.html",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.289887,
+      "bytes": 18203,
+      "sha256": "d40a57a4806df07df18a35566278dc3bc98a9c9675bb31086c8d8b632b8dbbc6",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-list-p1",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/loading_list_data.html",
+      "method": "POST",
+      "started_at": "2026-10-18T12:15:44.301Z",
+      "finished_at": "2026-10-18T12:15:44.810Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/Position/loading_list_data.html",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.392296,
+      "bytes": 24447,
+      "sha256": "26d8d7e4304633a41f8558666768c32d250bd98104bb68f43150390c7f123b67",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "hoson-campus-list-p1",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://www.hosonsoft.com/api/docpagejob",
+      "method": "POST",
+      "started_at": "2026-10-18T12:15:45.331Z",
+      "finished_at": "2026-10-18T12:15:45.816Z",
+      "status": 200,
+      "effective_url": "https://www.hosonsoft.com/api/docpagejob",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.39779,
+      "bytes": 68,
+      "sha256": "4a6bfe76b132b75a656b74f15f14998fd896804acbf2a65f2b25a205bf2c4afb",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-list-p2",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/loading_list_data.html",
+      "method": "POST",
+      "started_at": "2026-10-18T12:16:39.857Z",
+      "finished_at": "2026-10-18T12:16:40.273Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/Position/loading_list_data.html",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.286462,
+      "bytes": 20116,
+      "sha256": "7c71df9b8813e326225770beb4c6fa23a9c425a47d8652e74df7506408e2a802",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-detail-78",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/details.html?id=78",
+      "method": "GET",
+      "started_at": "2026-10-18T12:16:40.787Z",
+      "finished_at": "2026-10-18T12:16:41.454Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/Position/details.html?id=78",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.28757,
+      "bytes": 17101,
+      "sha256": "951d2fa88b2ec7812773d87b862c34786902eda24a6be287c2dfaac22e332916",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-detail-56",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/details.html?id=56",
+      "method": "GET",
+      "started_at": "2026-10-18T12:16:41.967Z",
+      "finished_at": "2026-10-18T12:16:42.501Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/Position/details.html?id=56",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.319249,
+      "bytes": 17391,
+      "sha256": "e12245d0dbec783f47ea3d425e5dac1e9fbaee4e430c9ae995d6aa255cc56ce6",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-detail-20",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/details.html?id=20",
+      "method": "GET",
+      "started_at": "2026-10-18T12:16:43.005Z",
+      "finished_at": "2026-10-18T12:16:43.574Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/Position/details.html?id=20",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.299333,
+      "bytes": 17233,
+      "sha256": "4f976643813aed59a1572dbad36a77d44ed3bbb70e5d3a9fc3282abd1e2820bd",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-detail-missing",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/details.html?id=99999999",
+      "method": "GET",
+      "started_at": "2026-10-18T12:16:44.079Z",
+      "finished_at": "2026-10-18T12:16:44.384Z",
+      "status": 500,
+      "effective_url": "https://zp.zjdit.com/Position/details.html?id=99999999",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.225856,
+      "bytes": 60,
+      "sha256": "adb106cf2552a6234a6d09f72ec69dde64c10ae32903f508dbd1f75275c5fd5e",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-empty",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/Position/loading_list_data.html",
+      "method": "POST",
+      "started_at": "2026-10-18T12:26:07.677Z",
+      "finished_at": "2026-10-18T12:26:08.112Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/Position/loading_list_data.html",
+      "content_type": "application/json; charset=utf-8",
+      "seconds": 0.323401,
+      "bytes": 103,
+      "sha256": "79681538fc8a8d2f0e4ea4ab2300aaed684b8438ac3c549817595db825cd0da0",
+      "curl_exit": 0,
+      "error": ""
+    },
+    {
+      "label": "zjdit-entry-recheck",
+      "transport": "windows-curl",
+      "anonymous_session": true,
+      "requested_url": "https://zp.zjdit.com/position/index.html?class_id=1",
+      "method": "GET",
+      "started_at": "2026-10-18T14:44:23.788Z",
+      "finished_at": "2026-10-18T14:44:24.567Z",
+      "status": 200,
+      "effective_url": "https://zp.zjdit.com/position/index.html?class_id=1",
+      "content_type": "text/html; charset=utf-8",
+      "seconds": 0.408606,
+      "bytes": 14874,
+      "sha256": "e4f5327eb6826e6bbb3b11da28c5cd822d6175a513aeeaa3db482697f47288cb",
+      "curl_exit": 0,
+      "error": ""
+    }
+  ],
+  "runtime": {
+    "versions": [
+      {
+        "external_id": "10",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "15",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "18",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "21",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "23",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "24",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "25",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "34",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "41",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "56",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "78",
+        "version": 1,
+        "published": true
+      },
+      {
+        "external_id": "8",
+        "version": 1,
+        "published": true
+      }
+    ],
+    "tasks": [
+      {
+        "id": "c2b984b7-271e-45cc-8f01-b28be92a0df7",
+        "source_code": "zjdit-careers",
+        "schedule_key": "daily:2026-10-18:zjdit-careers",
+        "state": "succeeded",
+        "attempts": 1,
+        "fetched": 26,
+        "published": 12,
+        "error_code": "",
+        "created_at": "2026-10-18T15:06:16.563551+00:00",
+        "updated_at": "2026-10-18T15:06:36.251347+00:00"
+      },
+      {
+        "id": "4a55a1c3-a025-4b3a-a0d3-29e9a9abe6bd",
+        "source_code": "zjdit-careers",
+        "schedule_key": "manual:fb3c5939-2605-4d61-93ea-c186e642f53a",
+        "state": "succeeded",
+        "attempts": 1,
+        "fetched": 26,
+        "published": 12,
+        "error_code": "",
+        "created_at": "2026-10-18T15:08:07.486294+00:00",
+        "updated_at": "2026-10-18T15:08:19.074879+00:00"
+      }
+    ],
+    "runs": [
+      {
+        "status": "succeeded",
+        "fetched_count": 26,
+        "published_count": 12,
+        "changed_count": 12,
+        "requests": 18,
+        "error_code": "",
+        "started_at": "2026-10-18T15:06:25.233241+00:00",
+        "finished_at": "2026-10-18T15:06:36.00651+00:00"
+      },
+      {
+        "status": "succeeded",
+        "fetched_count": 26,
+        "published_count": 12,
+        "changed_count": 0,
+        "requests": 18,
+        "error_code": "",
+        "started_at": "2026-10-18T15:07:35.109978+00:00",
+        "finished_at": "2026-10-18T15:07:45.667539+00:00"
+      },
+      {
+        "status": "succeeded",
+        "fetched_count": 26,
+        "published_count": 12,
+        "changed_count": 0,
+        "requests": 18,
+        "error_code": "",
+        "started_at": "2026-10-18T15:08:08.210134+00:00",
+        "finished_at": "2026-10-18T15:08:19.003735+00:00"
+      }
+    ],
+    "active_tasks": 0,
+    "published_documents_equal_native_probe": true,
+    "documents": 12,
+    "all_versions": 1,
+    "source_runs": 3,
+    "automatic_and_manual_tasks_completed": 2,
+    "changed_counts": [
+      12,
+      0,
+      0
+    ],
+    "source_dispatch": "Only zjdit-careers is consumed by the native public worker; Docker plans all and consumes other sources",
+    "native_shutdown_verified": true,
+    "native_restarted": true,
+    "duplicate_daily_tasks": false
+  },
+  "local_snapshot": {
+    "companies": 7,
+    "sources": 9,
+    "jobs_stored": 300,
+    "jobs_published": 287,
+    "internships_published": 83,
+    "job_versions": 324,
+    "migrations": 8,
+    "preserved_fields": [
+      "old_jobs_hash",
+      "old_versions_hash",
+      "users",
+      "applications",
+      "favorites",
+      "resumes",
+      "profiles",
+      "notification_channels",
+      "notification_events",
+      "notification_batches",
+      "notification_deliveries"
+    ],
+    "old_jobs_hash": "ac9ae4449f7f043c45e3a8ca659670b7",
+    "old_versions_hash": "2fb3563516db4abc450badebb59a6508",
+    "personal_counts_unchanged": true
+  },
+  "verification": {
+    "isolated_project": "job-assistant-s5-zjdit-verify-49025660",
+    "go_vet": true,
+    "real_postgresql_linux_race": true,
+    "skipped_tests": 0,
+    "browser_regression_cases": 5,
+    "native_postgresql_start_stop_exit": 0,
+    "api_worker_shutdown_exit": 0,
+    "local_browser": {
+      "layouts": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "companies": [
+            {
+              "company": "中久数创",
+              "total": 12,
+              "source": "zjdit-careers",
+              "detail_link_checked": true
+            }
+          ],
+          "horizontal_overflow": false
+        },
+        {
+          "name": "mobile",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "companies": [
+            {
+              "company": "中久数创",
+              "total": 12,
+              "source": "zjdit-careers",
+              "detail_link_checked": true
+            }
+          ],
+          "horizontal_overflow": false
+        }
+      ],
+      "page_errors": [],
+      "real_send_enabled": false,
+      "public_jobs": 287,
+      "internships": 83
+    },
+    "manual_ui": true,
+    "temporary_db_resources_removed": true,
+    "failed_previous_run": "ea107235: existing Moka domain/global lease test failed at PostgreSQL connection handshake timeout; final run passed without skipping or changing the limit"
+  },
+  "pending": [
+    "Docker/Linux connection to this source still fails TLS EOF; no certificate verification bypass",
+    "Cloud source connection",
+    "Native long-running reliability and crash supervisor",
+    "Complete database restore drill",
+    "20 companies and seven consecutive days",
+    "Real Feishu and DeepSeek remain outside current simulated acceptance"
+  ]
+}
