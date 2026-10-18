@@ -1,0 +1,43 @@
+{
+  "orgId": "aftershokzhr",
+  "id": "a4ab7454-f2fe-4509-a05b-1882d97c6067",
+  "title": "大模型算法实习生（医疗AI Agent方向）",
+  "hireMode": 2,
+  "commitment": "实习",
+  "status": "open",
+  "education": "硕士",
+  "jobDescription": "<p><br></p><p><strong>岗位职责：</strong></p><p><br></p><p>1.参与医疗健康领域大模型（LLM）的应用研发，包括Prompt Engineering、检索增强生成（RAG）架构优化及垂直领域模型的微调（SFT/LoRA）。</p><p>2.负责医疗AI Agent的核心模块设计与开发，包括智能体的规划（Planning）、工具调用（Tool Use）、记忆（Memory）机制，实现复杂的医疗工作流（如：睡眠报告解读、慢病管理、健康干预建议）。</p><p>3.结合生理时序数据（如心率、血氧、鼾声事件、运动数据）与医学知识库，探索多模态大模型在个性化健康管理中的落地应用。</p><p>4.参与构建和维护医疗领域知识图谱与向量数据库，确保Agent回答的事实一致性与低幻觉率。</p><p>5.跟进国内外大模型与AI Agent前沿论文（如RAG、Multi-Agent、Medical LLM），进行算法原型验证与性能评估。</p><p><br></p><p><strong>任职要求：</strong></p><p><br></p><p>1.在读硕士/博士，计算机科学、人工智能、自然语言处理、生物医学工程等相关专业。</p><p>2.扎实的机器学习基础，深入理解Transformer架构及主流大语言模型（GPT, Llama, ChatGLM等）的原理。</p><p>3.具备丰富的Python编程经验，熟练使用 PyTorch​ 及 HuggingFace​ 生态。</p><p>熟悉主流 Agent开发框架（如LangChain, LlamaIndex, AutoGen, MetaGPT等），有实际的Agent项目开发经验。</p><p><br></p><p>有以下经验者优先：</p><p>1.有RAG系统开发经验，熟悉向量数据库（Milvus, FAISS, Chroma等）；</p><p>2.有大模型微调（Fine-tuning）或人类反馈强化学习（RLHF）经验；</p><p>3.熟悉医疗NLP任务（如电子病历NER、医学问答、临床决策支持）；</p><p>4.了解生理学基础或具备可穿戴设备数据处理经验（如睡眠分期、心率变异性分析）；</p><p>在顶级会议（NeurIPS, ACL, EMNLP, KDD等）发表过论文。</p><p>5.具备极强的自驱力、逻辑思维能力，对解决医疗AI领域的实际问题有浓厚热情。</p><p><br></p><p><strong>加分项：</strong></p><p>1.熟悉多模态大模型（如处理文本+时序数据+音频/图像）。</p><p>2.有全栈开发经验（如FastAPI, React），能独立完成Agent的原型产品化。</p><p>3.熟悉Docker/K8s，有模型服务化（LLM Serving）部署经验。</p>",
+  "locations": [
+    {
+      "id": 668626,
+      "cityId": 440300,
+      "cityName": "Shenzhen",
+      "country": "China"
+    }
+  ],
+  "departments": [
+    {
+      "id": 613141,
+      "name": "基础研究部"
+    }
+  ],
+  "locDepCampusList": [
+    {
+      "campusSiteIds": [
+        49974,
+        24185
+      ],
+      "departmentIds": [
+        613141
+      ],
+      "locationIds": [
+        668626
+      ],
+      "storeIds": []
+    }
+  ],
+  "projectFolder": {
+    "id": 100006399,
+    "name": "实习生招聘"
+  }
+}

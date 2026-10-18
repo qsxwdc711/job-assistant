@@ -1,0 +1,27 @@
+{
+  "orgId": "aftershokzhr",
+  "id": "afe26491-8d6a-4394-afca-3d7fa178e996",
+  "title": "联培课题-基于AI与可穿戴设备的居家睡眠监测与风险管理系统",
+  "hireMode": 2,
+  "commitment": "实习",
+  "status": "open",
+  "locations": [],
+  "departments": [
+    {
+      "id": 608639,
+      "name": "研发系统"
+    }
+  ],
+  "locDepCampusList": [
+    {
+      "campusSiteIds": [
+        24185
+      ],
+      "departmentIds": [
+        608639
+      ],
+      "locationIds": [],
+      "storeIds": []
+    }
+  ]
+}

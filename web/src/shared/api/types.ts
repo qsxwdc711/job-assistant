@@ -18,7 +18,7 @@ export interface Job {
   variants: Variant[]; version: number; published: boolean; review_note: string; verified_at: string; updated_at: string
 }
 export interface Company { code: string; name: string; industry: string; nature: string; tiers: string[]; basis: string }
-export interface Choices { dictionary: {kind: string; code: string; name: string}[]; cities: Place[]; companies: Company[] }
+export interface Choices { dictionary: {kind: string; code: string; name: string}[]; cities: Place[]; companies: Company[]; source_names?: Record<string, string> }
 export interface Page<T> { items: T[]; total: number; limit: number; offset: number }
 export interface JobState { job_id: string; favorite: boolean; recorded: boolean }
 export interface Application {

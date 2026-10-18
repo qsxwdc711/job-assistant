@@ -26,10 +26,10 @@ func main() {
 
 func run() error {
 	if len(os.Args) != 2 {
-		return errors.New("usage: collector all|tencent-campus|huawei-campus|cmb-campus|tencent-internships|huawei-internships")
+		return errors.New("usage: collector all|source-code")
 	}
 	selected := os.Args[1]
-	if selected != "all" && selected != "tencent-campus" && selected != "huawei-campus" && selected != "cmb-campus" && selected != "tencent-internships" && selected != "huawei-internships" {
+	if selected != "all" && !ingest.SupportsSource(selected) {
 		return errors.New("unknown public source")
 	}
 	dsn, err := config.DatabaseURL()

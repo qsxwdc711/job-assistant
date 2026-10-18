@@ -34,6 +34,8 @@ type Reader struct {
 	HuaweiBase  string
 	HuaweiAPI   string
 	CMBBase     string
+	MokaBase    string
+	readSpacing time.Duration
 	lastRead    time.Time
 	Requests    int
 	Exclusions  []catalog.Exclusion
@@ -47,7 +49,7 @@ func NewReader() *Reader {
 		}
 		return nil
 	}}
-	return &Reader{Client: client, Evidence: []catalog.Evidence{}, TencentBase: "https://join.qq.com", HuaweiBase: "https://career.huawei.com", HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com"}
+	return &Reader{Client: client, Evidence: []catalog.Evidence{}, TencentBase: "https://join.qq.com", HuaweiBase: "https://career.huawei.com", HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com", MokaBase: "https://app.mokahr.com"}
 }
 
 func trustedURL(u *url.URL) bool {
@@ -55,7 +57,7 @@ func trustedURL(u *url.URL) bool {
 		return false
 	}
 	switch u.Hostname() {
-	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com":
+	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com":
 		return true
 	}
 	return false
@@ -86,7 +88,7 @@ func (r *Reader) read(ctx context.Context, method, rawURL string, input any, hea
 }
 
 func (r *Reader) readOnce(ctx context.Context, method, rawURL string, input any, headers map[string]string) ([]byte, error) {
-	if wait := 200*time.Millisecond - time.Since(r.lastRead); wait > 0 {
+	if wait := max(200*time.Millisecond, r.readSpacing) - time.Since(r.lastRead); wait > 0 {
 		timer := time.NewTimer(wait)
 		select {
 		case <-ctx.Done():

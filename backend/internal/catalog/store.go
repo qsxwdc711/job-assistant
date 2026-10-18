@@ -236,9 +236,10 @@ func (s *Store) Jobs(ctx context.Context, actorID string, f Filter, now time.Tim
 
 // FilterChoices contains extensible dictionaries and observed places, without invented jobs.
 type FilterChoices struct {
-	Dictionary []DictionaryEntry `json:"dictionary"`
-	Cities     []Location        `json:"cities"`
-	Companies  []Company         `json:"companies"`
+	Dictionary  []DictionaryEntry `json:"dictionary"`
+	Cities      []Location        `json:"cities"`
+	Companies   []Company         `json:"companies"`
+	SourceNames map[string]string `json:"source_names"`
 }
 
 // Filters returns currently available choices to an authenticated user.
@@ -284,6 +285,24 @@ func (s *Store) Filters(ctx context.Context, actorID string, now time.Time) (Fil
 		return result, err
 	}
 	result.Companies, err = readCompanies(ctx, tx)
+	if err != nil {
+		return result, err
+	}
+	rows, err = tx.Query(ctx, "SELECT code,name FROM sources ORDER BY code")
+	if err != nil {
+		return result, err
+	}
+	result.SourceNames = map[string]string{}
+	for rows.Next() {
+		var code, name string
+		if err = rows.Scan(&code, &name); err != nil {
+			rows.Close()
+			return result, err
+		}
+		result.SourceNames[code] = name
+	}
+	err = rows.Err()
+	rows.Close()
 	if err != nil {
 		return result, err
 	}

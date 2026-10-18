@@ -21,7 +21,7 @@ const loading = ref(true)
 const historyOwner = ref(''), users = ref<User[]>([])
 const options = (kind: string) => choices.value.dictionary.filter(item => item.kind === kind)
 const states: Record<string, string> = { queued: '等待处理', sending: '发送中', sent: '已发送', failed: '失败', delivery_unknown: '送达未知，需管理员确认', cancelled: '已取消', simulated: '模拟完成，未发送到群', station_only: '仅站内通知', empty: '本次没有新机会', succeeded: '已完成', running: '进行中', not_completed: '未完成', restricted: '访问受限' }
-const sourceNames: Record<string, string> = { 'tencent-campus': '腾讯校招', 'tencent-internships': '腾讯实习', 'huawei-campus': '华为校招', 'huawei-internships': '华为实习', 'cmb-campus': '招商银行' }
+const sourceNames = computed(() => choices.value.source_names ?? {})
 async function history() {
   const owner = historyOwner.value
   const endpoint = session.isAdmin && owner ? '/admin/notifications?owner_user_id=' + encodeURIComponent(owner) : '/me/notifications'

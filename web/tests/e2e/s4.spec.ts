@@ -46,6 +46,10 @@ test('subscription, write-only Feishu settings, simulated delivery and mobile re
     await desktop.screenshot({ path: test.info().outputPath('desktop-notifications.png'), fullPage: true })
     await mobile.screenshot({ path: test.info().outputPath('mobile-notifications.png'), fullPage: true })
     await login(admin, 'web-admin')
+    const choices = await (await adminContext.request.get('/api/v1/jobs/filters')).json()
+    if (choices.source_names['nsfocus-campus']) {
+      await expect(admin.getByRole('combobox', { name: '要更新的来源' }).getByRole('option', { name: choices.source_names['nsfocus-campus'], exact: true })).toHaveCount(1)
+    }
     await admin.getByRole('combobox', { name: '查看账号的发送记录' }).selectOption({ label: 'notify-user-a' })
     await expect(admin.locator('.notification-batch').first()).toContainText('模拟完成，未发送到群')
     expect(errors).toEqual([])

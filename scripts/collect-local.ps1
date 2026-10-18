@@ -1,5 +1,5 @@
 #Requires -Version 7.0
-param([ValidateSet('all','tencent-campus','huawei-campus','cmb-campus','tencent-internships','huawei-internships')][string]$Source='all', [switch]$UseSystemProxy)
+param([ValidateSet('all','tencent-campus','huawei-campus','cmb-campus','tencent-internships','huawei-internships','nsfocus-campus','shokz-campus','bluepoch-careers')][string]$Source='all', [switch]$UseSystemProxy)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot 'local-compose.ps1')
 $compose=Initialize-LocalCompose

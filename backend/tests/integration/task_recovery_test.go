@@ -3,6 +3,7 @@ package integration
 import (
 	"context"
 	"errors"
+	"net/url"
 	"sync"
 	"testing"
 	"time"
@@ -31,7 +32,11 @@ func TestDailyCollectionPlanningDomainIsolationAndRecovery(t *testing.T) {
 			t.Fatal(err)
 		}
 	}
-	if err := f.pool.QueryRow(ctx, "SELECT count(*) FROM scheduled_collections").Scan(&count); err != nil || count != 5 {
+	var enabled int
+	if err := f.pool.QueryRow(ctx, "SELECT count(*) FROM sources WHERE enabled").Scan(&enabled); err != nil {
+		t.Fatal(err)
+	}
+	if err := f.pool.QueryRow(ctx, "SELECT count(*) FROM scheduled_collections").Scan(&count); err != nil || count != enabled {
 		t.Fatalf("unique source planning: %d %v", count, err)
 	}
 	jobs := make(chan task.Collection, 8)
@@ -64,7 +69,21 @@ func TestDailyCollectionPlanningDomainIsolationAndRecovery(t *testing.T) {
 		seen[job.Domain] = true
 		first = job
 	}
-	if len(seen) < 1 || len(seen) > 3 {
+	expectedDomains := map[string]bool{}
+	sources, err := catalog.NewStore(f.pool).SystemSources(ctx)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, source := range sources {
+		if source.Enabled {
+			endpoint, err := url.Parse(source.OfficialURL)
+			if err != nil {
+				t.Fatal(err)
+			}
+			expectedDomains[endpoint.Hostname()] = true
+		}
+	}
+	if len(seen) < 1 || len(seen) > len(expectedDomains) {
 		t.Fatalf("claimed domains: %d", len(seen))
 	}
 	// Restrict recovery to one source; expired tokens cannot complete the new lease.

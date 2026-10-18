@@ -1,0 +1,50 @@
+{
+  "orgId": "nsfocus",
+  "id": "fa1953b8-0e58-4da1-9a19-8e388d167119",
+  "title": "秋招安全研究员（云/AI攻防方向）",
+  "hireMode": 2,
+  "commitment": "全职",
+  "status": "open",
+  "education": "硕士",
+  "jobDescription": "<p>岗位职责：</p><ol><li>AI安全评估与靶场建设：研究大模型及智能体的安全评估方法与指标；负责AI&nbsp;Agent架构设计与编排，基于Harness搭建模型红队测试与风险验证体系。</li><li>云安全攻防研究：聚焦云原生及公有云安全，梳理系统性渗透测试路径，构建实战化安全靶场，实现以攻促防。</li><li>技术转化与项目落地：跟踪AI安全与云安全攻防前沿趋势，将研究成果转化为商业化安全产品解决方案，并参与孵化项目端到端落地。</li><li>行业影响力：输出高质量技术文章、白皮书，申请专利，参与起草行业安全标准。</li></ol><p><br></p><p>任职要求:</p><ol><li>教育背景：计算机、网络/信息安全、人工智能等专业硕士及以上学历（211/985优先）。</li><li>技术能力：</li></ol><ul><li>AI安全：熟悉大模型与智能体安全应用，自驱力强，能快速跟进国内外前沿论文与开源项目。</li><li>云攻防：精通云原生与公有云架构底层安全机制，掌握经典漏洞原理、数据泄露及凭证挖掘技术。</li><li>研发能力：熟练使用Python/Go/Shell独立开发自动化脚本与攻防工具，善用AI&nbsp;Coding辅助研发。</li></ul><p><br></p><p>加分项（满足其一即可）:</p><ol><li>在国内外知名CTF中成绩优异，或有主流SRC高危/严重漏洞提交经验。</li><li>具备丰富的大型国家级/省级攻防演练及红蓝对抗实战经验。</li><li>在核心期刊或安全顶会发表过云安全、AI安全相关议题或论文。</li></ol>",
+  "locations": [
+    {
+      "id": 589279,
+      "cityId": 110108,
+      "cityName": "Haidian",
+      "country": "China"
+    },
+    {
+      "id": 653279,
+      "cityId": 440100,
+      "cityName": "Guangzhou",
+      "country": "China"
+    },
+    {
+      "id": 704319,
+      "cityId": 610100,
+      "cityName": "Xi'an",
+      "country": "China"
+    }
+  ],
+  "departments": [
+    {
+      "id": 261445,
+      "name": "创新研究院"
+    }
+  ],
+  "locDepCampusList": [
+    {
+      "campusSiteIds": [],
+      "departmentIds": [
+        261445
+      ],
+      "locationIds": [
+        653279,
+        704319,
+        589279
+      ],
+      "storeIds": []
+    }
+  ]
+}
