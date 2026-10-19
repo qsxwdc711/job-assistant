@@ -1,0 +1,1543 @@
+{
+  "verified_at": "2026-10-19T05:50:08.215Z",
+  "scope": "S5 Chaitin public source and recovery of existing sources; not all S5",
+  "real_feishu_send_enabled": false,
+  "image_id": "sha256:eb435c22c2423d1409a2958a545439849c12ddf009c2353448148b9d6d51dcc6",
+  "source": {
+    "code": "chaitin-careers",
+    "official_chain": [
+      "https://www.chaitin.cn/",
+      "https://join.chaitin.cn/plugins/career_site/sites/default"
+    ],
+    "read_contract": "GET /plugins/career_site/api/default/jobs?page=N&size=10; numeric code=0; total_count and has_next_page required",
+    "fetched": 138,
+    "pages": 14,
+    "page_size": 10,
+    "list_ids": [
+      "013d5f39-536a-41e4-bf35-f034532ae36e",
+      "01589b2a-429f-4aac-8c83-170390d40524",
+      "065ce7de-1b29-4ac6-bb66-f25af6379250",
+      "0962eefd-b9de-413e-b5e3-682e97eb2ae8",
+      "0a2f1d67-1b9a-4d88-ac1e-8b403bf2a0f2",
+      "0b1f02f0-1bdb-40aa-8147-9941fd2fa38b",
+      "0c718cb0-0b57-4e55-894e-384d4a850cff",
+      "0dfeed6d-d118-4096-9cdf-97ea8b3194c6",
+      "101f63ac-2803-46aa-b649-2ad480c0d2e7",
+      "12c6f608-cbe3-47bb-b7c9-5e138ee4d80c",
+      "1323d1eb-3afb-4e0c-9838-533695dfe8af",
+      "14038402-b613-4bc3-b053-46f6aa57e854",
+      "14ad26b2-42a0-49fd-a365-059bbadf96ff",
+      "14f38eb4-3853-40c4-b2c0-7f0abe34c475",
+      "15935b76-4c58-4673-bba1-13a90d3ae81a",
+      "15a50e67-2e0a-4188-b3e0-42396826254c",
+      "16b6caec-b5cd-465e-948e-faadd3e8ca56",
+      "16d73bf8-5b7b-46f7-b85f-d53f0c9ca559",
+      "1e4bca49-3567-424c-be3c-d6a2c73c3efe",
+      "2513d348-e1e2-4057-89b0-505bb023f225",
+      "2585398a-d16e-4e57-a3dc-3cbaf8e5d176",
+      "25d976b9-72a5-4b87-ba9b-f71811831f96",
+      "261b0e82-300e-49b0-b74d-90884848fd5b",
+      "296e9d9a-0d4a-493f-b01e-3a4954e74691",
+      "2a23014a-df26-4041-82ac-414c998d7538",
+      "30de058a-06b1-4464-8e45-bae79e608266",
+      "33193ace-371a-49e4-a82b-58ebd78e7860",
+      "3368c495-3509-4fa2-ac27-de93b479fbf6",
+      "33cf8da8-34ea-48ac-97b4-b4a426fbc4fa",
+      "351d6c29-6068-4514-84cf-72dbbaa051aa",
+      "35d67ce0-58c2-48ed-a757-497beeaaf336",
+      "36a6d728-ea05-41c1-933c-4df6649494a3",
+      "37ff2758-db46-4029-981e-a7b8072e7e1b",
+      "39a2b8ea-66b9-4cd7-bffb-786498b4ce6e",
+      "3b14374d-aa2e-419d-9ec7-5937fc54a8c0",
+      "3db9d0ee-5452-413e-ae25-a88fa9e3e5b4",
+      "40d9fa0d-ea5a-4bd9-bfa3-f0c40917faf6",
+      "419f62f4-a5c7-49c9-9b82-97fb779b045f",
+      "4250b91e-c3d4-4f69-b2fc-f9283890f195",
+      "42ff0f62-bf74-4605-9020-6c1370eb9e90",
+      "45f63df1-17c8-4338-994c-c86d0bd7d15f",
+      "47530656-8730-438c-a6d3-6761614f357a",
+      "48cae8cf-3e67-411f-8121-eb6544eeffba",
+      "49191e93-7a80-4f30-9aea-1190b5e44632",
+      "49d66d9f-62a5-4878-a7f7-6f30243498d0",
+      "4bd86d3a-e489-4966-b9f5-e132ea2ad4a2",
+      "4cce7f0a-fedb-4686-bfe1-40eab0f2cf95",
+      "4da66627-95f3-41e6-99ae-036be4ebb2fa",
+      "4ec7ea88-c324-4b4d-8dd4-71b8291d407a",
+      "535898eb-9e98-4f8b-8d93-c9e20e34aa18",
+      "540de846-a85b-4858-9ecf-1ff29382e26f",
+      "541d8b27-01e6-4a04-b138-1ac6b49bf69d",
+      "555e8abd-73b5-4fb5-85aa-66662b125697",
+      "55c2645e-59e9-4ed6-b81f-f6f9aa22b37f",
+      "56b5c221-e81b-47cf-932d-d3ce281f3712",
+      "5727a12a-2663-482c-8740-e6706699e7cf",
+      "5a362b05-2ea1-4232-969a-1c3b4dc0bb25",
+      "5b3e5c5a-51d6-4072-83c2-07cb6b48b2a1",
+      "5c2211ae-4172-4e17-89a0-c500e99f108b",
+      "5e9c4f18-4f62-4261-a546-da2038153527",
+      "5fd37795-37b7-40a8-9076-adf0bc8df6ed",
+      "6073fce3-c6ae-418a-bfc1-0a5672745f74",
+      "62955aea-dccc-4dfd-95d2-3a060e7dde0c",
+      "6320c8a4-b264-4563-a137-769f09c3cd60",
+      "634d9daf-6535-4209-aa56-7ded7d540499",
+      "67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+      "683248d3-cd39-48ec-b5fb-65275a0e50c5",
+      "6e5b71d4-d058-4cdc-a637-a8bc7925cc90",
+      "6e725229-1428-4c2d-a458-3fd1f62807d5",
+      "6f549330-76b6-4b28-8b64-1370e582c3e8",
+      "70cf4e87-dd7b-414d-abc7-60c3e9cff71e",
+      "716bc0e4-e116-4075-b86a-43410bb3f357",
+      "73e972e1-6f7b-48f5-8b50-bd5b03aa8d59",
+      "7402c134-643d-4d47-a186-6fbaff4e4c02",
+      "747d15b9-4d5f-43fa-a895-32cc6a0942fc",
+      "7610d51b-f38f-4d0d-9e43-7621c03f2981",
+      "774a7f70-a6b3-4f98-9675-a5ed92ead0c0",
+      "775b9116-6224-4129-a657-89e495171303",
+      "786ec41b-8a23-4829-a47a-79aa73ae189d",
+      "792ebeb2-a020-4df6-9c06-c76671f97639",
+      "7a594e9c-a0e2-4884-8ff6-c6736e555818",
+      "7ac9defd-b916-4906-b2d6-2875e933afbd",
+      "7ba433bb-8dd7-48a2-9648-45fcf6b428a1",
+      "7e96fd2e-fe7e-4344-977c-ed86ea556f86",
+      "8419be88-15d5-44f0-97aa-afaacd54f386",
+      "85593bb3-3b80-4f0a-9876-6c873b3ebb64",
+      "8817bd45-452b-4675-b52e-931e8c4579c6",
+      "89815a78-29ce-497b-b200-8730f1278a44",
+      "8e11be91-5796-4670-ae46-73ae9f5cead1",
+      "8f0da521-89f8-48eb-bafc-034fc05414fe",
+      "906f699b-0d19-4672-8250-1b4636e1015d",
+      "912000f8-7a0a-497c-b749-0daaadd94460",
+      "935b4dab-79d6-4cf3-9cd7-3917e6551aa4",
+      "98855596-5315-4b70-9a72-9bfaf7e8e4f3",
+      "9c983de8-9ab1-44fb-a67e-ee11ad3538f4",
+      "a21cbccf-28c2-408b-ac66-395231ede114",
+      "a57d09f9-155e-41bb-960e-031d3b9ac7b9",
+      "a66a0fa2-d7ea-40da-88b2-8c7befd56ee9",
+      "a6cc64d1-8dc2-4681-a57e-11d815850e21",
+      "a988269b-5077-4897-8af9-602711aacf24",
+      "a9e9b2d9-b45e-43ea-b944-5c92004f0dc9",
+      "ab9dc397-9b03-424a-86bf-e7cd16643ea5",
+      "acd0aaad-4e94-4962-83b3-0680f64b5928",
+      "ad218531-998b-43ce-8013-4b596dd91cb0",
+      "af533917-ae36-4c1e-8060-30891f6f8ab0",
+      "b051e208-ab29-45c4-be0e-3807db34b72a",
+      "b61d5d9b-2a61-4002-a756-8c4c3885c12c",
+      "b6826c34-eee4-478a-b02d-2be5ffd048b7",
+      "b6f4ff3d-a920-42d9-9316-3674cf4790ae",
+      "bdb4585c-1596-4340-bdcd-57e3d37bc5ef",
+      "c28962e3-5b1c-4646-99e0-a297cf8bb4b4",
+      "c608838f-12c2-4a9a-8e08-1a52267e1472",
+      "c9070036-88e6-46de-a562-5a060b663fef",
+      "ccc42085-3039-44dc-9948-85e8566e3e0b",
+      "cd19bda5-3888-4ae9-aee5-b5507c669983",
+      "ce302fd5-8bc3-4ab7-aff0-5ac3c32ce683",
+      "d697aaeb-d2ba-44ae-b5c3-4388b785c75e",
+      "d8d90b7b-6c96-418c-9c2e-4b3427a69667",
+      "d9dcf2c5-d7d1-4ee0-b8af-f529a216c038",
+      "da4318e6-4edf-4dd2-89a7-3ad9a7ac3604",
+      "dcdb44f5-a54e-49ea-bc88-6b876034a452",
+      "dcf00756-2a23-4b94-bb1f-dfc9443e2c82",
+      "dd68e4d2-9471-4702-a22c-73fefa85c695",
+      "ddd8d968-b38d-442a-9171-bcedcfd437fc",
+      "e1d5832d-0e01-4726-b42d-a195cd20a932",
+      "e23c17ee-0f01-40a4-b9db-991d7fb9bccd",
+      "e4482e98-1f51-4da7-b6fb-51b2b531be4f",
+      "e6c90b57-dfb5-4137-8a72-6b0ab66fe85e",
+      "efc6a94a-9f78-4953-981b-d47b955e5054",
+      "f0e8410e-dc1a-4085-b71d-bc376ffb1a97",
+      "f0f92651-d4c0-4879-8c73-4a6ed3717e83",
+      "f2bc580a-1338-4639-bd73-9c74978222cd",
+      "f3629d78-b591-47de-895d-547b03aa1f2a",
+      "f45bba78-0a54-44e6-b480-7a586967fa14",
+      "f7d10dc3-6185-411c-8d0a-b4058c0ba972",
+      "f7e76e0f-8ed3-45b8-aa6c-e825a802e034",
+      "f97f6389-d5bd-4866-8610-490245e7f48e",
+      "fd80992e-44c2-41e3-a39f-c1ed8e2f7121"
+    ],
+    "candidates": 23,
+    "types": {
+      "early_career": 2,
+      "internship": 12,
+      "campus": 9
+    },
+    "document_sha256": "13e407db668a76ecdf1cd6473ebd22d37a6e9351aa58892c864eca7b72f9ddb9",
+    "identity_sha256": "0569ca7fe925f1314e15a9f4591ff6b425323b28641f6c8f70cd113d0644138d",
+    "company": {
+      "name": "长亭科技",
+      "industry": "technology",
+      "nature": "unknown",
+      "tiers": []
+    },
+    "application": {
+      "page_level": "job",
+      "requires_recruitment_login": false,
+      "method": "Applicant sends PDF resume by own email according to the official job page; no email sent",
+      "public_recipient": "resume@chaitin.com",
+      "subject_template_in_brand_config": true,
+      "job_tracking_code_in_brand_config_flow": true
+    },
+    "minimum_request_interval_ms": 2500,
+    "first_incomplete_probe": {
+      "requests": 43,
+      "result": "restricted",
+      "http_status_not_recorded": true,
+      "partial_documents_published": false
+    },
+    "invalid_zero_uuid_http_status": 400,
+    "valid_empty_query_verified": true,
+    "public_reads": [
+      {
+        "label": "chaitin-official",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://www.chaitin.cn/",
+        "method": "GET",
+        "started_at": "2026-10-19T05:00:03.762Z",
+        "finished_at": "2026-10-19T05:00:04.767Z",
+        "status": 200,
+        "effective_url": "https://www.chaitin.cn/",
+        "content_type": "text/html;charset=utf-8",
+        "seconds": 0.660152,
+        "bytes": 243274,
+        "sha256": "fe9cf2d005e16f55087515518f1ab9ef9928a2c0a3de1b3b7955153a0767ffcc",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-site",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/sites/default",
+        "method": "GET",
+        "started_at": "2026-10-19T05:00:55.881Z",
+        "finished_at": "2026-10-19T05:00:56.458Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/sites/default",
+        "content_type": "text/html; charset=UTF-8",
+        "seconds": 0.427353,
+        "bytes": 82468,
+        "sha256": "d0c7ea1efa3a204622c6c95361d5843cfe4356a2382d52ba9fe4b8a969715f97",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p1",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=1&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:01:45.444Z",
+        "finished_at": "2026-10-19T05:01:45.840Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=1&size=10",
+        "content_type": "application/json",
+        "seconds": 0.27482,
+        "bytes": 19164,
+        "sha256": "598bee1b86311117926586087476c2998ab329cc19f91e784d1413ad2ce02e1e",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p2",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=2&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:37.917Z",
+        "finished_at": "2026-10-19T05:02:38.378Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=2&size=10",
+        "content_type": "application/json",
+        "seconds": 0.266201,
+        "bytes": 12102,
+        "sha256": "ed60abb6bb3858409dec34356314222f29b334353f69c709024480f3dc33f9bd",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p3",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=3&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:38.887Z",
+        "finished_at": "2026-10-19T05:02:39.287Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=3&size=10",
+        "content_type": "application/json",
+        "seconds": 0.235846,
+        "bytes": 15429,
+        "sha256": "a7026ec0f5258e9b88ec269067b3346155a2378c7b83397cca0dfaa394f4fb2a",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p4",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=4&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:39.795Z",
+        "finished_at": "2026-10-19T05:02:40.070Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=4&size=10",
+        "content_type": "application/json",
+        "seconds": 0.197439,
+        "bytes": 13568,
+        "sha256": "d981ee9818fbf6aea6a63dfeab46b65aa5a447eb3a3c10e059fa70bca7fea7cf",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p5",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=5&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:40.578Z",
+        "finished_at": "2026-10-19T05:02:40.904Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=5&size=10",
+        "content_type": "application/json",
+        "seconds": 0.240692,
+        "bytes": 13665,
+        "sha256": "2cb81c7aa0fc6c73b0c5a3519fcfb975ff987dbc54943fa19f3952bf3d599949",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p6",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=6&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:41.417Z",
+        "finished_at": "2026-10-19T05:02:41.762Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=6&size=10",
+        "content_type": "application/json",
+        "seconds": 0.261858,
+        "bytes": 14191,
+        "sha256": "9ea94d70f6ac3d4aa9c9b096237df2f9e05512864a38090cd2291299ea56e3ae",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p7",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=7&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:42.267Z",
+        "finished_at": "2026-10-19T05:02:42.625Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=7&size=10",
+        "content_type": "application/json",
+        "seconds": 0.278266,
+        "bytes": 18938,
+        "sha256": "60f31644fabd9230bfa435429d92b04376de229e621f0eb01e74074252103f8f",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p8",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=8&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:43.139Z",
+        "finished_at": "2026-10-19T05:02:43.474Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=8&size=10",
+        "content_type": "application/json",
+        "seconds": 0.26865,
+        "bytes": 18616,
+        "sha256": "b996e264271ce2d1d451e7af791092479180d0e009a249e4f065ec38dbb666d5",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p9",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=9&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:43.984Z",
+        "finished_at": "2026-10-19T05:02:44.294Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=9&size=10",
+        "content_type": "application/json",
+        "seconds": 0.233207,
+        "bytes": 14814,
+        "sha256": "4c61b58e1692dc587460e7da1486dc904ab60d566015e72d98fb81d83877c6e6",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p10",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=10&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:44.811Z",
+        "finished_at": "2026-10-19T05:02:45.117Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=10&size=10",
+        "content_type": "application/json",
+        "seconds": 0.241926,
+        "bytes": 13236,
+        "sha256": "9dd1cc7bce7eb6927baa902fce446c456ac3295345b4beba9aa62aac871b85fe",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p11",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=11&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:45.626Z",
+        "finished_at": "2026-10-19T05:02:45.993Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=11&size=10",
+        "content_type": "application/json",
+        "seconds": 0.289417,
+        "bytes": 15193,
+        "sha256": "738b0fe82791398a12bc98b819635831c1a952bc2c3b98b82540b5cf971b7904",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p12",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=12&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:46.502Z",
+        "finished_at": "2026-10-19T05:02:46.824Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=12&size=10",
+        "content_type": "application/json",
+        "seconds": 0.231115,
+        "bytes": 13728,
+        "sha256": "e8912e0980d0eaf19eaa290599c3bba3a051cd55ed0c55cc1119e5fbc663e32b",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p13",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=13&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:47.340Z",
+        "finished_at": "2026-10-19T05:02:47.625Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=13&size=10",
+        "content_type": "application/json",
+        "seconds": 0.214749,
+        "bytes": 11980,
+        "sha256": "176e960956823551c4b34eb897a0116473ebcaa428d4eb304a73aab74a7804fc",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-list-p14",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=14&size=10",
+        "method": "GET",
+        "started_at": "2026-10-19T05:02:48.137Z",
+        "finished_at": "2026-10-19T05:02:48.525Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=14&size=10",
+        "content_type": "application/json",
+        "seconds": 0.299508,
+        "bytes": 12097,
+        "sha256": "b455a88a1fb9208cdcec7ed0d637d9a3226b891c933ca8dbaa71fa852d7cbbd3",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-detail-0",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/49d66d9f-62a5-4878-a7f7-6f30243498d0",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:13.321Z",
+        "finished_at": "2026-10-19T05:03:13.735Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/49d66d9f-62a5-4878-a7f7-6f30243498d0",
+        "content_type": "application/json",
+        "seconds": 0.335094,
+        "bytes": 2721,
+        "sha256": "adcdb6a408db4e273dc8aeb6c1fc08b1ed691056e2246863783052a1809cc36f",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-page-0",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/49d66d9f-62a5-4878-a7f7-6f30243498d0",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:14.238Z",
+        "finished_at": "2026-10-19T05:03:15.505Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/49d66d9f-62a5-4878-a7f7-6f30243498d0",
+        "content_type": "text/html; charset=UTF-8",
+        "seconds": 1.116692,
+        "bytes": 56807,
+        "sha256": "ed0485e32ff9ec52d06338a27c8ed911ef9c55cc4875bc2f7bef67173420aca2",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-detail-1",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/906f699b-0d19-4672-8250-1b4636e1015d",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:16.011Z",
+        "finished_at": "2026-10-19T05:03:16.507Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/906f699b-0d19-4672-8250-1b4636e1015d",
+        "content_type": "application/json",
+        "seconds": 0.421643,
+        "bytes": 972,
+        "sha256": "d2c8678d6a459c1206f057dd7083c0142473baa4c0fca591f349511b9b67c731",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-page-1",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/906f699b-0d19-4672-8250-1b4636e1015d",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:17.023Z",
+        "finished_at": "2026-10-19T05:03:19.581Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/906f699b-0d19-4672-8250-1b4636e1015d",
+        "content_type": "text/html; charset=UTF-8",
+        "seconds": 2.423095,
+        "bytes": 56807,
+        "sha256": "9bcf4a8f99c5c86455f7e4fa6ad83b5b6712709cee619b9c55d7aa02bf718ee2",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-detail-2",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:20.091Z",
+        "finished_at": "2026-10-19T05:03:23.599Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+        "content_type": "application/json",
+        "seconds": 3.420955,
+        "bytes": 1257,
+        "sha256": "bb01fb3f6edfcf3ef978489f7e43f727086d2563450b3cedb5a1931afa1f0389",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-page-2",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:24.101Z",
+        "finished_at": "2026-10-19T05:03:34.187Z",
+        "status": 0,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+        "content_type": "",
+        "seconds": 10.006216,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "curl_exit": 28,
+        "error": "curl: (28) Connection timed out after 10006 milliseconds"
+      },
+      {
+        "label": "chaitin-empty",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=1&size=10&keyword=codex-no-such-role-20261019",
+        "method": "GET",
+        "started_at": "2026-10-19T05:03:34.702Z",
+        "finished_at": "2026-10-19T05:03:34.878Z",
+        "status": 0,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=1&size=10&keyword=codex-no-such-role-20261019",
+        "content_type": "",
+        "seconds": 0.037175,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "curl_exit": 6,
+        "error": "curl: (6) Could not resolve host: join.chaitin.cn"
+      },
+      {
+        "label": "chaitin-empty-r2",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=1&size=10&keyword=codex-no-such-role-20261019",
+        "method": "GET",
+        "started_at": "2026-10-19T05:04:57.695Z",
+        "finished_at": "2026-10-19T05:04:58.242Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs?page=1&size=10&keyword=codex-no-such-role-20261019",
+        "content_type": "application/json",
+        "seconds": 0.297844,
+        "bytes": 89,
+        "sha256": "0e475dcf065dc883a4d24a627657c5cb6f783e362f29ca58baf31ee6ead9ca21",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-missing-r2",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/00000000-0000-0000-0000-000000000000",
+        "method": "GET",
+        "started_at": "2026-10-19T05:04:58.759Z",
+        "finished_at": "2026-10-19T05:04:59.088Z",
+        "status": 400,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/api/default/jobs/00000000-0000-0000-0000-000000000000",
+        "content_type": "application/json",
+        "seconds": 0.242596,
+        "bytes": 57,
+        "sha256": "bf1f4c0a9572879b3f4397129abd907b41ad57fedfd3a6993c5d3b026c3dc29c",
+        "curl_exit": 0,
+        "error": ""
+      },
+      {
+        "label": "chaitin-detail-page-r2",
+        "transport": "windows-curl",
+        "anonymous_session": false,
+        "requested_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+        "method": "GET",
+        "started_at": "2026-10-19T05:04:59.591Z",
+        "finished_at": "2026-10-19T05:05:00.131Z",
+        "status": 200,
+        "effective_url": "https://join.chaitin.cn/plugins/career_site/sites/default/jobs/67e407f7-1d2c-448c-acb3-cf0a816e04b6",
+        "content_type": "text/html; charset=UTF-8",
+        "seconds": 0.334026,
+        "bytes": 56807,
+        "sha256": "02a7fe5a932a5c4c439d0f94a62063e0b0cb87f05001e58648075d781ee2708d",
+        "curl_exit": 0,
+        "error": ""
+      }
+    ],
+    "probes": {
+      "native": {
+        "started_at": "2026-10-19T05:27:40.9917213Z",
+        "finished_at": "2026-10-19T05:31:27.765088Z",
+        "requests": 88
+      },
+      "docker": {
+        "started_at": "2026-10-19T05:32:29.891389561Z",
+        "finished_at": "2026-10-19T05:36:51.400719873Z",
+        "requests": 89
+      }
+    },
+    "exclusion_counts": {
+      "官方类别或实际职责未确认属于计算机技术岗位，保留待人工核验": 88,
+      "任职要求存在超过一年硬性经验门槛，不属于本版范围，保留人工核验": 10,
+      "社招接受应届或低经验的依据不足，保留待人工核验": 16,
+      "校招标题与社招字段不一致，保留待人工核验": 1
+    },
+    "candidate_facts": [
+      {
+        "id": "01589b2a-429f-4aac-8c83-170390d40524",
+        "title": "安全服务工程师-代码审计方向-北京",
+        "recruitment_type": "early_career",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "1323d1eb-3afb-4e0c-9838-533695dfe8af",
+        "title": "安全服务工程师-实习-北京",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "14ad26b2-42a0-49fd-a365-059bbadf96ff",
+        "title": "2027届-安全服务工程师-全国",
+        "recruitment_type": "campus",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          },
+          {
+            "code": "CN:上海市:上海市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "上海市",
+            "city": "上海市",
+            "raw": "上海"
+          },
+          {
+            "code": "CN:江苏省:南京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "江苏省",
+            "city": "南京市",
+            "raw": "南京"
+          },
+          {
+            "code": "CN:陕西省:西安市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "陕西省",
+            "city": "西安市",
+            "raw": "西安"
+          },
+          {
+            "code": "raw:新疆",
+            "kind": "unknown",
+            "country": "unknown",
+            "province": "unknown",
+            "city": "新疆",
+            "raw": "新疆"
+          },
+          {
+            "code": "CN:湖北省:武汉市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "湖北省",
+            "city": "武汉市",
+            "raw": "武汉"
+          },
+          {
+            "code": "CN:四川省:成都市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "四川省",
+            "city": "成都市",
+            "raw": "成都"
+          }
+        ]
+      },
+      {
+        "id": "14f38eb4-3853-40c4-b2c0-7f0abe34c475",
+        "title": "实习安全服务工程师-政企-北京",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "36a6d728-ea05-41c1-933c-4df6649494a3",
+        "title": "安全研究（漏洞应急方向）-北京",
+        "recruitment_type": "early_career",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "raw:北京市朝阳区国家会议中心写字楼北区6层",
+            "kind": "unknown",
+            "country": "unknown",
+            "province": "unknown",
+            "city": "北京市朝阳区国家会议中心写字楼北区6层",
+            "raw": "北京市朝阳区国家会议中心写字楼北区6层"
+          }
+        ]
+      },
+      {
+        "id": "39a2b8ea-66b9-4cd7-bffb-786498b4ce6e",
+        "title": "实习-AI安全开发（AI for Security）-北京",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "419f62f4-a5c7-49c9-9b82-97fb779b045f",
+        "title": "实习-AI开发-北京",
+        "recruitment_type": "internship",
+        "direction": "algorithm_ai",
+        "student_required": "yes",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": 6,
+        "days_per_week": 4,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "4250b91e-c3d4-4f69-b2fc-f9283890f195",
+        "title": "【星柳计划】AI安全开发（AI for Security）",
+        "recruitment_type": "campus",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "49d66d9f-62a5-4878-a7f7-6f30243498d0",
+        "title": "2027届-AI数据策略工程师",
+        "recruitment_type": "campus",
+        "direction": "algorithm_ai",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "540de846-a85b-4858-9ecf-1ff29382e26f",
+        "title": "实习技术支持工程师-武汉/郑州",
+        "recruitment_type": "internship",
+        "direction": "operations_sre",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:湖北省:武汉市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "湖北省",
+            "city": "武汉市",
+            "raw": "武汉"
+          },
+          {
+            "code": "CN:河南省:郑州市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "河南省",
+            "city": "郑州市",
+            "raw": "郑州"
+          }
+        ]
+      },
+      {
+        "id": "5727a12a-2663-482c-8740-e6706699e7cf",
+        "title": "实习安全服务工程师-通信-北京",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "5fd37795-37b7-40a8-9076-adf0bc8df6ed",
+        "title": "安全服务工程师-实习-广州/深圳",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:广东省:广州市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "广东省",
+            "city": "广州市",
+            "raw": "广州"
+          },
+          {
+            "code": "CN:广东省:深圳市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "广东省",
+            "city": "深圳市",
+            "raw": "深圳"
+          }
+        ]
+      },
+      {
+        "id": "634d9daf-6535-4209-aa56-7ded7d540499",
+        "title": "2027届-技术支持工程师-全国",
+        "recruitment_type": "campus",
+        "direction": "operations_sre",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "683248d3-cd39-48ec-b5fb-65275a0e50c5",
+        "title": "实习-Security for AI 开发-北京",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "792ebeb2-a020-4df6-9c06-c76671f97639",
+        "title": "【星柳计划】AI安全开发（Security for AI）",
+        "recruitment_type": "campus",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "85593bb3-3b80-4f0a-9876-6c873b3ebb64",
+        "title": "2027届-AI研发工程师-北京/杭州",
+        "recruitment_type": "campus",
+        "direction": "algorithm_ai",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          },
+          {
+            "code": "CN:浙江省:杭州市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "浙江省",
+            "city": "杭州市",
+            "raw": "杭州"
+          }
+        ]
+      },
+      {
+        "id": "8817bd45-452b-4675-b52e-931e8c4579c6",
+        "title": "2027届-安全攻防工程师-北京",
+        "recruitment_type": "campus",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "8e11be91-5796-4670-ae46-73ae9f5cead1",
+        "title": "技术支持工程师（AI方向）-实习",
+        "recruitment_type": "internship",
+        "direction": "operations_sre",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:广东省:深圳市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "广东省",
+            "city": "深圳市",
+            "raw": "深圳"
+          },
+          {
+            "code": "CN:广东省:广州市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "广东省",
+            "city": "广州市",
+            "raw": "广州"
+          },
+          {
+            "code": "CN:福建省:厦门市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "福建省",
+            "city": "厦门市",
+            "raw": "厦门"
+          }
+        ]
+      },
+      {
+        "id": "906f699b-0d19-4672-8250-1b4636e1015d",
+        "title": "实习安全服务工程师-武汉",
+        "recruitment_type": "internship",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:湖北省:武汉市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "湖北省",
+            "city": "武汉市",
+            "raw": "武汉"
+          }
+        ]
+      },
+      {
+        "id": "dcf00756-2a23-4b94-bb1f-dfc9443e2c82",
+        "title": "【星柳计划】AI 模型算法工程师",
+        "recruitment_type": "campus",
+        "direction": "algorithm_ai",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "e4482e98-1f51-4da7-b6fb-51b2b531be4f",
+        "title": "实习技术支持工程师（27届）-北京",
+        "recruitment_type": "internship",
+        "direction": "operations_sre",
+        "student_required": "unknown",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      },
+      {
+        "id": "f2bc580a-1338-4639-bd73-9c74978222cd",
+        "title": "实习-AI开发-成都",
+        "recruitment_type": "internship",
+        "direction": "algorithm_ai",
+        "student_required": "yes",
+        "minimum_education": "bachelor_or_above",
+        "minimum_internship_months": 6,
+        "days_per_week": 4,
+        "locations": [
+          {
+            "code": "CN:四川省:成都市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "四川省",
+            "city": "成都市",
+            "raw": "成都"
+          }
+        ]
+      },
+      {
+        "id": "f7e76e0f-8ed3-45b8-aa6c-e825a802e034",
+        "title": "【星柳计划】安全研究员（黑盒渗透测试Agent）",
+        "recruitment_type": "campus",
+        "direction": "security",
+        "student_required": "unknown",
+        "minimum_education": "unknown",
+        "minimum_internship_months": null,
+        "days_per_week": null,
+        "locations": [
+          {
+            "code": "CN:浙江省:杭州市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "浙江省",
+            "city": "杭州市",
+            "raw": "杭州"
+          },
+          {
+            "code": "CN:北京市:北京市",
+            "kind": "domestic",
+            "country": "中国",
+            "province": "北京市",
+            "city": "北京市",
+            "raw": "北京"
+          }
+        ]
+      }
+    ]
+  },
+  "recovery": {
+    "failed_daily_tasks_preserved": [
+      {
+        "source_code": "bluepoch-careers",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:21.193123+00:00"
+      },
+      {
+        "source_code": "cmb-campus",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:21.195464+00:00"
+      },
+      {
+        "source_code": "huawei-campus",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:22.750586+00:00"
+      },
+      {
+        "source_code": "huawei-internships",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:21.195468+00:00"
+      },
+      {
+        "source_code": "nsfocus-campus",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:24.296452+00:00"
+      },
+      {
+        "source_code": "shokz-campus",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:22.750554+00:00"
+      },
+      {
+        "source_code": "tencent-campus",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:24.29884+00:00"
+      },
+      {
+        "source_code": "tencent-internships",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:22.747707+00:00"
+      },
+      {
+        "source_code": "zjdit-careers",
+        "state": "failed",
+        "attempts": 3,
+        "error_code": "network_error",
+        "fetched": 0,
+        "published": 0,
+        "created_at": "2026-10-19T00:00:14.664911+00:00",
+        "updated_at": "2026-10-19T00:05:17.437646+00:00"
+      }
+    ],
+    "successful_manual_recovery": [
+      {
+        "source_code": "bluepoch-careers",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 58,
+        "published": 1,
+        "created_at": "2026-10-19T05:00:27.004726+00:00",
+        "updated_at": "2026-10-19T05:00:34.3232+00:00"
+      },
+      {
+        "source_code": "cmb-campus",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 19,
+        "published": 2,
+        "created_at": "2026-10-19T05:00:27.021397+00:00",
+        "updated_at": "2026-10-19T05:00:34.786511+00:00"
+      },
+      {
+        "source_code": "huawei-campus",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 71,
+        "published": 22,
+        "created_at": "2026-10-19T05:00:27.027769+00:00",
+        "updated_at": "2026-10-19T05:01:06.354184+00:00"
+      },
+      {
+        "source_code": "huawei-internships",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 31,
+        "published": 11,
+        "created_at": "2026-10-19T05:00:27.034919+00:00",
+        "updated_at": "2026-10-19T05:01:22.659131+00:00"
+      },
+      {
+        "source_code": "nsfocus-campus",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 188,
+        "published": 117,
+        "created_at": "2026-10-19T05:00:27.041554+00:00",
+        "updated_at": "2026-10-19T05:02:29.483749+00:00"
+      },
+      {
+        "source_code": "shokz-campus",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 198,
+        "published": 35,
+        "created_at": "2026-10-19T05:00:27.048452+00:00",
+        "updated_at": "2026-10-19T05:03:21.37101+00:00"
+      },
+      {
+        "source_code": "tencent-campus",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 105,
+        "published": 34,
+        "created_at": "2026-10-19T05:00:27.055127+00:00",
+        "updated_at": "2026-10-19T05:00:48.490974+00:00"
+      },
+      {
+        "source_code": "tencent-internships",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 164,
+        "published": 53,
+        "created_at": "2026-10-19T05:00:27.061668+00:00",
+        "updated_at": "2026-10-19T05:01:06.968558+00:00"
+      },
+      {
+        "source_code": "zjdit-careers",
+        "state": "succeeded",
+        "attempts": 2,
+        "error_code": "",
+        "fetched": 26,
+        "published": 12,
+        "created_at": "2026-10-19T05:00:27.068913+00:00",
+        "updated_at": "2026-10-19T05:01:39.31301+00:00"
+      }
+    ],
+    "root_cause_not_established": true,
+    "original_three_attempt_policy_unchanged": true,
+    "updated_existing_versions": [
+      {
+        "source": "tencent-internships",
+        "title": "技术研究-高性能计算方向",
+        "version": 2
+      },
+      {
+        "source": "tencent-internships",
+        "title": "游戏引擎开发",
+        "version": 2
+      }
+    ],
+    "job_versions_before_new_source": 326
+  },
+  "runtime": {
+    "tasks": [
+      {
+        "source_code": "chaitin-careers",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 138,
+        "published": 23,
+        "created_at": "2026-10-19T05:38:33.127339+00:00",
+        "updated_at": "2026-10-19T05:42:33.749611+00:00"
+      },
+      {
+        "source_code": "chaitin-careers",
+        "state": "succeeded",
+        "attempts": 1,
+        "error_code": "",
+        "fetched": 138,
+        "published": 23,
+        "created_at": "2026-10-19T05:43:43.752368+00:00",
+        "updated_at": "2026-10-19T05:47:39.447576+00:00"
+      }
+    ],
+    "runs": [
+      {
+        "status": "succeeded",
+        "fetched_count": 138,
+        "published_count": 23,
+        "changed_count": 23,
+        "requests": 88,
+        "error_code": "",
+        "started_at": "2026-10-19T05:38:34.134429+00:00",
+        "finished_at": "2026-10-19T05:42:33.620559+00:00"
+      },
+      {
+        "status": "succeeded",
+        "fetched_count": 138,
+        "published_count": 23,
+        "changed_count": 0,
+        "requests": 88,
+        "error_code": "",
+        "started_at": "2026-10-19T05:43:44.067979+00:00",
+        "finished_at": "2026-10-19T05:47:39.396675+00:00"
+      }
+    ],
+    "all_new_versions": 1,
+    "published_documents_equal_final_probe": true,
+    "source_dispatch": "Docker reads Chaitin; native public worker remains assigned only zjdit-careers; existing .env bytes preserved"
+  },
+  "local_snapshot": {
+    "companies": 8,
+    "sources": 10,
+    "jobs_stored": 323,
+    "jobs_published": 310,
+    "internships_published": 95,
+    "job_versions": 349,
+    "migrations": 9,
+    "preserved_fields": [
+      "old_jobs_hash",
+      "old_versions_hash",
+      "users",
+      "applications",
+      "favorites",
+      "resumes",
+      "profiles",
+      "notification_channels",
+      "notification_events",
+      "notification_batches",
+      "notification_deliveries"
+    ],
+    "old_jobs_hash": "6fea74701e06d69cf6a164d63f331497",
+    "old_versions_hash": "85d881240cfb0c9a637afca217c29477"
+  },
+  "verification": {
+    "final_project": "job-assistant-s5-chaitin-verify-835a97bf",
+    "real_postgresql_linux_race": true,
+    "go_vet": true,
+    "skips": 0,
+    "integration_seconds": 88.944,
+    "browser_regression_cases": 5,
+    "native_postgresql_start_stop_exit": 0,
+    "api_worker_shutdown_exit": 0,
+    "local_browser": {
+      "layouts": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "companies": [
+            {
+              "company": "长亭科技",
+              "total": 23,
+              "source": "chaitin-careers",
+              "detail_link_checked": true
+            }
+          ],
+          "horizontal_overflow": false
+        },
+        {
+          "name": "mobile",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "companies": [
+            {
+              "company": "长亭科技",
+              "total": 23,
+              "source": "chaitin-careers",
+              "detail_link_checked": true
+            }
+          ],
+          "horizontal_overflow": false
+        }
+      ],
+      "page_errors": [],
+      "real_send_enabled": false,
+      "public_jobs": 310,
+      "internships": 95,
+      "manual_update_completed": true
+    },
+    "visual_review_desktop_mobile": true,
+    "temporary_postgresql_containers_networks_and_volumes_removed": true
+  },
+  "pending": [
+    "Early-morning network outage root cause and long-term network recovery",
+    "20 companies",
+    "Cloud deployment",
+    "Complete backup restore drill",
+    "Seven consecutive days",
+    "Real Feishu and DeepSeek remain outside simulated acceptance"
+  ]
+}
