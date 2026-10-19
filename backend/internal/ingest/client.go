@@ -28,18 +28,20 @@ var (
 
 // Reader bounds public requests and records each response's provenance.
 type Reader struct {
-	Client      *http.Client
-	Evidence    []catalog.Evidence
-	TencentBase string
-	HuaweiBase  string
-	HuaweiAPI   string
-	CMBBase     string
-	MokaBase    string
-	ZJDITBase   string
-	readSpacing time.Duration
-	lastRead    time.Time
-	Requests    int
-	Exclusions  []catalog.Exclusion
+	Client             *http.Client
+	Evidence           []catalog.Evidence
+	TencentBase        string
+	HuaweiBase         string
+	HuaweiAPI          string
+	CMBBase            string
+	MokaBase           string
+	ZJDITBase          string
+	ChaitinBase        string
+	chaitinReadSpacing time.Duration
+	readSpacing        time.Duration
+	lastRead           time.Time
+	Requests           int
+	Exclusions         []catalog.Exclusion
 }
 
 // NewReader creates an anonymous reader with verified public hosts and bounded redirects.
@@ -50,7 +52,13 @@ func NewReader() *Reader {
 		}
 		return nil
 	}}
-	return &Reader{Client: client, Evidence: []catalog.Evidence{}, TencentBase: "https://join.qq.com", HuaweiBase: "https://career.huawei.com", HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com", MokaBase: "https://app.mokahr.com", ZJDITBase: "https://zp.zjdit.com"}
+	return &Reader{
+		Client: client, Evidence: []catalog.Evidence{},
+		TencentBase: "https://join.qq.com", HuaweiBase: "https://career.huawei.com",
+		HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com",
+		MokaBase: "https://app.mokahr.com", ZJDITBase: "https://zp.zjdit.com", ChaitinBase: "https://join.chaitin.cn",
+		chaitinReadSpacing: 2500 * time.Millisecond,
+	}
 }
 
 func trustedURL(u *url.URL) bool {
@@ -58,7 +66,7 @@ func trustedURL(u *url.URL) bool {
 		return false
 	}
 	switch u.Hostname() {
-	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com", "zp.zjdit.com":
+	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com", "zp.zjdit.com", "join.chaitin.cn":
 		return true
 	}
 	return false

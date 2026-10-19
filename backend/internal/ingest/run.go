@@ -60,6 +60,8 @@ func Collect(ctx context.Context, store *catalog.Store, reader *Reader, source s
 		documents, fetched, err = reader.Moka(readCtx, source)
 	case zjditSource:
 		documents, fetched, err = reader.ZJDIT(readCtx)
+	case chaitinSource:
+		documents, fetched, err = reader.Chaitin(readCtx)
 	default:
 		err = ErrSchema
 	}
