@@ -57,7 +57,7 @@ Require image build, go vet, real PostgreSQL/Linux `-race` all-package tests wit
 
 ## Task 4: Local release and evidence
 
-- [ ] Commit the tested implementation, fast-forward the canonical branch without altering existing user changes. Back up the local database and record tasks, job/version hashes, private counts and `.env` bytes before release.
-- [ ] Tag the verified runtime image as `job-assistant-local:latest`, run the existing local startup with `-SkipBuild`, verify all ten migrations, readiness, expected runtime source exclusions, native worker health and `NOTIFICATIONS_SEND_ENABLED=false`.
-- [ ] Confirm today's successfully refreshed sources do not create recovery work, old nine failures remain, and existing job/version/private data and configuration stay identical. Check desktop/mobile jobs and notification administration without triggering collection or real messages; remove verification sessions.
-- [ ] Record actual commands/results, any corrected test assertions and pending limits. Long outage root cause, real cloud deployment and seven-day stability remain unverified. Commit records and remove the clean worktree normally.
+- [x] Commit the tested implementation, fast-forward the canonical branch without altering existing user changes. Back up the local database and record tasks, job/version hashes, private counts and `.env` bytes before release.
+- [x] Tag the verified runtime image as `job-assistant-local:latest`, run the existing local startup with `-SkipBuild`, verify all ten migrations, readiness, expected runtime source exclusions, native worker health and `NOTIFICATIONS_SEND_ENABLED=false`.
+- [x] Confirm today's successfully refreshed sources do not create recovery work, old nine failures remain, and existing job/version/private data and configuration stay identical. Check desktop/mobile jobs and notification administration without triggering collection or real messages; remove verification sessions.
+- [x] Record actual commands/results, any corrected test assertions and pending limits. Long outage root cause, real cloud deployment and seven-day stability remain unverified. Commit records and remove the clean worktree normally.
