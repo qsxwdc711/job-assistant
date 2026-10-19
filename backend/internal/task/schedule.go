@@ -28,6 +28,7 @@ func DayTimes(now time.Time) (string, time.Time, time.Time) {
 type Collection struct {
 	ID, SourceCode, Domain, State string
 	Attempts                      int
+	RecoveryRound                 int
 	LeaseToken                    string `json:"-"`
 }
 
@@ -46,7 +47,7 @@ func (s *CollectionStore) WithSources(allowed, excluded []string) *CollectionSto
 	return &CollectionStore{pool: s.pool, allowed: slices.Clone(allowed), excluded: slices.Clone(excluded)}
 }
 
-// Plan idempotently enqueues today's enabled sources after 08:00 in Shanghai.
+// Plan idempotently enqueues today's sources and bounded transient recovery.
 func (s *CollectionStore) Plan(ctx context.Context, now time.Time) error {
 	day, start, _ := DayTimes(now)
 	if now.Before(start) {
@@ -75,7 +76,7 @@ func (s *CollectionStore) Plan(ctx context.Context, now time.Time) error {
 			return err
 		}
 	}
-	return nil
+	return s.planRecoveries(ctx, now)
 }
 
 // Enqueue uses a caller-selected idempotency key; manual keys use a fresh random ID.
@@ -104,13 +105,18 @@ WHERE (state='queued' OR(state='running' AND lease_until<=$1)) AND EXISTS(SELECT
 	if _, err := tx.Exec(ctx, "UPDATE scheduled_collections SET state='failed',error_code='attempts_exhausted',updated_at=$1 WHERE attempts>=3 AND (state='queued' OR (state='running' AND lease_until<=$1))", now); err != nil {
 		return Collection{}, err
 	}
+	if _, err := cancelInvalidRecoveries(ctx, tx, now, ""); err != nil {
+		return Collection{}, err
+	}
 	var j Collection
-	err = tx.QueryRow(ctx, `SELECT t.id::text,t.source_code,t.domain,t.attempts FROM scheduled_collections t JOIN sources s ON s.code=t.source_code
+	err = tx.QueryRow(ctx, `SELECT t.id::text,t.source_code,t.domain,t.attempts,t.recovery_round FROM scheduled_collections t JOIN sources s ON s.code=t.source_code
 WHERE s.enabled AND t.available_at<=$1 AND (t.state='queued' OR (t.state='running' AND t.lease_until<=$1))
 AND (COALESCE(cardinality($2::text[]),0)=0 OR t.source_code=ANY($2))
 AND NOT(t.source_code=ANY(COALESCE($3::text[],'{}'::text[])))
+AND (t.recovery_round=0 OR NOT EXISTS(SELECT 1 FROM scheduled_collections other WHERE other.source_code=t.source_code AND other.id<>t.id AND other.state IN ('queued','running')))
+AND (t.recovery_round=0 OR s.last_status<>'running')
 AND NOT EXISTS(SELECT 1 FROM scheduled_collections active WHERE active.domain=t.domain AND active.state='running' AND active.lease_until>$1)
-ORDER BY t.available_at,t.created_at,t.id FOR UPDATE OF t SKIP LOCKED LIMIT 1`, now, s.allowed, s.excluded).Scan(&j.ID, &j.SourceCode, &j.Domain, &j.Attempts)
+ORDER BY t.available_at,t.created_at,t.id FOR UPDATE OF t SKIP LOCKED LIMIT 1`, now, s.allowed, s.excluded).Scan(&j.ID, &j.SourceCode, &j.Domain, &j.Attempts, &j.RecoveryRound)
 	if errors.Is(err, pgx.ErrNoRows) {
 		if err = tx.Commit(ctx); err != nil {
 			return j, err
@@ -119,6 +125,26 @@ ORDER BY t.available_at,t.created_at,t.id FOR UPDATE OF t SKIP LOCKED LIMIT 1`, 
 	}
 	if err != nil {
 		return j, err
+	}
+	if j.RecoveryRound > 0 {
+		var source string
+		if err = tx.QueryRow(ctx, "SELECT code FROM sources WHERE code=$1 FOR UPDATE", j.SourceCode).Scan(&source); err != nil {
+			return j, err
+		}
+		cancelled, checkErr := cancelInvalidRecoveries(ctx, tx, now, j.ID)
+		if checkErr != nil {
+			return j, checkErr
+		}
+		waiting, checkErr := recoveryWaiting(ctx, tx, j.ID)
+		if checkErr != nil {
+			return j, checkErr
+		}
+		if cancelled > 0 || waiting {
+			if err = tx.Commit(ctx); err != nil {
+				return j, err
+			}
+			return j, identity.ErrNotFound
+		}
 	}
 	var locked bool
 	if err = tx.QueryRow(ctx, "SELECT pg_try_advisory_xact_lock(hashtextextended($1,73428401))", j.Domain).Scan(&locked); err != nil {
@@ -160,7 +186,7 @@ func (s *CollectionStore) Finish(ctx context.Context, j Collection, status, code
 	state := status
 	if state != "succeeded" {
 		state = "failed"
-		if j.Attempts < 3 && (code == "network_error" || code == "timeout" || code == "timeout_or_cancelled" || code == "source_busy" || code == "interrupted") {
+		if j.Attempts < 3 && slices.Contains(retryableCollectionCodes, code) {
 			state = "queued"
 		}
 	}
