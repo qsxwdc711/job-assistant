@@ -1,0 +1,1322 @@
+{
+  "requested_at": "2026-10-22",
+  "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+  "status": "pending_verification",
+  "group_labels_are_user_categories": true,
+  "companies": [
+    {
+      "target_id": "auto_energy-001",
+      "requested_name": "特斯拉",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-002",
+      "requested_name": "上汽集团",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-003",
+      "requested_name": "长安汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-004",
+      "requested_name": "奇瑞汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-005",
+      "requested_name": "赛力斯",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-006",
+      "requested_name": "北汽集团",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-007",
+      "requested_name": "广汽埃安",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-008",
+      "requested_name": "极氪",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-009",
+      "requested_name": "零跑汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-010",
+      "requested_name": "岚图汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-011",
+      "requested_name": "深蓝汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-012",
+      "requested_name": "阿维塔",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-013",
+      "requested_name": "智己汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-014",
+      "requested_name": "小米汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-015",
+      "requested_name": "华为车BU",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-016",
+      "requested_name": "地平线",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-017",
+      "requested_name": "Momenta",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-018",
+      "requested_name": "小马智行",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-019",
+      "requested_name": "文远知行",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-020",
+      "requested_name": "元戎启行",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-021",
+      "requested_name": "速腾聚创",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-022",
+      "requested_name": "禾赛科技",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-023",
+      "requested_name": "宁德时代",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-024",
+      "requested_name": "比亚迪",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-025",
+      "requested_name": "蔚来",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-026",
+      "requested_name": "理想汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-027",
+      "requested_name": "小鹏汽车",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-028",
+      "requested_name": "中创新航",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-029",
+      "requested_name": "欣旺达",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-030",
+      "requested_name": "国轩高科",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-031",
+      "requested_name": "亿纬锂能",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-032",
+      "requested_name": "楚能新能源",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-033",
+      "requested_name": "恩捷股份",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-034",
+      "requested_name": "璞泰来",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-035",
+      "requested_name": "通威股份",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-036",
+      "requested_name": "隆基绿能",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-037",
+      "requested_name": "阳光电源",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-038",
+      "requested_name": "TCL中环",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-039",
+      "requested_name": "晶科能源",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "auto_energy-040",
+      "requested_name": "正泰新能源",
+      "requested_group": "汽车 | 新能源",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-001",
+      "requested_name": "宇树科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-002",
+      "requested_name": "智元机器人",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-003",
+      "requested_name": "云深处",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-004",
+      "requested_name": "银河通用",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-005",
+      "requested_name": "云鲸智能",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-006",
+      "requested_name": "追觅科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-007",
+      "requested_name": "拓竹科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-008",
+      "requested_name": "正浩创新",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-009",
+      "requested_name": "石头科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-010",
+      "requested_name": "九号公司",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-011",
+      "requested_name": "影石创新",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-012",
+      "requested_name": "韶音科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-013",
+      "requested_name": "安克创新",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-014",
+      "requested_name": "大疆创新",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-015",
+      "requested_name": "中控技术",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-016",
+      "requested_name": "奥比中光",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-017",
+      "requested_name": "埃斯顿",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-018",
+      "requested_name": "立镖机器人",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-019",
+      "requested_name": "月之暗面",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-020",
+      "requested_name": "智谱AI",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-021",
+      "requested_name": "百川智能",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-022",
+      "requested_name": "阶跃星辰",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-023",
+      "requested_name": "MiniMax",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-024",
+      "requested_name": "面壁智能",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-025",
+      "requested_name": "无问芯穹",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-026",
+      "requested_name": "硅基流动",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-027",
+      "requested_name": "生数科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-028",
+      "requested_name": "寒武纪",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-029",
+      "requested_name": "旷视科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-030",
+      "requested_name": "商汤科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-031",
+      "requested_name": "第四范式",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-032",
+      "requested_name": "优必选",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-033",
+      "requested_name": "傅利叶智能",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "emerging_tech-034",
+      "requested_name": "极米科技",
+      "requested_group": "中小厂",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-001",
+      "requested_name": "中国建筑集团",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-002",
+      "requested_name": "中国邮政",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-003",
+      "requested_name": "中国航发",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-004",
+      "requested_name": "国家电网",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-005",
+      "requested_name": "南方电网",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-006",
+      "requested_name": "中国石油",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-007",
+      "requested_name": "中国石化",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-008",
+      "requested_name": "中国海油",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-009",
+      "requested_name": "中国核工业集团",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-010",
+      "requested_name": "国家能源集团",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-011",
+      "requested_name": "中国大唐",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-012",
+      "requested_name": "中国华能",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-013",
+      "requested_name": "国家电投",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-014",
+      "requested_name": "三峡集团",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-015",
+      "requested_name": "中国宝武",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-016",
+      "requested_name": "中国五矿",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-017",
+      "requested_name": "中国中交",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-018",
+      "requested_name": "中国铁建",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-019",
+      "requested_name": "中国电建",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-020",
+      "requested_name": "中国中车",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-021",
+      "requested_name": "中国移动",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-022",
+      "requested_name": "中国电信",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-023",
+      "requested_name": "中国联通",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "state_owned-024",
+      "requested_name": "招商局集团",
+      "requested_group": "国企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-001",
+      "requested_name": "米哈游",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-002",
+      "requested_name": "腾讯天美T1工作室",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-003",
+      "requested_name": "网易游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-004",
+      "requested_name": "哔哩哔哩游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-005",
+      "requested_name": "朝夕光年",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-006",
+      "requested_name": "快手游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-007",
+      "requested_name": "沐瞳科技",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-008",
+      "requested_name": "莉莉丝",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-009",
+      "requested_name": "叠纸游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-010",
+      "requested_name": "心动网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-011",
+      "requested_name": "鹰角网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-012",
+      "requested_name": "库洛游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-013",
+      "requested_name": "散爆网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-014",
+      "requested_name": "蛮啾网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-015",
+      "requested_name": "悠星网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-016",
+      "requested_name": "灵犀互娱",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-017",
+      "requested_name": "吉比特",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-018",
+      "requested_name": "创梦天地",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-019",
+      "requested_name": "友谊时光",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-020",
+      "requested_name": "英雄游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-021",
+      "requested_name": "紫龙游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-022",
+      "requested_name": "青瓷游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-023",
+      "requested_name": "掌趣科技",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-024",
+      "requested_name": "中手游",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-025",
+      "requested_name": "波克城市",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-026",
+      "requested_name": "巨人网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-027",
+      "requested_name": "世纪华通",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-028",
+      "requested_name": "西山居",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-029",
+      "requested_name": "电魂网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-030",
+      "requested_name": "恺英网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-031",
+      "requested_name": "多益网络",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-032",
+      "requested_name": "乐元素",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-033",
+      "requested_name": "柠檬微趣",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-034",
+      "requested_name": "盛趣游戏",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-035",
+      "requested_name": "完美世界",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-036",
+      "requested_name": "FunPlus",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-037",
+      "requested_name": "TapTap",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "games-038",
+      "requested_name": "三七互娱",
+      "requested_group": "游戏",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-001",
+      "requested_name": "伊利集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-002",
+      "requested_name": "蒙牛集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-003",
+      "requested_name": "飞鹤乳业",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-004",
+      "requested_name": "达能中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-005",
+      "requested_name": "百事中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-006",
+      "requested_name": "统一企业中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-007",
+      "requested_name": "青岛啤酒",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-008",
+      "requested_name": "海天味业",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-009",
+      "requested_name": "安琪酵母",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-010",
+      "requested_name": "双汇发展",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-011",
+      "requested_name": "金龙鱼",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-012",
+      "requested_name": "珀莱雅",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-013",
+      "requested_name": "华熙生物",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-014",
+      "requested_name": "贝泰妮",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-015",
+      "requested_name": "蓝月亮",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-016",
+      "requested_name": "恒安集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-017",
+      "requested_name": "农夫山泉",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-018",
+      "requested_name": "康师傅",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-019",
+      "requested_name": "旺旺集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-020",
+      "requested_name": "三只松鼠",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-021",
+      "requested_name": "洽洽食品",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-022",
+      "requested_name": "妙可蓝多",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-023",
+      "requested_name": "君乐宝",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-024",
+      "requested_name": "涪陵榨菜",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-025",
+      "requested_name": "立白集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-026",
+      "requested_name": "名创优品",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-027",
+      "requested_name": "宝洁中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-028",
+      "requested_name": "联合利华",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-029",
+      "requested_name": "雅诗兰黛中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-030",
+      "requested_name": "安利中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-031",
+      "requested_name": "维他奶",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-032",
+      "requested_name": "安踏集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-033",
+      "requested_name": "特步国际",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-034",
+      "requested_name": "361度",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-035",
+      "requested_name": "波司登",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-036",
+      "requested_name": "海澜之家",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-037",
+      "requested_name": "森马服饰",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-038",
+      "requested_name": "周大福",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-039",
+      "requested_name": "泡泡玛特",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-040",
+      "requested_name": "毛戈平",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-041",
+      "requested_name": "蜜雪冰城",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-042",
+      "requested_name": "霸王茶姬",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-043",
+      "requested_name": "瑞幸集团",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-044",
+      "requested_name": "喜茶",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-045",
+      "requested_name": "元气森林",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-046",
+      "requested_name": "东鹏饮料",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-047",
+      "requested_name": "亿滋国际",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-048",
+      "requested_name": "百威中国",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-049",
+      "requested_name": "玛氏",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "consumer-050",
+      "requested_name": "卫龙",
+      "requested_group": "快消",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-001",
+      "requested_name": "西门子",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-002",
+      "requested_name": "汇丰中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-003",
+      "requested_name": "渣打中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-004",
+      "requested_name": "花旗中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-005",
+      "requested_name": "普华永道",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-006",
+      "requested_name": "德勤中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-007",
+      "requested_name": "安永",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-008",
+      "requested_name": "毕马威",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-009",
+      "requested_name": "埃森哲",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-010",
+      "requested_name": "凯捷",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-011",
+      "requested_name": "强生中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-012",
+      "requested_name": "辉瑞中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-013",
+      "requested_name": "诺华中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-014",
+      "requested_name": "赛诺菲",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-015",
+      "requested_name": "阿斯利康",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-016",
+      "requested_name": "罗氏制药",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-017",
+      "requested_name": "拜耳中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-018",
+      "requested_name": "英特尔中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-019",
+      "requested_name": "英伟达",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-020",
+      "requested_name": "高通中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-021",
+      "requested_name": "德州仪器",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-022",
+      "requested_name": "微软中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-023",
+      "requested_name": "亚马逊中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-024",
+      "requested_name": "施耐德电气",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-025",
+      "requested_name": "ABB中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-026",
+      "requested_name": "巴斯夫",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-027",
+      "requested_name": "雀巢",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-028",
+      "requested_name": "博世",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-029",
+      "requested_name": "麦当劳中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-030",
+      "requested_name": "星巴克中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-031",
+      "requested_name": "宜家中国",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-032",
+      "requested_name": "大众汽车",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    },
+    {
+      "target_id": "foreign-033",
+      "requested_name": "欧莱雅",
+      "requested_group": "外企",
+      "status": "pending_verification"
+    }
+  ]
+}
