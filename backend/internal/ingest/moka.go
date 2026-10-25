@@ -22,28 +22,7 @@ import (
 
 type mokaSite struct {
 	source, company, org, site, mode, path, endpoint string
-}
-
-func mokaConfig(source string) (mokaSite, bool) {
-	switch source {
-	case "nsfocus-campus":
-		return mokaSite{source: source, company: "nsfocus", org: "nsfocus", site: "29118", mode: "campus", path: "/campus_apply/nsfocus/29118", endpoint: "/api/outer/ats-apply/website/jobs/v2"}, true
-	case "shokz-campus":
-		return mokaSite{source: source, company: "shokz", org: "aftershokzhr", site: "36940", mode: "campus", path: "/campus-recruitment/aftershokzhr/36940", endpoint: "/api/outer/ats-apply/website/jobs/v2"}, true
-	case "bluepoch-careers":
-		return mokaSite{source: source, company: "bluepoch", org: "blueinteractive", site: "38433", mode: "social", path: "/apply/blueinteractive/38433", endpoint: "/api/outer/ats-apply/website/jobs"}, true
-	}
-	return mokaSite{}, false
-}
-
-// SupportsSource identifies implemented adapters, never arbitrary user-supplied URLs.
-func SupportsSource(source string) bool {
-	switch source {
-	case "tencent-campus", "tencent-internships", "huawei-campus", "huawei-internships", "cmb-campus", zjditSource, chaitinSource:
-		return true
-	}
-	_, ok := mokaConfig(source)
-	return ok
+	structuredQualifications                         bool
 }
 
 var mokaInputs = regexp.MustCompile(`(?is)<input\b[^>]*>`)
@@ -212,7 +191,8 @@ func (r *Reader) Moka(ctx context.Context, source string) ([]catalog.Document, i
 			job := object(raw)
 			id := text(job["id"])
 			status := text(job["status"])
-			if !mokaID.MatchString(id) || seen[id] || text(job["orgId"]) != site.org || text(job["title"]) == "" || (status != "open" && status != "pause") {
+			hireMode := text(job["hireMode"])
+			if !mokaID.MatchString(id) || seen[id] || text(job["orgId"]) != site.org || text(job["title"]) == "" || (hireMode != "1" && hireMode != "2") || (status != "open" && status != "pause" && status != "closed") {
 				return nil, total, ErrSchema
 			}
 			seen[id] = true
@@ -229,6 +209,10 @@ func (r *Reader) Moka(ctx context.Context, source string) ([]catalog.Document, i
 			exclude("官方列表状态为 pause，暂不作为开放岗位发布；保留待复核，不推断永久关闭")
 			continue
 		}
+		if text(entry["status"]) == "closed" {
+			exclude("官方列表明确状态为 closed，不作为开放岗位发布")
+			continue
+		}
 		if mokaDirection(title) == "unknown" {
 			exclude("当前岗位标题未确认属于计算机技术方向，需人工复核")
 			continue
@@ -237,7 +221,7 @@ func (r *Reader) Moka(ctx context.Context, source string) ([]catalog.Document, i
 		if err != nil {
 			return nil, total, fmt.Errorf("moka detail %s: %w", id, err)
 		}
-		if text(detail["id"]) != id || text(detail["orgId"]) != site.org || text(detail["status"]) != "open" || text(detail["title"]) != text(entry["title"]) || text(detail["hireMode"]) != text(entry["hireMode"]) || text(detail["commitment"]) != text(entry["commitment"]) {
+		if text(detail["id"]) != id || text(detail["orgId"]) != site.org || text(detail["status"]) != "open" || text(detail["title"]) != text(entry["title"]) || text(detail["hireMode"]) != text(entry["hireMode"]) || !mokaOptionalFieldsMatch(entry, detail) {
 			return nil, total, fmt.Errorf("moka detail %s identity or status: %w", id, ErrSchema)
 		}
 		doc, reason, err := mokaDocument(site, detail)
@@ -251,4 +235,15 @@ func (r *Reader) Moka(ctx context.Context, source string) ([]catalog.Document, i
 		documents = append(documents, doc)
 	}
 	return documents, total, nil
+}
+
+// mokaOptionalFieldsMatch checks disclosed list values without requiring fields
+// that verified Moka tenants deliberately omit from their compact job lists.
+func mokaOptionalFieldsMatch(entry, detail map[string]any) bool {
+	for _, field := range []string{"commitment", "education", "minExperience", "maxExperience"} {
+		if value, exists := entry[field]; exists && text(value) != text(detail[field]) {
+			return false
+		}
+	}
+	return true
 }

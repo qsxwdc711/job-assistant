@@ -1,0 +1,41 @@
+{
+  "Code": 200,
+  "Message": "operation success",
+  "MoreMessage": null,
+  "TipType": null,
+  "Count": 0,
+  "ReturnUrl": null,
+  "Data": {
+    "Id": "f71f265b-9ba5-4ca5-ae7e-d88ceb0f45c6",
+    "JobAdId": 190861085,
+    "PostDateInt": 1789007003000,
+    "PostDate": "2026-09-10T10:23:23",
+    "EndTimeInt": 0,
+    "EndTime": "2222-02-02T00:00:00",
+    "JobAdName": "2027届校招-数据开发方向(J13402)",
+    "OrgId": 3620417,
+    "Org": "校招生储备组",
+    "Category": "校园招聘",
+    "CategoryId": "2",
+    "LocId": null,
+    "LocNames": [
+      "河南省·郑州市"
+    ],
+    "Salary": "6K-10K 元/月",
+    "Duty": "1、参与企业级数据仓库建设,负责数据模型设计、ETL 开发与数据质量保障,覆盖从数据接入到服务输出的全链路;\n2、负责经营分析类 BI 报表与看板的开发维护,承接业务部门数据需求,输出高质量数据分析结果;\n3、参与数据治理体系建设,推动数据标准、数据口径统一与数据资产沉淀。",
+    "Require": "1、2027 届本科及以上学历,计算机、统计学、数学等相关专业;\n2、扎实的 SQL 功底,熟悉数据仓库建模理论,了解 Hive、Spark、Flink 等大数据组件或一种主流 BI 工具;\n3、数据敏感度高,逻辑思维严谨,具备较强的问题分析与数据可视化表达能力,有数据类竞赛或实习经验者优先;\n4、高度团队意识、认同蜜雪企业文化，对饮品行业有浓厚兴趣与发展热情。",
+    "ClassificationOne": null,
+    "ClassificationTwo": null,
+    "Classification3": "信息技术类",
+    "Classification4": null,
+    "Classification5": null,
+    "Classification6": null,
+    "Kind": "全职",
+    "Status": 1,
+    "Degree": null,
+    "YearsOfWorking": null,
+    "ChangeDate": "2026-09-10T10:23:23",
+    "DetailAddress": ""
+  },
+  "Total": 0
+}

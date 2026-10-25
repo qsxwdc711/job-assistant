@@ -1,0 +1,32 @@
+{
+  "jobPostingInfo": {
+    "title": "Physical Design, VLSI - New College Grad 2027",
+    "jobDescription": "<p>NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 30 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. We are now looking for Physical Design Engineer in Shanghai/Beijing office.</p><p></p><p><b>What you will be doing:</b><br />A role in physical design for NVIDIA GPU and Mobile chips. Participate in various aspects of physical design, including full chip floorplanning, power/clock distribution, timing optimization, place &amp; route, timing closure, power/signal integrity analysis, and physical verification. Troubleshoot a wide variety of design and flow complicated issues, and apply proactive intervention. Collaborate with RTL, DFT and Circuit designers to ensure high quality of design implementation.</p><p></p><p><b>What we need to see:</b></p><ul><li><p>Master in Engineering or Science</p></li><li><p>Power user of EDA tools from Synopsys (ICC2/DC/PT/STAR-RC), Cadence (EDI/Innovus/Voltus) or Mentor (Olympus-SOC)</p></li><li><p>Experience in Clock/Power Distribution, P&amp;R, Timing closure, RC Extraction, and verification on advanced technology nodes</p></li></ul><p></p><p><b>Ways to stand out from the crowd:</b></p><ul><li><p>Knowledge in FinFET technology, circuit design, and package design</p></li><li><p>Experience in physical verification tools from Synopsys (ICV) or Mentor (Calibre)</p></li><li><p>Proficiency in Perl, Python, TCL and Makefile scripts</p></li></ul><p></p><p><span>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>",
+    "location": "China, Shanghai",
+    "additionalLocations": [
+      "China, Beijing"
+    ],
+    "timeType": "Full time",
+    "jobReqId": "JR2024940",
+    "jobPostingId": "Physical-Design--VLSI---New-College-Grad-2027_JR2024940",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "China",
+      "id": "6cb77610a8a543aea2d6bc10457e35d4"
+    },
+    "canApply": true,
+    "posted": true,
+    "jobRequisitionLocation": {
+      "descriptor": "China, Shanghai",
+      "country": {
+        "descriptor": "China",
+        "id": "6cb77610a8a543aea2d6bc10457e35d4",
+        "alpha2Code": "CN"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Physical-Design--VLSI---New-College-Grad-2027_JR2024940"
+  },
+  "hiringOrganization": {
+    "name": "CN05 NVIDIA Shanghai WFOE"
+  }
+}

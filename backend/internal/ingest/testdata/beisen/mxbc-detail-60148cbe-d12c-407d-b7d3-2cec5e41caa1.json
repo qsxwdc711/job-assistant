@@ -1,0 +1,41 @@
+{
+  "Code": 200,
+  "Message": "operation success",
+  "MoreMessage": null,
+  "TipType": null,
+  "Count": 0,
+  "ReturnUrl": null,
+  "Data": {
+    "Id": "60148cbe-d12c-407d-b7d3-2cec5e41caa1",
+    "JobAdId": 190861091,
+    "PostDateInt": 1789007048000,
+    "PostDate": "2026-09-10T10:24:08",
+    "EndTimeInt": 0,
+    "EndTime": "2222-02-02T00:00:00",
+    "JobAdName": "2027届校招-信息安全方向(J13403)",
+    "OrgId": 3620417,
+    "Org": "校招生储备组",
+    "Category": "校园招聘",
+    "CategoryId": "2",
+    "LocId": null,
+    "LocNames": [
+      "河南省·郑州市"
+    ],
+    "Salary": "6K-10K 元/月",
+    "Duty": "1、负责对公司网络、服务器、应用系统等安全监控、巡检与日志分析；\n2、对漏洞进行分析、复现，并跟踪、协调相关部门完成漏洞修复与整改闭环。\n3、协助推进公司信息安全管理制度、流程和规范的落地执行。",
+    "Require": "1、2026届本科及以上学历，信息安全相关专业；\n2、思维活跃，具备较强的学习能力和抗压能力，乐于接受挑战；\n3、出色的沟通表达与协调能力，具备相关实践经验者优先；\n4、高度团队意识，认同蜜雪企业文化，对饮品行业有浓厚兴趣与发展热情。",
+    "ClassificationOne": null,
+    "ClassificationTwo": null,
+    "Classification3": "信息技术类",
+    "Classification4": null,
+    "Classification5": null,
+    "Classification6": null,
+    "Kind": "全职",
+    "Status": 1,
+    "Degree": null,
+    "YearsOfWorking": null,
+    "ChangeDate": "2026-09-10T10:24:08",
+    "DetailAddress": ""
+  },
+  "Total": 0
+}

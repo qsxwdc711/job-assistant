@@ -1,0 +1,33 @@
+{
+  "jobPostingInfo": {
+    "title": "Developer Technology Engineer - New College Graduate 2027",
+    "jobDescription": "<p>Intelligent machines powered by AI computers that can learn, reason and interact with people are no longer science fiction. Today, a self-driving car can meander through a country road at night and find its way. An AI-powered robot can learn motor skills through trial and error. This is truly an extraordinary time — the era of AI has begun. Image recognition and speech recognition — GPU Deep Learning has provided the foundation for machines to learn, perceive, reason and solve problems. The GPU started out as the engine for simulating human creativity, conjuring up the amazing virtual worlds of video games and Hollywood films. Now, NVIDIA&#39;s GPU runs Deep Learning algorithms, simulating human intelligence, and acts as the brain of computers, robots and self-driving cars that can perceive and understand the world. Just as human creativity and intelligence are linked, computer graphics and artificial intelligence come together in our architecture. Two modes of the human brain, two modes of the GPU. This may explain why NVIDIA GPUs are used broadly for Deep Learning, and NVIDIA is increasingly known as “the AI computing company.” Come join a team full of world-class computer scientists to work in its Compute Developer Technology team as an AI Developer Technology Engineer.</p><br /><p><b>What you will be doing:</b></p><ul><li>Study and develop cutting-edge techniques in deep learning, graphs, machine learning, and data analytics, and perform in-depth analysis and optimization to ensure the best possible performance on current- and next-generation GPU architectures.</li><li>Work directly with key customers to understand the current and future problems they are solving and provide the best AI solutions using GPUs.</li><li>Collaborate closely with the architecture, research, libraries, tools, and system software teams at NVIDIA to influence the design of next-generation architectures, software platforms, and programming models.</li></ul><br /><p><b>What we need to see:</b></p><ul><li>A degree from a leading university in an engineering or computer science related discipline (BS; MS or PhD preferred)</li><li>Strong knowledge of C/C&#43;&#43;, software design, programming techniques, and AI algorithms</li><li>Strong verbal and written communication skills in English and organization skills, with a logical approach to problem solving, time management, and task prioritization skills</li><li>Some travel is required for conferences and for on-site visits with customers.</li></ul><br /><p>With highly competitive salaries and a comprehensive benefits package, NVIDIA is widely considered to be one of the technology industry’s most desirable employers. We have some of the most brilliant and talented people on the planet working with us and our engineering teams are expanding fast. If you’re a creative and autonomous computer scientist with a genuine passion for parallel computing, we want to hear from you.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>#deeplearning",
+    "location": "China, Shanghai",
+    "additionalLocations": [
+      "China, Beijing",
+      "China, Shenzhen"
+    ],
+    "timeType": "Full time",
+    "jobReqId": "JR2023566",
+    "jobPostingId": "Developer-Technology-Engineer---New-College-Graduate-2027_JR2023566",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "China",
+      "id": "6cb77610a8a543aea2d6bc10457e35d4"
+    },
+    "canApply": true,
+    "posted": true,
+    "jobRequisitionLocation": {
+      "descriptor": "China, Shanghai",
+      "country": {
+        "descriptor": "China",
+        "id": "6cb77610a8a543aea2d6bc10457e35d4",
+        "alpha2Code": "CN"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Developer-Technology-Engineer---New-College-Graduate-2027_JR2023566"
+  },
+  "hiringOrganization": {
+    "name": "CN05 NVIDIA Shanghai WFOE"
+  }
+}

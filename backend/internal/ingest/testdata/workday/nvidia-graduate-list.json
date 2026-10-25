@@ -1,0 +1,221 @@
+{
+  "total": 11,
+  "jobPostings": [
+    {
+      "title": "Physical Design, VLSI - New College Grad 2027",
+      "externalPath": "/job/China-Shanghai/Physical-Design--VLSI---New-College-Grad-2027_JR2024940",
+      "locationsText": "2 Locations",
+      "bulletFields": [
+        "JR2024940"
+      ]
+    },
+    {
+      "title": "Developer Technology Engineer - New College Graduate 2027",
+      "externalPath": "/job/China-Shanghai/Developer-Technology-Engineer---New-College-Graduate-2027_JR2023566",
+      "locationsText": "3 Locations",
+      "bulletFields": [
+        "JR2023566"
+      ]
+    },
+    {
+      "title": "PMU Verification Engineer - New College Graduate, 2027",
+      "externalPath": "/job/China-Shanghai/PMU-Verification-Engineer---New-College-Graduate--2027_JR2026044",
+      "locationsText": "China, Shanghai",
+      "bulletFields": [
+        "JR2026044"
+      ]
+    },
+    {
+      "title": "PMU ASIC Engineer - New College Graduate 2027",
+      "externalPath": "/job/China-Shanghai/PMU-ASIC-Engineer---New-College-Graduate-2027_JR2025835",
+      "locationsText": "China, Shanghai",
+      "bulletFields": [
+        "JR2025835"
+      ]
+    },
+    {
+      "title": "GPU Architect - New College Graduate 2027",
+      "externalPath": "/job/China-Shanghai/GPU-Architect---New-College-Graduate-2027_JR2022870",
+      "locationsText": "China, Shanghai",
+      "bulletFields": [
+        "JR2022870"
+      ]
+    },
+    {
+      "title": "AI Developer Technology Intern, Robotics - 2027",
+      "externalPath": "/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+      "locationsText": "2 Locations",
+      "bulletFields": [
+        "JR2024054"
+      ]
+    },
+    {
+      "title": "NVIDIA 2027 New College Graduate: Deep Learning and High-Performance Computing Engineering - China",
+      "externalPath": "/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Deep-Learning-and-High-Performance-Computing-Engineering---China_JR2024107",
+      "locationsText": "3 Locations",
+      "bulletFields": [
+        "JR2024107"
+      ]
+    },
+    {
+      "title": "NVIDIA 2027 New College Graduate: Software Engineering - China",
+      "externalPath": "/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Software-Engineering---China_JR2024111",
+      "locationsText": "3 Locations",
+      "bulletFields": [
+        "JR2024111"
+      ]
+    },
+    {
+      "title": "NVIDIA 2027 New College Graduate: GPU Architecture Engineering - China",
+      "externalPath": "/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--GPU-Architecture-Engineering---China_JR2024108",
+      "locationsText": "3 Locations",
+      "bulletFields": [
+        "JR2024108"
+      ]
+    },
+    {
+      "title": "NVIDIA 2027 New College Graduate: Autonomous Vehicles and Robotics - China",
+      "externalPath": "/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Autonomous-Vehicles-and-Robotics---China_JR2024109",
+      "locationsText": "3 Locations",
+      "bulletFields": [
+        "JR2024109"
+      ]
+    },
+    {
+      "title": "NVIDIA 2027 New College Graduate: Hardware ASIC Engineering - China",
+      "externalPath": "/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Hardware-ASIC-Engineering---China_JR2024110",
+      "locationsText": "China, Shanghai",
+      "bulletFields": [
+        "JR2024110"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "jobFamilyGroup",
+      "descriptor": "Job Category",
+      "values": [
+        {
+          "descriptor": "Engineering",
+          "id": "0c40f6bd1d8f10ae43ffaefd46dc7e78",
+          "count": 10
+        },
+        {
+          "descriptor": "Univ Employment",
+          "id": "0c40f6bd1d8f10ae43ffda1e8d447e94",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "facetParameter": "workerSubType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Regular Employee",
+          "id": "0c40f6bd1d8f10adf6dae161b1844a15",
+          "count": 150
+        },
+        {
+          "descriptor": "Intern (Fixed Term)",
+          "id": "0c40f6bd1d8f10adf6dae42e46d44a17",
+          "count": 76
+        },
+        {
+          "descriptor": "New College Graduate",
+          "id": "ab40a98049581037a3ada55b087049b7",
+          "count": 11
+        },
+        {
+          "descriptor": "Management",
+          "id": "0c40f6bd1d8f10adf6dae2cd57444a16",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "facetParameter": "timeType",
+      "descriptor": "Time Type",
+      "values": [
+        {
+          "descriptor": "Full time",
+          "id": "5509c0b5959810ac0029943377d47364",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locationHierarchy2",
+          "descriptor": "Location Type",
+          "values": [
+            {
+              "descriptor": "Office",
+              "id": "0c3f5f117e9a0101f6422f0fe79d0000",
+              "count": 11
+            }
+          ]
+        },
+        {
+          "facetParameter": "locationHierarchy1",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "United States",
+              "id": "2fcb99c455831013ea52fb338f2932d8",
+              "count": 48
+            },
+            {
+              "descriptor": "China",
+              "id": "2fcb99c455831013ea529fe151e3323c",
+              "count": 11
+            },
+            {
+              "descriptor": "Taiwan",
+              "id": "2fcb99c455831013ea52ed162d4932c0",
+              "count": 4
+            },
+            {
+              "descriptor": "Israel",
+              "id": "2fcb99c455831013ea52bbe14cf9326c",
+              "count": 3
+            },
+            {
+              "descriptor": "Armenia",
+              "id": "d21cf68980ad0128000fd2c6b107c000",
+              "count": 1
+            },
+            {
+              "descriptor": "Hungary",
+              "id": "7bcfe8379f6b01ad4d347d1ca87689a6",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "facetParameter": "locations",
+          "descriptor": "Sites",
+          "values": [
+            {
+              "descriptor": "China, Shanghai",
+              "id": "91336993fab910af6d710b3449b4c33e",
+              "count": 11
+            },
+            {
+              "descriptor": "China, Beijing",
+              "id": "91336993fab910af6d710912773cc339",
+              "count": 7
+            },
+            {
+              "descriptor": "China, Shenzhen",
+              "id": "91336993fab910af6d7106eea8f4c334",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

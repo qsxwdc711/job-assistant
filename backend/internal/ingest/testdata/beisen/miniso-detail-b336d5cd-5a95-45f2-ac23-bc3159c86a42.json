@@ -1,0 +1,41 @@
+{
+  "Code": 200,
+  "Message": "operation success",
+  "MoreMessage": null,
+  "TipType": null,
+  "Count": 0,
+  "ReturnUrl": null,
+  "Data": {
+    "Id": "b336d5cd-5a95-45f2-ac23-bc3159c86a42",
+    "JobAdId": 351611787,
+    "PostDateInt": 1788944779000,
+    "PostDate": "2026-09-09T17:06:19",
+    "EndTimeInt": 0,
+    "EndTime": "2222-02-02T00:00:00",
+    "JobAdName": "AI解决方案创优生(J17256)",
+    "OrgId": 1083729,
+    "Org": "数字科技中心",
+    "Category": "校园招聘",
+    "CategoryId": "2",
+    "LocId": null,
+    "LocNames": [
+      "广东省·广州市·海珠区"
+    ],
+    "Salary": "14W-24W 元/年",
+    "Duty": "我们寻找兼具数据分析能力与AI技术落地能力的解决方案工程师——你将通过数据洞察定位业务痛点，设计融合大数据、机器学习与大模型技术的AI解决方案，并推动方案在业务中落地见效，用AI驱动零售业务的智能化升级。\n\n工作职责\n1、业务痛点诊断与AI解决方案设计：深入商品、运营、供应链、营销、门店等业务场景，通过数据分析挖掘业务痛点与优化机会，设计基于数据、人工智能算法的AI解决方案；\n2、方案验证与Demo搭建：利用大模型工具（如Coze、Dify、LangChain等）及Python 快速搭建原型Demo，验证AI方案的技术可行性与业务效果，为研发团队交付清晰的方案蓝图；\n3、项目推动落地：协调产品、研发、业务等多方资源，推动AI解决方案从方案设计到上线落地的全流程，跟踪业务效果并持续迭代优化；\n4、AI 技术跟踪：跟踪大模型、Agent、多模态等AI前沿技术动态，评估其在零售场景的应用价值，输出技术预研与场景建议。",
+    "Require": "1、本科及以上学历，计算机/人工智能/数据科学/统计学/数学/运筹学等相关专业；\n2、熟练使用SQL进行数据查询与分析，掌握Python（Pandas/NumPy等）数据处理工具，具备扎实的统计学基础；\n3、熟悉常用机器学习算法（分类、回归、聚类、推荐等），了解深度学习基本原理，有模型训练与调优经验者优先；\n4、了解大模型、RAG、Agent 等AI技术的应用场景与能力边界，能够判断AI技术在业务中的适用性，能够使用Coze、Dify、LangChain等低代码/开源工具快速搭建AI应用Demo，验证方案可行性；有AI Agent或RAG相关项目经验者优先；\n5、具备良好的沟通协调能力和逻辑思维能力，能够快速理解零售业务逻辑，挖掘数据背后的业务价值；\n6、有Kaggle/天池等数据竞赛获奖、AI应用Demo项目经验、AI相关论文发表或开源贡献者优先。",
+    "ClassificationOne": "创优生项目",
+    "ClassificationTwo": null,
+    "Classification3": null,
+    "Classification4": null,
+    "Classification5": null,
+    "Classification6": null,
+    "Kind": "全职",
+    "Status": 1,
+    "Degree": null,
+    "YearsOfWorking": null,
+    "ChangeDate": "2026-09-09T17:06:19",
+    "DetailAddress": ""
+  },
+  "Total": 0
+}

@@ -43,28 +43,7 @@ func Collect(ctx context.Context, store *catalog.Store, reader *Reader, source s
 	}
 	readCtx, cancel := context.WithTimeout(ctx, 15*time.Minute)
 	defer cancel()
-	var documents []catalog.Document
-	var fetched int
-	switch source {
-	case "tencent-campus":
-		documents, fetched, err = reader.Tencent(readCtx)
-	case "huawei-campus":
-		documents, fetched, err = reader.Huawei(readCtx)
-	case "tencent-internships":
-		documents, fetched, err = reader.TencentInternships(readCtx)
-	case "huawei-internships":
-		documents, fetched, err = reader.HuaweiInternships(readCtx)
-	case "cmb-campus":
-		documents, fetched, err = reader.CMB(readCtx)
-	case "nsfocus-campus", "shokz-campus", "bluepoch-careers":
-		documents, fetched, err = reader.Moka(readCtx, source)
-	case zjditSource:
-		documents, fetched, err = reader.ZJDIT(readCtx)
-	case chaitinSource:
-		documents, fetched, err = reader.Chaitin(readCtx)
-	default:
-		err = ErrSchema
-	}
+	documents, fetched, err := reader.ReadSource(readCtx, source)
 	result.Fetched = fetched
 	result.Requests = reader.Requests
 	if err == nil {

@@ -1,5 +1,5 @@
 #Requires -Version 7.0
-param([ValidateSet('all','tencent-campus','huawei-campus','cmb-campus','tencent-internships','huawei-internships','nsfocus-campus','shokz-campus','bluepoch-careers','zjdit-careers','chaitin-careers')][string]$Source='all', [switch]$UseSystemProxy)
+param([ValidatePattern('^[a-z0-9][a-z0-9-]{0,80}$')][string]$Source='all', [switch]$UseSystemProxy)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot 'local-compose.ps1')
 $compose=Initialize-LocalCompose
@@ -19,7 +19,9 @@ try {
     # retain the existing single-container invocation, including its all mode.
     $selected=@($Source)
     if($Source-eq'all'-and$hostSources.Count){
-        $selected=@((Get-Command $PSCommandPath).Parameters.Source.Attributes | Where-Object {$_-is[Management.Automation.ValidateSetAttribute]} | ForEach-Object {$_.ValidValues} | Where-Object {$_-ne'all'})
+		$sourceList = & docker @compose --profile tools run --rm collector list
+		if($LASTEXITCODE-ne0){throw 'Unable to list enabled collection sources.'}
+		$selected=@(($sourceList -join "`n") | ConvertFrom-Json)
     }
     $failed=$false
     foreach($code in $selected){

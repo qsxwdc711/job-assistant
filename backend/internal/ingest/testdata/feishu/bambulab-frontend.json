@@ -1,0 +1,90 @@
+{
+  "id": "7696343742794549547",
+  "title": "前端工程师",
+  "description": "【你会做什么】\n- 在 Mentor 的带领下，参与具体页面、组件或功能模块的开发，完成从需求理解到上线的完整流程。\n- 参与团队的工具链与效率工具建设，例如组件文档、自动化脚本、埋点与监控的接入。\n- 参与代码评审（既是被 Review，也学着 Review 别人），理解一段代码\"能跑\"和\"能维护\"之间的差别。\n- 协助线上问题的定位与复现，学习如何在真实环境中排查问题。\n- 参与技术分享与文档沉淀。",
+  "requirement": "- 本科及以上学历，计算机、软件工程等相关专业，可接受毕业时间符合当年校招要求。\n- 有完整的个人项目、开源贡献或 GitHub 作品（比简历上的技能列表更有说服力）。\n- 了解 TypeScript，或接触过 Next.js / TanStack Start 等框架。\n- 做过 3D、图形、可视化、游戏或硬件相关的小项目。\n- 对 3D 打印、创客文化、机器人或模型有真实的兴趣与实践。\n- 有实习经历、竞赛获奖（ACM / CTF / 各类开发比赛）或技术博客。",
+  "recruit_type": {
+    "id": "201",
+    "name": "正式",
+    "en_name": "Regular",
+    "i18n_name": "正式",
+    "depth": 2,
+    "parent": {
+      "id": "2",
+      "name": "校招",
+      "en_name": "Campus",
+      "i18n_name": "校招",
+      "depth": 1,
+      "children": [],
+      "active_status": 1,
+      "selectability": 1
+    },
+    "children": [],
+    "active_status": 1,
+    "selectability": 1
+  },
+  "publish_time": 1791944840468,
+  "channel_online_status": 1,
+  "job_id": "7696343742794418475",
+  "city_list": [
+    {
+      "code": "CT_125",
+      "name": "上海",
+      "en_name": "Shanghai",
+      "location_type": 3,
+      "i18n_name": "上海",
+      "py_name": "shanghai",
+      "mdm_code": "MDCY00000002",
+      "node_status": 1
+    }
+  ],
+  "job_post_info": {
+    "recruitment_type": {
+      "id": "201",
+      "name": "正式",
+      "en_name": "Regular",
+      "i18n_name": "正式",
+      "depth": 2,
+      "parent": {
+        "id": "2",
+        "name": "校招",
+        "en_name": "Campus",
+        "i18n_name": "校招",
+        "depth": 1,
+        "children": [],
+        "active_status": 1,
+        "selectability": 1
+      },
+      "children": [],
+      "active_status": 1,
+      "selectability": 1
+    },
+    "HighlightList": [],
+    "JobChannelPublishList": [],
+    "job_post_object_value_map": {},
+    "address_list": [],
+    "city_list": [],
+    "correlation_job_list": [],
+    "tag_list": [],
+    "storefront_list": [],
+    "target_major_list": [],
+    "job_post_process_time_list": [],
+    "job_level_id_list": []
+  },
+  "city_info_list_for_delivery": [
+    {
+      "code": "CT_125",
+      "name": "上海",
+      "en_name": "Shanghai",
+      "location_type": 3,
+      "i18n_name": "上海",
+      "py_name": "shanghai",
+      "mdm_code": "MDCY00000002",
+      "node_status": 1
+    }
+  ],
+  "tag_list": [],
+  "storefront_mode": 1,
+  "storefront_list": [],
+  "process_type": 2
+}

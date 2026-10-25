@@ -1,0 +1,2249 @@
+{
+  "requested_at": "2026-10-22",
+  "checked_at": "2026-10-23T18:29:01.517Z",
+  "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+  "group": "快消",
+  "status": "partial_source_research_with_two_verified_beisen_adapters",
+  "targets_count": 50,
+  "important_limits": [
+    "官网可访问或招聘入口授权不等于已经核实有可投岗位。",
+    "未核实、访问受限或下载不完整一律保留待验证，不据此宣告无岗位。",
+    "研究文件不写数据库，不表示已接入或发布。",
+    "禁止将营销/食品研发/普通电商/财务/商业管培只因含数据或AI字样认定计算机岗位。"
+  ],
+  "verified_job_details": 4,
+  "companies": [
+    {
+      "target_id": "consumer-001",
+      "requested_name": "伊利集团",
+      "requested_group": "快消",
+      "status": "blocked_public_access",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://yili.hotjob.cn/"
+      ],
+      "findings": "企业官网HTTP403；停止该入口访问。大易搜索发现2027数字化培训生，尚未核实技术职责和当前投递状态。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.yili.com/joinus",
+          "final_url": "https://www.yili.com/joinus",
+          "http_status": 403,
+          "checked_at": "2026-10-22T10:32:29.997Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-001-root.html",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-002",
+      "requested_name": "蒙牛集团",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.mengniu.com.cn/join.html",
+        "https://mengniu.zhiye.com/custom/xiaoyuan"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.mengniu.com.cn/join.html",
+          "final_url": "https://www.mengniu.com.cn/join.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:30.020Z",
+          "title": "加入我们_蒙牛官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-002-root.html",
+          "sha256": "37fa496a9f4dbbc0e5749cd0e16d1547ad5d23cebb1c69bcd22765f01765e32e"
+        },
+        {
+          "url": "https://mengniu.zhiye.com/custom/xiaoyuan",
+          "final_url": "https://mengniu.zhiye.com/custom/xiaoyuan",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:10.020Z",
+          "title": "蒙牛招聘官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-002-careers.html",
+          "sha256": "0b57f35c4f4c3873c701c1e3465f9a407fe3c8bda90c2d0d1f6245973d096900"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-003",
+      "requested_name": "飞鹤乳业",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://feihe.com/about/joinUs",
+        "https://feihe.hotjob.cn/",
+        "https://wecruit.hotjob.cn/SU6304eeb40dcad45aa776d597/pb/index.html"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://feihe.com/about/joinUs",
+          "final_url": "https://feihe.com/about/joinUs",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:30.044Z",
+          "title": "飞鹤奶粉 更适合中国宝宝体质",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-003-root.html",
+          "sha256": "d389375095866e40021e5b303d44da00022c0beaabe298182c9a03bb1d08f9f8"
+        },
+        {
+          "url": "https://feihe.hotjob.cn/",
+          "final_url": "https://wecruit.hotjob.cn/SU6304eeb40dcad45aa776d597/pb/index.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:10.041Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-003-careers.html",
+          "sha256": "b74fdf23c38e34ce1e67d1f9d38412eb80ad3632bade18a3f365b5eef1321f26"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-004",
+      "requested_name": "达能中国",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.danone.com.cn/",
+        "https://careersite.danone.com.cn/zh_CN/careers/Campus/index.html",
+        "https://app.mokahr.com/campus-recruitment/danone/170511?locale=zh-CN"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.danone.com.cn/",
+          "final_url": "https://www.danone.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:30.364Z",
+          "title": "达能：知名跨国食品饮料公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-004-root.html",
+          "sha256": "89608a6b95f89b193ce23d952fcdfa0c6ace467999c595fc5915b5c8edf82cc8"
+        },
+        {
+          "url": "https://careersite.danone.com.cn/zh_CN/careers/Campus/index.html",
+          "final_url": "https://careersite.danone.com.cn/zh_CN/careers/Campus/index.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:10.060Z",
+          "title": "达能招聘",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-004-careers.html",
+          "sha256": "5b63df9fa0a50a3b6a138c9964b31bc71029d9c5688dcf75c89006584990225a"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-005",
+      "requested_name": "百事中国",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://www.pepsicojobs.com/main/our-locations/apac/china?lang=zh-CN"
+      ],
+      "findings": "官方主站可访问；公开招聘中国页下载不完整，尚未取得技术校招详情。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com.cn/",
+          "final_url": "https://www.pepsico.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:31.189Z",
+          "title": "百事公司大中华区官方网站 | PepsiCo",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-005-root.html",
+          "sha256": "57f52f4442522d19e0f9ebc26f9cac1662f03c576c900f7110aaf52163404032"
+        },
+        {
+          "url": "https://www.pepsicojobs.com/main/our-locations/apac/china?lang=zh-CN",
+          "final_url": null,
+          "http_status": null,
+          "checked_at": "2026-10-22T10:35:10.510Z",
+          "title": null,
+          "error": "curl: (28) Operation timed out after 25010 milliseconds with 228456 out of 740432 bytes received\r\n",
+          "complete": false,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-005-careers.html",
+          "sha256": "f791be8ea86c329a4d8db66620cd73d1fd56e85ecc84d94ad83b71b9f7957011"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-006",
+      "requested_name": "统一企业中国",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "企业官网可访问但为GBK编码，初轮未解析招聘入口；待按实际编码和导航复核。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.uni-president.com.cn/",
+          "final_url": "https://www.uni-president.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:31.440Z",
+          "title": "ͳһ��ҵ",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-006-root.html",
+          "sha256": "ab1a764b7ad071cfcfc50c3207d6b8592a2a1e207ae296155401dbadea5f54c6"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-007",
+      "requested_name": "青岛啤酒",
+      "requested_group": "快消",
+      "status": "blocked_network_or_certificate",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://tsingtao.zhiye.com/Campus"
+      ],
+      "findings": "候选企业主站请求失败；北森招聘入口仅由搜索发现，授权链待验证。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.tsingtao.com.cn/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:32.104Z",
+          "complete": false
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-008",
+      "requested_name": "海天味业",
+      "requested_group": "快消",
+      "status": "blocked_network_or_certificate",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://www.haday.com/news/spring-campus-recruitment-2026-haday/",
+        "https://wecruit.hotjob.cn/SU6322ee8c0dcad46a862dcbe5/mc/position/campus?acotycoCode=kzvvci&isLimitShowPostScope=1&recruitType=1"
+      ],
+      "findings": "www.haday.com首轮请求失败；注意不得混淆海天味业与宁波海天机械(haitian.zhiye.com)。大易候选未完成官方链实时核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.haday.com/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:32.493Z",
+          "complete": false
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-009",
+      "requested_name": "安琪酵母",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.angelyeast.com/",
+        "https://www.angelyeast.com/jobs.html"
+      ],
+      "candidate_urls": [],
+      "findings": "官方岗位页和下一页可访问；尚未对全部职位及详情完成技术/应届资格核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.angelyeast.com/",
+          "final_url": "https://www.angelyeast.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:32.734Z",
+          "title": "安琪酵母(600298)，创新健康生活",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-009-root.html",
+          "sha256": "2ff0e24f5bea06e8f42ecb63c9f6056f96e8f6e122f42013a20ab00eacf88b20"
+        },
+        {
+          "url": "https://www.angelyeast.com/jobs.html",
+          "final_url": "https://www.angelyeast.com/jobs.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:10.753Z",
+          "title": "安琪酵母招聘岗位 - 多元职位空缺，职等你来展风采",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-009-careers.html",
+          "sha256": "12bae47a260a5afae97ed6a4e7f7031c55baeb4858e8fffa78eafa8f8729f838"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-010",
+      "requested_name": "双汇发展",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.shuanghui.net/",
+        "https://shuanghui2027.zhaopin.com/"
+      ],
+      "candidate_urls": [],
+      "findings": "官网链接2027智联校园专题；当前是动态外壳，职位详情及技术资格待验证。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.shuanghui.net/",
+          "final_url": "https://www.shuanghui.net/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:33.480Z",
+          "title": "『双汇集团』做世界领先的肉类服务商",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-010-root.html",
+          "sha256": "73dc2731570c4d541de2f46d43ed2e05bca11577664a4362ac9a22e0dd74adef"
+        },
+        {
+          "url": "https://shuanghui2027.zhaopin.com/",
+          "final_url": "https://shuanghui2027.zhaopin.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:14.647Z",
+          "title": "双汇2027届全球校园招聘",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-010-careers.html",
+          "sha256": "dc183894b598458443bef5c89a2ca2688ad8b135014bf38dc7c24773af68613b"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-011",
+      "requested_name": "金龙鱼",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.jinlongyu.cn/join",
+        "https://wecruit.hotjob.cn/SU646ed8970dcad45af1482154/pb/school.html"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.yihai-kerry.com.cn/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:34.487Z",
+          "complete": false
+        },
+        {
+          "url": "https://www.jinlongyu.cn/join",
+          "final_url": "https://www.jinlongyu.cn/join",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:34.031Z",
+          "title": "人才理念 - 招贤纳士 - 益海嘉里金龙鱼食品集团股份有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-011-root2.html",
+          "sha256": "b97413bb63345385db7b7045c960867579f80885d9bff63e44db3b9b8b460ae8"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-012",
+      "requested_name": "珀莱雅",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.proya-group.com/",
+        "https://jobs.proya.com/campus"
+      ],
+      "candidate_urls": [],
+      "findings": "飞书校招站已在Chrome正常渲染；当前AI类2岗、其他分类合计14岗。真实接口/api/v1/search/job_post/count及/api/v1/csrf/token已观测；具体AI详情尚未核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.proya-group.com/",
+          "final_url": "https://www.proya-group.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:34.654Z",
+          "title": "珀莱雅-致力于成为世界一流的美妆企业[公司官网]",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-012-root.html",
+          "sha256": "c8ad55513e7b05ede3f733717d4949d6dd4f7219a58574f62c2be60f39fbb199"
+        },
+        {
+          "url": "https://jobs.proya.com/campus",
+          "final_url": "https://jobs.proya.com/campus",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:14.939Z",
+          "title": "加入珀莱雅",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-012-careers.html",
+          "sha256": "cafbf1c3bd19bd0cb755d877d59f3322825e4c70b406047336a3a7c72ca80179"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-013",
+      "requested_name": "华熙生物",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.bloomagebiotech.com/join.html",
+        "https://bloomagebiotech.hotjob.cn/"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.bloomagebiotech.com/join.html",
+          "final_url": "https://www.bloomagebiotech.com/join.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:35.323Z",
+          "title": "加入我们",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-013-root.html",
+          "sha256": "995ac99b72c472d3a14f1a8ca02ff32e53121967c0b76c6b2adc3f8a58387ab7"
+        },
+        {
+          "url": "https://bloomagebiotech.hotjob.cn/",
+          "final_url": "https://bloomagebiotech.hotjob.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:15.180Z",
+          "title": "招聘官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-013-careers.html",
+          "sha256": "bab0bf15269b6044f6ded3793d0aeda0944ba14e2a690c2112714b9b48d0bac6"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-014",
+      "requested_name": "贝泰妮",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "已核实品牌官网；新版页面初轮无招聘超链接，需继续正常页面导航。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://botanee.com.cn/",
+          "final_url": "https://botanee.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:35.921Z",
+          "title": "贝泰妮集团官方网站",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-014-root.html",
+          "sha256": "6aac6f7dbf9e82e007bceda3944a3b038c3aba0ab83bda76807e4576d06c2caa"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-015",
+      "requested_name": "蓝月亮",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://career.bluemoon.com.cn/campus"
+      ],
+      "findings": "主站已核实；校招候选为飞书招聘。所打开7572859953225730346实际是财务管培生，不能以高校计算机学院转载标题推定技术岗位。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.bluemoon.com.cn/",
+          "final_url": "https://www.bluemoon.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:36.516Z",
+          "title": "蓝月亮官方网站",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-015-root.html",
+          "sha256": "6fdab6267f6dbc37e8bb291bcbb007317800daff4df1833f3c597d263a8e5474"
+        },
+        {
+          "url": "https://career.bluemoon.com.cn/campus/position/7572859953225730346/detail",
+          "final_url": "https://career.bluemoon.com.cn/campus/position/7572859953225730346/detail",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:46:53.416Z",
+          "title": "财务管培生（博士精英计划） - 蓝月亮校园招聘",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-015-careers.html",
+          "sha256": "803d809f0688a15554e6662d96a37a13b8badcd7ddc4de7e2ef3c5f5bdcbd803"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-016",
+      "requested_name": "恒安集团",
+      "requested_group": "快消",
+      "status": "blocked_public_access",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://hengan1.zhiye.com/"
+      ],
+      "findings": "企业官网HTTP403；未尝试绕过。hengan1.zhiye.com仅作为搜索发现候选。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.hengan.com/",
+          "final_url": "https://www.hengan.com/",
+          "http_status": 403,
+          "checked_at": "2026-10-22T10:32:36.715Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-016-root.html",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-017",
+      "requested_name": "农夫山泉",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "已核实农夫山泉官网；尚未完成养生堂集团招聘授权链和当前技术校招详情。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.nongfuspring.com/",
+          "final_url": "https://www.nongfuspring.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:37.266Z",
+          "title": "农夫山泉|Nongfu Spring|農夫山泉",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-017-root.html",
+          "sha256": "cfa513cc4c37c43a8bef61db5ab793632f3330e6d0e62126fafebe6b0955a7e7"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-018",
+      "requested_name": "康师傅",
+      "requested_group": "快消",
+      "status": "blocked_public_access",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://campus.51job.com/ksf/"
+      ],
+      "findings": "企业官网HTTP200但返回WAF验证内容，非正常官网内容；未绕过。51job校招专题仅候选。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.masterkong.com.cn/",
+          "final_url": "https://www.masterkong.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:37.582Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-018-root.html",
+          "sha256": "22ce70a370c921f61ae18ab5c40a5f8e9a6e0d94ff8240bdaa1582ac9e780899"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-019",
+      "requested_name": "旺旺集团",
+      "requested_group": "快消",
+      "status": "blocked_public_access",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://wantwant.zhiye.com/form"
+      ],
+      "findings": "企业官网HTTP567，未绕过；北森候选待授权链和详情核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.want-want.com/",
+          "final_url": "https://www.want-want.com/",
+          "http_status": 567,
+          "checked_at": "2026-10-22T10:32:37.813Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-019-root.html",
+          "sha256": "d3e27f743b89c7893365a0e84b1e59d402851f11698ec1db0441da1d0794f278"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-020",
+      "requested_name": "三只松鼠",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.3songshu.com/",
+        "https://3songshu.zhiye.com/home"
+      ],
+      "candidate_urls": [],
+      "findings": "官网指向3songshu.zhiye.com/home，但该路径实际重定向404；不能据此推定无岗位。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.3songshu.com/",
+          "final_url": "https://www.3songshu.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:37.966Z",
+          "title": "三只松鼠",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-020-root.html",
+          "sha256": "3eaf64d97b46ef7875357244cc240cb910eb957ca6bdc4139d7fd2d2be299902"
+        },
+        {
+          "url": "https://3songshu.zhiye.com/home",
+          "final_url": "https://3songshu.zhiye.com/404?errorpath=%2Fhome",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:15.621Z",
+          "title": "Not Found",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-020-careers.html",
+          "sha256": "d40106ef69b2be49a65d9742942046e941d47405d752da373b8a329cf355be8e"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-021",
+      "requested_name": "洽洽食品",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.qiaqiafood.com/",
+        "https://www.qiaqiafood.com/info.php?class_id=107103",
+        "https://qiaqiafood.zhiye.com/campus"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.qiaqiafood.com/",
+          "final_url": "https://www.qiaqiafood.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:39.437Z",
+          "title": "洽洽食品官网-高端瓜子品牌_品质坚果休闲食品_掌握关键保鲜技术",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-021-root.html",
+          "sha256": "88867616050935cc38a95c5680f0237766b7f04897d2157bc88ccad37aab91bd"
+        },
+        {
+          "url": "https://www.qiaqiafood.com/info.php?class_id=107103",
+          "final_url": "https://www.qiaqiafood.com/info.php?class_id=107103",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:15.893Z",
+          "title": "洽洽食品股份有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-021-careers.html",
+          "sha256": "c2f88807105e55ddb26f7822c59f2a1396e5338defac1f5ebb13d3ba08dc530f"
+        },
+        {
+          "url": "https://qiaqiafood.zhiye.com/campus",
+          "final_url": "https://qiaqiafood.zhiye.com/campus",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:38.878Z",
+          "title": "洽洽食品股份有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-021-campus.html",
+          "sha256": "4e221805db6a97559504f192ce181753634a2a34f40c59c03eb983b11513a59e"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-022",
+      "requested_name": "妙可蓝多",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.milkground.cn/campus.html",
+        "https://milkgroundxiaozhao.zhiye.com/campus"
+      ],
+      "candidate_urls": [],
+      "findings": "官网当前校园入口指向milkgroundxiaozhao.zhiye.com/campus，另有xz.51job.com/milkground/。勿混同社招milkground.zhiye.com。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.milkground.cn/",
+          "final_url": "https://www.milkground.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:39.553Z",
+          "title": "妙可蓝多官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-022-root.html",
+          "sha256": "1579724fde63f4a7915f1e8d130d6530b2021402610c0bc0f0cc1e012beaf3a4"
+        },
+        {
+          "url": "https://www.milkground.cn/campus.html",
+          "final_url": "https://www.milkground.cn/campus.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:16.323Z",
+          "title": "妙可蓝多官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-022-careers.html",
+          "sha256": "6f81af3c47ba31816e42a5812073ae3d4f7922cccdcc77e6b9b6408eccbc2ccb"
+        },
+        {
+          "url": "https://milkgroundxiaozhao.zhiye.com/campus",
+          "final_url": "https://milkgroundxiaozhao.zhiye.com/campus",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:39.448Z",
+          "title": "妙可蓝多校招官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-022-campus.html",
+          "sha256": "7104287ae781eb701ddcbe67dbba63994703ce5115a00dfc2aa0a4814d72f419"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-023",
+      "requested_name": "君乐宝",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://junlebaoruye.zhiye.com/campus/jobs"
+      ],
+      "findings": "旧候选企业官网返回空页；校招北森可访问，官网授权链及技术详情尚待验证。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.junlebaoruye.com/",
+          "final_url": "https://www.junlebaoruye.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:39.961Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-023-root.html",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "url": "https://junlebaoruye.zhiye.com/campus/jobs",
+          "final_url": "https://junlebaoruye.zhiye.com/campus/jobs",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:34.056Z",
+          "title": "君乐宝乳业集团有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-023-careers.html",
+          "sha256": "a74ece6efdd6735d50df9ad457b4008f1e63f67a5014774e4dc2d33117e535e4"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-024",
+      "requested_name": "涪陵榨菜",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "官网可访问，尚未找到当前官方招聘入口。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.flzc.com/",
+          "final_url": "https://www.flzc.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:40.619Z",
+          "title": "涪陵榨菜集团-乌江榨菜品牌官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-024-root.html",
+          "sha256": "f06789fe5c1c3252f184ad9b82edd612dfdde4bb78d4b47781089c9011387fa8"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-025",
+      "requested_name": "立白集团",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.liby.com.cn/",
+        "https://zhaopin.liby.com.cn/"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.liby.com.cn/",
+          "final_url": "https://www.liby.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:41.135Z",
+          "title": "立白科技集团官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-025-root.html",
+          "sha256": "0e7e681f5bd9b745cc4f908a0f6037eccd28c5a0cfe3239442839e5737b64d4c"
+        },
+        {
+          "url": "https://zhaopin.liby.com.cn/",
+          "final_url": "https://zhaopin.liby.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:16.419Z",
+          "title": "广州立白企业集团有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-025-careers.html",
+          "sha256": "74d5bff47ef9490450f59a40c21e4a2999f6e4b4ff5eed1ae53eaa761afbb022"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-026",
+      "requested_name": "名创优品",
+      "requested_group": "快消",
+      "status": "production_adapter_verified_pending_release",
+      "official_chain": [
+        "https://miniso.cn/",
+        "https://miniso.zhiye.com/"
+      ],
+      "candidate_urls": [],
+      "findings": "已完成官方主站→北森授权链。生产采集器两轮分别完整读取28条校招列表(20+8)，独立详情身份/状态/职责一致，筛出AI全栈与AI解决方案2条技术校招；各轮7请求且内容哈希一致。等待父任务测试库、容器运行与真实发布验收。",
+      "verified_jobs": [
+        {
+          "external_id": "1f528032-29cd-4384-93de-ef66e6c96a9f",
+          "title": "AI全栈创优生(J17255)",
+          "url": "https://miniso.zhiye.com/campus/detail?jobAdId=1f528032-29cd-4384-93de-ef66e6c96a9f",
+          "recruitment_type": "campus",
+          "minimum_education": "bachelor_or_above",
+          "locations": [
+            {
+              "code": "CN:广东省:广州市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "广东省",
+              "city": "广州市",
+              "raw": "广东省·广州市·海珠区"
+            }
+          ],
+          "direction": "backend",
+          "requirements": "1、本科及以上学历\n计算机/软件工程/人工智能/数据科学等相关专业\n2、数据结构、算法、网络、操作系统等基础扎实\n熟练掌握至少一门主流编程语言（Python /Java/Go/JS/TypeScript）\n有前端或后端完整项目开发经验\n具备良好的编码规范\n3、对AI编程工具有实际使用经验（如Cursor/Claude Code等）\n或对\"AI时代的开发范式变革\"有强烈兴趣和独立思考\n理解大模型的能力边界\n不盲目信任也不固步自封\n4、不做\"需求翻译机\"——拿到需求会先问\"这个需求解决了谁的什么问题\"\n能从用户视角体验产品\n主动发现体验问题并提出改进建议\n具备基础的产品设计能力\n能独立完成简单需求的流程设计与方案输出\n5、不盲从AI输出\n能主动发现AI产出中的逻辑漏洞、事实错误和边界遗漏——这是AI Native工程师的核心价值",
+          "preferred": "",
+          "graduation_date_window": "unknown_no_inferred_dates",
+          "official_evidence": "企业官网公开链接当前北森招聘站：https://miniso.zhiye.com/campus/jobs\n公开租户ID=109979；列表与详情 CategoryId=2；Status=1；Kind=全职；数字岗位ID=351611789。\n官方学历字段=；官方工作经验字段=；工作地点=[广东省·广州市·海珠区]。\n未按网页展示的届数推算毕业日期；未按发布或修改时间推算截止日期或笔试。\n完整官方工作职责：\n我们正在进行AI Native研发变革：用一套标准化的AI协作工作流，让一个人就能完成传统需要产品、研发、测试三人协作的需求交付。\n我们寻找的是愿意成为 \"超级个体\" 的应届生——你不再是\"被动执行的程序员\"，而是 \"指挥AI交付产品的负责人\"。你将以产品+研发+测试一体化的方式，深度参与商品、运营、营销、供应链等零售核心业务的智能化升级。\n这不是一个用\"用AI辅助写代码\" 的岗位，而是一个重新定义软件工程工作方式的岗位。\n工作职责\n1、AI驱动的端到端交付：独立或在教练带教下，完成从需求分析、产品设计、技术方案、代码开发、测试验证到上线发布的完整闭环，对需求的最终交付质量和业务效果负责；在交付过程中灵活运用大模型能力提升效率与质量；\n2、AI 知识库建设与维护：负责团队AI知识库的持续更新——包括产品文档、技术架构、业务规则、设计决策等，确保AI对系统的理解始终与实际代码同步（知识库的质量直接决定AI产出的质量）；\n3、工程化质量体系建设：将验收标准转化为可执行的自动化测试脚本，接入持续集成流水线形成永久回归资产；建立质量门禁与上线检查机制，推动AI能力从实验Demo走向规模化生产；\n4、方法论共创与持续改进：持续跟踪AI前沿技术，在真实需求中验证AI协作模式的效果，总结经验、提出优化建议，沉淀团队可复用的AI Native研发方法论。\n完整官方任职要求：\n1、本科及以上学历，计算机/软件工程/人工智能/数据科学等相关专业；\n2、数据结构、算法、网络、操作系统等基础扎实；熟练掌握至少一门主流编程语言（Python /Java/Go/JS/TypeScript），有前端或后端完整项目开发经验，具备良好的编码规范；\n3、对AI编程工具有实际使用经验（如Cursor/Claude Code等），或对\"AI时代的开发范式变革\"有强烈兴趣和独立思考；理解大模型的能力边界，不盲目信任也不固步自封；\n4、不做\"需求翻译机\"——拿到需求会先问\"这个需求解决了谁的什么问题\"；能从用户视角体验产品，主动发现体验问题并提出改进建议；具备基础的产品设计能力，能独立完成简单需求的流程设计与方案输出；\n5、不盲从AI输出，能主动发现AI产出中的逻辑漏洞、事实错误和边界遗漏——这是AI Native工程师的核心价值。"
+        },
+        {
+          "external_id": "b336d5cd-5a95-45f2-ac23-bc3159c86a42",
+          "title": "AI解决方案创优生(J17256)",
+          "url": "https://miniso.zhiye.com/campus/detail?jobAdId=b336d5cd-5a95-45f2-ac23-bc3159c86a42",
+          "recruitment_type": "campus",
+          "minimum_education": "bachelor_or_above",
+          "locations": [
+            {
+              "code": "CN:广东省:广州市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "广东省",
+              "city": "广州市",
+              "raw": "广东省·广州市·海珠区"
+            }
+          ],
+          "direction": "algorithm_ai",
+          "requirements": "1、本科及以上学历\n计算机/人工智能/数据科学/统计学/数学/运筹学等相关专业\n2、熟练使用SQL进行数据查询与分析\n掌握Python（Pandas/NumPy等）数据处理工具\n具备扎实的统计学基础\n3、熟悉常用机器学习算法（分类、回归、聚类、推荐等）\n了解深度学习基本原理\n4、了解大模型、RAG、Agent 等AI技术的应用场景与能力边界\n能够判断AI技术在业务中的适用性\n能够使用Coze、Dify、LangChain等低代码/开源工具快速搭建AI应用Demo\n验证方案可行性\n5、具备良好的沟通协调能力和逻辑思维能力\n能够快速理解零售业务逻辑\n挖掘数据背后的业务价值",
+          "preferred": "有模型训练与调优经验者优先\n有AI Agent或RAG相关项目经验者优先\n6、有Kaggle/天池等数据竞赛获奖、AI应用Demo项目经验、AI相关论文发表或开源贡献者优先",
+          "graduation_date_window": "unknown_no_inferred_dates",
+          "official_evidence": "企业官网公开链接当前北森招聘站：https://miniso.zhiye.com/campus/jobs\n公开租户ID=109979；列表与详情 CategoryId=2；Status=1；Kind=全职；数字岗位ID=351611787。\n官方学历字段=；官方工作经验字段=；工作地点=[广东省·广州市·海珠区]。\n未按网页展示的届数推算毕业日期；未按发布或修改时间推算截止日期或笔试。\n完整官方工作职责：\n我们寻找兼具数据分析能力与AI技术落地能力的解决方案工程师——你将通过数据洞察定位业务痛点，设计融合大数据、机器学习与大模型技术的AI解决方案，并推动方案在业务中落地见效，用AI驱动零售业务的智能化升级。\n工作职责\n1、业务痛点诊断与AI解决方案设计：深入商品、运营、供应链、营销、门店等业务场景，通过数据分析挖掘业务痛点与优化机会，设计基于数据、人工智能算法的AI解决方案；\n2、方案验证与Demo搭建：利用大模型工具（如Coze、Dify、LangChain等）及Python 快速搭建原型Demo，验证AI方案的技术可行性与业务效果，为研发团队交付清晰的方案蓝图；\n3、项目推动落地：协调产品、研发、业务等多方资源，推动AI解决方案从方案设计到上线落地的全流程，跟踪业务效果并持续迭代优化；\n4、AI 技术跟踪：跟踪大模型、Agent、多模态等AI前沿技术动态，评估其在零售场景的应用价值，输出技术预研与场景建议。\n完整官方任职要求：\n1、本科及以上学历，计算机/人工智能/数据科学/统计学/数学/运筹学等相关专业；\n2、熟练使用SQL进行数据查询与分析，掌握Python（Pandas/NumPy等）数据处理工具，具备扎实的统计学基础；\n3、熟悉常用机器学习算法（分类、回归、聚类、推荐等），了解深度学习基本原理，有模型训练与调优经验者优先；\n4、了解大模型、RAG、Agent 等AI技术的应用场景与能力边界，能够判断AI技术在业务中的适用性，能够使用Coze、Dify、LangChain等低代码/开源工具快速搭建AI应用Demo，验证方案可行性；有AI Agent或RAG相关项目经验者优先；\n5、具备良好的沟通协调能力和逻辑思维能力，能够快速理解零售业务逻辑，挖掘数据背后的业务价值；\n6、有Kaggle/天池等数据竞赛获奖、AI应用Demo项目经验、AI相关论文发表或开源贡献者优先。"
+        }
+      ],
+      "collection_readiness": "two_complete_production_reads_passed_pending_database_release_acceptance",
+      "evidence": [
+        {
+          "url": "https://www.miniso.com/",
+          "final_url": "https://www.miniso.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:42.671Z",
+          "title": "MINISO",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-026-root.html",
+          "sha256": "09da18441cd26a3dd2933a51efed8395669cfd7a7b9d7b3bb62edad2889a3484"
+        },
+        {
+          "url": "https://miniso.zhiye.com/",
+          "final_url": "https://miniso.zhiye.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:16.816Z",
+          "title": "名创优品招聘官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-026-careers.html",
+          "sha256": "a51c0d20e6ad56c02a6311d215a914fe1cc8df329394650d9ac8697e321b1f43"
+        },
+        {
+          "url": "https://miniso.zhiye.com/campus/detail?jobAdId=1f528032-29cd-4384-93de-ef66e6c96a9f",
+          "final_url": "https://miniso.zhiye.com/campus/detail?jobAdId=1f528032-29cd-4384-93de-ef66e6c96a9f",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:46:52.490Z",
+          "title": "名创优品招聘官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-026-ai-fullstack.html",
+          "sha256": "a51c0d20e6ad56c02a6311d215a914fe1cc8df329394650d9ac8697e321b1f43"
+        },
+        {
+          "url": "https://miniso.cn/",
+          "final_url": "https://miniso.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:46:52.467Z",
+          "title": "名创优品MINISO - 全球领先的IP趣味好物平台",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-026-root2.html",
+          "sha256": "165c35ed74877a2698152ea1d5a9dd7a05dfb5e23a9ec40596e155191a9275aa"
+        },
+        {
+          "evidence_file": ".cache/research/bulk-20261022/consumer/miniso-go-round1.json",
+          "sha256": "ab29502610d61d52e1ce11cd53810d4b197a614a7c848829b5f75dfd04f21dd2",
+          "method": "production_ingest_ReadSource_anonymous_no_database",
+          "complete": true
+        },
+        {
+          "evidence_file": ".cache/research/bulk-20261022/consumer/miniso-go-round2.json",
+          "sha256": "acfbdc462cbe9b0ae31d914b8a9f95f97a7fcf46ba3320f592917206a92e995b",
+          "method": "production_ingest_ReadSource_anonymous_no_database",
+          "complete": true
+        }
+      ],
+      "company_code": "miniso",
+      "source_code": "miniso-campus",
+      "last_adapter_verification": "2026-10-23T16:15:31.0739997Z",
+      "source_snapshot": {
+        "fetched": 28,
+        "selected": 2,
+        "requests_per_round": 7,
+        "rounds": 2,
+        "content_sha256": "40f7b9c350c5dc1e02900d1d84619499f45e769777f37009878d39cead9aa8e7",
+        "started_at": "2026-10-23T16:09:52.5495341Z",
+        "finished_at": "2026-10-23T16:15:31.0739997Z",
+        "publication_status": "awaiting_parent_release_verification"
+      },
+      "exclusions": [
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "3e5052cb-9178-4c3e-8d9a-0eaf95fbef29",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "3bdd734a-6c98-4f45-b046-5096ebc57338",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "33194134-a08c-40e5-9467-7da558f612a4",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "83dd41db-d42a-414e-9969-cad9ac3edc86",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "5ac28b66-aa91-4f3b-bc8b-b94308a799d0",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "8cb68248-32ee-49d6-85af-80194cf79e88",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "feb0fdc4-bfd5-4e2f-90d8-2d6fbf14f486",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "da90c4ba-fd2d-4045-ac6a-cf803b2bfca2",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "30b6a65d-ce27-491f-8d27-83bb513d30fc",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "fa6786d2-1f9d-4fa7-805d-368ac4a49769",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "d2f5763a-7ee2-4d86-b4f0-ba778295bbeb",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "7fa288f1-8307-4c79-8687-0205d70bca98",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "2ffcb477-52b7-4d88-ade1-65b1caaae8cb",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "28e6f784-3773-406d-b0c0-1a11acf9cdd8",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "d4a03f96-d106-47fd-be28-4178b2eadada",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "1f818a8e-175a-497c-842b-da023cfa4b30",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "66117ada-8b49-4d1f-9291-5dff485d6a3e",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "5d88a68b-cc52-423f-b029-8885350ac1bd",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "d8d46ae1-4b5b-450d-826d-bedb5335fbc8",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "689f2c0b-06e6-4aa6-98e5-c5f2135f430a",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "46d981a3-cb51-4401-849a-36757dbc3d06",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "d1f0a99e-885c-440c-93f5-2e472e65e65d",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "355fefa0-61d2-42f6-a44d-453fef6733e3",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "884a11d9-64cb-47f4-b29f-4d38f0763b6a",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "af205ec2-5fcb-443c-972b-be9b2e5412e8",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:109979:2",
+          "ExternalID": "d37d3b2f-2a99-4449-865f-6ff6c896af2b",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-027",
+      "requested_name": "宝洁中国",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://careers.pg.com.cn/cn/zh/home"
+      ],
+      "findings": "宝洁全球及中国招聘站可访问；旧IT校招CNC002775当前搜索正文显示关闭，不能录入。新campus IT需重新核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.pgcareers.com/",
+          "final_url": "https://www.pgcareers.com/global/en",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:43.336Z",
+          "title": "Global Careers at Procter & Gamble | P&G Careers",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-027-root.html",
+          "sha256": "7afc42acfad48d1b23a9bdaba6ba01a337941efcb733ca91791351914a5de70c"
+        },
+        {
+          "url": "https://careers.pg.com.cn/cn/zh/home",
+          "final_url": "https://careers.pg.com.cn/cn/zh/home",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:17.125Z",
+          "title": "影响您不仅在宝洁的职业生涯 - 中国",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-027-careers.html",
+          "sha256": "13227f71f47dcb051b27787d7b667931b7cfd0ac333ed274ff00682324fa209b"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-028",
+      "requested_name": "联合利华",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://careers.unilever.com/"
+      ],
+      "findings": "中国主站HTTP403，未绕过；全球招聘官网可访问并指向Workday，但中国校招技术详情待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.unilever.com.cn/",
+          "final_url": "https://www.unilever.com.cn/",
+          "http_status": 403,
+          "checked_at": "2026-10-22T10:32:44.693Z",
+          "title": "Access Denied",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-028-root.html",
+          "sha256": "22b08bc535a339c72b882bce2ebc3066de913baabc42195053e6914e10656f57"
+        },
+        {
+          "url": "https://careers.unilever.com/",
+          "final_url": "https://careers.unilever.com/en",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:34.076Z",
+          "title": "Working at Unilever",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-028-careers.html",
+          "sha256": "e4c4fd9e3a82b9829c8c9d67506f88446fb808a2f2214f9e720329c9febbf9ed"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-029",
+      "requested_name": "雅诗兰黛中国",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.elcompanies.com/en/careers"
+      ],
+      "candidate_urls": [],
+      "findings": "初始/zh-CN路径404；/en/careers正常，包含Students/Technology等官方入口；中国技术实习/校招详情尚未核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.elcompanies.com/zh-CN/",
+          "final_url": "https://www.elcompanies.com/en/zh-cn",
+          "http_status": 404,
+          "checked_at": "2026-10-22T10:32:47.326Z",
+          "title": "Page Not Found – The Estée Lauder Companies Inc.",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-029-root.html",
+          "sha256": "3992ca051aed71ba70c52704c01c819ff17f294e1f9866b20f86ed4231f585b7"
+        },
+        {
+          "url": "https://www.elcompanies.com/en/careers",
+          "final_url": "https://www.elcompanies.com/en/careers",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:17.616Z",
+          "title": "Careers – The Estée Lauder Companies Inc.",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-029-careers.html",
+          "sha256": "d310ec307a6d01cb0c6fc5510e803f7280f58952d006f6ce10fd967b5773c436"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-030",
+      "requested_name": "安利中国",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.amway.com.cn/",
+        "https://www.amway.com.cn/job",
+        "https://wecruit.hotjob.cn/SU6164fa892f9d244de1513582/pb/social.html"
+      ],
+      "candidate_urls": [],
+      "findings": "官方员工招聘页面仅明确指向大易social.html；不得把社招经验不明的职位当应届可投。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.amway.com.cn/",
+          "final_url": "https://www.amway.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:47.499Z",
+          "title": "安利(中国)官方网站",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-030-root.html",
+          "sha256": "3c0f375ea4ed0e4359622aa17d0fca6952420463e3a60db166d2960f3f1e8f44"
+        },
+        {
+          "url": "https://www.amway.com.cn/job",
+          "final_url": "https://www.amway.com.cn/job",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:19.325Z",
+          "title": "员工招聘 - 安利（中国）官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-030-careers.html",
+          "sha256": "21fc940bc65c27a2d17d0a13312bb20be643e100402243b217dc2315467a652d"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-031",
+      "requested_name": "维他奶",
+      "requested_group": "快消",
+      "status": "blocked_public_access",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "候选官网返回Incapsula验证脚本，未取得正常内容；停止，不推断无岗位。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.vitasoy.com/",
+          "final_url": "https://www.vitasoy.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:48.393Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-031-root.html",
+          "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-032",
+      "requested_name": "安踏集团",
+      "requested_group": "快消",
+      "status": "blocked_network_or_certificate",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://jobs.anta.com/"
+      ],
+      "findings": "官网候选请求失败；jobs.anta.com证书吊销检查离线错误，未禁用证书验证。Moka校园入口仅发现线索，需官方链补证。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.anta.com/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:48.733Z",
+          "complete": false
+        },
+        {
+          "url": "https://jobs.anta.com/",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������\r\n",
+          "checked_at": "2026-10-22T10:37:34.639Z",
+          "complete": false
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-033",
+      "requested_name": "特步国际",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.xtep.com/xtep/join",
+        "https://xtep.zhiye.com/Campus"
+      ],
+      "candidate_urls": [],
+      "findings": "官网__NEXT_DATA__明确公布xtep.zhiye.com/Campus，但实际重定向404；待正常入口修复，不报告无岗位。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.xtep.com.cn/",
+          "final_url": "https://www.xtep.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:48.999Z",
+          "title": "特步-屡获全球跑鞋大奖",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-033-root.html",
+          "sha256": "bc585fa29c2772db703c708b01d33f51f1e4585185c67787304d5f51b962a570"
+        },
+        {
+          "url": "https://www.xtep.com/xtep/join",
+          "final_url": "https://www.xtep.com/xtep/join",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:20.048Z",
+          "title": "特步XTEP-加入我们",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-033-careers.html",
+          "sha256": "d502afc3f126e6ed706bdbd27fbd4c8fe3db1178cb2684186a9cc2899b2d4877"
+        },
+        {
+          "url": "https://xtep.zhiye.com/Campus",
+          "final_url": "https://xtep.zhiye.com/404",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:36.705Z",
+          "title": "Not Found",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-033-campus.html",
+          "sha256": "d40106ef69b2be49a65d9742942046e941d47405d752da373b8a329cf355be8e"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-034",
+      "requested_name": "361度",
+      "requested_group": "快消",
+      "status": "official_recruitment_chain_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://app.mokahr.com/recommendation-recruitment/361sport/92205"
+      ],
+      "findings": "361sport.com为海外商城，尚未验证到集团招聘授权链；高校公告Moka org361sport/site92205仅候选。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.361sport.com/",
+          "final_url": "https://361sport.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:50.254Z",
+          "title": "361® Official Store | Basketball & Running Shoes, Top Sport Brand &ndash; 361sport",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-034-root.html",
+          "sha256": "a9dbd02780b7c3b4fb3d45696860720c1d2c5b245eb40fa9f14819f585bbcbca"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-035",
+      "requested_name": "波司登",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.bosideng.com/",
+        "https://www.bosideng.com/job.html"
+      ],
+      "candidate_urls": [],
+      "findings": "官方工作机会页显示暂无数据并给二维码/邮箱；页面未证明当前计算机应届岗位。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.bosideng.com/",
+          "final_url": "https://www.bosideng.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:51.060Z",
+          "title": "波司登官网",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-035-root.html",
+          "sha256": "6c3bd63ec3b8f99827252d0b36f1a95bdbfb11ee505938227cf6bb2bdd5a4626"
+        },
+        {
+          "url": "https://www.bosideng.com/job.html",
+          "final_url": "https://www.bosideng.com/job.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:20.209Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-035-careers.html",
+          "sha256": "7dabde9e20401094daf34e0d118b933a266241b311c625d960f15cb122fa5ef2"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-036",
+      "requested_name": "海澜之家",
+      "requested_group": "快消",
+      "status": "blocked_network_or_certificate",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "候选官网请求失败；待定位集团正式招聘入口。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.hla.com/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:51.811Z",
+          "complete": false
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-037",
+      "requested_name": "森马服饰",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://www.semir.com/biz/joinus"
+      ],
+      "findings": "已获取森马官网/biz/joinus，页面为CSR外壳；校园跳转尚未解析。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.semirbiz.com/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:51.923Z",
+          "complete": false
+        },
+        {
+          "url": "https://www.semir.com/biz/joinus",
+          "final_url": "https://www.semir.com/biz/joinus",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:37.295Z",
+          "title": "森马集团 semir官方网站",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-037-root2.html",
+          "sha256": "f637f561b93d1482fc137bb857fd3f09eeaea48ec68245397fa1b2e521956095"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-038",
+      "requested_name": "周大福",
+      "requested_group": "快消",
+      "status": "blocked_network_or_certificate",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://hr.ctf.com.cn/"
+      ],
+      "findings": "候选主站请求失败；hr.ctf.com.cn出现证书吊销检查离线错误，未禁用证书验证。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.ctf.com.cn/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:52.175Z",
+          "complete": false
+        },
+        {
+          "url": "https://hr.ctf.com.cn/",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������\r\n",
+          "checked_at": "2026-10-22T10:46:52.995Z",
+          "complete": false
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-039",
+      "requested_name": "泡泡玛特",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://www.popmart.com.cn/home/joinUs",
+        "https://popmart.zhiye.com/campus"
+      ],
+      "findings": "popmart.com重定向.com.cn但返回空响应页；招聘详情待通过正常动态页面验证。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.popmart.com/",
+          "final_url": "https://www.popmart.com.cn/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:52.207Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-039-root.html",
+          "sha256": "04641f2f8f1348a1506e154828cfed9ad2ff608bd5dd18386e36fe17c0189d8c"
+        },
+        {
+          "url": "https://www.popmart.com.cn/home/joinUs",
+          "final_url": "https://www.popmart.com.cn/home/joinUs",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:37.760Z",
+          "title": null,
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-039-root2.html",
+          "sha256": "8f76316fc4010194e32eabffa3dd8634177e430d64f31d7b47dccdfe79fb3b1f"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-040",
+      "requested_name": "毛戈平",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.maogeping.com/",
+        "https://www.maogeping.com/join.html"
+      ],
+      "candidate_urls": [],
+      "findings": "官方热招职位页当前列美妆营销与彩妆岗位；未完成其他渠道技术应届岗位核实，不得下无岗位结论。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.maogeping.com/",
+          "final_url": "https://www.maogeping.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:52.401Z",
+          "title": "毛戈平化妆品股份有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-040-root.html",
+          "sha256": "12e473f5b2361f510fa83e9a30ab8261079259df04c65d3c5bfed787e90032a2"
+        },
+        {
+          "url": "https://www.maogeping.com/join.html",
+          "final_url": "https://www.maogeping.com/join.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:20.752Z",
+          "title": "招贤纳士-毛戈平化妆品股份有限公司",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-040-careers.html",
+          "sha256": "43ff442a8f40cd5182569c3ca51df2e4005d9dbaac6eec791bfa36fc11022df9"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-041",
+      "requested_name": "蜜雪冰城",
+      "requested_group": "快消",
+      "status": "production_adapter_verified_pending_release",
+      "official_chain": [
+        "https://www.mxbc.com/about.html",
+        "https://careers.mxbc.com/"
+      ],
+      "candidate_urls": [],
+      "findings": "已完成官网→careers.mxbc.com授权链。生产采集器两轮分别完整读取26条校招列表(20+6)，筛出2027届系统实施和数据开发2条技术校招；各轮8请求且内容哈希一致。信息安全J13403标题2027而正文2026，按冲突排除，保留原文待人工；产品经理沿用现有技术方向边界保留待复核。等待父任务发布验收。",
+      "verified_jobs": [
+        {
+          "external_id": "428a316e-18c0-4299-a872-c8d68ae4918e",
+          "title": "2027届校招-系统实施方向(J13399)",
+          "url": "https://careers.mxbc.com/campus/detail?jobAdId=428a316e-18c0-4299-a872-c8d68ae4918e",
+          "recruitment_type": "campus",
+          "minimum_education": "bachelor_or_above",
+          "locations": [
+            {
+              "code": "CN:河南省:郑州市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "河南省",
+              "city": "郑州市",
+              "raw": "河南省·郑州市"
+            }
+          ],
+          "direction": "operations_sre",
+          "requirements": "1、2027 届本科及以上学历\n信息管理、计算机等相关专业\n2、具备良好的业务理解能力与逻辑思维\n能快速理解职能业务流程并转化为系统方案\n3、出色的沟通表达与协调能力\n能适应跨部门协作\n4、高度团队意识\n认同蜜雪企业文化\n对饮品行业有浓厚兴趣与发展热情",
+          "preferred": "有项目实践或社团组织经验者优先",
+          "graduation_date_window": "unknown_no_inferred_dates",
+          "official_evidence": "企业官网公开链接当前北森招聘站：https://careers.mxbc.com/campus/jobs\n公开租户ID=111025；列表与详情 CategoryId=2；Status=1；Kind=全职；数字岗位ID=190861087。\n官方学历字段=；官方工作经验字段=；工作地点=[河南省·郑州市]。\n未按网页展示的届数推算毕业日期；未按发布或修改时间推算截止日期或笔试。\n完整官方工作职责：\n1、负责集团外采系统(ERP、人力资源、财务、供应链等职能提效系统)的需求对接与实施上线,完成系统配置、数据准备与功能验证;\n2、负责系统操作培训与推广落地,输出操作手册并解答用户问题,推动职能中心高效使用;\n3、负责系统运行问题跟踪与厂商协同,对接业务部门与技术团队,推动问题闭环与外采系统持续优化。\n完整官方任职要求：\n1、2027 届本科及以上学历,信息管理、计算机等相关专业;\n2、具备良好的业务理解能力与逻辑思维,能快速理解职能业务流程并转化为系统方案;\n3、出色的沟通表达与协调能力,能适应跨部门协作,有项目实践或社团组织经验者优先;\n4、高度团队意识，认同蜜雪企业文化，对饮品行业有浓厚兴趣与发展热情。"
+        },
+        {
+          "external_id": "f71f265b-9ba5-4ca5-ae7e-d88ceb0f45c6",
+          "title": "2027届校招-数据开发方向(J13402)",
+          "url": "https://careers.mxbc.com/campus/detail?jobAdId=f71f265b-9ba5-4ca5-ae7e-d88ceb0f45c6",
+          "recruitment_type": "campus",
+          "minimum_education": "bachelor_or_above",
+          "locations": [
+            {
+              "code": "CN:河南省:郑州市",
+              "kind": "domestic",
+              "country": "中国",
+              "province": "河南省",
+              "city": "郑州市",
+              "raw": "河南省·郑州市"
+            }
+          ],
+          "direction": "data",
+          "requirements": "1、2027 届本科及以上学历\n计算机、统计学、数学等相关专业\n2、扎实的 SQL 功底\n熟悉数据仓库建模理论\n了解 Hive、Spark、Flink 等大数据组件或一种主流 BI 工具\n3、数据敏感度高\n逻辑思维严谨\n具备较强的问题分析与数据可视化表达能力\n4、高度团队意识、认同蜜雪企业文化\n对饮品行业有浓厚兴趣与发展热情",
+          "preferred": "有数据类竞赛或实习经验者优先",
+          "graduation_date_window": "unknown_no_inferred_dates",
+          "official_evidence": "企业官网公开链接当前北森招聘站：https://careers.mxbc.com/campus/jobs\n公开租户ID=111025；列表与详情 CategoryId=2；Status=1；Kind=全职；数字岗位ID=190861085。\n官方学历字段=；官方工作经验字段=；工作地点=[河南省·郑州市]。\n未按网页展示的届数推算毕业日期；未按发布或修改时间推算截止日期或笔试。\n完整官方工作职责：\n1、参与企业级数据仓库建设,负责数据模型设计、ETL 开发与数据质量保障,覆盖从数据接入到服务输出的全链路;\n2、负责经营分析类 BI 报表与看板的开发维护,承接业务部门数据需求,输出高质量数据分析结果;\n3、参与数据治理体系建设,推动数据标准、数据口径统一与数据资产沉淀。\n完整官方任职要求：\n1、2027 届本科及以上学历,计算机、统计学、数学等相关专业;\n2、扎实的 SQL 功底,熟悉数据仓库建模理论,了解 Hive、Spark、Flink 等大数据组件或一种主流 BI 工具;\n3、数据敏感度高,逻辑思维严谨,具备较强的问题分析与数据可视化表达能力,有数据类竞赛或实习经验者优先;\n4、高度团队意识、认同蜜雪企业文化，对饮品行业有浓厚兴趣与发展热情。"
+        }
+      ],
+      "collection_readiness": "two_complete_production_reads_passed_pending_database_release_acceptance",
+      "evidence": [
+        {
+          "url": "https://www.mxbc.com/",
+          "final_url": "https://www.mxbc.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:53.747Z",
+          "title": "蜜雪冰城-始于1997 冰淇淋与茶",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-041-root.html",
+          "sha256": "11fcaee0206dddddc44cae92a59c1f2e48c15330e2255cb2e8b0f98f612dffbe"
+        },
+        {
+          "url": "https://www.mxbc.com/about.html",
+          "final_url": "https://www.mxbc.com/about.html",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:20.958Z",
+          "title": "蜜雪冰城-关于蜜雪",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-041-careers.html",
+          "sha256": "c4d57549a14c2b086a6c105511ff1587d3150c4fb60ffc54462c9e736eb85c37"
+        },
+        {
+          "url": "https://careers.mxbc.com/",
+          "final_url": "https://careers.mxbc.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:38.206Z",
+          "title": "蜜雪冰城招聘",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-041-campus.html",
+          "sha256": "91d648a4cde012a9b44e626fe8592351cf660cfb02352a3d36ba6a7f1424ab48"
+        },
+        {
+          "url": "https://careers.mxbc.com/campus/jobs?queryId=6a04c73f-006c-4a32-9c44-8adbcefc7e47",
+          "final_url": "https://careers.mxbc.com/campus/jobs?queryId=6a04c73f-006c-4a32-9c44-8adbcefc7e47",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:46:52.506Z",
+          "title": "蜜雪冰城招聘",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-041-campus-list.html",
+          "sha256": "91d648a4cde012a9b44e626fe8592351cf660cfb02352a3d36ba6a7f1424ab48"
+        },
+        {
+          "evidence_file": ".cache/research/bulk-20261022/consumer/mxbc-go-round1.json",
+          "sha256": "9f7b508e07f05086738c893e2c7d150257684b34d95e46df0d337866652b1a70",
+          "method": "production_ingest_ReadSource_anonymous_no_database",
+          "complete": true
+        },
+        {
+          "evidence_file": ".cache/research/bulk-20261022/consumer/mxbc-go-round2.json",
+          "sha256": "e7b877ab1d3a3db6ee6c217e2f3c06b1de4b97a236b34d6ce52af60a5003987e",
+          "method": "production_ingest_ReadSource_anonymous_no_database",
+          "complete": true
+        }
+      ],
+      "company_code": "mxbc",
+      "source_code": "mxbc-campus",
+      "last_adapter_verification": "2026-10-23T16:15:35.8951488Z",
+      "source_snapshot": {
+        "fetched": 26,
+        "selected": 2,
+        "requests_per_round": 8,
+        "rounds": 2,
+        "content_sha256": "3a2a671f12f8b0655530447d6157da891b5ef90cc275e3cb574ed4b7691c9596",
+        "started_at": "2026-10-23T16:09:53.2189956Z",
+        "finished_at": "2026-10-23T16:15:35.8951488Z",
+        "publication_status": "awaiting_parent_release_verification"
+      },
+      "exclusions": [
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "c689b043-5e22-4527-a451-28211c2f0926",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "7ed69099-ee29-487e-9968-f4665b2610f0",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "369cba96-d7eb-4379-934a-d8ca2d318ee1",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "731a26fa-7f64-417b-898f-ab8d17c56e19",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "6f3d8ede-6aa2-49a5-bc44-1fbd01183914",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "521a532f-379b-43a3-b0c3-d32fb35a1d0a",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "60148cbe-d12c-407d-b7d3-2cec5e41caa1",
+          "Reason": "标题与任职要求的毕业届数冲突，保留原文待人工核验"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "9958fcbf-6ee4-4217-829b-37142ea7b240",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "12178050-5215-43e3-9500-87554a9b8b8f",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "53560e00-a707-4209-9108-fe1cd7a7518d",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "e9cbde3f-5b10-40c2-b4be-85a3949cc55c",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "f9143543-a02f-45cf-9d88-9d12877dc01f",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "56856b84-0b12-44e7-bedb-dc68d83d2ac9",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "3e05ece9-db1a-4d41-a898-521de27aaf0d",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "2afc87c6-e74a-4aff-8e7a-bad4b3a77e8e",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "978f028c-0e3f-45e7-84d4-6370c8d67e6e",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "db7f58a9-158e-4971-a971-ff005ef24141",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "b0a054e9-dc75-489b-8788-21003842286c",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "c4f1ceb9-d002-4339-a19c-45486c662a0a",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "24b7ff03-6a9c-4b07-b747-8f5dc77f9689",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "eef25552-78db-41db-a749-6689ba69015f",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "146ce5b1-dbc5-4406-b232-650561507d9e",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "5b38dc06-8dc8-4d64-ba63-6a4c3a95e052",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        },
+        {
+          "CampaignKey": "beisen:111025:2",
+          "ExternalID": "c1a4ecbc-ff7d-40c3-ab0b-0b0a226a5dc9",
+          "Reason": "岗位职责未确认属于计算机技术方向，保留待复核"
+        }
+      ],
+      "rejected_detail_evidence": [
+        {
+          "external_id": "60148cbe-d12c-407d-b7d3-2cec5e41caa1",
+          "title": "2027届校招-信息安全方向(J13403)",
+          "original_requirements": "1、2026届本科及以上学历，信息安全相关专业；\n2、思维活跃，具备较强的学习能力和抗压能力，乐于接受挑战；\n3、出色的沟通表达与协调能力，具备相关实践经验者优先；\n4、高度团队意识，认同蜜雪企业文化，对饮品行业有浓厚兴趣与发展热情。",
+          "reason": "岗位标题2027届与正文2026届冲突；不改写任何一方",
+          "url": "https://careers.mxbc.com/campus/detail?jobAdId=60148cbe-d12c-407d-b7d3-2cec5e41caa1"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-042",
+      "requested_name": "霸王茶姬",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.chagee.com/zh-cn",
+        "https://jobs.chagee.com/"
+      ],
+      "candidate_urls": [],
+      "findings": "官方飞书社招index及子campus站配置已读取；Chrome首次index连接关闭，未绕过；campus原始title为实习招聘，需按实际process_type及岗位详情区分。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.chagee.com/",
+          "final_url": "https://www.chagee.com/zh-cn",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:54.337Z",
+          "title": "霸王茶姬官网-首页",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-042-root.html",
+          "sha256": "ba446d5e62ad40ea365094c0af997ab7b2abce25886eb08e5a94c3edb3b7415f"
+        },
+        {
+          "url": "https://jobs.chagee.com/",
+          "final_url": "https://jobs.chagee.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:21.747Z",
+          "title": "欢迎加入霸王茶姬",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-042-careers.html",
+          "sha256": "589bf0af4b3b2cbc2673d84a5b46e1a5cb03f3650ff53e4558072a54d5f03d02"
+        },
+        {
+          "url": "https://jobs.chagee.com/campus",
+          "final_url": "https://jobs.chagee.com/campus",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:40:17.982Z",
+          "title": "霸王茶姬-实习招聘",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-042-campus.html",
+          "sha256": "53946349a7b8ced1f110bf1db0a2949797d203f6ad2d0e768c599952fe4d0207"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-043",
+      "requested_name": "瑞幸集团",
+      "requested_group": "快消",
+      "status": "blocked_network_or_certificate",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://www.lkcoffee.com/"
+      ],
+      "findings": "候选官网请求失败；搜索发现公司隐私政策确认使用Moka但尚未取得官方招聘org/site或技术详情。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.lkcoffee.com/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:54.698Z",
+          "complete": false
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-044",
+      "requested_name": "喜茶",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://heytea.zhiye.com/"
+      ],
+      "findings": "喜茶北森站可访问；官网首轮请求失败，招聘授权链及计算机应届详情尚待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.heytea.com/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:32:56.787Z",
+          "complete": false
+        },
+        {
+          "url": "https://heytea.zhiye.com/",
+          "final_url": "https://heytea.zhiye.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:38.278Z",
+          "title": "喜茶",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-044-careers.html",
+          "sha256": "b2d47aec44b81dadb3a21c743e8a5d79b9cf344fe8441ec211b659ccceecae0b"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-045",
+      "requested_name": "元气森林",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.yuanqisenlin.com/",
+        "https://k11pnjpvz1.jobs.feishu.cn/index"
+      ],
+      "candidate_urls": [],
+      "findings": "官方飞书index及352020/126537子站可读配置；搜索结果ITBP不能替代应届资格详情。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.yuanqisenlin.com/",
+          "final_url": "https://www.yuanqisenlin.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:32:57.709Z",
+          "title": "用好产品爱这个世界",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-045-root.html",
+          "sha256": "2c64fea1e0bdd06ab50b4f34afc293800f9a93a6957050033416d102f22a2b62"
+        },
+        {
+          "url": "https://k11pnjpvz1.jobs.feishu.cn/index",
+          "final_url": "https://k11pnjpvz1.jobs.feishu.cn/index",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:22.203Z",
+          "title": "加入元气森林",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-045-careers.html",
+          "sha256": "1a355f0b1cf42318a142a6987ac5317a1c47e2c84251a016deea84f4f66d17e6"
+        },
+        {
+          "url": "https://k11pnjpvz1.jobs.feishu.cn/126537",
+          "final_url": "https://k11pnjpvz1.jobs.feishu.cn/126537",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:40:18.649Z",
+          "title": "加入元气森林",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-045-internships.html",
+          "sha256": "4b9fafb1373fb13495d3ad7b3e5ab9fe9d161557a2cd6f4de2243432b5036bea"
+        },
+        {
+          "url": "https://k11pnjpvz1.jobs.feishu.cn/352020",
+          "final_url": "https://k11pnjpvz1.jobs.feishu.cn/352020",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:40:18.522Z",
+          "title": "加入元气森林",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-045-campus.html",
+          "sha256": "24bf7e7763bcdb6190b6cb9fe1099d11be5026db96e362aab831957769fd0cbf"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-046",
+      "requested_name": "东鹏饮料",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [],
+      "findings": "已核实东鹏官方主站；初轮未找到招聘入口，需继续官方导航/公告。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.szeastroc.com/",
+          "final_url": "https://www.szeastroc.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:33:05.104Z",
+          "title": "民族饮料企业-东鹏饮料",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-046-root.html",
+          "sha256": "2a94b53cebccbc6df6bd21414c877ec5232ffa1fd285f985221e61db4c38ad24"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-047",
+      "requested_name": "亿滋国际",
+      "requested_group": "快消",
+      "status": "official_homepage_checked_recruitment_pending",
+      "official_chain": [],
+      "candidate_urls": [
+        "https://www.mondelezinternational.com/careers/chinese/"
+      ],
+      "findings": "原企业/China路径请求失败；官方careers/chinese下载中断，仅保留候选，不计完整成功。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.mondelezinternational.com/China/",
+          "final_url": null,
+          "http_status": null,
+          "checked_at": "2026-10-22T10:33:05.908Z",
+          "title": null,
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "complete": false,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-047-root.html",
+          "sha256": "5f5a09291103c7f055e6eef65b1edde0c2ba6cbe75024bd2175ce3c2d01d87e5"
+        },
+        {
+          "url": "https://www.mondelezinternational.com/careers/chinese/",
+          "final_url": null,
+          "http_status": null,
+          "checked_at": "2026-10-22T10:46:53.120Z",
+          "title": null,
+          "error": "curl: (28) Operation timed out after 25007 milliseconds with 420195 out of 947393 bytes received\r\n",
+          "complete": false,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-047-careers.html",
+          "sha256": "432051bf459d709442169b88222fe50d4e2b782f25fd74104971f174d27e4e36"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-048",
+      "requested_name": "百威中国",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.budweiserapac.com/",
+        "https://www.budweiserapac.com/careers/GMTP/",
+        "https://app.mokahr.com/social-recruitment/budweiser/148096"
+      ],
+      "candidate_urls": [],
+      "findings": "官网链接Moka budweiser/148096(社招)和Workday abinbev/CHN。前者无匿名cookie首次出现重定向循环；未完成岗位列表，不将GMT商业管培认定技术。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.budweiserapac.com/",
+          "final_url": "https://www.budweiserapac.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:33:06.748Z",
+          "title": "Budweiser APAC",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-048-root.html",
+          "sha256": "555bf3abd57f185a26a2b000acdea571abfdd3067b3324404c4bd413e3c5eb36"
+        },
+        {
+          "url": "https://www.budweiserapac.com/careers/GMTP/",
+          "final_url": "https://www.budweiserapac.com/careers/GMTP/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:22.828Z",
+          "title": "Budweiser APAC",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-048-careers.html",
+          "sha256": "657c729e3a5851c0ef477f6b352570577bb89c5704fe8fbab8eb15747f0093b1"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-049",
+      "requested_name": "玛氏",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.mars.com/zh-cn",
+        "https://careers.mars.com/cn/zh"
+      ],
+      "candidate_urls": [],
+      "findings": "官方主站→careers.mars.com/cn/zh已确认；当前门户内容未完成中国计算机早期职业筛选。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.mars.com/zh/",
+          "error": "Command failed: curl.exe -L --max-redirs 5 --connect-timeout 10 --max-time 25 --silent --show-error --output D:\\Users\\zcn20\\Documents\\ChatGPT\\%E6%B1%82%E8%81%8C%E5%8A%A9%E6%89%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%89%88\\.cache\\research\\b",
+          "checked_at": "2026-10-22T10:33:08.206Z",
+          "complete": false
+        },
+        {
+          "url": "https://www.mars.com/zh-cn",
+          "final_url": "https://www.mars.com/zh-cn",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:37:38.772Z",
+          "title": "全球宠物护理、食品与营养以及零食品牌 | 玛氏中国",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-049-root2.html",
+          "sha256": "74d26928aa7392c52f309b7797966dfb76ca4ec83e2fb515c79e57de1d9736d7"
+        },
+        {
+          "url": "https://careers.mars.com/cn/zh",
+          "final_url": "https://careers.mars.com/cn/zh",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:46:56.099Z",
+          "title": "Careers at Mars | Mars job opportunities",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-049-careers.html",
+          "sha256": "4e3b3a5be18ada5eaec55ef4127f467c3169ba360f01844f247200b1c9b60bb3"
+        }
+      ]
+    },
+    {
+      "target_id": "consumer-050",
+      "requested_name": "卫龙",
+      "requested_group": "快消",
+      "status": "official_recruitment_verified_detail_pending",
+      "official_chain": [
+        "https://www.weilongshipin.com/",
+        "https://weilongmeiwei.jobs.feishu.cn/439244"
+      ],
+      "candidate_urls": [],
+      "findings": "已核实官方公开招聘入口；当前技术校招/实习详情及完整分页待核实。",
+      "verified_jobs": [],
+      "collection_readiness": "not_ready_full_snapshot_contract_unverified",
+      "evidence": [
+        {
+          "url": "https://www.weilongshipin.com/",
+          "final_url": "https://www.weilongshipin.com/",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:33:18.275Z",
+          "title": "卫龙丨奉献美味健康 分享乐爽时光",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-050-root.html",
+          "sha256": "94029efee398b94bf2f79438a503cf1bb127ee6a03daefc9c4595b41e4860677"
+        },
+        {
+          "url": "https://weilongmeiwei.jobs.feishu.cn/439244",
+          "final_url": "https://weilongmeiwei.jobs.feishu.cn/439244",
+          "http_status": 200,
+          "checked_at": "2026-10-22T10:35:24.624Z",
+          "title": "加入卫龙美味",
+          "error": null,
+          "complete": true,
+          "evidence_file": ".cache/research/bulk-20261022/consumer/consumer-050-careers.html",
+          "sha256": "309c2c3108cfffc409645ba8e6f1b559dfa852f3c03954f3eacf6a116bd34448"
+        }
+      ]
+    }
+  ],
+  "adapter_verified_company_count": 2,
+  "rejected_checked_details": 1,
+  "verification_scope": {
+    "status": "passed",
+    "go_test": "go test ./internal/ingest -run ^TestBeisen -v -count=1 -timeout=90s",
+    "duration_seconds": 18.448,
+    "go_vet": "go vet ./internal/ingest exit 0",
+    "gofmt": "four beisen Go files: gofmt -d produced no output",
+    "test_log": ".cache/research/bulk-20261022/consumer/beisen-final-tests.log",
+    "pure_regression_log": ".cache/research/bulk-20261022/consumer/beisen-audit-fix-pure-tests.log",
+    "red_green_regressions": [
+      "stable complete snapshot reordered without content changes",
+      "invalid numeric JobAdId",
+      "short structured master degree enforcing bachelor rejection",
+      "project experience is distinct from employment",
+      "section-level bonus employment/degree/major remain preferences",
+      "zero-to-one employment range has minimum zero",
+      "one-year employment produces the deterministic matcher phrase"
+    ],
+    "real_fixture_hashes_recomputed_unchanged": true,
+    "normalizer_review_after_network_rounds": true,
+    "database_and_runtime": "parent-owned acceptance; this research task did not run database or deployment checks",
+    "sources": [
+      {
+        "source_code": "miniso-campus",
+        "company_code": "miniso",
+        "official_chain": [
+          "https://miniso.cn/",
+          "https://miniso.zhiye.com/"
+        ],
+        "full_list_route": "/api/Jobad/GetJobAdPageList",
+        "detail_route": "/api/JobAd/GetJobAdInfo",
+        "category": "2",
+        "page_size": 20,
+        "fetched": 28,
+        "selected": 2,
+        "requests_per_round": 7,
+        "content_sha256": "40f7b9c350c5dc1e02900d1d84619499f45e769777f37009878d39cead9aa8e7",
+        "rounds": [
+          ".cache/research/bulk-20261022/consumer/miniso-go-round1.json",
+          ".cache/research/bulk-20261022/consumer/miniso-go-round2.json"
+        ]
+      },
+      {
+        "source_code": "mxbc-campus",
+        "company_code": "mxbc",
+        "official_chain": [
+          "https://www.mxbc.com/about.html",
+          "https://careers.mxbc.com/"
+        ],
+        "full_list_route": "/api/Jobad/GetJobAdPageList",
+        "detail_route": "/api/JobAd/GetJobAdInfo",
+        "category": "2",
+        "page_size": 20,
+        "fetched": 26,
+        "selected": 2,
+        "requests_per_round": 8,
+        "content_sha256": "3a2a671f12f8b0655530447d6157da891b5ef90cc275e3cb574ed4b7691c9596",
+        "rounds": [
+          ".cache/research/bulk-20261022/consumer/mxbc-go-round1.json",
+          ".cache/research/bulk-20261022/consumer/mxbc-go-round2.json"
+        ]
+      }
+    ]
+  },
+  "ledger_updated_at": "2026-10-23T18:29:01.517Z",
+  "verification_dates_are_per_evidence_entry": true
+}

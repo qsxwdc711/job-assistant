@@ -1,0 +1,228 @@
+# 219 家目标企业覆盖对账
+
+对账时间：2026-10-23T18:55:00.964Z；数据库快照：尚未取得，不宣称已发布。
+
+岗位范围：计算机技术校招、实习，以及明确接受应届或最低工作经验不超过一年的岗位。
+用户原分组保留作为查找类别，不据此设置企业性质或规模。待核验、网络问题与访问受限均不表示没有岗位。
+
+| 原分组 | 企业 | 状态 | 已发布岗位 | 来源 |
+|---|---|---|---:|---|
+| 汽车 ／ 新能源 | 特斯拉 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/social-recruitment/tesla/46129) |
+| 汽车 ／ 新能源 | 上汽集团 | 岗位或资格待核验 | 待对账 | [官方入口](https://saic-recruit.saicmotor.com/) |
+| 汽车 ／ 新能源 | 长安汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://changan.zhiye.com/) |
+| 汽车 ／ 新能源 | 奇瑞汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://chery.zhiye.com/) |
+| 汽车 ／ 新能源 | 赛力斯 | 岗位或资格待核验 | 待对账 | [官方入口](https://sokon.zhiye.com/) |
+| 汽车 ／ 新能源 | 北汽集团 | 岗位或资格待核验 | 待对账 | [官方入口](https://baicgroup.zhiye.com/) |
+| 汽车 ／ 新能源 | 广汽埃安 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.aion.com.cn/show/join) |
+| 汽车 ／ 新能源 | 极氪 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.zeekrgroup.com/join-us) |
+| 汽车 ／ 新能源 | 零跑汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://leapmotor.zhiye.com/) |
+| 汽车 ／ 新能源 | 岚图汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/voyah/146293) |
+| 汽车 ／ 新能源 | 深蓝汽车 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 汽车 ／ 新能源 | 阿维塔 | 岗位或资格待核验 | 待对账 | [官方入口](https://xcn5vbnquq58.jobs.feishu.cn/index) |
+| 汽车 ／ 新能源 | 智己汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.immotors.com/website/join_us) |
+| 汽车 ／ 新能源 | 小米汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://hr.xiaomi.com/website/campus.html) |
+| 汽车 ／ 新能源 | 华为车BU | 岗位或资格待核验 | 待对账 | [官方入口](https://career.huawei.com/) |
+| 汽车 ／ 新能源 | 地平线 | 访问受限 | 待对账 | [官方入口](https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/school.html) |
+| 汽车 ／ 新能源 | Momenta | 岗位或资格待核验 | 待对账 | [官方入口](https://momenta.jobs.feishu.cn/intern) |
+| 汽车 ／ 新能源 | 小马智行 | 岗位或资格待核验 | 待对账 | [官方入口](https://ponyai.jobs.feishu.cn/ponycampus) |
+| 汽车 ／ 新能源 | 文远知行 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus_apply/jingchi/2137) |
+| 汽车 ／ 新能源 | 元戎启行 | 岗位或资格待核验 | 待对账 | [官方入口](https://campus.deeproute.cn/) |
+| 汽车 ／ 新能源 | 速腾聚创 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.robosense.cn/en/about/campus) |
+| 汽车 ／ 新能源 | 禾赛科技 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.hesaitech.com/careers/) |
+| 汽车 ／ 新能源 | 宁德时代 | 岗位或资格待核验 | 待对账 | [官方入口](https://talent.catl.com/social-recruitment/catlhr/96144/) |
+| 汽车 ／ 新能源 | 比亚迪 | 岗位或资格待核验 | 待对账 | [官方入口](https://job.byd.com/portal/mobile/school-home) |
+| 汽车 ／ 新能源 | 蔚来 | 岗位或资格待核验 | 待对账 | [官方入口](https://campus.nio.com/) |
+| 汽车 ／ 新能源 | 理想汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.lixiang.com/employ.html) |
+| 汽车 ／ 新能源 | 小鹏汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://campus.xiaopeng.com/) |
+| 汽车 ／ 新能源 | 中创新航 | 岗位或资格待核验 | 待对账 | [官方入口](https://calbjs.zhiye.com/campus/jobs) |
+| 汽车 ／ 新能源 | 欣旺达 | 岗位或资格待核验 | 待对账 | [官方入口](https://sunwoda.zhiye.com/) |
+| 汽车 ／ 新能源 | 国轩高科 | 岗位或资格待核验 | 待对账 | [官方入口](https://gotion.zhiye.com/campus) |
+| 汽车 ／ 新能源 | 亿纬锂能 | 访问受限 | 待对账 | [官方入口](https://wecruit.hotjob.cn/SU630487ca0dcad45aa7768a79/pb/school.html) |
+| 汽车 ／ 新能源 | 楚能新能源 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.cornexbattery.com/Index/join_us.html) |
+| 汽车 ／ 新能源 | 恩捷股份 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.semcorp.com/about/join-us/recruitment-position/campus-recruitment) |
+| 汽车 ／ 新能源 | 璞泰来 | 岗位或资格待核验 | 待对账 | [官方入口](http://hrzp.putailai.com:26220/index) |
+| 汽车 ／ 新能源 | 通威股份 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.tongwei.com/index.php/recruit.html) |
+| 汽车 ／ 新能源 | 隆基绿能 | 访问受限 | 待对账 | [官方入口](https://longi.hotjob.cn/) |
+| 汽车 ／ 新能源 | 阳光电源 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/sungrow/94416) |
+| 汽车 ／ 新能源 | TCL中环 | 岗位或资格待核验 | 待对账 | [官方入口](https://zhaopin.tcl.com/campus) |
+| 汽车 ／ 新能源 | 晶科能源 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.jinkosolar.com/site/brand) |
+| 汽车 ／ 新能源 | 正泰新能源 | 岗位或资格待核验 | 待对账 | [官方入口](https://energy.chint.com/index/) |
+| 中小厂 | 宇树科技 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.unitree.com/cn/position/) |
+| 中小厂 | 智元机器人 | 岗位或资格待核验 | 待对账 | [官方入口](https://agirobot.jobs.feishu.cn/campusrecruitment) |
+| 中小厂 | 云深处 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.deeprobotics.cn/join_us.html) |
+| 中小厂 | 银河通用 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/social-recruitment/yinhetongyong/165929) |
+| 中小厂 | 云鲸智能 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 追觅科技 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 拓竹科技 | 岗位或资格待核验 | 待对账 | [官方入口](https://bambulab.jobs.feishu.cn/campus) |
+| 中小厂 | 正浩创新 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.ecoflow.com/index) |
+| 中小厂 | 石头科技 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 九号公司 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 影石创新 | 岗位或资格待核验 | 待对账 | [官方入口](https://arashivision.jobs.feishu.cn/campus) |
+| 中小厂 | 韶音科技 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/aftershokzhr/36940) |
+| 中小厂 | 安克创新 | 岗位或资格待核验 | 待对账 | [官方入口](https://career.anker.com.cn/) |
+| 中小厂 | 大疆创新 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 中控技术 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.supcon.com/join) |
+| 中小厂 | 奥比中光 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 埃斯顿 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 中小厂 | 立镖机器人 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 月之暗面 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.kimi.com/) |
+| 中小厂 | 智谱AI | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 百川智能 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 阶跃星辰 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | MiniMax | 岗位或资格待核验 | 待对账 | [官方入口](https://www.minimax.cn/careers) |
+| 中小厂 | 面壁智能 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 中小厂 | 无问芯穹 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 中小厂 | 硅基流动 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 生数科技 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 中小厂 | 寒武纪 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/cambricon/44201) |
+| 中小厂 | 旷视科技 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 中小厂 | 商汤科技 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.sensetime.com/cn/partner/#recruit) |
+| 中小厂 | 第四范式 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/social-recruitment/4paradigm/102013#/) |
+| 中小厂 | 优必选 | 岗位或资格待核验 | 待对账 | [官方入口](https://ubtrobot.zhiye.com/) |
+| 中小厂 | 傅利叶智能 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 中小厂 | 极米科技 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 国企 | 中国建筑集团 | 岗位或资格待核验 | 待对账 | [官方入口](https://recruit.cscec.com/recruit#/) |
+| 国企 | 中国邮政 | 岗位或资格待核验 | 待对账 | [官方入口](https://chinapost2027.zhaopin.com) |
+| 国企 | 中国航发 | 岗位或资格待核验 | 待对账 | [官方入口](https://aecc.iguopin.com/) |
+| 国企 | 国家电网 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 南方电网 | 岗位或资格待核验 | 待对账 | [官方入口](https://zhaopin.csg.cn/) |
+| 国企 | 中国石油 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 中国石化 | 岗位或资格待核验 | 待对账 | [官方入口](https://job.sinopec.com/) |
+| 国企 | 中国海油 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 中国核工业集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 国家能源集团 | 岗位或资格待核验 | 待对账 | [官方入口](https://zhaopin.chnenergy.com.cn/) |
+| 国企 | 中国大唐 | 岗位或资格待核验 | 待对账 | [官方入口](https://zhaopin.china-cdt.com/zpgg_xyzp.html) |
+| 国企 | 中国华能 | 岗位或资格待核验 | 待对账 | [官方入口](http://zhaopin.chng.com.cn/) |
+| 国企 | 国家电投 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 三峡集团 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.zhipin.com/dz/sxjt) |
+| 国企 | 中国宝武 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 中国五矿 | 岗位或资格待核验 | 待对账 | [官方入口](https://zhaopin.minmetals.com.cn/) |
+| 国企 | 中国中交 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 中国铁建 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 中国电建 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.powerchina.cn/djwq/rczp/index.html) |
+| 国企 | 中国中车 | 岗位或资格待核验 | 待对账 | [官方入口](https://crrc.hotjob.cn/) |
+| 国企 | 中国移动 | 岗位或资格待核验 | 待对账 | [官方入口](https://job.10086.cn/) |
+| 国企 | 中国电信 | 岗位或资格待核验 | 待对账 | [官方入口](https://job.chinatelecom.com.cn/wt/TELE/web/index#/) |
+| 国企 | 中国联通 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 国企 | 招商局集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 米哈游 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 腾讯天美T1工作室 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 网易游戏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 哔哩哔哩游戏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 朝夕光年 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 快手游戏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 沐瞳科技 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 游戏 | 莉莉丝 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 叠纸游戏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 心动网络 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 鹰角网络 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 库洛游戏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 散爆网络 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 蛮啾网络 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 悠星网络 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 灵犀互娱 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 吉比特 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 创梦天地 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 友谊时光 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 英雄游戏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 紫龙游戏 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.zlongame.com/html/contact.html) |
+| 游戏 | 青瓷游戏 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus_apply/qingcishuma/41126) |
+| 游戏 | 掌趣科技 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/ourpalm/43628) |
+| 游戏 | 中手游 | 岗位或资格待核验 | 待对账 | [官方入口](https://hr.cmge.com/) |
+| 游戏 | 波克城市 | 岗位或资格待核验 | 待对账 | [官方入口](https://boke.jobs.feishu.cn/581609) |
+| 游戏 | 巨人网络 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/ztgame/92438) |
+| 游戏 | 世纪华通 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/digiloong/126358) |
+| 游戏 | 西山居 | 岗位或资格待核验 | 待对账 | [官方入口](https://job.seasungames.cn/) |
+| 游戏 | 电魂网络 | 访问受限 | 待对账 | 入口待核验 |
+| 游戏 | 恺英网络 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus_apply/kingnet/2246) |
+| 游戏 | 多益网络 | 岗位或资格待核验 | 待对账 | [官方入口](https://xz.duoyi.com/) |
+| 游戏 | 乐元素 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 游戏 | 柠檬微趣 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.microfun.com/) |
+| 游戏 | 盛趣游戏 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus_apply/shengqu/4078) |
+| 游戏 | 完美世界 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.games.wanmei.com/) |
+| 游戏 | FunPlus | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/funplus01/147931) |
+| 游戏 | TapTap | 岗位或资格待核验 | 待对账 | [官方入口](https://hr.xd.cn/campus#/) |
+| 游戏 | 三七互娱 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/37/58016) |
+| 快消 | 伊利集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 蒙牛集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 飞鹤乳业 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 达能中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 百事中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 统一企业中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 青岛啤酒 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 快消 | 海天味业 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 快消 | 安琪酵母 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 双汇发展 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 金龙鱼 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 珀莱雅 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 华熙生物 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 贝泰妮 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 蓝月亮 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 恒安集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 农夫山泉 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 康师傅 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 旺旺集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 三只松鼠 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 洽洽食品 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 妙可蓝多 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 君乐宝 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 涪陵榨菜 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 立白集团 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 名创优品 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 宝洁中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 联合利华 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 雅诗兰黛中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 安利中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 维他奶 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 安踏集团 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 快消 | 特步国际 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 361度 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 波司登 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 海澜之家 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 快消 | 森马服饰 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 周大福 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 快消 | 泡泡玛特 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 毛戈平 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 蜜雪冰城 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 霸王茶姬 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 瑞幸集团 | 网络或证书待复验 | 待对账 | 入口待核验 |
+| 快消 | 喜茶 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 元气森林 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 东鹏饮料 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 亿滋国际 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 百威中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 玛氏 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 快消 | 卫龙 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 西门子 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.siemens.com.cn/siemens/position/index?recruitmentType=CAMPUSRECRUITMENT&ds=2027fall_website) |
+| 外企 | 汇丰中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://portal.careers.hsbc.com/careers) |
+| 外企 | 渣打中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=early_careers&utm_source=careersite) |
+| 外企 | 花旗中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.citi.com/) |
+| 外企 | 普华永道 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 德勤中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.deloitte.com/cn/zh/cn-careers/students.html) |
+| 外企 | 安永 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.ey.com.cn/campus-recruitment/ey/166374?locale=zh-CN/) |
+| 外企 | 毕马威 | 岗位或资格待核验 | 待对账 | [官方入口](https://kpmg.com/cn/zh/careers/campus.html) |
+| 外企 | 埃森哲 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.accenture.com/cn-zh/careers) |
+| 外企 | 凯捷 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.capgemini.com/careers/) |
+| 外企 | 强生中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 辉瑞中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 诺华中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.novartis.com/careers) |
+| 外企 | 赛诺菲 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.sanofi.cn) |
+| 外企 | 阿斯利康 | 岗位或资格待核验 | 待对账 | [官方入口](https://job-search.astrazeneca.cn) |
+| 外企 | 罗氏制药 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.roche.com/global/en) |
+| 外企 | 拜耳中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 英特尔中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 英伟达 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.nvidia.com/careers) |
+| 外企 | 高通中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.qualcomm.com/careers) |
+| 外企 | 德州仪器 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.ti.com/en/sites/CX) |
+| 外企 | 微软中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.microsoft.com/v2/global/en/home.html) |
+| 外企 | 亚马逊中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.amazon.jobs/) |
+| 外企 | 施耐德电气 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | ABB中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.abb/global/en) |
+| 外企 | 巴斯夫 | 岗位或资格待核验 | 待对账 | [官方入口](https://basf.jobs/search?locale=en_US&skillsSearch=false&markerViewed=&carouselIndex=&facetFilters=%7B%22jobLocationCountry%22%3A%5B%22China%22%5D%7D&pageNumber=0) |
+| 外企 | 雀巢 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 博世 | 岗位或资格待核验 | 待对账 | [官方入口](https://app.mokahr.com/campus-recruitment/bosch/168626?locale=zh-CN#/) |
+| 外企 | 麦当劳中国 | 岗位或资格待核验 | 待对账 | 入口待核验 |
+| 外企 | 星巴克中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://www.starbucks.com.cn/about/careers/) |
+| 外企 | 宜家中国 | 岗位或资格待核验 | 待对账 | [官方入口](https://jobs.ikeachina.cn/) |
+| 外企 | 大众汽车 | 岗位或资格待核验 | 待对账 | [官方入口](https://volkswagengroupchina.jobs2web.sapsf.cn/?locale=zh_CN) |
+| 外企 | 欧莱雅 | 岗位或资格待核验 | 待对账 | [官方入口](https://careers.loreal.com/en) |

@@ -1,0 +1,2262 @@
+{
+  "requested_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "research_owner": "state_foreign_sources_20261022",
+  "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+  "total_targets": 57,
+  "group_counts": {
+    "国企": 24,
+    "外企": 33
+  },
+  "status_counts": {
+    "verified_career_entry": 34,
+    "blocked_access": 13,
+    "official_site_only": 3,
+    "blocked_career_entry": 1,
+    "pending_recruitment_entry": 2,
+    "verified_public_job_samples": 3,
+    "pending_current_job_verification": 1
+  },
+  "ingestion_status": "research_only_no_database_writes",
+  "method": "anonymous_public_official_pages_and_authorized_ATS_read_only",
+  "limitations": [
+    "核验入口不等于全部岗位已录入。仅3家公司有本轮已核验技术岗位详情样本。",
+    "未使用个人账号，不操作用户标签页，不进行简历或申请提交；遇挑战不绕过。",
+    "全球招聘站未核实China地域及初阶资格的岗位一律不视为可投。",
+    "源总数含非技术/社会招聘，不等于本项目可发布岗位数。"
+  ],
+  "companies": [
+    {
+      "target_id": "state_owned-001",
+      "requested_name": "中国建筑集团",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.cscec.com/",
+      "career_entry_url": "https://recruit.cscec.com/recruit#/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.cscec.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.cscec.com/",
+          "title": "中国建筑",
+          "bytes": 106705,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-001.html"
+        },
+        {
+          "request_url": "https://recruit.cscec.com/recruit",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://recruit.cscec.com/recruit",
+          "title": "中国建筑校园招聘",
+          "bytes": 27221,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/cscec-careers.html"
+        }
+      ],
+      "notes": [
+        "中国建筑官网直接链接校园招聘，招聘页200；尚未核验逐岗位列表、专业与应届条件。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-002",
+      "requested_name": "中国邮政",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.chinapost.com.cn/cn/report/2609/1176-1.htm",
+      "career_entry_url": "https://chinapost2027.zhaopin.com",
+      "ats": "zhaopin",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.chinapost.com.cn/cn/report/2609/1176-1.htm",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.chinapost.com.cn/cn/report/2609/1176-1.htm",
+          "title": null,
+          "bytes": 5073,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-002.html"
+        },
+        {
+          "request_url": "https://www.chinapost.com.cn/cn/report/2609/1176-1.htm",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.chinapost.com.cn/cn/report/2609/1176-1.htm",
+          "title": "中国邮政集团有限公司2027年度联合校园招聘公告 - 中国邮政集团有限公司",
+          "bytes": 12834,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/chinapost-announcement.html"
+        },
+        {
+          "request_url": "https://chinapost2027.zhaopin.com",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://chinapost2027.zhaopin.com/",
+          "title": "中国邮政2027年度联合校园招聘",
+          "bytes": 1419,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/chinapost-ats.html"
+        }
+      ],
+      "notes": [
+        "邮政2027官方招聘公告直接指向智联专站，均200；尚无具体技术职位详情，不把联合招聘公告当岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-003",
+      "requested_name": "中国航发",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.aecc.cn/",
+      "career_entry_url": "https://aecc.iguopin.com/",
+      "ats": "iguopin",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.aecc.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.aecc.cn/",
+          "title": "中国航空发动机集团 | 中国航发",
+          "bytes": 36991,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-003.html"
+        },
+        {
+          "request_url": "https://aecc.iguopin.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://aecc.iguopin.com/",
+          "title": "招聘官网",
+          "bytes": 592,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/aecc-careers.html"
+        }
+      ],
+      "notes": [
+        "中国航发官网直接链接国聘招聘网；主页列2027届公告；国聘入口200但为动态壳，岗位合同待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-004",
+      "requested_name": "国家电网",
+      "requested_group": "国企",
+      "status": "blocked_access",
+      "official_url": "https://zhaopin.sgcc.com.cn/",
+      "career_entry_url": null,
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://zhaopin.sgcc.com.cn/",
+          "http_status": "412",
+          "curl_exit": 0,
+          "final_url": "https://zhaopin.sgcc.com.cn/",
+          "title": null,
+          "bytes": 5626,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-004.html"
+        }
+      ],
+      "notes": [
+        "国家电网人力资源招聘入口匿名请求HTTP412，已停止；尚未读到岗位，不能据此认定无岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-005",
+      "requested_name": "南方电网",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://zhaopin.csg.cn/",
+      "career_entry_url": "https://zhaopin.csg.cn/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://zhaopin.csg.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://zhaopin.csg.cn/",
+          "title": "中国南方电网",
+          "bytes": 10503,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-005.html"
+        }
+      ],
+      "notes": [
+        "南方电网招聘站200；动态列表与具体计算机岗位资格待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-006",
+      "requested_name": "中国石油",
+      "requested_group": "国企",
+      "status": "blocked_access",
+      "official_url": "https://zhaopin.cnpc.com.cn/",
+      "career_entry_url": null,
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://zhaopin.cnpc.com.cn/",
+          "http_status": "412",
+          "curl_exit": 0,
+          "final_url": "https://zhaopin.cnpc.com.cn/",
+          "title": null,
+          "bytes": 3420,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-006.html"
+        }
+      ],
+      "notes": [
+        "中石油招聘入口匿名HTTP412，停止进一步请求。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-007",
+      "requested_name": "中国石化",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://job.sinopec.com/",
+      "career_entry_url": "https://job.sinopec.com/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://job.sinopec.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://job.sinopec.com/",
+          "title": "中国石化招聘网站",
+          "bytes": 2409,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-007.html"
+        }
+      ],
+      "notes": [
+        "中石化官方招聘页200，为应用壳；列表、详情及期限待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-008",
+      "requested_name": "中国海油",
+      "requested_group": "国企",
+      "status": "blocked_access",
+      "official_url": "https://www.cnooc.com.cn/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.cnooc.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.cnooc.com.cn/",
+          "title": null,
+          "bytes": 345,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-008.html"
+        },
+        {
+          "request_url": "https://www.cnooc.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.cnooc.com.cn/",
+          "title": null,
+          "bytes": 345,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/cnooc-home.html"
+        }
+      ],
+      "notes": [
+        "中海油主页HTTP200但正文为C3VK Cookie/鼠标检测脚本，并非招聘内容；不执行/绕过挑战，岗位待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-009",
+      "requested_name": "中国核工业集团",
+      "requested_group": "国企",
+      "status": "blocked_access",
+      "official_url": "https://www.cnnc.com.cn/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.cnnc.com.cn/",
+          "http_status": "412",
+          "curl_exit": 0,
+          "final_url": "https://www.cnnc.com.cn/",
+          "title": null,
+          "bytes": 30660,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-009.html"
+        }
+      ],
+      "notes": [
+        "中核集团官网HTTP412，停止；尚未建立当前公开岗位链。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-010",
+      "requested_name": "国家能源集团",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://zhaopin.chnenergy.com.cn/",
+      "career_entry_url": "https://zhaopin.chnenergy.com.cn/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://zhaopin.chnenergy.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://zhaopin.chnenergy.com.cn/",
+          "title": "登录",
+          "bytes": 22408,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-010.html"
+        }
+      ],
+      "notes": [
+        "国家能源集团招聘页200，title登录，但静态包含校园招聘/招聘公告入口；不据标题认定公开岗位必须登录，待验证匿名列表合同。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-011",
+      "requested_name": "中国大唐",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.china-cdt.com/",
+      "career_entry_url": "https://zhaopin.china-cdt.com/zpgg_xyzp.html",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.china-cdt.com/",
+          "http_status": "000",
+          "curl_exit": 28,
+          "final_url": "https://www.china-cdt.com/",
+          "title": null,
+          "bytes": 0,
+          "error": "curl: (28) Connection timed out after 20751 milliseconds",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-011.html"
+        },
+        {
+          "request_url": "https://zhaopin.china-cdt.com/zpgg_xyzp.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://zhaopin.china-cdt.com/zpgg_xyzp.html",
+          "title": "中国大唐集团有限公司人力资源市场平台",
+          "bytes": 6769,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/datang-careers.html"
+        }
+      ],
+      "notes": [
+        "大唐集团官网初次网络超时；从官方域招聘站定位到2027高校招聘公告列表，200；计算机类属于公告需求，不能直接拆成具体岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-012",
+      "requested_name": "中国华能",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.chng.com.cn/",
+      "career_entry_url": "http://zhaopin.chng.com.cn/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.chng.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.chng.com.cn/",
+          "title": "首页 - 中国华能集团有限公司",
+          "bytes": 78306,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-012.html"
+        },
+        {
+          "request_url": "https://www.chng.com.cn/list_zpxt/-/article/nIRkxmKOSFaS/list/23534/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.chng.com.cn/list_zpxt/-/article/nIRkxmKOSFaS/list/23534.html",
+          "title": "招聘系统 - 中国华能集团有限公司",
+          "bytes": 21616,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/chng-careers.html"
+        }
+      ],
+      "notes": [
+        "华能官网招聘系统页200，正文直接包含该招聘系统地址；岗位列表待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-013",
+      "requested_name": "国家电投",
+      "requested_group": "国企",
+      "status": "official_site_only",
+      "official_url": "https://www.spic.com.cn/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.spic.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.spic.com.cn/",
+          "title": "���ҵ���Ͷ�ʼ������޹�˾",
+          "bytes": 59927,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-013.html"
+        }
+      ],
+      "notes": [
+        "国家电投集团官网200，页面采用旧编码；本轮尚未确认当前岗位系统，不能猜测旧智联入口仍有效。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-014",
+      "requested_name": "三峡集团",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.ctg.com.cn/",
+      "career_entry_url": "https://www.zhipin.com/dz/sxjt",
+      "ats": "zhipin",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.ctg.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.ctg.com.cn/",
+          "title": "中国长江三峡集团有限公司",
+          "bytes": 91989,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-014.html"
+        }
+      ],
+      "notes": [
+        "三峡集团官网200，“人才招聘”直接链接BOSS三峡专题；本轮未使用个人登录态读取该专题，具体岗位待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-015",
+      "requested_name": "中国宝武",
+      "requested_group": "国企",
+      "status": "official_site_only",
+      "official_url": "https://www.baowugroup.com/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.baowugroup.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.baowugroup.com/",
+          "title": "中国宝武钢铁集团有限公司",
+          "bytes": 1406,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-015.html"
+        },
+        {
+          "request_url": "https://www.baowugroup.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.baowugroup.com/",
+          "title": "中国宝武钢铁集团有限公司",
+          "bytes": 1406,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/baowu-careers.html"
+        }
+      ],
+      "notes": [
+        "宝武官网200但为Vue应用壳，尚未解析官方招聘链接；未假设历史招聘域仍有效。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-016",
+      "requested_name": "中国五矿",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.minmetals.com.cn/",
+      "career_entry_url": "https://zhaopin.minmetals.com.cn/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.minmetals.com.cn/",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.minmetals.com.cn/",
+          "title": null,
+          "bytes": 7205,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-016.html"
+        },
+        {
+          "request_url": "https://zhaopin.minmetals.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://zhaopin.minmetals.com.cn/",
+          "title": "中国五矿集团招聘官网",
+          "bytes": 472,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/minmetals-careers.html"
+        }
+      ],
+      "notes": [
+        "五矿主站403；官方同域招聘子站200，标题“中国五矿集团招聘官网”，为动态壳；具体校招/实习岗位待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-017",
+      "requested_name": "中国中交",
+      "requested_group": "国企",
+      "status": "blocked_access",
+      "official_url": "https://www.ccccltd.cn/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.ccccltd.cn/",
+          "http_status": "521",
+          "curl_exit": 0,
+          "final_url": "https://www.ccccltd.cn/",
+          "title": null,
+          "bytes": 865,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-017.html"
+        }
+      ],
+      "notes": [
+        "中交集团官网HTTP521；未绕过防护，招聘链和岗位待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-018",
+      "requested_name": "中国铁建",
+      "requested_group": "国企",
+      "status": "blocked_access",
+      "official_url": "https://www.crcc.cn/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.crcc.cn/",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.crcc.cn/",
+          "title": "您的访问请求可能对网站造成安全威胁，请求已被阻断。",
+          "bytes": 15641,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-018.html"
+        }
+      ],
+      "notes": [
+        "中国铁建官网403，明确显示访问请求被安全阻断；停止。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-019",
+      "requested_name": "中国电建",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.powerchina.cn/",
+      "career_entry_url": "https://www.powerchina.cn/djwq/rczp/index.html",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.powerchina.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.powerchina.cn/",
+          "title": "中国电力建设集团",
+          "bytes": 57429,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-019.html"
+        },
+        {
+          "request_url": "https://www.powerchina.cn/djwq/rczp/index.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.powerchina.cn/djwq/rczp/index.html",
+          "title": null,
+          "bytes": 96,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/powerchina-careers.html"
+        }
+      ],
+      "notes": [
+        "中国电建官网200，人才招聘链接可达200但返回96字节动态跳转/壳；具体职位尚未验证。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-020",
+      "requested_name": "中国中车",
+      "requested_group": "国企",
+      "status": "blocked_career_entry",
+      "official_url": "https://www.crrcgc.cc/",
+      "career_entry_url": "https://crrc.hotjob.cn/",
+      "ats": "hotjob",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.crrcgc.cc/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.crrcgc.cc/crrcgc/",
+          "title": "中国中车股份有限公司-首页",
+          "bytes": 56256,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-020.html"
+        },
+        {
+          "request_url": "https://crrc.hotjob.cn/",
+          "http_status": "405",
+          "curl_exit": 0,
+          "final_url": "https://crrc.hotjob.cn/",
+          "title": "405",
+          "bytes": 2569,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/crrc-careers.html"
+        }
+      ],
+      "notes": [
+        "中车官网200，直接链接Hotjob；该入口匿名405，未读岗位；不能当已接入。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-021",
+      "requested_name": "中国移动",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://job.10086.cn/",
+      "career_entry_url": "https://job.10086.cn/",
+      "ats": "group_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://job.10086.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://job.10086.cn/",
+          "title": "中国移动招聘网站",
+          "bytes": 45969,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-021.html"
+        }
+      ],
+      "notes": [
+        "移动招聘站200，有personal/job公开列表入口；具体分页、技术岗位及应届条件待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-022",
+      "requested_name": "中国电信",
+      "requested_group": "国企",
+      "status": "verified_career_entry",
+      "official_url": "https://job.chinatelecom.com.cn/",
+      "career_entry_url": "https://job.chinatelecom.com.cn/wt/TELE/web/index#/",
+      "ats": "hotjob",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://job.chinatelecom.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://job.chinatelecom.com.cn/wt/TELE/web/index#/",
+          "title": "中国电信招聘",
+          "bytes": 1451,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-022.html"
+        }
+      ],
+      "notes": [
+        "电信官方招聘站200，重定向TELE Web应用；待确认公开查询合同与计算机岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-023",
+      "requested_name": "中国联通",
+      "requested_group": "国企",
+      "status": "pending_recruitment_entry",
+      "official_url": "https://www.chinaunicom.com.cn/46/menu01/528/column06",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.chinaunicom.cn/",
+          "http_status": "000",
+          "curl_exit": 6,
+          "final_url": "https://careers.chinaunicom.cn/",
+          "title": null,
+          "bytes": 0,
+          "error": "curl: (6) Could not resolve host: careers.chinaunicom.cn",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-023.html"
+        },
+        {
+          "request_url": "https://www.chinaunicom.com.cn/46/menu01/528/column06",
+          "http_status": "000",
+          "curl_exit": 35,
+          "final_url": "https://www.chinaunicom.com.cn/46/menu01/528/column06",
+          "title": null,
+          "bytes": 0,
+          "error": "curl: (35) Recv failure: Connection was reset",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/unicom-official-careers.html"
+        }
+      ],
+      "notes": [
+        "careers.chinaunicom.cn不能解析；官方校园招聘页面检索可定位但原站请求连接重置。检索摘要2026旧专站不当2027当前岗位证据。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "state_owned-024",
+      "requested_name": "招商局集团",
+      "requested_group": "国企",
+      "status": "official_site_only",
+      "official_url": "https://www.cmhk.com/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.cmhk.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.cmhk.com/",
+          "title": null,
+          "bytes": 493,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/state_owned-024.html"
+        },
+        {
+          "request_url": "https://www.cmhk.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.cmhk.com/",
+          "title": null,
+          "bytes": 493,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/cmhk-home.html"
+        }
+      ],
+      "notes": [
+        "招商局官网200但只返回简短页面，未确认招聘入口；检索到2027宣讲新闻属于线索，非岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-001",
+      "requested_name": "西门子",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.siemens.com/cn/zh/company/jobs.html",
+      "career_entry_url": "https://jobs.siemens.com.cn/siemens/position/index?recruitmentType=CAMPUSRECRUITMENT&ds=2027fall_website",
+      "ats": "tupu360",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.siemens.com/cn/zh/company/jobs.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.siemens.com/zh-cn/company/jobs/",
+          "title": "招聘 | Siemens",
+          "bytes": 201722,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-001.html"
+        },
+        {
+          "request_url": "https://jobs.siemens.com.cn/siemens/position/index?recruitmentType=CAMPUSRECRUITMENT&ds=2027fall_website",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://jobs.siemens.com.cn/siemens/position/index?recruitmentType=CAMPUSRECRUITMENT&ds=2027fall_website",
+          "title": "职位列表",
+          "bytes": 111773,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/siemens-campus.html"
+        },
+        {
+          "request_url": "https://jobs.siemens.com.cn/siemens/position/index?recruitmentType=INTERNSHIPRECRUITMENT",
+          "http_status": "000",
+          "curl_exit": 35,
+          "final_url": "https://jobs.siemens.com.cn/siemens/position/index?recruitmentType=INTERNSHIPRECRUITMENT",
+          "title": null,
+          "bytes": 0,
+          "error": "curl: (35) Recv failure: Connection was reset",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/siemens-internship.html"
+        }
+      ],
+      "notes": [
+        "西门子中国官网直接授权该2027校招入口，200且服务端职位HTML可读；实习导航已发现但独立请求连接重置。本轮未完成分页/逐详情。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-002",
+      "requested_name": "汇丰中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.hsbc.com/careers",
+      "career_entry_url": "https://portal.careers.hsbc.com/careers",
+      "ats": "eightfold",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.hsbc.com/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.hsbc.com/careers",
+          "title": "Careers: Discover opportunities | HSBC Holdings plc",
+          "bytes": 192496,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-002.html"
+        },
+        {
+          "request_url": "https://portal.careers.hsbc.com/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://portal.careers.hsbc.com/careers",
+          "title": "Careers at HSBC",
+          "bytes": 153181,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/hsbc-careers.html"
+        },
+        {
+          "request_url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme",
+          "title": "Find a programme | Students and graduates | Careers | HSBC Holdings plc",
+          "bytes": 221427,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/hsbc-programmes.html"
+        }
+      ],
+      "notes": [
+        "汇丰集团官网直接指向Eightfold招聘站，均200；全球学生项目页面也200；China技术实习/毕业生岗位还未逐项核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-003",
+      "requested_name": "渣打中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.sc.com/en/global-careers/",
+      "career_entry_url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=early_careers&utm_source=careersite",
+      "ats": "successfactors",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.sc.com/en/global-careers/",
+          "http_status": "200",
+          "curl_exit": 28,
+          "final_url": "https://www.sc.com/en/global-careers/",
+          "title": "Global career opportunities | Standard Chartered",
+          "bytes": 254575,
+          "error": "curl: (28) Operation timed out after 24002 milliseconds with 254613 bytes received",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-003.html"
+        },
+        {
+          "request_url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=early_careers&utm_source=careersite",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=early_careers&utm_source=careersite",
+          "title": "Home Page",
+          "bytes": 126022,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/standardchartered-early.html"
+        }
+      ],
+      "notes": [
+        "渣打官网直接链接Early Careers查询页；入口可达性见attempts，China技术岗位和届数待验证。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-004",
+      "requested_name": "花旗中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://jobs.citi.com/",
+      "career_entry_url": "https://jobs.citi.com/",
+      "ats": "talentbrew_eightfold_workday",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://jobs.citi.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://jobs.citi.com/",
+          "title": "Citi Careers | Find Your Next Opportunity",
+          "bytes": 39161,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-004.html"
+        }
+      ],
+      "notes": [
+        "Citi官网职业站200，含Early Career及Workday申请管理链接；未用个人账号，尚未确认China技术初阶具体岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-005",
+      "requested_name": "普华永道",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://www.pwccn.com/zh/careers.html",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.pwccn.com/zh/careers.html",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.pwccn.com/zh/careers.html",
+          "title": "Access Denied",
+          "bytes": 388,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-005.html"
+        }
+      ],
+      "notes": [
+        "普华永道中国职业页面403 Access Denied；停止，不将检索摘要当开放岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-006",
+      "requested_name": "德勤中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.deloitte.com/cn/zh/careers.html",
+      "career_entry_url": "https://www.deloitte.com/cn/zh/cn-careers/students.html",
+      "ats": "hotjob",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.deloitte.com/cn/zh/careers.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.deloitte.com/cn/zh/cn-careers.html",
+          "title": "职业发展 | 德勤中国",
+          "bytes": 363368,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-006.html"
+        },
+        {
+          "request_url": "https://www.deloitte.com/cn/zh/cn-careers/students.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.deloitte.com/cn/zh/cn-careers/students.html",
+          "title": "校园招聘 | 职业 | 德勤中国",
+          "bytes": 374925,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/deloitte-students.html"
+        }
+      ],
+      "notes": [
+        "德勤中国校园招聘官网200，直接指向wecruit.hotjob.cn毕业生/实习生系统；职位明细待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-007",
+      "requested_name": "安永",
+      "requested_group": "外企",
+      "status": "verified_public_job_samples",
+      "official_url": "https://www.ey.com/zh_cn/careers",
+      "career_entry_url": "https://careers.ey.com.cn/campus-recruitment/ey/166374?locale=zh-CN/",
+      "ats": "moka",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": true,
+      "attempts": [
+        {
+          "request_url": "https://www.ey.com/zh_cn/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.ey.com/zh_cn/careers",
+          "title": "安永的职业生涯 | 安永中国",
+          "bytes": 302626,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-007.html"
+        },
+        {
+          "request_url": "https://careers.ey.com.cn",
+          "http_status": "302",
+          "curl_exit": 47,
+          "final_url": "https://careers.ey.com.cn/campus-recruitment/ey/166374?locale=zh-CN/",
+          "title": null,
+          "bytes": 0,
+          "error": "curl: (47) Maximum (5) redirects followed",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/ey-careers.html"
+        }
+      ],
+      "notes": [
+        "安永中国职业官网直接链接careers.ey.com.cn；匿名Cookie重定向后200。app.mokahr.com同租户可达且org/site一致；列表8条，IT实习详情open、本科+。总校招项目不能拆成独立技术岗位。"
+      ],
+      "job_samples": [
+        {
+          "job_id": "bea26655-57f7-4b0c-9567-72948dce7e4e",
+          "title": "安永IT部实习生",
+          "observed_status": "open",
+          "recruitment_type": "internship",
+          "country": "China",
+          "cities": [],
+          "city_note": "正文全国IT部，申请后选择城市；未编造具体市",
+          "degree": "bachelor_or_above",
+          "major_evidence": "计算机科学与技术、软件工程、通信工程等专业优先",
+          "experience": "没有硬工作年限；.Net/Java开发实习与开源经验优先",
+          "detail_url": "https://app.mokahr.com/campus-recruitment/ey/166374#/job/bea26655-57f7-4b0c-9567-72948dce7e4e",
+          "apply_url_status": "public_job_entry_verified_final_apply_flow_not_exercised",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/ey-bea26655-57f7-4b0c-9567-72948dce7e4e-detail.json"
+        }
+      ],
+      "next_action": "complete_adapter_pagination_scope_filter_and_acceptance_before_ingest",
+      "public_contracts": [
+        {
+          "host": "https://app.mokahr.com",
+          "path": "/campus-recruitment/ey/166374",
+          "org": "ey",
+          "site": "166374",
+          "mode": "campus",
+          "list_method": "POST",
+          "list_endpoint": "/api/outer/ats-apply/website/jobs/v2",
+          "list_payload": {
+            "orgId": "ey",
+            "siteId": "166374",
+            "site": "campus",
+            "locale": "zh_CN",
+            "needStat": true,
+            "offset": 0,
+            "limit": 15
+          },
+          "observed_total_all_categories": 8,
+          "detail_endpoint": "/api/outer/ats-apply/website/job",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/ey-166374-list.json"
+        }
+      ]
+    },
+    {
+      "target_id": "foreign-008",
+      "requested_name": "毕马威",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://kpmg.com/cn/zh/home/careers.html",
+      "career_entry_url": "https://kpmg.com/cn/zh/careers/campus.html",
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://kpmg.com/cn/zh/home/careers.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://kpmg.com/cn/zh/careers.html",
+          "title": "加入毕马威",
+          "bytes": 181470,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-008.html"
+        },
+        {
+          "request_url": "https://kpmg.com/cn/zh/careers/campus.html",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://kpmg.com/cn/zh/careers/campus.html",
+          "title": "校园招聘",
+          "bytes": 183229,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/kpmg-campus.html"
+        }
+      ],
+      "notes": [
+        "毕马威中国校园招聘页200；尚未核验下游投递站与技术岗位详情。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-009",
+      "requested_name": "埃森哲",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.accenture.com/cn-zh/careers",
+      "career_entry_url": "https://www.accenture.com/cn-zh/careers",
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.accenture.com/cn-zh/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.accenture.com/cn-zh/careers",
+          "title": "职业发展与工作机会 | 埃森哲",
+          "bytes": 172409,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-009.html"
+        }
+      ],
+      "notes": [
+        "埃森哲中国职业页面200；具体China地点技术校招/实习明细待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-010",
+      "requested_name": "凯捷",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.capgemini.com/careers/",
+      "career_entry_url": "https://www.capgemini.com/careers/",
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.capgemini.com/careers/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.capgemini.com/careers/",
+          "title": "Capgemini Career Paths | Career Growth &amp; Progression | Capgemini",
+          "bytes": 245441,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-010.html"
+        }
+      ],
+      "notes": [
+        "凯捷全球职业页200；未将全球岗位视为中国岗位，China地域/初阶资格待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-011",
+      "requested_name": "强生中国",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://www.careers.jnj.com/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.careers.jnj.com/",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.careers.jnj.com/",
+          "title": "Just a moment...",
+          "bytes": 5356,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-011.html"
+        }
+      ],
+      "notes": [
+        "强生职业站403 Just a moment访问挑战，停止。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-012",
+      "requested_name": "辉瑞中国",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://www.pfizer.com/about/careers",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.pfizer.com/about/careers",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.pfizer.com/about/careers",
+          "title": "Just a moment...",
+          "bytes": 5390,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-012.html"
+        }
+      ],
+      "notes": [
+        "辉瑞职业页403 Just a moment访问挑战，停止。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-013",
+      "requested_name": "诺华中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.novartis.com/careers",
+      "career_entry_url": "https://www.novartis.com/careers",
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.novartis.com/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.novartis.com/careers",
+          "title": "Careers | Novartis",
+          "bytes": 268498,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-013.html"
+        }
+      ],
+      "notes": [
+        "诺华全球职业页200；具体China技术初阶岗位待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-014",
+      "requested_name": "赛诺菲",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://jobs.sanofi.com/en",
+      "career_entry_url": "https://jobs.sanofi.cn",
+      "ats": "talentbrew_workday",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://jobs.sanofi.com/en",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://jobs.sanofi.com/en",
+          "title": "Working at Sanofi",
+          "bytes": 447596,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-014.html"
+        }
+      ],
+      "notes": [
+        "赛诺菲全球职业站200并直接链接中文jobs.sanofi.cn；未读China技术实习详情。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-015",
+      "requested_name": "阿斯利康",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.astrazeneca.com/",
+      "career_entry_url": "https://job-search.astrazeneca.cn",
+      "ats": "eightfold_workday",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.astrazeneca.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.astrazeneca.com/",
+          "title": "Working at AstraZeneca",
+          "bytes": 37414,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-015.html"
+        }
+      ],
+      "notes": [
+        "阿斯利康职业主页200且直接链接中文招聘搜索站；尚无China技术初阶开放职位核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-016",
+      "requested_name": "罗氏制药",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.roche.com/global/en",
+      "career_entry_url": "https://careers.roche.com/global/en",
+      "ats": "phenom_workday",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.roche.com/global/en",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.roche.com/global/en",
+          "title": "Careers at Roche | Roche jobs",
+          "bytes": 179299,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-016.html"
+        }
+      ],
+      "notes": [
+        "罗氏职业站200，公开提供IT与学生项目入口；China具体岗位待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-017",
+      "requested_name": "拜耳中国",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://www.bayer.com/en/career",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.bayer.com/en/career",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.bayer.com/en/career",
+          "title": "Site Maintenance",
+          "bytes": 9669,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-017.html"
+        }
+      ],
+      "notes": [
+        "拜耳职业页403 Site Maintenance；不能从当前维护页推断招聘状态。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-018",
+      "requested_name": "英特尔中国",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://jobs.intel.com/",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://jobs.intel.com/",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://jobs.intel.com/",
+          "title": "Access Denied",
+          "bytes": 416,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-018.html"
+        }
+      ],
+      "notes": [
+        "jobs.intel.com重定向到Intel404处理页并403；需重新定位当前官方招聘入口，未核验China技术岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-019",
+      "requested_name": "英伟达",
+      "requested_group": "外企",
+      "status": "verified_public_job_samples",
+      "official_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "career_entry_url": "https://jobs.nvidia.com/careers",
+      "ats": "eightfold_workday",
+      "checked_at": "2026-10-23T18:50:45.022Z",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": true,
+      "attempts": [
+        {
+          "request_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+          "title": "Jobs at NVIDIA | NVIDIA Careers",
+          "bytes": 418207,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-019.html"
+        },
+        {
+          "request_url": "https://jobs.nvidia.com/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://jobs.nvidia.com/careers",
+          "title": "Careers at NVIDIA Corporation",
+          "bytes": 192312,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/nvidia-careers.html"
+        },
+        {
+          "request_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/AI-Computing-Software-Development-Intern---2027_JR2026164",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/AI-Computing-Software-Development-Intern---2027_JR2026164",
+          "title": null,
+          "bytes": 12470,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/nvidia-JR2026164.html"
+        }
+      ],
+      "notes": [
+        "NVIDIA官网直接链接Eightfold招聘站，其公开配置包含Workday同租户。公开HTML JobPosting和Workday详情JR2026164均可读，posted/canApply true，Shanghai+Beijing，硕博在读技术实习；完整中国原生实习、校招及Regular筛选已通过两轮生产只读验证，243条中保留69条（62实习、7校招），归一化内容一致；尚未写入数据库。"
+      ],
+      "job_samples": [
+        {
+          "job_id": "JR2026164",
+          "title": "AI Computing Software Development Intern - 2027",
+          "posted": true,
+          "can_apply": true,
+          "country": "China",
+          "cities": [
+            "上海",
+            "北京"
+          ],
+          "recruitment_type": "internship",
+          "degree": "master_or_phd_student",
+          "major_evidence": "Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics, or related field",
+          "skills": [
+            "Python",
+            "PyTorch",
+            "C++",
+            "CUDA",
+            "LLVM",
+            "MLIR"
+          ],
+          "grad_year_note": "标题2027非严格毕业年份；仅明确硕博在读，不推断固定届数",
+          "detail_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Development-Intern---2027_JR2026164",
+          "apply_url_status": "Workday canApply=true; no application submitted",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/nvidia-workday-JR2026164.json"
+        }
+      ],
+      "next_action": "parent_owned_postgresql_acceptance_and_actual_import",
+      "public_contracts": [
+        {
+          "host": "https://nvidia.wd5.myworkdayjobs.com",
+          "tenant": "nvidia",
+          "site": "NVIDIAExternalCareerSite",
+          "list_method": "POST",
+          "list_endpoint": "/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+          "detail_method": "GET",
+          "detail_endpoint": "/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/AI-Computing-Software-Development-Intern---2027_JR2026164",
+          "pagination": "offset/limit20",
+          "scope_warning": "searchText=intern也匹配International，不能作实习类别；应从facets递归取China locationHierarchy1和workerSubType Intern/New College Graduate并复核每条详情。",
+          "evidence_files": [
+            ".cache/research/bulk-20261022/state-foreign/nvidia-careers.html",
+            ".cache/research/bulk-20261022/state-foreign/nvidia-workday-JR2026164.json"
+          ]
+        }
+      ],
+      "production_reader_validation": {
+        "source": "nvidia-careers",
+        "company": "nvidia",
+        "checked_at": "2026-10-23T18:50:45.022Z",
+        "status": "passed_two_complete_reads_stable_documents",
+        "method": "Production Reader.ReadSource; anonymous public HTTP; complete native China/Intern/New College Graduate/Regular filters; no database writes or applicant actions",
+        "rounds": [
+          {
+            "round": 1,
+            "started_at": "2026-10-23T18:36:03.2259534Z",
+            "finished_at": "2026-10-23T18:43:03.4801929Z",
+            "fetched": 243,
+            "selected": 69,
+            "requests": 260,
+            "error": "",
+            "content_sha256": "7d759ebf638b8d939f92306e068a4ee8b21379d87ac86b5a033183c42fa80563",
+            "evidence": ".cache/research/bulk-20261023/state-foreign/nvidia-final-round1.json"
+          },
+          {
+            "round": 2,
+            "started_at": "2026-10-23T18:43:03.5271309Z",
+            "finished_at": "2026-10-23T18:47:44.0151784Z",
+            "fetched": 243,
+            "selected": 69,
+            "requests": 259,
+            "error": "",
+            "content_sha256": "7d759ebf638b8d939f92306e068a4ee8b21379d87ac86b5a033183c42fa80563",
+            "evidence": ".cache/research/bulk-20261023/state-foreign/nvidia-final-round2.json"
+          }
+        ],
+        "recruitment_type_counts": {
+          "internship": 62,
+          "campus": 7
+        },
+        "exclusions": {
+          "undefined": 174
+        },
+        "unique_selected_ids": 69,
+        "all_fetched_accounted_for": true,
+        "reviewed_source_sha256_unchanged": true,
+        "original_failed_probe": ".cache/research/bulk-20261023/state-foreign/nvidia-round1.json",
+        "actual_schema_fix": "Later-page total=0/facets=[] is metadata sentinel; keep first-page totals, require expected page length and unique IDs, recheck first-page counts and identities after pagination.",
+        "remaining_parent_owned": [
+          "Dedicated PostgreSQL integration",
+          "Linux race and full backend regression",
+          "Image/deployment/browser acceptance and actual import"
+        ]
+      }
+    },
+    {
+      "target_id": "foreign-020",
+      "requested_name": "高通中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.qualcomm.com/careers",
+      "career_entry_url": "https://careers.qualcomm.com/careers",
+      "ats": "eightfold",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.qualcomm.com/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.qualcomm.com/careers",
+          "title": "Qualcomm Careers | Engineering Jobs and More | Qualcomm",
+          "bytes": 299216,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-020.html"
+        }
+      ],
+      "notes": [
+        "高通官方职业站200；China地点、实习/毕业生资格和详情尚未完成核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-021",
+      "requested_name": "德州仪器",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.ti.com/",
+      "career_entry_url": "https://careers.ti.com/en/sites/CX",
+      "ats": "oracle_cloud_hcm",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.ti.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.ti.com/en/sites/CX",
+          "title": "Texas Instruments",
+          "bytes": 101393,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-021.html"
+        }
+      ],
+      "notes": [
+        "TI官方招聘页200，最终Oracle站点路径；China岗位及技术初阶资格待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-022",
+      "requested_name": "微软中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.microsoft.com/",
+      "career_entry_url": "https://careers.microsoft.com/v2/global/en/home.html",
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.microsoft.com/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.microsoft.com/v2/global/en/home.html",
+          "title": "Home | Microsoft Careers",
+          "bytes": 29037,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-022.html"
+        }
+      ],
+      "notes": [
+        "微软职业站200，全球入口，未推断有当前中国技术校招；详情与地点仍待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-023",
+      "requested_name": "亚马逊中国",
+      "requested_group": "外企",
+      "status": "pending_current_job_verification",
+      "official_url": "https://www.amazon.jobs/en/locations/china",
+      "career_entry_url": "https://www.amazon.jobs/",
+      "ats": "amazon_custom",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.amazon.jobs/en/locations/china",
+          "http_status": "404",
+          "curl_exit": 0,
+          "final_url": "https://www.amazon.jobs/en/locations/china",
+          "title": "Amazon.jobs",
+          "bytes": 24043,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-023.html"
+        },
+        {
+          "request_url": "https://www.amazon.jobs/en/jobs/3206494/software-dev-engineer-intern",
+          "http_status": "404",
+          "curl_exit": 0,
+          "final_url": "https://www.amazon.jobs/en/jobs/3206494/software-dev-engineer-intern",
+          "title": "Amazon.jobs",
+          "bytes": 24455,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/amazon-3206494.html"
+        }
+      ],
+      "notes": [
+        "历史china地点页404。搜索发现3206494北京2027软件实习，但直接官方详情现404，未认定当前开放；不得从搜索缓存入库。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-024",
+      "requested_name": "施耐德电气",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://www.se.com/cn/zh/about-us/careers/overview.jsp",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.se.com/cn/zh/about-us/careers/overview.jsp",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.se.com/cn/zh/about-us/careers/overview.jsp",
+          "title": "Access Denied",
+          "bytes": 423,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-024.html"
+        }
+      ],
+      "notes": [
+        "施耐德中国职业页403 Access Denied，停止。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-025",
+      "requested_name": "ABB中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.abb/global/en",
+      "career_entry_url": "https://careers.abb/global/en",
+      "ats": "phenom_workday",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.abb/global/en",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.abb/global/en",
+          "title": "Job and Career opportunities at ABB | ABB Careers",
+          "bytes": 169834,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-025.html"
+        }
+      ],
+      "notes": [
+        "ABB全球招聘站200；中国技术实习/校招详情待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-026",
+      "requested_name": "巴斯夫",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.basf.com/cn/zh/careers",
+      "career_entry_url": "https://basf.jobs/search?locale=en_US&skillsSearch=false&markerViewed=&carouselIndex=&facetFilters=%7B%22jobLocationCountry%22%3A%5B%22China%22%5D%7D&pageNumber=0",
+      "ats": "successfactors",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.basf.com/cn/zh/careers",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.basf.com/cn/zh/careers",
+          "title": "加入我们",
+          "bytes": 559494,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-026.html"
+        }
+      ],
+      "notes": [
+        "巴斯夫中国职业官网200，直接给China过滤招聘链接；具体技术初阶岗位及分页待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-027",
+      "requested_name": "雀巢",
+      "requested_group": "外企",
+      "status": "blocked_access",
+      "official_url": "https://www.nestle.com.cn/jobs",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.nestle.com.cn/jobs",
+          "http_status": "403",
+          "curl_exit": 0,
+          "final_url": "https://www.nestle.com.cn/jobs",
+          "title": "Verifying your browser…",
+          "bytes": 40499,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-027.html"
+        }
+      ],
+      "notes": [
+        "雀巢中国职业页403 Verifying your browser访问挑战，停止。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-028",
+      "requested_name": "博世",
+      "requested_group": "外企",
+      "status": "verified_public_job_samples",
+      "official_url": "https://www.bosch.com.cn/careers/",
+      "career_entry_url": "https://app.mokahr.com/campus-recruitment/bosch/168626?locale=zh-CN#/",
+      "ats": "moka",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": true,
+      "attempts": [
+        {
+          "request_url": "https://www.bosch.com.cn/careers/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.bosch.com.cn/careers/",
+          "title": "加入博世 | 博世在中国",
+          "bytes": 94548,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-028.html"
+        }
+      ],
+      "notes": [
+        "博世中国职业官网200，直接授权2027站168626及常规校招站73873；两站公开初始化/首分页/3个详情已核验。166/25是源全类别总数，绝不是可投技术岗位数；完整两轮读取/资格筛选由父任务验收。",
+        "列表showIsCampus=false而详情showIsCampus=true；不能据列表该字段排除。工作经验等硬资格可藏customFields，需保留并评估。Moka匿名临时Cookie只用于本站公开响应，不复用个人登录态。"
+      ],
+      "job_samples": [
+        {
+          "job_id": "153e145f-3516-467b-93e2-aabe30ac8c5b",
+          "site": "168626",
+          "title": "端到端算法工程师（XC）",
+          "country": "China",
+          "cities": [
+            "苏州",
+            "上海"
+          ],
+          "observed_status": "open",
+          "recruitment_type": "campus",
+          "grad_years": [
+            2026,
+            2027
+          ],
+          "degree": "master_or_above",
+          "major_evidence": "计算机、自动化、车辆工程、机器人、数学等相关专业",
+          "skills": [
+            "Python",
+            "C++",
+            "PyTorch"
+          ],
+          "detail_url": "https://app.mokahr.com/campus-recruitment/bosch/168626#/job/153e145f-3516-467b-93e2-aabe30ac8c5b",
+          "apply_url_status": "public_job_entry_verified_final_apply_flow_not_exercised",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/bosch-168626-153e145f-3516-467b-93e2-aabe30ac8c5b-detail.json"
+        },
+        {
+          "job_id": "edabf052-c730-4e95-a3ce-1252835924cd",
+          "site": "168626",
+          "title": "Team Operations & AI Agent 实习生-XC",
+          "country": "China",
+          "cities": [
+            "苏州"
+          ],
+          "observed_status": "open",
+          "recruitment_type": "internship",
+          "degree": "bachelor_or_master_student",
+          "skills": [
+            "Python",
+            "LLM API",
+            "RAG"
+          ],
+          "note": "50%团队运营与行政、50% AI智能体与自动化开发，保留混合职责，不宣称纯研发",
+          "detail_url": "https://app.mokahr.com/campus-recruitment/bosch/168626#/job/edabf052-c730-4e95-a3ce-1252835924cd",
+          "apply_url_status": "public_job_entry_verified_final_apply_flow_not_exercised",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/bosch-168626-edabf052-c730-4e95-a3ce-1252835924cd-detail.json"
+        },
+        {
+          "job_id": "12511836-30f6-4bd1-8d45-58103cfd98c7",
+          "site": "73873",
+          "title": "Autosar基础软件开发（BCSC）",
+          "country": "China",
+          "cities": [
+            "无锡"
+          ],
+          "observed_status": "open",
+          "recruitment_type": "campus",
+          "grad_year_note": "projectFolder明确2027届秋招，不因站点旧文案统一推断",
+          "experience": "customFields[308016]工作经验要求=1 year；JD未重复写年限",
+          "major_evidence": "计算机、电子相关专业",
+          "language": "CET-6级以上",
+          "detail_url": "https://app.mokahr.com/campus-recruitment/bosch/73873#/job/12511836-30f6-4bd1-8d45-58103cfd98c7",
+          "apply_url_status": "public_job_entry_verified_final_apply_flow_not_exercised",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/bosch-73873-12511836-30f6-4bd1-8d45-58103cfd98c7-detail.json"
+        }
+      ],
+      "next_action": "complete_adapter_pagination_scope_filter_and_acceptance_before_ingest",
+      "public_contracts": [
+        {
+          "host": "https://app.mokahr.com",
+          "path": "/campus-recruitment/bosch/168626",
+          "org": "bosch",
+          "site": "168626",
+          "mode": "campus",
+          "list_method": "POST",
+          "list_endpoint": "/api/outer/ats-apply/website/jobs/v2",
+          "list_payload": {
+            "orgId": "bosch",
+            "siteId": "168626",
+            "site": "campus",
+            "locale": "zh_CN",
+            "needStat": true,
+            "offset": 0,
+            "limit": 15
+          },
+          "observed_total_all_categories": 166,
+          "detail_endpoint": "/api/outer/ats-apply/website/job",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/bosch-168626-list.json"
+        },
+        {
+          "host": "https://app.mokahr.com",
+          "path": "/campus-recruitment/bosch/73873",
+          "org": "bosch",
+          "site": "73873",
+          "mode": "campus",
+          "list_method": "POST",
+          "list_endpoint": "/api/outer/ats-apply/website/jobs/v2",
+          "list_payload": {
+            "orgId": "bosch",
+            "siteId": "73873",
+            "site": "campus",
+            "locale": "zh_CN",
+            "needStat": true,
+            "offset": 0,
+            "limit": 15
+          },
+          "observed_total_all_categories": 25,
+          "detail_endpoint": "/api/outer/ats-apply/website/job",
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/bosch-73873-list.json"
+        }
+      ]
+    },
+    {
+      "target_id": "foreign-029",
+      "requested_name": "麦当劳中国",
+      "requested_group": "外企",
+      "status": "pending_recruitment_entry",
+      "official_url": "https://www.mcdonalds.com.cn/joinus",
+      "career_entry_url": null,
+      "ats": "pending",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.mcdonalds.com.cn/joinus",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.mcdonalds.com.cn/",
+          "title": "麦当劳官网",
+          "bytes": 132506,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-029.html"
+        }
+      ],
+      "notes": [
+        "麦当劳/joinus重定向官网首页200，只有招聘周新闻线索，未建立总部技术招聘入口或岗位明细；不能把门店招聘当计算机岗位。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-030",
+      "requested_name": "星巴克中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.starbucks.com.cn/careers/",
+      "career_entry_url": "https://www.starbucks.com.cn/about/careers/",
+      "ats": "beisen_zhiye",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.starbucks.com.cn/careers/",
+          "http_status": "404",
+          "curl_exit": 0,
+          "final_url": "https://www.starbucks.com.cn/careers/",
+          "title": "很抱歉 | 星巴克",
+          "bytes": 17625,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-030.html"
+        },
+        {
+          "request_url": "https://www.starbucks.com.cn/about/careers/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.starbucks.com.cn/about/careers/",
+          "title": "工作机会 | 星巴克",
+          "bytes": 23505,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/starbucks-careers.html"
+        }
+      ],
+      "notes": [
+        "原/careers/404；官网真实工作机会页/about/careers/200，直接链接starbucks.zhiye.com职能支持入口；技术校招/实习明细待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-031",
+      "requested_name": "宜家中国",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.ikea.cn/cn/zh/this-is-ikea/work-with-us/",
+      "career_entry_url": "https://jobs.ikeachina.cn/",
+      "ats": "talentbrew",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.ikea.cn/cn/zh/this-is-ikea/work-with-us/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.ikea.cn/cn/zh/this-is-ikea/work-with-us/",
+          "title": "加入我们",
+          "bytes": 125060,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-031.html"
+        },
+        {
+          "request_url": "https://jobs.ikeachina.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://jobs.ikeachina.cn/",
+          "title": "&#x5728; IKEA &#x5DE5;&#x4F5C;",
+          "bytes": 58767,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/ikea-careers.html"
+        }
+      ],
+      "notes": [
+        "宜家中国加入我们页200，按钮h5链接编码目标jobs.ikeachina.cn；下游200，具体技术初阶岗位与China城市待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-032",
+      "requested_name": "大众汽车",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://www.volkswagengroupchina.com.cn/",
+      "career_entry_url": "https://volkswagengroupchina.jobs2web.sapsf.cn/?locale=zh_CN",
+      "ats": "successfactors_china",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://www.volkswagengroupchina.com.cn/careers",
+          "http_status": "404",
+          "curl_exit": 0,
+          "final_url": "https://www.volkswagengroupchina.com.cn/careers",
+          "title": "大众汽车集团（中国）官方网站",
+          "bytes": 48834,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-032.html"
+        },
+        {
+          "request_url": "https://www.volkswagengroupchina.com.cn/",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://www.volkswagengroupchina.com.cn/",
+          "title": "大众汽车集团（中国）官方网站",
+          "bytes": 48834,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/volkswagen-home.html"
+        },
+        {
+          "request_url": "https://volkswagengroupchina.jobs2web.sapsf.cn/?locale=zh_CN",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://volkswagengroupchina.jobs2web.sapsf.cn/?locale=zh_CN",
+          "title": null,
+          "bytes": 26738,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/volkswagen-careers.html"
+        }
+      ],
+      "notes": [
+        "旧/careers404；中国官网主页200且“职业”直接指向SAP中国招聘域，入口200，逐岗资格待核验。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    },
+    {
+      "target_id": "foreign-033",
+      "requested_name": "欧莱雅",
+      "requested_group": "外企",
+      "status": "verified_career_entry",
+      "official_url": "https://careers.loreal.com/en_US/content",
+      "career_entry_url": "https://careers.loreal.com/en",
+      "ats": "avature",
+      "checked_at": "2026-10-22",
+      "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+      "is_ingested": false,
+      "china_job_scope_verified": false,
+      "attempts": [
+        {
+          "request_url": "https://careers.loreal.com/en_US/content",
+          "http_status": "200",
+          "curl_exit": 0,
+          "final_url": "https://careers.loreal.com/en",
+          "title": "L&#x27;Or&#xE9;al Careers | Jobs &amp; Career Opportunities - L&#x27;Or&#xE9;al Groupe",
+          "bytes": 122217,
+          "error": null,
+          "evidence_file": ".cache/research/bulk-20261022/state-foreign/foreign-033.html"
+        }
+      ],
+      "notes": [
+        "欧莱雅全球职业站200，需单独核验China地点与IT/Data技术初阶岗位；不能把全球实习项目笼统入库。"
+      ],
+      "job_samples": [],
+      "next_action": "verify_official_current_job_list_detail_eligibility_and_apply_chain"
+    }
+  ]
+}

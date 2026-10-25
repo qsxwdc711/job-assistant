@@ -1,0 +1,72 @@
+{
+  "source": "voyah-campus",
+  "official_site": "https://app.mokahr.com/campus-recruitment/voyah/146293",
+  "observed_at": "2026-10-22T10:39:48.658Z",
+  "list": {
+    "id": "7b32dbbd-5063-46f4-9b81-6d6061c9ad51",
+    "orgId": "voyah",
+    "title": "用户体验-软件开发",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "jobDescription": "<p><strong>岗位职责</strong></p><p>1、负责公司产品后端服务开发，包含API接口设计、数据库设计、核心业务逻辑开发与实现；</p><p>2、参与系统架构设计与优化，保障系统高可扩展性、高稳定性与高性能运行；</p><p>3、配合团队完成代码审查、功能测试，保障代码质量与产品稳定性；</p><p>4、跟踪行业主流技术发展趋势，研究前沿技术，持续优化现有系统架构与服务能力。</p><p><strong>任职要求</strong></p><p>1、本科及以上学历，大学英语四级及以上；</p><p>2、熟练掌握Java开发语言，熟悉Spring Boot、Spring MVC、MyBatis等主流开发框架；</p><p>3、精通MySQL、NoSQL数据库，具备数据库设计、SQL优化、大数据量分表处理实战经验者优先；</p><p>4、熟悉RESTful API设计与开发，了解Redis、ES等中间件的应用场景与使用方法；</p><p>5、了解微服务架构及Docker、Kubernetes等容器化技术；</p><p>6、熟练使用Git进行代码版本管理，具备规范的代码开发习惯。</p><p><strong>专业要求</strong></p><p>计算机科学、软件工程、信息技术等相关专业</p>",
+    "locations": [
+      {
+        "cityId": 420100,
+        "cityName": "Wuhan",
+        "country": "China",
+        "id": 693717,
+        "provinceId": 420000,
+        "provinceName": "Hubei"
+      }
+    ],
+    "projectFolder": {
+      "id": 100128215,
+      "name": "2027届校园招聘"
+    }
+  },
+  "detail": {
+    "id": "7b32dbbd-5063-46f4-9b81-6d6061c9ad51",
+    "orgId": "voyah",
+    "title": "用户体验-软件开发",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "education": "本科",
+    "jobDescription": "<p><strong>岗位职责</strong></p><p>1、负责公司产品后端服务开发，包含API接口设计、数据库设计、核心业务逻辑开发与实现；</p><p>2、参与系统架构设计与优化，保障系统高可扩展性、高稳定性与高性能运行；</p><p>3、配合团队完成代码审查、功能测试，保障代码质量与产品稳定性；</p><p>4、跟踪行业主流技术发展趋势，研究前沿技术，持续优化现有系统架构与服务能力。</p><p><strong>任职要求</strong></p><p>1、本科及以上学历，大学英语四级及以上；</p><p>2、熟练掌握Java开发语言，熟悉Spring Boot、Spring MVC、MyBatis等主流开发框架；</p><p>3、精通MySQL、NoSQL数据库，具备数据库设计、SQL优化、大数据量分表处理实战经验者优先；</p><p>4、熟悉RESTful API设计与开发，了解Redis、ES等中间件的应用场景与使用方法；</p><p>5、了解微服务架构及Docker、Kubernetes等容器化技术；</p><p>6、熟练使用Git进行代码版本管理，具备规范的代码开发习惯。</p><p><strong>专业要求</strong></p><p>计算机科学、软件工程、信息技术等相关专业</p>",
+    "locations": [
+      {
+        "cityId": 420100,
+        "cityName": "Wuhan",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 693717,
+        "provinceName": "Hubei"
+      }
+    ],
+    "departments": [
+      {
+        "id": 3429403,
+        "name": "用户运营中心"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          3429403
+        ],
+        "locationIds": [
+          693717
+        ],
+        "storeIds": []
+      }
+    ],
+    "minExperience": 0,
+    "maxExperience": 0,
+    "projectFolder": {
+      "id": 100128215,
+      "name": "2027届校园招聘"
+    }
+  }
+}

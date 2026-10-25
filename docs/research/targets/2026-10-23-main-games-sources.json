@@ -1,0 +1,755 @@
+{
+  "requested_at": "2026-10-22",
+  "research_started_at": "2026-10-23",
+  "written_at": "2026-10-23T18:32:23.343Z",
+  "research_owner": "state_foreign_sources_20261022",
+  "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+  "group_labels_are_user_categories": true,
+  "total_targets": 20,
+  "status_counts": {
+    "official_site_only": 9,
+    "pending_team_scope_verification": 1,
+    "career_entry_discovered": 7,
+    "pending_company_career_entry": 1,
+    "environment_tls_error": 1,
+    "pending_official_page_redirect": 1
+  },
+  "ingestion_status": "research_only_no_database_writes",
+  "method": "anonymous_public_official_homepages_and_actual_career_links; no user sessions or applicant actions",
+  "limitations": [
+    "覆盖游戏清单前20项；本文件没有将官网或招聘入口标记为岗位入库。",
+    "浏览器前置检查当前Chrome未连接；未做CDP动态页面或登录后验证。",
+    "默认沙箱的DNS失败记录单独保留为sandbox-denied-results.json；后续经允许的匿名HTTP得出本表结果，不能将沙箱限制解释成企业网站失效。",
+    "进一步公共请求等待全项目物理读取并发槽位，避免超过3个读者。",
+    "腾讯天美整体、哔哩哔哩集团、快手整体与阿里集团不可直接替代T1或对应游戏业务的逐岗证据。"
+  ],
+  "companies": [
+    {
+      "target_id": "games-001",
+      "requested_name": "米哈游",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:07:49.979Z",
+      "is_ingested": false,
+      "official_url": "https://www.mihoyo.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.mihoyo.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.mihoyo.com/",
+        "title": "米哈游-TECH OTAKUS SAVE THE WORLD",
+        "bytes": 4553,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-001.html",
+      "job_samples": [],
+      "notes": [
+        "米哈游官网200，为Nuxt应用壳；本轮尚未从已获取HTML确认当前招聘入口，不能将猜测jobs域当已验证来源。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-002",
+      "requested_name": "腾讯天美T1工作室",
+      "requested_group": "游戏",
+      "status": "pending_team_scope_verification",
+      "checked_at": "2026-10-23T16:07:49.616Z",
+      "is_ingested": false,
+      "official_url": "https://www.timistudios.com/",
+      "career_entry_urls": [
+        "https://tencent.wd1.myworkdayjobs.com/timi_careers"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.timistudios.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.timistudios.com/",
+        "title": "TiMi Studio Group",
+        "bytes": 103933,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "/#careers",
+          "text": "Careers"
+        },
+        {
+          "url": "https://tencent.wd1.myworkdayjobs.com/timi_careers",
+          "text": "View Careers at TiMi"
+        },
+        {
+          "url": "/#careers",
+          "text": "Careers"
+        }
+      ],
+      "public_embedded_career_urls": [
+        "https://tencent.wd1.myworkdayjobs.com/timi_careers"
+      ],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-002.html",
+      "job_samples": [],
+      "notes": [
+        "TiMi官网200，直接链接腾讯Workday的timi_careers招聘站；这是天美整体入口，未证明所有天美岗位属于用户指定T1工作室，需逐岗团队/项目证据。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-003",
+      "requested_name": "网易游戏",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:07:52.809Z",
+      "is_ingested": false,
+      "official_url": "https://game.163.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://game.163.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://game.163.com/",
+        "title": "网易游戏官网_游戏热爱者",
+        "bytes": 76643,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-003.html",
+      "job_samples": [],
+      "notes": [
+        "网易游戏官网200，静态HTML未提取到招聘链接；尚未核验当前中国游戏校招/实习岗位明细。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-004",
+      "requested_name": "哔哩哔哩游戏",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:07:56.414Z",
+      "is_ingested": false,
+      "official_url": "https://game.bilibili.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://game.bilibili.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://game.bilibili.com/",
+        "title": "哔哩哔哩游戏 | 你的幻想世界",
+        "bytes": 5132,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-004.html",
+      "job_samples": [],
+      "notes": [
+        "哔哩哔哩游戏主页200，为动态应用；尚未核验招聘入口和游戏业务归属，不能用哔哩哔哩所有岗位覆盖游戏目标。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-005",
+      "requested_name": "朝夕光年",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:07:54.215Z",
+      "is_ingested": false,
+      "official_url": "https://www.nvsgames.cn/",
+      "career_entry_urls": [
+        "https://www.nvsgames.cn/hire.html"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.nvsgames.cn/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.nvsgames.cn/",
+        "title": "朝夕光年官网-激发创造，丰富生活",
+        "bytes": 27019,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "https://www.nvsgames.cn/hire.html",
+          "text": "招聘官网"
+        },
+        {
+          "url": "https://www.nvsgames.cn/supplier-recruitment/",
+          "text": "供应商合作"
+        },
+        {
+          "url": "https://www.nvsgames.cn/hire.html",
+          "text": "招聘官网"
+        },
+        {
+          "url": "https://www.nvsgames.cn/supplier-recruitment/",
+          "text": "供应商合作"
+        }
+      ],
+      "public_embedded_career_urls": [
+        "https://www.nvsgames.cn/supplier-recruitment/",
+        "https://fonts.bytedance.com/dfd/api/v1/css?family=SourceHanSansCN-Normal:500&display=swap"
+      ],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-005.html",
+      "job_samples": [],
+      "notes": [
+        "朝夕光年官网200，明确“招聘官网”链接hire.html；尚未访问下游岗位系统及当前计算机初阶职位。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-006",
+      "requested_name": "快手游戏",
+      "requested_group": "游戏",
+      "status": "pending_company_career_entry",
+      "checked_at": "2026-10-23T16:07:58.927Z",
+      "is_ingested": false,
+      "official_url": "https://game.kuaishou.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://game.kuaishou.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://lom.sparknexa.com/",
+        "title": "《诡秘之主》游戏官网-UE5欧式古风神秘学MMO",
+        "bytes": 186465,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-006.html",
+      "job_samples": [],
+      "notes": [
+        "game.kuaishou.com当前返回《诡秘之主》游戏产品官网200；产品页面不能替代企业招聘来源，快手游戏业务团队及可投技术职位仍待核验。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-007",
+      "requested_name": "沐瞳科技",
+      "requested_group": "游戏",
+      "status": "environment_tls_error",
+      "checked_at": "2026-10-23T16:08:12.610Z",
+      "is_ingested": false,
+      "official_url": "https://www.moonton.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.moonton.com/",
+        "http_status": "000",
+        "curl_exit": 35,
+        "final_url": "https://www.moonton.com/",
+        "title": null,
+        "bytes": 0,
+        "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������"
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-007.html",
+      "job_samples": [],
+      "notes": [
+        "沐瞳官网本机匿名TLS请求因Windows证书吊销检查离线失败(CRYPT_E_REVOCATION_OFFLINE/0x80092013)。未关闭证书验证，不推断企业无招聘；官方招聘链和岗位待验证。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-008",
+      "requested_name": "莉莉丝",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:08:11.301Z",
+      "is_ingested": false,
+      "official_url": "https://www.lilith.com/",
+      "career_entry_urls": [
+        "https://jobs.lilith.com/"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.lilith.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.lilith.com/",
+        "title": "莉莉丝游戏",
+        "bytes": 3711803,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [
+        "https://jobs.lilith.com/"
+      ],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-008.html",
+      "job_samples": [],
+      "notes": [
+        "莉莉丝官网200，公开初始化HTML嵌入jobs.lilith.com招聘域；未读取岗位分页/详情，不记已接入。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-009",
+      "requested_name": "叠纸游戏",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:08:12.925Z",
+      "is_ingested": false,
+      "official_url": "https://www.papegames.com/",
+      "career_entry_urls": [
+        "https://papergames.jobs.feishu.cn/campus",
+        "https://papergames.jobs.feishu.cn/social",
+        "https://career.papegames.com/PaperStar"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.papegames.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.papegames.com/home",
+        "title": "叠纸游戏-Papergames",
+        "bytes": 52375,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "https://papergames.jobs.feishu.cn/social",
+          "text": ""
+        },
+        {
+          "url": "https://papergames.jobs.feishu.cn/campus",
+          "text": ""
+        },
+        {
+          "url": "https://career.papegames.com/PaperStar",
+          "text": ""
+        }
+      ],
+      "public_embedded_career_urls": [
+        "https://assets.papegames.com/nikkiweb/paper/paper-home-cn/_next/static/media/career_title.2a733545.png",
+        "https://papergames.jobs.feishu.cn/social",
+        "https://papergames.jobs.feishu.cn/campus",
+        "https://career.papegames.com/PaperStar"
+      ],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-009.html",
+      "job_samples": [],
+      "notes": [
+        "叠纸官网200，直接链接papergames.jobs.feishu.cn/campus与/social，并列career.papegames.com/PaperStar；只是已发现官方入口，尚未完成新租户公开合同验证。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-010",
+      "requested_name": "心动网络",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:08:13.710Z",
+      "is_ingested": false,
+      "official_url": "https://www.xd.com/",
+      "career_entry_urls": [
+        "https://www.xd.com/hr/?lang=zh"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.xd.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.xd.com/",
+        "title": "心动 - 聚匠人心 动玩家情",
+        "bytes": 25582,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "/hr/?lang=zh",
+          "text": "加入心动"
+        }
+      ],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-010.html",
+      "job_samples": [],
+      "notes": [
+        "心动官网200，“加入心动”直接链接/hr/?lang=zh；尚未读取下游技术校招/实习职位明细。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-011",
+      "requested_name": "鹰角网络",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:08:21.186Z",
+      "is_ingested": false,
+      "official_url": "https://www.hypergryph.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.hypergryph.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.hypergryph.com/",
+        "title": "鹰角网络 - HYPERGRYPH",
+        "bytes": 1830,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-011.html",
+      "job_samples": [],
+      "notes": [
+        "鹰角官网200，为React应用壳；需要继续读取官方公开前端配置或动态页面建立招聘链，当前未核验职位。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-012",
+      "requested_name": "库洛游戏",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:08:22.830Z",
+      "is_ingested": false,
+      "official_url": "https://www.kurogames.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.kurogames.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.kurogames.com/",
+        "title": "库洛游戏 - KURO GAMES",
+        "bytes": 4124,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-012.html",
+      "job_samples": [],
+      "notes": [
+        "库洛官网200，为Vite应用壳；当前已获取HTML未确认岗位系统，不猜测飞书租户。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-013",
+      "requested_name": "散爆网络",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:08:24.754Z",
+      "is_ingested": false,
+      "official_url": "https://www.sunborngame.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.sunborngame.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.sunborngame.com/",
+        "title": "散爆网络",
+        "bytes": 1146,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-013.html",
+      "job_samples": [],
+      "notes": [
+        "散爆官网200，为Vue应用壳；未从当前HTML确认招聘入口，岗位明细待验证。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-014",
+      "requested_name": "蛮啾网络",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:08:25.190Z",
+      "is_ingested": false,
+      "official_url": "https://www.manjuu.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.manjuu.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.manjuu.com/",
+        "title": "蛮啾",
+        "bytes": 86403,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-014.html",
+      "job_samples": [],
+      "notes": [
+        "蛮啾官网200；未完成当前招聘链接与技术初阶岗位核验，不能由未提取到锚点断言无岗位。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-015",
+      "requested_name": "悠星网络",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:08:25.765Z",
+      "is_ingested": false,
+      "official_url": "https://www.yostar.cn/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.yostar.cn/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.yostar.cn/",
+        "title": "YOSTAR悠星网络",
+        "bytes": 1828,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-015.html",
+      "job_samples": [],
+      "notes": [
+        "悠星官网200，为动态应用；官方招聘入口和岗位详情待核验。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-016",
+      "requested_name": "灵犀互娱",
+      "requested_group": "游戏",
+      "status": "official_site_only",
+      "checked_at": "2026-10-23T16:08:26.610Z",
+      "is_ingested": false,
+      "official_url": "https://www.lingxigames.com/",
+      "career_entry_urls": [],
+      "entry_verification": {
+        "request_url": "https://www.lingxigames.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.lingxigames.com/",
+        "title": null,
+        "bytes": 7099,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [
+        "https://www.lingxigames.com/",
+        "https://cdn-cn.lingxigames.com/xfu/lingxi/common/js/grey.js?a=1"
+      ],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-016.html",
+      "job_samples": [],
+      "notes": [
+        "灵犀互娱域名返回200及动态脚本页面；尚未核验当前招聘链和用工主体，不将阿里集团岗位整体归为灵犀。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-017",
+      "requested_name": "吉比特",
+      "requested_group": "游戏",
+      "status": "pending_official_page_redirect",
+      "checked_at": "2026-10-23T16:08:26.669Z",
+      "is_ingested": false,
+      "official_url": "https://www.g-bits.com/",
+      "career_entry_urls": [
+        "https://www.g-bits.com/en/"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.g-bits.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.g-bits.com/",
+        "title": "主页",
+        "bytes": 177,
+        "error": null
+      },
+      "official_career_links": [],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-017.html",
+      "job_samples": [],
+      "notes": [
+        "吉比特官网根路径200，静态meta refresh目标为同站/en/；尚未跟进该入口，具体招聘链和岗位待验证。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-018",
+      "requested_name": "创梦天地",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:08:27.874Z",
+      "is_ingested": false,
+      "official_url": "https://www.idreamsky.com/",
+      "career_entry_urls": [
+        "https://www.idreamsky.com/join-a-dream"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.idreamsky.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.idreamsky.com/",
+        "title": "iDreamSky | 深圳市创梦天地科技有限公司",
+        "bytes": 27324,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "https://www.idreamsky.com/join-a-dream",
+          "text": "加入我们"
+        },
+        {
+          "url": "join-a-dream#1",
+          "text": "人才发展"
+        },
+        {
+          "url": "join-a-dream#2",
+          "text": "逗逗成长计划"
+        },
+        {
+          "url": "join-a-dream#3",
+          "text": "Open Day"
+        },
+        {
+          "url": "join-a-dream#4",
+          "text": "员工活动"
+        },
+        {
+          "url": "join-a-dream#5",
+          "text": "加入我们"
+        },
+        {
+          "url": "join-a-dream#1",
+          "text": "人才发展"
+        },
+        {
+          "url": "join-a-dream#2",
+          "text": "逗逗成长计划"
+        },
+        {
+          "url": "join-a-dream#3",
+          "text": "Open Day"
+        },
+        {
+          "url": "join-a-dream#4",
+          "text": "员工活动"
+        },
+        {
+          "url": "join-a-dream#5",
+          "text": "加入我们"
+        },
+        {
+          "url": "join-us#1",
+          "text": "清朗·未成年人网络保护"
+        },
+        {
+          "url": "join-us#2",
+          "text": "客户服务"
+        },
+        {
+          "url": "join-us#3",
+          "text": "舞弊举报"
+        }
+      ],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-018.html",
+      "job_samples": [],
+      "notes": [
+        "创梦天地官网200，“加入我们”直接链接join-a-dream；尚未读取下游招聘接口和技术初阶详情。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-019",
+      "requested_name": "友谊时光",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:08:27.848Z",
+      "is_ingested": false,
+      "official_url": "https://www.friendtimes.net/",
+      "career_entry_urls": [
+        "https://www.friendtimes.net/careers/index.html"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.friendtimes.net/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.friendtimes.net/",
+        "title": "友谊时光股份有限公司 - FriendTimes",
+        "bytes": 18868,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "/careers/index.html",
+          "text": "人才发展"
+        },
+        {
+          "url": "/careers/index.html",
+          "text": "人才发展"
+        }
+      ],
+      "public_embedded_career_urls": [],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-019.html",
+      "job_samples": [],
+      "notes": [
+        "友谊时光官网200，“人才发展”直接链接/careers/index.html；下游招聘系统和岗位资格待核验。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    },
+    {
+      "target_id": "games-020",
+      "requested_name": "英雄游戏",
+      "requested_group": "游戏",
+      "status": "career_entry_discovered",
+      "checked_at": "2026-10-23T16:08:30.347Z",
+      "is_ingested": false,
+      "official_url": "https://www.yingxiong.com/",
+      "career_entry_urls": [
+        "https://herogames.jobs.feishu.cn/campus",
+        "https://herogames.jobs.feishu.cn/careers"
+      ],
+      "entry_verification": {
+        "request_url": "https://www.yingxiong.com/",
+        "http_status": "200",
+        "curl_exit": 0,
+        "final_url": "https://www.yingxiong.com/",
+        "title": "英雄游戏-HERO GAMES",
+        "bytes": 21946,
+        "error": null
+      },
+      "official_career_links": [
+        {
+          "url": "/p/join.html",
+          "text": "招贤"
+        },
+        {
+          "url": "https://www.herogame.com/p/join.html",
+          "text": ""
+        },
+        {
+          "url": "/p/join.html",
+          "text": ""
+        },
+        {
+          "url": "/p/join.html",
+          "text": "加入我们"
+        },
+        {
+          "url": "https://herogames.jobs.feishu.cn/careers",
+          "text": "社会招聘"
+        },
+        {
+          "url": "https://herogames.jobs.feishu.cn/campus",
+          "text": "校园招聘"
+        },
+        {
+          "url": "/p/join.html",
+          "text": "加入我们"
+        },
+        {
+          "url": "/p/join.html",
+          "text": "加入我们"
+        }
+      ],
+      "public_embedded_career_urls": [
+        "https://www.herogame.com/p/join.html",
+        "https://herogames.jobs.feishu.cn/careers",
+        "https://herogames.jobs.feishu.cn/campus"
+      ],
+      "evidence_file": ".cache/research/bulk-20261023/main-games/games-020.html",
+      "job_samples": [],
+      "notes": [
+        "英雄游戏官网200，直接链接herogames.jobs.feishu.cn/campus及/careers；未进入含员工推荐跟踪的入口，未提交任何申请；新租户公开岗位合同待核验。"
+      ],
+      "next_action": "verify_official_ATS_public_contract_current_technical_scope_eligibility_and_apply_chain_before_ingestion"
+    }
+  ]
+}

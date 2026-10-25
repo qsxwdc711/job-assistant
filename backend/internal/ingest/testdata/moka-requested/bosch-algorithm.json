@@ -1,0 +1,59 @@
+{
+  "source": "bosch-campus",
+  "detail": {
+    "id": "153e145f-3516-467b-93e2-aabe30ac8c5b",
+    "orgId": "bosch",
+    "title": "端到端算法工程师（XC）",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "jobDescription": "<p>岗位职责</p><p><br></p><p>  1. 参与端到端模型架构设计与优化，包括但不限于 BEV/Occupancy 感知、轨迹预测、决策规划一体化等方向；</p><p>  2. 构建并维护大规模数据闭环：数据挖掘与难例筛选、自动标注、场景重建与仿真生成；</p><p>  3. 负责模型的训练与迭代：设计 loss、评测指标，推动模型在真实驾驶场景中的表现持续提升；</p><p>  4. 参与模型车端落地：量化、剪枝、蒸馏与推理加速，协同部署团队完成性能与精度的平衡；</p><p>  5. 持续跟进行业前沿，将顶会论文、开源社区和竞品方案中的有效技术转化为工程落地；</p><p>  6. 与规控、硬件、测试团队协作，定位并解决量产过程中的实际问题。</p><p><br></p><p>  任职要求</p><p><br></p><p>  - 2026/2027 届硕士及以上学历，计算机、自动化、车辆工程、机器人、数学等相关专业；</p><p>  - 扎实的机器学习和深度学习基础，熟悉常见网络结构（Transformer、CNN、扩散模型等），熟悉 PyTorch 等主流框架；</p><p>  - 良好的工程能力，熟悉 Python 与 C++，代码风格良好，具备独立调试和排查问题的能力；</p><p>  - 具备扎实的数学基础（线性代数、概率论与数理统计），能理解和推导常见优化目标与损失函数；</p><p>  - 对端到端自动驾驶有热情，关注行业进展，具备较强的自驱力和快速学习能力。</p><p><br></p><p>  加分项</p><p><br></p><p>  - 有 CV/自动驾驶相关顶会论文（CVPR、ICCV、ECCV、NeurIPS、ICLR、CoRL 等）或代表性开源项目；</p><p>  - 在 nuScenes、Argoverse、Waymo Open Dataset、KITTI 等数据集/榜单上有过成绩；</p><p>  - 有自动驾驶公司或相关方向的实习经历；</p><p>  - 熟悉大规模分布式训练（Megatron、DeepSpeed 等），有多机多卡训练经验；</p><p>  - 有模型部署优化经验（TensorRT、CUDA、量化工具链等），了解 J6 等车规芯片平台；</p><p>  - 熟悉模仿学习、强化学习或 World Model 中的任一方向。</p>",
+    "locations": [
+      {
+        "cityId": 320571,
+        "cityName": "Suzhou Industrial Park",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 696599,
+        "provinceName": "Jiangsu"
+      },
+      {
+        "cityId": 310000,
+        "cityName": "Shanghai",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 819204,
+        "provinceName": "Shanghai"
+      }
+    ],
+    "departments": [
+      {
+        "id": 1163374,
+        "name": "博世智能驾驶与控制事业部（XC）"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          1163374
+        ],
+        "locationIds": [
+          696599,
+          819204
+        ],
+        "storeIds": []
+      }
+    ],
+    "customFields": {
+      "297232": {
+        "name": "工作城市（SR）",
+        "value": "苏州/上海"
+      }
+    },
+    "projectFolder": {
+      "id": 100124374,
+      "name": "2027届秋招"
+    }
+  }
+}

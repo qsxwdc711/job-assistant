@@ -1,0 +1,50 @@
+{
+  "source": "shengqu-internships",
+  "official_site": "https://app.mokahr.com/campus_apply/shengqu/4078",
+  "observed_at": "2026-10-22T10:43:03.061Z",
+  "list": {
+    "id": "6c1171c5-ebd7-4d84-aef3-c2052cc63e6d",
+    "orgId": "shengqu",
+    "title": "游戏客户端开发实习-C++",
+    "status": "open",
+    "hireMode": 2
+  },
+  "detail": {
+    "id": "6c1171c5-ebd7-4d84-aef3-c2052cc63e6d",
+    "orgId": "shengqu",
+    "title": "游戏客户端开发实习-C++",
+    "status": "open",
+    "hireMode": 2,
+    "jobDescription": "<p>岗位职责： 1、负责游戏客户端的功能开发以及维护，保证代码质量与运行效率，持续进行项目功能优化与代码调试 2、与策划、美术、服务器开发人员保持良好沟通，对于反馈的问题，能够快速做出回应，及时修正。 任职要求： 1、计算机相关专业本科及以上学历，用c++系统性的编写过代码，有游戏客户端项目开发经验优先 2、良好的c/c++编程开发能力和调试技能，了解常用的设计模式和c11特性 3、对图形渲染有所了解，熟悉DirectX优先 4、有良好的编程能力和编码习惯 5、热衷于技术钻研，工作积极主动，认真负责 6、可以熟练使用相关AI工具</p>",
+    "locations": [
+      {
+        "cityId": 310115,
+        "cityName": "浦东新区",
+        "country": "中国",
+        "id": 788800,
+        "provinceName": "上海市"
+      }
+    ],
+    "departments": [
+      {
+        "id": 431949,
+        "name": "D.N.A工作室"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [
+          750,
+          743
+        ],
+        "departmentIds": [
+          431949
+        ],
+        "locationIds": [
+          788800
+        ],
+        "storeIds": []
+      }
+    ]
+  }
+}

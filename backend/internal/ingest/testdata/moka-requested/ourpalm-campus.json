@@ -1,0 +1,65 @@
+{
+  "source": "ourpalm-campus",
+  "official_site": "https://app.mokahr.com/campus-recruitment/ourpalm/43628",
+  "observed_at": "2026-10-22T10:42:50.143Z",
+  "list": {
+    "id": "a8074b3e-9b0a-4afc-943d-60b3f044402f",
+    "orgId": "playcrab",
+    "title": "游戏客户端开发工程师",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职"
+  },
+  "detail": {
+    "id": "a8074b3e-9b0a-4afc-943d-60b3f044402f",
+    "orgId": "playcrab",
+    "title": "游戏客户端开发工程师",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "education": "本科",
+    "jobDescription": "<p>岗位职责：</p><p>1、负责使用unity3d引擎 C#语言进行游戏研发</p><p>2、与策划、美术、测试沟通协调，确保相关功能保质保量的完成</p><p>3、负责游戏多版本多区域的维护</p><p>4、深入游戏框架理解 并进行不断的完善和优化</p><p><br></p><p>任职要求：</p><p>1、计算机及相关专业优先 有unity ue4使用经验优先 熟练应用c#语言开发优先</p><p>2、逻辑思维条理清晰</p><p>3、有责任感，热爱学习，工作主动，有方案输出能力</p>",
+    "locations": [],
+    "departments": [
+      {
+        "id": 2361077,
+        "name": "H后期"
+      },
+      {
+        "id": 1064410,
+        "name": "全民觉醒项目部"
+      },
+      {
+        "id": 2086681,
+        "name": "虚拟职位"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          2361077
+        ],
+        "locationIds": [],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          1064410
+        ],
+        "locationIds": [],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          2086681
+        ],
+        "locationIds": [],
+        "storeIds": []
+      }
+    ],
+    "customFields": {}
+  }
+}

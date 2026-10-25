@@ -1,0 +1,47 @@
+{
+  "source": "bosch-campus",
+  "detail": {
+    "id": "edabf052-c730-4e95-a3ce-1252835924cd",
+    "orgId": "bosch",
+    "title": "Team Operations & AI Agent 实习生-XC",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "实习",
+    "education": "本科",
+    "jobDescription": "<p><strong>关于我们 </strong></p><p>博世集团（Bosch Group）成立于1886年，全称是罗伯特·博世有限公司（BOSCH），是<a href=\"https://baike.baidu.com/item/%E5%BE%B7%E5%9B%BD/147953?fromModule=lemma_inlink\">德国</a>的工业企业之一，从事汽车与智能交通技术、<a href=\"https://baike.baidu.com/item/%E5%B7%A5%E4%B8%9A%E6%8A%80%E6%9C%AF/22448465?fromModule=lemma_inlink\">工业技术</a>、消费品和能源及建筑技术的产业。博世公司以其创新尖端的产品及系统解决方案闻名于世。</p><p>博世集团是全球第一大汽车技术供应商，员工人数超过 42万，遍布 50 多个国家。2022年销售额达到884亿欧元，其中在中国销售额达到1323亿人民币。 2018年7月19日，《<a href=\"https://baike.baidu.com/item/%E8%B4%A2%E5%AF%8C/1944587?fromModule=lemma_inlink\">财富</a>》<a href=\"https://baike.baidu.com/item/%E4%B8%96%E7%95%8C500%E5%BC%BA/640042?fromModule=lemma_inlink\">世界500强</a>排行榜发布，博世集团位列75位。2022年12月，位列《2022胡润世界500强》第58位。</p><p>&nbsp;</p><p><strong>职责描述:</strong></p><p>&nbsp;1. 团队运营与行政支持（占比 50%）</p><ul><li>协调工作：组织团队会议、技术分享会，对接跨部门沟通事宜</li><li>资产管理：跟踪、管理团队硬件设备、测试车辆以及软件许可证</li><li>流程支持：协助处理日常内部流程工作，包括采购、报销以及文档管理</li></ul><p>2. AI 智能体与自动化开发（占比 50%）</p><ul><li>智能体开发：运用&nbsp;LLM APIs搭建轻量化 AI 工具，辅助团队完成技术调研、会议纪要、文档分析等工作</li><li>工作流自动化：编写 Python 脚本，将重复性行政、项目跟进工作流程自动化</li><li>提示词工程：面向工程与业务场景，设计、测试、优化提示词，搭建小规模检索增强生成（RAG）应用</li></ul><p><strong>岗位要求:</strong></p><p>1.背景：计算机、人工智能、工程相关专业在读本科生或研究生</p><p>2.专业技能：扎实的 Python 编程能力，有 API 对接经验；熟悉大语言模型与提示词工程；有 LangChain、Dify 等智能体框架使用经验优先</p><p>3.务实心态：踏实肯干，愿意承担基础工作；对待行政事务和写代码一样严谨认真</p><p>4.闭环执行力：条理清晰、注重细节；主动推进任务落地，做到事事有反馈、形成闭环</p><p>5.善于主动沟通：表达清晰、性格开朗，可以和不同方向的资深工程师顺畅协作</p><p>&nbsp;</p><p><strong>福利:</strong></p><p>500强外企，跨文化交流，大平台新视野。</p><p>公司有食堂，工作氛围轻松愉快，可优先接触内部转正机会！</p><p>与行业专家一对一指导，快速提升专业技能和职场竞争力。</p><p>在世界百强外企中积累宝贵的实习经验，为你的简历增色。</p><p><br></p><p>投递岗位即默认同意博世集团网上招聘相关隐私协议</p><p>协议地址：请通过访问博世中国官方主页，博世在中国＆gt;加入博世＆gt;工作机会，在网上招聘数据隐私声明；</p>",
+    "locations": [
+      {
+        "cityId": 320571,
+        "cityName": "Suzhou Industrial Park",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 473479,
+        "provinceName": "Jiangsu"
+      }
+    ],
+    "departments": [
+      {
+        "id": 1163374,
+        "name": "博世智能驾驶与控制事业部（XC）"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          1163374
+        ],
+        "locationIds": [
+          473479
+        ],
+        "storeIds": []
+      }
+    ],
+    "customFields": {
+      "312648": {
+        "name": "部门名称",
+        "value": "XC/XTO-CN"
+      }
+    }
+  }
+}

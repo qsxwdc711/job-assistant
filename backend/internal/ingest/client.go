@@ -37,7 +37,11 @@ type Reader struct {
 	MokaBase           string
 	ZJDITBase          string
 	ChaitinBase        string
+	FeishuBase         string
+	WorkdayBase        string
+	BeisenBase         string
 	chaitinReadSpacing time.Duration
+	feishuReadSpacing  time.Duration
 	readSpacing        time.Duration
 	lastRead           time.Time
 	Requests           int
@@ -58,6 +62,7 @@ func NewReader() *Reader {
 		HuaweiAPI: "https://apigw-dgg-b0.huawei.com/api/apig/channelhw", CMBBase: "https://career.cmbchina.com",
 		MokaBase: "https://app.mokahr.com", ZJDITBase: "https://zp.zjdit.com", ChaitinBase: "https://join.chaitin.cn",
 		chaitinReadSpacing: 2500 * time.Millisecond,
+		feishuReadSpacing:  time.Second,
 	}
 }
 
@@ -66,7 +71,8 @@ func trustedURL(u *url.URL) bool {
 		return false
 	}
 	switch u.Hostname() {
-	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com", "zp.zjdit.com", "join.chaitin.cn":
+	case "join.qq.com", "career.huawei.com", "apigw-dgg-b0.huawei.com", "career.cmbchina.com", "app.mokahr.com", "zp.zjdit.com", "join.chaitin.cn",
+		"bambulab.jobs.feishu.cn", "agirobot.jobs.feishu.cn", "arashivision.jobs.feishu.cn", "nvidia.wd5.myworkdayjobs.com", "miniso.zhiye.com", "careers.mxbc.com":
 		return true
 	}
 	return false

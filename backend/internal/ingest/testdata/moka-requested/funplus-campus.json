@@ -1,0 +1,141 @@
+{
+  "source": "funplus-campus",
+  "official_site": "https://app.mokahr.com/campus-recruitment/funplus01/147931",
+  "observed_at": "2026-10-22T10:45:51.209Z",
+  "list": {
+    "id": "c5b64633-1fca-44c4-a3eb-db149197af03",
+    "orgId": "funplus01",
+    "title": "27校招-客户端开发工程师",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "locations": [
+      {
+        "cityId": 110105,
+        "cityName": "Chaoyang",
+        "country": "China",
+        "id": 689143,
+        "provinceId": 110000,
+        "provinceName": "Beijing"
+      },
+      {
+        "cityId": 110105,
+        "cityName": "Chaoyang",
+        "country": "China",
+        "id": 690309,
+        "provinceId": 110000,
+        "provinceName": "Beijing"
+      }
+    ],
+    "projectFolder": {
+      "id": 100130187,
+      "name": "2027届校园招聘"
+    }
+  },
+  "detail": {
+    "id": "c5b64633-1fca-44c4-a3eb-db149197af03",
+    "orgId": "funplus01",
+    "title": "27校招-客户端开发工程师",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "education": "本科",
+    "jobDescription": "<p>岗位职责</p><p>1. 参与研发手机游戏客户端，面向游戏的本地下载客户端的所有内容实现，包括创建角色、角色移动、关卡逻辑、编写玩法等，从而构建性能和功能都可靠的世界，达到游戏各种功能和玩法的实现，提供给玩家极致的游戏体验；</p><p>2. 通过优化算法、流程以及工具，不断优化游戏表现力和团队工作效率，和团队一起成长。</p><p><br></p><p>任职资格</p><p>1. 本科及以上学历， 计算机或相关专业;</p><p>2. 熟练掌握C#/C++/lua或任何一种面向对象语言；</p><p>3. 熟悉常用的数据结构和算法；</p><p>4. 具备英文文档的阅读能力；</p><p>5. 了解图形、AI、物理、音频、网络任一游戏相关领域算法者优先考虑；</p><p>6. 热爱编程，热爱游戏，乐于学习和解决具有挑战性的问题；</p><p>7. 具备良好的团队协作意识。</p>",
+    "locations": [
+      {
+        "cityId": 110105,
+        "cityName": "Chaoyang",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 689143,
+        "provinceName": "Beijing"
+      },
+      {
+        "cityId": 110105,
+        "cityName": "Chaoyang",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 690309,
+        "provinceName": "Beijing"
+      }
+    ],
+    "departments": [
+      {
+        "id": 200805,
+        "name": "FunPlus"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          200805
+        ],
+        "locationIds": [
+          690309
+        ],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          200805
+        ],
+        "locationIds": [
+          690309
+        ],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          200805
+        ],
+        "locationIds": [
+          690309
+        ],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          200805
+        ],
+        "locationIds": [
+          690309
+        ],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          200805
+        ],
+        "locationIds": [
+          690309
+        ],
+        "storeIds": []
+      },
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          200805
+        ],
+        "locationIds": [
+          689143
+        ],
+        "storeIds": []
+      }
+    ],
+    "customFields": {
+      "276338": {
+        "name": "招聘项目",
+        "value": "2027届校招"
+      }
+    },
+    "projectFolder": {
+      "id": 100130187,
+      "name": "2027届校园招聘"
+    }
+  }
+}

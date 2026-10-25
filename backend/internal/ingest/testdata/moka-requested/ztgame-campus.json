@@ -1,0 +1,70 @@
+{
+  "source": "ztgame-campus",
+  "official_site": "https://app.mokahr.com/campus-recruitment/ztgame/92438",
+  "observed_at": "2026-10-22T10:40:07.008Z",
+  "list": {
+    "id": "d5a88da1-fb79-410d-ba51-da08f16bcd9d",
+    "orgId": "ztgame",
+    "title": "游戏客户端开发工程师（27届秋招）",
+    "status": "open",
+    "hireMode": 2,
+    "locations": [
+      {
+        "cityId": 310117,
+        "cityName": "Songjiang",
+        "country": "China",
+        "id": 157643,
+        "provinceId": 310000,
+        "provinceName": "Shanghai"
+      }
+    ],
+    "projectFolder": {
+      "id": 100128190,
+      "name": "2027届秋季校园招聘"
+    }
+  },
+  "detail": {
+    "id": "d5a88da1-fb79-410d-ba51-da08f16bcd9d",
+    "orgId": "ztgame",
+    "title": "游戏客户端开发工程师（27届秋招）",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "education": "本科",
+    "jobDescription": "<p><strong>岗位职责：</strong></p><p>1、负责游戏客户端开发工作；</p><p>2、负责自己所编写模块的单元测试工作；</p><p>3、优化项目程序的性能。</p><p><br></p><p><strong>岗位要求：</strong></p><p>1、计算机基础知识扎实，有一定的编程经验；</p><p>2、熟悉C/C++/C#编程、多线程编程，熟悉STL；</p><p>3、熟悉常用数据结构、算法；</p><p>4、熟悉MySQL或其它同类数据库系统；</p><p>5、具备良好的逻辑思维、综合分析能力，以及团队协作能力，有主动学习的能力和意愿，对技术研究有热情；</p><p>6、有使用unity3d、unreal引擎开发游戏经验者优先；</p><p>7、本科及以上学历，计算机或相关专业。</p>",
+    "locations": [
+      {
+        "cityId": 310117,
+        "cityName": "Songjiang",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 157643,
+        "provinceName": "Shanghai"
+      }
+    ],
+    "departments": [
+      {
+        "id": 767444,
+        "name": "校招培训部"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          767444
+        ],
+        "locationIds": [
+          157643
+        ],
+        "storeIds": []
+      }
+    ],
+    "minExperience": 0,
+    "maxExperience": 0,
+    "projectFolder": {
+      "id": 100128190,
+      "name": "2027届秋季校园招聘"
+    }
+  }
+}

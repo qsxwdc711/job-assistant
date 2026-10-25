@@ -13,7 +13,7 @@ RUN CGO_ENABLED=0 go build -trimpath -o /out/api ./cmd/api && \
 
 FROM build AS verify
 ENV CGO_ENABLED=1 GOTOOLCHAIN=local
-CMD ["go", "test", "-race", "-v", "./...", "-count=1", "-timeout=180s"]
+CMD ["go", "test", "-race", "-v", "./...", "-count=1", "-timeout=360s"]
 
 FROM registry-1.docker.io/library/debian:bookworm-slim@sha256:7c7b2c966bc9ee8cedfeef67e0e279108992c77681fa595db4a9d65c06ccc587
 RUN apt-get -o Acquire::Retries=3 -o APT::Update::Error-Mode=any update && apt-get install -y --no-install-recommends poppler-utils ca-certificates && \

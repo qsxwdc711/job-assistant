@@ -26,10 +26,10 @@ func main() {
 
 func run() error {
 	if len(os.Args) != 2 {
-		return errors.New("usage: collector all|source-code")
+		return errors.New("usage: collector all|list|source-code")
 	}
 	selected := os.Args[1]
-	if selected != "all" && !ingest.SupportsSource(selected) {
+	if selected != "all" && selected != "list" && !ingest.SupportsSource(selected) {
 		return errors.New("unknown public source")
 	}
 	dsn, err := config.DatabaseURL()
@@ -53,6 +53,15 @@ func run() error {
 	}
 	failed := false
 	encoder := json.NewEncoder(os.Stdout)
+	if selected == "list" {
+		codes := []string{}
+		for _, source := range sources {
+			if source.Enabled && ingest.SupportsSource(source.Code) {
+				codes = append(codes, source.Code)
+			}
+		}
+		return encoder.Encode(codes)
+	}
 	for _, source := range sources {
 		if selected != "all" && source.Code != selected {
 			continue

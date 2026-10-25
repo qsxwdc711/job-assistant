@@ -1,0 +1,47 @@
+{
+  "source": "kingnet-campus",
+  "official_site": "https://app.mokahr.com/campus_apply/kingnet/2246",
+  "observed_at": "2026-10-22T10:40:21.426Z",
+  "list": {
+    "id": "bc0a5ab4-d59d-46cc-baeb-e3d956e1859c",
+    "orgId": "kingnet",
+    "title": "游戏测试实习生",
+    "status": "open",
+    "hireMode": 2
+  },
+  "detail": {
+    "id": "bc0a5ab4-d59d-46cc-baeb-e3d956e1859c",
+    "orgId": "kingnet",
+    "title": "游戏测试实习生",
+    "status": "open",
+    "hireMode": 2,
+    "jobDescription": "<p>职位描述：</p><p>1、对游戏有自己独特见解和想法，善于沟通，清晰描述表达自己的想法和观点；</p><p>2、能从用户角度出发，对游戏进行解析，对测试用例有了解；</p><p>3、有一定的BUG敏感度，能举一反三，逻辑思维能力强；</p><p>4、有一定的抗压能力，完成其他上级布置的相关任务。</p><p><br></p><p>任职资格：</p><p>1、计算机相关专业优先，对游戏充满热情，有编程能力优先；</p><p>2、具备快速学习能力，有出色的逆向思考和逻辑判断能力，善于发现、质疑游戏的问题；</p><p>3、具有良好的沟通能力及配合意识，能够配合各部门完成相关测试任务；</p><p>4、有无经验皆可，入职后提供相关培训。</p>",
+    "locations": [
+      {
+        "cityId": 310115,
+        "cityName": "浦东新区",
+        "country": "中国",
+        "id": 605842,
+        "provinceName": "上海市"
+      }
+    ],
+    "departments": [
+      {
+        "id": 127955,
+        "name": "敢达工作室"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          127955
+        ],
+        "locationIds": [
+          605842
+        ],
+        "storeIds": []
+      }
+    ]
+  }
+}

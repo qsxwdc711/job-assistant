@@ -1,0 +1,41 @@
+{
+  "Code": 200,
+  "Message": "operation success",
+  "MoreMessage": null,
+  "TipType": null,
+  "Count": 0,
+  "ReturnUrl": null,
+  "Data": {
+    "Id": "428a316e-18c0-4299-a872-c8d68ae4918e",
+    "JobAdId": 190861087,
+    "PostDateInt": 1789007003000,
+    "PostDate": "2026-09-10T10:23:23",
+    "EndTimeInt": 0,
+    "EndTime": "2222-02-02T00:00:00",
+    "JobAdName": "2027届校招-系统实施方向(J13399)",
+    "OrgId": 3620417,
+    "Org": "校招生储备组",
+    "Category": "校园招聘",
+    "CategoryId": "2",
+    "LocId": null,
+    "LocNames": [
+      "河南省·郑州市"
+    ],
+    "Salary": "6K-10K 元/月",
+    "Duty": "1、负责集团外采系统(ERP、人力资源、财务、供应链等职能提效系统)的需求对接与实施上线,完成系统配置、数据准备与功能验证;\n2、负责系统操作培训与推广落地,输出操作手册并解答用户问题,推动职能中心高效使用;\n3、负责系统运行问题跟踪与厂商协同,对接业务部门与技术团队,推动问题闭环与外采系统持续优化。",
+    "Require": "1、2027 届本科及以上学历,信息管理、计算机等相关专业;\n2、具备良好的业务理解能力与逻辑思维,能快速理解职能业务流程并转化为系统方案;\n3、出色的沟通表达与协调能力,能适应跨部门协作,有项目实践或社团组织经验者优先;\n4、高度团队意识，认同蜜雪企业文化，对饮品行业有浓厚兴趣与发展热情。",
+    "ClassificationOne": null,
+    "ClassificationTwo": null,
+    "Classification3": "信息技术类",
+    "Classification4": null,
+    "Classification5": null,
+    "Classification6": null,
+    "Kind": "全职",
+    "Status": 1,
+    "Degree": null,
+    "YearsOfWorking": null,
+    "ChangeDate": "2026-09-10T10:23:23",
+    "DetailAddress": ""
+  },
+  "Total": 0
+}

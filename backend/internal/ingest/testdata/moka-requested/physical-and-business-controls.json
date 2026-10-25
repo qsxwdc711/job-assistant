@@ -1,0 +1,529 @@
+[
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/34377618-ac9b-4e86-8907-b1d19c2576d5",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "34377618-ac9b-4e86-8907-b1d19c2576d5",
+      "orgId": "jingchi",
+      "title": "车端安全测试工程师【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "职位描述\n1. 制定符合汽车标准的安全测试流程，搭建测试环境，开发测试用例和工具\n2. 完成整车、零部件、自动驾驶系统的合规测试和渗透测试，发现漏洞并修复\n3. 研究最新的汽车安全威胁和攻击手法，更新安全防护措施\n职位要求\n1. 本科及以上学历，计算机、信息安全等相关专业优先\n2. 熟悉二进制、移动App、物联网、无线通信等领域的常见漏洞和原理，对操作系统安全机制有一定了解\n3. 熟练掌握渗透测试方法，包括代码审计、流量抓包、逆向工程等，有整车攻防经验优先",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/3afd1e10-2add-4c0d-8333-b0690cc60788",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "3afd1e10-2add-4c0d-8333-b0690cc60788",
+      "orgId": "jingchi",
+      "title": "云端安全测试工程师【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责\n1. 负责云安全产品测试工作，包括：IAM、WAF、容器安全、堡垒机、安全审计、API安全网关\n2. 根据需求设计测试方案和测试用例：功能测试、接口测试、自动化测试、安全测试\n3. 负责云产品安全验证：身份认证测试、权限控制测试、认证绕过测试、数据访问控制测试\n4. 搭建自动化测试平台：API自动化测试、回归测试、性能压测、安全基线验证\n5. 参与漏洞验证、安全评估及渗透测试工作\n6. 推动研发团队修复缺陷并完成闭环验证\n任职要求\n1. 本科及以上学历：信息安全、网络安全、计算机相关专业\n2. 熟悉软件测试流程：测试计划、用例设计、缺陷管理\n3. 掌握至少一种脚本语言：Python（优先）、Shell、Go\n4. 熟悉 Linux 操作系统及常用命令",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/52554f11-df40-4ec8-95c8-669e932737b2",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "52554f11-df40-4ec8-95c8-669e932737b2",
+      "orgId": "jingchi",
+      "title": "公有云 SRE【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "职位描述\n1. 大规模公有云底座建设： 负责海内外公有云的计算、网络、数据库等云原生基础设施的规划、建设、日常高可用运维与架构演进。\n2. 基础设施自动化交付： 研发与优化基于基础设施即代码（IaC）的云资源自动化部署、配置及生命周期管理系统，实现公有云资源的自动高效交付。\n3. 可观测性： 持续提升对于云上虚拟化资源、云网络、Kubernetes 集群组件、核心服务等的可观测性与监控告警，提升问题识别响应能力。\n4. 故障自愈与容灾演练： 建设云上服务故障自动隔离、多可用区、双云灾备等自动响应机制，设计组织各个层面以及系统整体的容灾演练。\n5. 基于 AI 的管理与运维能力建设： 构建新一代基于 AI 的 SRE 能力体系，提高运维效率、资源利用率、问题识别与排查能力。\n职位要求\n1. 教育背景： 本科及以上学历，计算机、软件工程等相关专业优先。\n2. Kubernetes ： 熟悉 Kubernetes 核心架构与工作原理，了解其底层组件，有 Kubernetes 二次开发或相关开源社区经验者优先。\n3. 公有云： 对于海内外公有云核心产品、架构、差异、以及 Kubernetes 在云上的资源管理使用有实际经验。\n4. 系统与编程： 熟练掌握 Go 等编程语言，具备扎实的 Linux 系统与网络基础，熟悉容器技术。\n5. 加分项： 具备大型 AI 公司、互联网公司公有云基础设施工作经验，在 AIOps、DevSecOps、FinOps 等领域有研究或实践经验者优先。",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/80188c0e-6724-4729-a941-d35ef5551a04",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "80188c0e-6724-4729-a941-d35ef5551a04",
+      "orgId": "jingchi",
+      "title": "车端安全研发工程师【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "职位描述\n1. 车载系统安全设计和实现，包括密钥管理、访问控制、安全启动、TEE、HSM等\n2. 承接内外部安全需求，提供解决方案并推动落地，提升车载系统的安全水位\n3. 支持车端安全评审、安全功能验证、安全测试和漏洞修复工作\n职位要求\n1. 本科及以上学历，计算机、信息安全等相关专业优先\n2. 扎实的C/C++编程、数据结构和算法基础\n3. 熟悉车载软件的开发和调试，有主机厂、自动驾驶背景优先\n4. 熟悉操作系统的安全机制和解决方案",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/8031b6a3-c91e-4c10-bdd0-f8f93a8fd506",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "8031b6a3-c91e-4c10-bdd0-f8f93a8fd506",
+      "orgId": "jingchi",
+      "title": "云端安全工程师【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责\n1. 参与云平台安全产品研发，包括但不限于：身份认证与访问控制（IAM）、云原生安全（Kubernetes、容器安全）、零信任访问控制、API安全与网关安全、数据安全与密钥管理、WAF、DDoS、安全运营平台等\n2. 参与云环境安全能力建设，包括：云资源访问控制设计与实现、安全审计与日志分析平台开发、风险检测与威胁感知引擎开发、漏洞扫描与自动化修复系统建设\n3. 参与云服务安全架构设计：身份认证（OIDC/OAuth2/SAML）、权限管理（RBAC/ABAC）、密钥与证书管理、服务间认证与授权\n4. 参与安全研发流程建设：安全软件开发生命周期、安全编码规范落地、自动化安全检测平台开发\n任职要求\n1. 本科及以上学历：网络安全、计算机科学与技术、软件工程、信息安全、网络工程等相关专业\n2. 扎实的计算机基础：熟悉数据结构与算法、操作系统、计算机网络、数据库等，熟悉 TCP/IP、HTTP/HTTPS 等网络协议，具备良好的问题分析与解决能力\n3. 熟悉至少一种开发语言：Go, Java, Python, C/C++\n4. 熟悉 Linux 环境开发与调试\n5. 了解常见软件开发流程，Git, CI/CD, 单元测试等",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/94c88b02-ebfb-49c8-89b3-c3bda270fb87",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "94c88b02-ebfb-49c8-89b3-c3bda270fb87",
+      "orgId": "jingchi",
+      "title": "安全合规工程师【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "职位描述\n1.负责搭建和持续完善企业内部汽车网络安全管理体系，并将相关行业内法律法规转化技术要求实现工程落地；\n2.主导或参与整车/零部件项目的汽车网络安全咨询和认证项目，完成项目级网络安全风险评估及安全概念，协助通过第三方认证机构认证审核；\n3.负责开展企业内部汽车网络安全的合规性审核，包括流程审核、体系内审、对接外部监管和认证等工作；\n职位要求\n1. 本科及以上学历，计算机、信息安全、自动化、车辆工程、电子信息或相关技术专业应届毕业生；\n2.熟悉标准化的风险评估流程框架，了解网络安全相关标准及概念；\n3.具备较强的跨部门、跨领域沟通协调能力；有较强的文档输出能力，可以支持输出安全体系各种内部审核、管理评审等报告；\n4.具备网络安全行业资质能力证书或相关实习经历优先。",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/c4185ae0-4b26-42b6-9439-f44d0180c954",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "c4185ae0-4b26-42b6-9439-f44d0180c954",
+      "orgId": "jingchi",
+      "title": "数据中心 SRE【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "职位描述\n1. 大规模数据中心底座运维： 负责数据中心服务器、网络、存储等物理基础设施的规划、建设、日常高可用运维与架构演进。\n2. 裸金属自动化交付： 研发与优化裸金属（Bare Metal）自动化部署、配置及生命周期管理系统，实现物理资源的自动高效交付。\n3. 可观测性： 持续提升对于底层硬件资源、网络、Kubernetes 集群组件、核心服务等的可观测性与监控告警，提升问题识别响应能力。\n4. 故障自愈与容灾演练： 建设硬件故障自动隔离、节点驱逐与服务迁移的自动响应机制，设计组织各个层面以及系统整体的容灾演练。\n5. 基于 AI 的管理与运维能力建设：构建新一代基于 AI 的 SRE 能力体系，提高运维效率、资源利用率、问题识别与排查能力。\n职位要求\n1. 教育背景：本科及以上学历，计算机、软件工程等相关专业优先。\n2. Kubernetes 与云原生： 熟悉 Kubernetes 核心架构与工作原理，了解其底层组件，有 Kubernetes 二次开发或相关开源社区经验者优先。\n3. 系统与编程： 熟练掌握 Go 等编程语言，具备扎实的 Linux 系统与网络基础，熟悉容器技术。\n4. 硬件： 对于服务器硬件组件、GPU 、以及 Kubernetes 对底层硬件资源的管理使用有实际经验。\n5. 加分项： 具备大型 AI 公司、互联网公司数据中心基础设施工作经验，在 AIOps 、DevSecOps 、FinOps 等领域有研究或实践经验者优先。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/0c046fc0-16fd-4f13-ae92-16f047222e46",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "0c046fc0-16fd-4f13-ae92-16f047222e46",
+      "orgId": "sungrow",
+      "title": "运维履约专员",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n运维体系改良：协助搭建联络中心 + 现场二级响应机制，参与全球运维流程、SOP、告警分级标准梳理；协助维护客户服务指标与常态化沟通机制，助力提升服务透明度与客户满意度。运维平台搭建：配合运维中台、现场服务 APP 的需求调研、资料整理，参与告警、工单、备件、EHS 等模块业务梳理，跟进功能迭代、全球适配相关落地工作，推动业务数据打通。备件体系优化：参与区域‑国家‑现场三级备件仓库体系研究，协助开展备件 ABC 分类、库存数据统计分析，配合 IoT 智能监控、预测性调配相关方案资料整理，提升备件周转效率。AI 工具落地：协助建设高频故障知识库，参与 AI 运维助手相关业务场景梳理，收集一线故障案例，支撑 AI 预判 + 专家复核的运维模式落地。团队与协作：协助全球运维团队的数据统计、绩效资料整理；参与跨部门沟通协同，整理业务卡点信息；协助维护应急资源信息，参与应急预案资料汇编。标准化沉淀：协助运维白皮书、流程标准文件的资料搜集、文稿整理，协助内部标准宣贯推广相关工作。\n任职资格：\n项目与运维方向本科及以上学历，27 届应届毕业生，通信工程、供应链、工商管理、电气能源类相关专业优先；对海外大型项目运维体系建设、跨国服务管理方向有浓厚兴趣，愿意深耕全球运维业务。具备项目流程、标准化体系相关实习经历优先，了解 EHS 安全管理基础知识优先。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/0eada1fa-968c-4908-866c-992a265d2f9e",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "0eada1fa-968c-4908-866c-992a265d2f9e",
+      "orgId": "sungrow",
+      "title": "AI产品工程师",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "一、岗位职责：\n1.需求分析：挖掘业务流程中的数智化机会、痛点。通过市场调研、用户反馈和数据分析，输出 MRD 和 PRD，确保产品规划符合业务实际。\n2.产品开发：负责 AI 产品全生命周期管理，协同算法、开发等团队，明确技术可行性与开发计划，推进项目按时交付。\n3.技术应用：研究自然语言处理（NLP）、计算机视觉（CV）、大模型（LM）等 AI 技术在业务场景的应用，有效探索提示词工程、Agent、RAG、模型微调等最佳实践。将前沿技术转化为落地方案，关注技术动态，探索创新应用。\n4.价值运营：主导产品推广与运营工作，推进运营策略，兑现业务价值，提升用户满意度。\n二、任职资格：\n1.学历专业：硕士及以上，计算机科学、人工智能、软件工程等相关专业优先，具备扎实的人工智能理论基础。\n2.有 AI 产品实习经验，有搜推、AI 预测、智能客服、图像识别等技术实习背景优先。\n3.技能要求：熟悉机器学习、深度学习技术及常见算法框架，优选技术方案；熟练使用 Axure 等工具，PRD功底过硬；具备较强数据分析能力。\n4.核心能力：价值驱动的产品思维，热爱 AI 行业发展；沟通协作能力佳，工作热情、有责任心、抗压能力强",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/42c987a4-50ca-4f80-bd24-bcf7d115c561",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "42c987a4-50ca-4f80-bd24-bcf7d115c561",
+      "orgId": "sungrow",
+      "title": "质量安全工程师（机械方向）",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "工作内容：\n1、新能源电站（风、光、储等）项目现场工程质量和安全方面全周期管理；\n2、现场审核机械吊装条件，现场见证质量关键工序点；\n3、负责各项目危险源及环境因素的管理；\n4、组织或参与电站交付验收、工程移交生产验收、竣工验收，出具验收意见，并定期监督质量安全风险消缺。\n任职资格：\n1、机械工程及其自动化等相关专业，硕士及以上学历优先；\n2、具备较强的学习能力和刻苦钻研的精神；\n3、具备较强的责任心和抗压能力，能够积极主动的推动工作，同时具备细心、耐心和较强的沟通能力。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/582b4c89-db86-445d-b088-0745c7fc3429",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "582b4c89-db86-445d-b088-0745c7fc3429",
+      "orgId": "sungrow",
+      "title": "IT基础运维工程师-网络方向",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位要求:1、负责交换机、防火墙、路由器、无线 AP、负载均衡等网络设备开展日常巡检，保障网络设备稳定可用；\n2、负责办公网、园区网网络故障处置，处理办公终端、VPN 客户端、外网访问等各类网络异常问题；\n3、负责视频监控平台、监控网络、摄像头、NVR设备巡检与故障排查，核查录像存储，维护监控设备台账。\n任职要求：\n1. 计算机科学与技术、信息管理与信息系统、软件工程、自动化、工业工程等计算机类或理工科类相关专业2027届应届毕业生；\n2.计算机网络基础：TCP/IP 协议、VLAN、子网划分、路由交换基本概念；\n3. Linux 操作系统：了解常用命令，用户权限、进程、日志、磁盘基础操作；\n4. Windows Server 基础：域、共享、远程桌服\n5.服务管理基础：了解服务器、磁盘 RAID、存储、备份的基础概念；",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/5ecbe092-fc5b-482d-bc0a-143f751cb10b",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "5ecbe092-fc5b-482d-bc0a-143f751cb10b",
+      "orgId": "sungrow",
+      "title": "运维项目管理工程师",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n1、负责所辖项目客户沟通汇报，收集客户诉求和指导意见，并基于共识协调资源制定落地行动并跟踪闭环；\n2、负责所辖项目收入、成本及毛利额达成，剖析执行过程问题，制定纠偏方案并跟踪落地改善；\n3、负责所辖项目履约计划制定和资源匹配，监控过程执行质量及工作完成情况；\n4、负责所辖项目交付安全工作按标准和要求执行落地，并负责安全问题的整改闭环；\n5、负责所辖项目回款和考核减免谈判，推动客户确定最终结算金额，并按时准备结算材料；\n6、负责所辖项目团队组织文化建设，策划员工关爱活动，增加团队凝聚力。\n任职要求：\n1、学历：2027届本科及电力电气类专业优先；\n2、技能：具有很强的项目管理能力。\n3、素质：聪明、灵活，沟通协作能力佳，自驱意识强、战略远见、抗压能力、自我驱动。\nbase合肥，接受全球调配",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/711072c1-f536-48fb-97b9-7274fa559383",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "711072c1-f536-48fb-97b9-7274fa559383",
+      "orgId": "sungrow",
+      "title": "系统运维工程师",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n1. Maas基建开发：训练基础设施开发，推理服务化建设（vLLM/TensorRT-LLM 部署、弹性扩缩容）\n2. 多云运维：在自建、阿里云和AWS上进行云和AI相关基础设施的运维工作。\n3. CICD开发：基于Aoneflow模型对CICD平台进行持续迭代和交付，MLOps 工具链开发（数据管线、自动化运维工具）。\n任职资格：\n编程语言：熟练掌握Linux Shell.容器化技术：必须熟悉Linux/Docker等技术，对容器基本原理有了解。AI技术栈：至少熟悉一种基于Python/Go语言的智能体框架，对智能体与大模型和工具的交互有基本了解。软实力：对技术有热情，有想法，具备较好的沟通表达能力。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/83ea6cc4-9ba6-4e61-8a26-719d783c4022",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "83ea6cc4-9ba6-4e61-8a26-719d783c4022",
+      "orgId": "sungrow",
+      "title": "数字化运维工程师",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n1. 负责生产现场MES系统的日常运维、故障排查与问题闭环处理；\n2. 主导MES系统功能模块的配置优化、版本迭代及测试上线工作；\n3. 监控MES系统运行状态，诊断系统性能瓶颈并制定优化方案；\n4. 对接生产、质量、工艺等部门，收集业务需求并转化为系统功能落地；\n5. 负责MES系统与ERP、WMS等周边系统的接口运维与数据异常处理；\n6. 配合新能源生产场景的数字化项目推进，提供MES侧技术支持；\n7. 编制MES系统运维手册，开展关键用户操作培训与知识传递。\n任职资格：\n1. 计算机等相关专业，2027届应届毕业生，本科学历；\n2. 掌握基础数据库操作（如SQL），了解常见系统接口原理优先；\n3. 具备良好的学习能力、沟通能力与问题分析能力，责任心强；\n4. 对智能制造、工业数字化领域有浓厚兴趣，愿意深耕生产现场运维工作。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/a7743657-d845-43c9-8ac7-391553140cb3",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "a7743657-d845-43c9-8ac7-391553140cb3",
+      "orgId": "sungrow",
+      "title": "储能安全工程师",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n1. 独立完成储能系统消防方案设计、设备选型、系统调试及故障分析处理，开展消防安全概要设计与详细设计；\n2. 主导与消防设备供应商的技术对接，完成单体设备测试及整套消防系统联调验证，确保方案工程可行性；\n3. 参与电气系统、消防系统及功能安全设计方案的合规性与技术可行性审核；\n4. 支撑储能项目在生产制造、系统集成及现场调试阶段的消防相关问题闭环解决；\n5. 参与新型储能产品消防系统的预研、开发及标准适配工作。\n任职资格：\n1. 2027届硕士及以上应届生，安全科学与工程、消防工程专业；\n2. 可独立完成气体灭火系统、火灾报警系统、可燃气体探测系统等的设计与水力计算，熟练使用CAD绘制系统图及平面布置图；熟悉国内外主流消防设计规范，具备NFPA 85\n5. NFPA 7\n2. NFPA 13等标准应用经验者优先；\n3. 了解AI工具的基本使用，具备AI辅助工作的意识和学习能力。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/c65e6da9-e0aa-4066-bb49-ea61dcd691a5",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "c65e6da9-e0aa-4066-bb49-ea61dcd691a5",
+      "orgId": "sungrow",
+      "title": "网络安全工程师",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n1. 负责云平台安全运营、日常监控告警分析及风险研判，精准识别云上异常攻击行为。\n2. 承接云上安全突发事件处置、溯源分析，完成安全事件闭环并输出复盘总结。\n3. 负责云资产漏洞巡检、风险评估、整改督促与复测，推进漏洞治理常态化。\n4. 优化云上安全防护策略与运营流程，配合完成云安全合规自查与体系落地。\n任职资格：\n1. 硕士及以上学历，计算机、信息安全、网络安全、电子信息等相关专业。\n2. 掌握计算机网络基础、常见攻防原理，熟悉主流云平台基础架构与安全机制。\n3. 具备基础安全事件研判、问题排查能力，能够独立完成日常运营工作。\n4. 思路清晰、责任心强，具备良好的沟通协作及文档撰写能力。\n5. 热爱网络安全领域，学习能力强，能持续跟进云安全新技术与攻防趋势。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/c7d2a042-cc2b-46a3-aeca-42a3c5c7904e",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "c7d2a042-cc2b-46a3-aeca-42a3c5c7904e",
+      "orgId": "sungrow",
+      "title": "IT基础运维工程师-桌面运维方向",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职级：\n1、负责企业台式机、笔记本、显示器、打印机等终端故障排查与处置，保障员工终端正常使用；\n2、承担 AD 域账号管理、终端加退域操作，维护组策略 GPO 及文件共享权限；\n3、负责终端软件全生命周期管理，完成软件分发、卸载、版本管控，处置各类部署运行异常；\n4、开展 IT 资产台账管理，做好IT资产管理系统日常运维与数据更新。\n任职要求：\n1. 通信工程、计算机科学与技术、信息管理与信息系统、软件工程等计算机类或理工科类专业2027届应届生；\n2. 掌握计算机网络基础：熟悉TCP/IP协议、VLAN、子网划分、路由交换基本概念；\n3. 熟悉Linux操作系统：了解常用命令，掌握用户权限、进程、日志、磁盘基础操作；\n4. 掌握Windows Server基础：了解域、共享、远程桌面服务相关操作；\n5. 具备服务管理基础：了解服务器、磁盘RAID、存储、备份的基础概念。",
+      "locations": []
+    }
+  },
+  {
+    "source": "sungrow-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/sungrow/94416#/job/f44c98cc-e7c3-44af-94ef-ce665c0d740f",
+    "observed_at": "2026-10-23T16:10:42.8820077Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "f44c98cc-e7c3-44af-94ef-ce665c0d740f",
+      "orgId": "sungrow",
+      "title": "可靠性工程师-消防安全方向",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "一、岗位职责\n1.负责建立光伏储能系统消防器件/系统可靠性分析评估体系。\n2.参与光伏储能系统消防器件/系统的性能评估与改进，提出改进方案并验证可行性。\n3.编写可靠性评估报告、分析技术文档及专利文件，清晰阐述评估结论和优化建议，参与技术标准制定和团队培训，推动可靠性评估标准化。\n4.跟踪市场前沿技术，评估并推动在可靠性评估方面的应用。\n二、任职要求\n1、2027届硕士及以上应届生，消防工程技术、建筑消防技术、安全工程、化工安全技术、应急技术与管理等相关专业，硕士学历优先，扎实的消防安全理论基础，具备火灾风险评估、火灾报警系统、电气防火等方面的相关知识。\n2.熟悉AutoCAD、FLACS、FDS等至少一款主流仿真软件，具备独立建模与优化能力，有相关优化项目经验者优先。\n3.逻辑清晰，具备较强的问题分析与解决能力，能通过分析评估结果提出创新性优化方案。\n4.具备良好的沟通能力，能高效协调跨部门资源。\n5.了解AI工具的基本使用，具备AI辅助工作的意识和学习能力。",
+      "locations": []
+    }
+  },
+  {
+    "source": "bosch-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/bosch/168626#/job/2b2da121-3c42-4569-8ecb-3cf94b1e02b0",
+    "observed_at": "2026-10-23T16:12:10.6027557Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "2b2da121-3c42-4569-8ecb-3cf94b1e02b0",
+      "orgId": "bosch",
+      "title": "信息安全开发工程师（BCSC）",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "职位内容：\n1. 信息安全相关功能实现及测试\n2. Autosar 加密协议栈的实现\n3. 信息安全相关文档编写\n我们希望你：\n1. 硕士或以上学历，自动化，电子电科，物联网，控制科学与工程，信息安全等相关专业\n2. 熟悉C/C++, Python\n3. 熟悉密码学相关算法\n4. CET-6级以上，较强的英文书写及口语能力\n5. 良好的沟通表达能力，具有灵活性，善于解决问题\n6. 高度的责任心，工作积极主动",
+      "locations": []
+    }
+  },
+  {
+    "source": "bosch-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/bosch/168626#/job/714d1b28-ec3b-4884-bcd7-192e5f2a019c",
+    "observed_at": "2026-10-23T16:12:10.6027557Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "714d1b28-ec3b-4884-bcd7-192e5f2a019c",
+      "orgId": "bosch",
+      "title": "网络安全软件工程师（BCSC）",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "Job Description:\n1. 负责智能座舱平台信息安全功能实现及测试；\n2. 负责操作系统、芯片、Adaptive Autosar等多个模块的安全特性开发和维护\n3.信息安全相关文档编写\nJob Qualification:\n我们希望你：\n1. 计算机软件、电子工程、网络安全及相关专业\n2. CET-6级以上，英文读写和口语能力\n3. 良好的沟通表达能力，具备快速学习能力，善于解决问题\n4. 较强的C/C++能力，对于Linux下开发环境有一定了解，了解QNX系统更佳\n5. 对信息安全有一定的概念，了解基本密码学\n6. 了解SOC侧防火墙，SeLinux，TEE，Android系统，或者MCU侧HSM, Secue Boot, SecOC, Crypto等模块更佳\n博世集团网上招聘数据处理同意声明\n个人信息及目的：你的如下个人信息将被处理并用于招聘：姓名、电子邮箱、电话号码、所在地区、经验和教育信息、简历等应聘者自主提交的附件信息、证件号、职位、部门、计划入职日期、劳动合同持续时间、工作地点、月薪、年薪、浮动奖金比例、餐贴、车贴。 博世将依据相关的数据保护法规，在全球范围内对您的数据进行保密。招聘流程中，您的个人信息只有在必须时才会被提供给博世以外的第三方机构(如代理机构)。博世精心挑选了第三方机构并与之签订了保密合同。博世采取了种种保密措施以保护您的数据，确保其不会遭受操纵、丢失、破坏、未经授权的访问或泄漏。我们的安全措施将随着新技术的应用而不断升级。您的本地浏览器和我们的人才招募系统之间的数据传输通过https加密。 特定职位申请：申请博世集团的职位就意味着您将自己的个人信息提供给博世集团旗下相应的法律实体（具体请见博世集团法人清单）。请注意，若有任何文件或资料变更，请在所有申请书里一并变更。人力资源部门的员工可能与您联系，询问您是否同意将您的求职申请转向博世集团内部另一合适职位。如果您申请了特定职位，那么只有在您同意的情况下，博世才会将您的求职申请转向另一职位。 您可以随时撤回求职申请，博世将根据相关法律删除您的个人信息。与您的申请相关的所有资料将被保留至24个月。您的权利：若您希望停止向博世提供您的个人信息，可联系我们或通过博世网上招聘数据隐私声明中的BKMS系统提出申请。您可以在SmartRecruiters平台查阅和修改您的简历。您对您的个人信息的处理享有知情权、决定权，您有权限制或者拒绝我们对您的个人信息进行处理。您还可以更正、补充您的个人信息。 跨境传输：为了实现前述目的，我们所收集的您的个人信息可能会在多个国家或地区间进行跨境转移，例如德国、新加坡。 德国：罗伯特-博世有限公司（德国格宁根市罗伯特博世广场1号（Robert-Bosch-Platz 1, Gerlingen-Schillerhohe, Germany，邮编：70839），用于集团统一招聘管理（博世中国与数据接收方均基于该目的开展数据出境活动； 英国：SmartRecruiters（英国伯克郡温莎亚瑟路圣斯蒂芬大厦 邮政区码: SL4 1RU），用于招聘、后期交流联系及分享职位/活动信息、潜在人才社区邀请。 您可通过上述联系方式依法向境外接收方行使您在个人信息处理活动中的权利。 存储您的个人信息：我们将仅在为实现目的必要的范围内以及法律法规要求的时间内保留您的个人信息。 雇佣：被雇佣后，您提供的数据将被从当前招聘系统转移至职位所属公司的人力资源管理系统。联系方式： 请通过访问博世中国官方主页：博世在中国＞加入博世＞工作机会，在网上招聘数据隐私声明中“9.联系方式” 博世集团法人清单： 请通过访问博世中国官方主页：博世在中国＞加入博世＞工作机会，在网上招聘数据隐私声明中获取现阶段使用网上招聘系统的博世集团法人（第五页）",
+      "locations": []
+    }
+  },
+  {
+    "source": "bosch-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/bosch/168626#/job/beacb164-ebd2-4738-9def-364596694689",
+    "observed_at": "2026-10-23T16:12:10.6027557Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "beacb164-ebd2-4738-9def-364596694689",
+      "orgId": "bosch",
+      "title": "ADAS功能开发工程师（主动安全）-XC",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n负责雷达/摄像头/域控等产品中AEB/FCW/AES/ESS等功能的开发与优化。\n负责基于深度学习的感知、预测、规划相关模型的开发与落地，包括模型设计、训练、部署及迭代优化。\n带领团队进行模型技术路线规划与能力建设，指导团队成员完成模型相关的研发任务，提升团队整体模型开发水平。\n负责相关问题分析工具的搭建与开发，提升问题定位与解决效率。\n推动AI工具及模型在开发流程中的深度应用，持续提升功能开发效率与性能表现。\n职位要求：\n学历与专业：\n硕士及以上学历，自动化/电子工程/计算机/车辆工程等相关专业。\n技术能力：\n熟悉常见的ADAS功能（如AEB/FCW/AES等），有开发经验者优先。\n熟悉车道模型融合、行为预测、轨迹规划等相关算法。\n具有扎实的深度学习模型开发经验，熟悉CNN/RNN/Transformer等常见模型结构，有自动驾驶感知、预测或决策模型开发经历者优先。\n熟悉模型训练、评估、压缩、量化及嵌入式平台部署全流程，能够独立完成模型从数据准备到上车部署的工作。\n精通C/C++，熟悉Python/Matlab等工具，具备良好的编程能力。\n熟悉AUTOSAR架构及嵌入式开发。\n熟悉AI工具的使用（如Copilot、ChatGPT等），能够提升开发效率。\n软性要求：\n英语流利，可以进行技术文档撰写与会议沟通。\n灵活高效，积极主动，责任心强，善于解决问题和协作沟通。\n具备良好的文档编写与复盘习惯。",
+      "locations": []
+    }
+  },
+  {
+    "source": "ey-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/ey/166374#/job/bea26655-57f7-4b0c-9567-72948dce7e4e",
+    "observed_at": "2026-10-23T16:12:13.8543425Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "bea26655-57f7-4b0c-9567-72948dce7e4e",
+      "orgId": "ey",
+      "title": "安永IT部实习生",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "实习",
+      "jobDescription": "工作职责\n该职位包括全国IT部，请点击“申请职位”进入系统选择不同城市进行投递。\n职位描述和工作职责如下：\n职位描述：\n1.负责金融服务领域软件系统的维护与管理，及时响应用户反馈的系统故障并进行快速解决与跟踪，参与软件产品的持续优化与改进；\n2.负责企业软件系统产品各种技术文档的编写和维护；\n3.参与企业应用系统产品生命周期中的各种项目流程，与全球和本地多个团队进行协同合作；\n4.部分参与企业系统产品的需求分析、架构设计、框架搭建及开发测试。\n任职要求\n1.全日制本科及以上学历；\n2.计算机科学与技术、软件工程、通信工程等专业优先；\n3.英文成绩优秀，口语能力突出者优先；\n4.具备实际的.Net/Java网站或App产品开发方面的实习经验者优先；\n5.具备开源软件项目参与经验者优先。",
+      "locations": []
+    }
+  },
+  {
+    "source": "ey-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/ey/166374#/job/eda9bde4-0ed0-4e03-aed8-df09f8a5477c",
+    "observed_at": "2026-10-23T16:12:13.8543425Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "eda9bde4-0ed0-4e03-aed8-df09f8a5477c",
+      "orgId": "ey",
+      "title": "安永风控与安全咨询服务实习生",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "实习",
+      "jobDescription": "项目介绍\n加入安永风控与安全咨询服务团队，深度参与一线项目交付。本项目以“选拔并培养未来SA1全职人才”为核心目标，提供系统化带教与实战历练。实习期满2个月表现优异者，经综合评估后可直接获得全职录用机会。\n岗位要求\n1.在项目经理及顾问指导下，参与风险管理、合规咨询、数字化转型、数据安全与合规、信息安全、AI开发等相关项目的交付支持工作；\n2.协助开展客户需求调研、行业与竞品分析、数据收集与整理，参与编制项目交付物（如分析报告、汇报材料、数据模型等）；\n3.协助撰写项目沟通邮件、会议纪要及阶段性进展汇报，保障项目高效推进；\n4.在指导下参与流程梳理、风险识别、控制测试等基础咨询工作，快速积累实务经验；\n5.按时完成项目小组交办的其他专业支持任务。\n任职要求\n1.2027届海内外高校应届毕业生（本科或硕士），理工科及相关专业优先（如数据科学、计算机、工程、金融工程等）；\n2.具备优秀的英语读写能力（CET-6/雅思6.5/托福90及以上优先），可熟练阅读英文资料及撰写商务邮件；\n3.精通Office办公软件（尤其Excel数据处理与PPT逻辑呈现），具备基础数据分析或可视化工具使用经验者加分；\n4.具备较强的快速学习能力、抗压能力与跨团队沟通能力，适应咨询行业快节奏工作环境；\n5.在校期间参与过AI相关研究、项目开发或具备相关实践经验者优先。\n实习安排与转正机制\n1.实习周期：可保证连续在岗至少2个月。实习窗口期为2026年9月至12月，或2027年3月至6月；\n2.转正路径：实习满2个月后将进行阶段性综合评估。评估达标者可直接获得SA1全职录用通知；获得全职录用通知的同学，可根据实际项目需求与个人意向协商延长实习期，提前融入团队。\n招聘城市\n上海，杭州，成都，广州，深圳，北京",
+      "locations": []
+    }
+  },
+  {
+    "source": "cambricon-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/job/0f416eb2-be16-4766-8755-3cde6cd71a0f",
+    "observed_at": "2026-10-23T18:42:52.4605076Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "0f416eb2-be16-4766-8755-3cde6cd71a0f",
+      "orgId": "cambricon",
+      "title": "芯片后端工程师-27届",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n负责 RTL 到 GDSII 全流程设计，涵盖综合、布局布线、时序分析、功耗优化等关键环节；协同前端团队完成芯片早期评估与迭代；参与工艺与工具设计方法学开发，持续提升芯片 PPA（性能 / 功耗 / 面积）与良率指标。\n任职要求：\n教育背景：微电子、电子科学与技术等相关专业本科及以上；\n专业知识：熟悉数字电路设计，了解芯片后端设计流程，了解物理设计基本原理；\n技能要求：掌握 Linux 系统操作（cshell/bash/make），精通 TCL/Perl/Python 任一脚本语言；熟悉EDA 工具；\n能力素质：具备跨团队沟通协调能力，逻辑分析与问题解决能力突出；\n加分项：有大型 SOC 后端实现项目经验，或参与过设计流程优化工作。\n注：本岗位设置笔试环节，请留意邮件及短信通知。",
+      "locations": []
+    }
+  },
+  {
+    "source": "cambricon-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/job/318a6043-6737-4208-a224-9feaf1b7f222",
+    "observed_at": "2026-10-23T18:42:52.4605076Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "318a6043-6737-4208-a224-9feaf1b7f222",
+      "orgId": "cambricon",
+      "title": "硬件系统测试开发工程师-27届",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位描述：\n根据产品规格和项目计划参与产品硬件整体测试方案，制定测试计划，规划测试用例并执行；\n参与产品的硬件测试方案和测例评审，跟踪测试进度与质量，汇总测试结果输出分析报告；\n参与产品硬件设计阶段评审，识别设计风险，制定风险验证方案；\n参与解决产品问题和缺陷，推动开发制定问题修复计划，至问题闭环；\n总结测试经验，完善测试标准，调研技术和方法，提高测试效率。\n岗位要求：\n本科及以上学历，电子工程、通信、测控、自动控制等相关专业；\n掌握Shell、Python等脚本语言及Linux操作系统；\n掌握基本的硬件电路设计知识，熟悉基本测试方法和理论，有自动化测试脚本开发经验者优先；\n能承受较强的工作压力，有较好的沟通、协调能力，能接受工作需要的短期出差。",
+      "locations": []
+    }
+  },
+  {
+    "source": "cambricon-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/job/f37cb96e-0247-4e8a-92b0-3ebdf9863df3",
+    "observed_at": "2026-10-23T18:42:52.4605076Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "f37cb96e-0247-4e8a-92b0-3ebdf9863df3",
+      "orgId": "cambricon",
+      "title": "芯片测试工程师-27届",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位描述：\n负责芯片和系统级调试工作，参与芯片设计到产品化全流程的存储和IO接口、性能/功耗优化等领域的调试方案制定和实施，确保芯片和系统通过稳定性和兼容性等测试要求，并达到性能功耗最优化；\n负责芯片和系统的问题分析和定位，拉通从芯片、硬件系统到软件的联合调试和攻关。\n岗位要求：\n电子/计算机/通信/自动化等相关专业，硕士及以上学历；\n熟悉C语言，了解Linux开发环境；\n具备扎实的数电、模电基础；\n有各种接口硬件设计或调试经验者优先；\n具备较强的逻辑思维能力和问题分析解决能力；\n勇于挑战自我，具备较强的学习能力和旺盛的求知欲。",
+      "locations": []
+    }
+  },
+  {
+    "source": "cambricon-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/job/b765a95f-48d8-4a64-9116-6d5f2bf2239c",
+    "observed_at": "2026-10-23T18:42:52.4605076Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "b765a95f-48d8-4a64-9116-6d5f2bf2239c",
+      "orgId": "cambricon",
+      "title": "后端流程开发工程师-27届",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n负责全流程平台架构设计与工具链开发，持续优化设计方法学以提升芯片 PPA 性能。\n具体包括：\n1. 主导后端设计平台开发与迭代，构建高效流程管理系统及数据文件分析平台\n2. 优化 RTL 到 GDSII 全流程设计规范，通过方法学创新实现性能 / 功耗 / 面积指标提升\n3. 开发定制化后端工具脚本，解决自动化流程中的技术瓶颈\n4. 开展先进工艺设计方法学研究，为新一代芯片开发提供技术支撑\n任职要求：\n1. 教育背景：电子工程、微电子、计算机等相关专业本科及以上\n2. 专业知识：熟悉芯片后端设计流程，了解物理设计、时序分析基本原理\n3. 技能要求：\n• 精通 Python/TCL/Perl/C++ 等至少一种脚本语言，具备独立编程开发能力\n• 掌握 Linux 系统操作及EDA 工具使用\n4. 能力素质：\n• 逻辑思维严谨，具备复杂问题分解与算法优化能力\n• 良好的跨团队沟通能力，能快速理解技术需求并推动落地\n• 自主学习能力强，对半导体行业新技术保持敏锐洞察力\n5. 加分项：\n• 有芯片后端流程自动化项目经验，或主导过工具链开发优化\n• 熟悉机器学习在 EDA 流程中的应用，或具备脚本框架设计经验\n注：本岗位设置笔试环节，请留意邮件及短信通知。",
+      "locations": []
+    }
+  },
+  {
+    "source": "cambricon-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/job/36bdfa21-8300-4bc1-9b1f-73bd1c3018bf",
+    "observed_at": "2026-10-23T18:42:52.4605076Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "36bdfa21-8300-4bc1-9b1f-73bd1c3018bf",
+      "orgId": "cambricon",
+      "title": "AI现场应用工程师-27届",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n负责寒武纪软硬件产品的导入、交付；\n完成推理/训练相关适配测试工作；\n负责算法模型在寒武纪软硬件产品上的移植、部署、测试及优化。\n任职要求：\n本科及以上学历，计算机、通信、自动化、电子信息，应用数学、物理等相关专业；\n熟练掌握C++/Python/Shell等编程语言，掌握Linux操作系统下CMake、GDB、Git、docker等常用开发和调试工具；\n熟悉Pytorch深度学习框架者优先；\n熟悉大模型推理或部署应用框架和开源库，如transformers，megatron，deepspeed，vllm，sglang，diffusers等，有相关应用经验优先。\n注：本岗位设置笔试环节，请留意邮件或短信通知。",
+      "locations": []
+    }
+  },
+  {
+    "source": "cambricon-campus",
+    "official_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/job/7d8d13db-f884-4e63-bd95-ffcb13a529f0",
+    "observed_at": "2026-10-23T18:42:52.4605076Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": true,
+    "detail": {
+      "id": "7d8d13db-f884-4e63-bd95-ffcb13a529f0",
+      "orgId": "cambricon",
+      "title": "AI解决方案实习生-日常实习",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "实习",
+      "jobDescription": "岗位职责：\n1.负责客户AI工作负载/SOTA算法模型的量化分析、移植、实现、端到端性能优化和精度调优；\n2.针对主流的或客户的AI Benchmark(如MLPerf等)进行端到端的优化，关注评估业界各优化技术，并落地实践；\n3.开发和维护model zoo，进行SOTA算法复现，测试并进行性能优化分析和精度调优。\n任职资格:\n1.EECS或相关专业，本科及以上学历；\n2.熟悉掌握一种或以上主流框架(TensorFlow/ PyTorch等);\n3.对大模型、多模态、计算机视觉、自然语言处理中的某一个场景具有浓厚的兴趣和一定的积累；\n4.熟悉Linux系统，熟练使用Python/Shell/C/C++等至少一种编程语言;\n5.勤于思考，乐于解决问题，对问题有好奇心;\n6.至少实习6个月，每周出勤4天及以上。\n加分项（满足一项即可）：\n1.有GPU或其他AI芯片性能优化分析和精度调优经验, 熟练掌握profiler、nvprof和nsight等性能分析工具；\n2.了解megatron/deepspeed等分布式框架;\n3.具有大模型/多模态模型pretrain，finetune经验。",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/6fee945e-1ab0-4cdb-8202-515a3d6b06ff",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "6fee945e-1ab0-4cdb-8202-515a3d6b06ff",
+      "orgId": "jingchi",
+      "title": "硬件集成测试开发实习生",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "实习",
+      "jobDescription": "岗位职责：\n部署新研计算平台，域控，传感器及驱动软件至路测车辆，出现问题能够定位并推动解决；\n主导新车型下线，定位并推动解决新车型下线中出现的问题；\n支持车队运营，对车队运营中出现的硬件问题进行定位并推动解决；\n维护车队状态看板，发现车队运营中存在的隐患并推动解决；\n支持新车型研发，对新车型研发过程中出现的问题提供解决方案建议；\n任职要求：\n本科及以上学历，熟悉Ubuntu/linux操作系统；会写shell脚本，python脚本能力为加分项；\n理工类专业，计算机，自动化专业优先；\n对汽车整车，机器人，传感器，域控相关硬件有一定的了解；\n工作踏实，有责任心，具有抗压能力和良好的团队合作精神；\n对自动驾驶有热情，对自动驾驶的未来充满向往。\n出勤要求：实习期不低于2个月，周出勤不少于3天。",
+      "locations": []
+    }
+  },
+  {
+    "source": "weride-campus",
+    "official_url": "https://app.mokahr.com/campus_apply/jingchi/2137#/job/8293164c-43c0-4607-b631-0b3b2a1cf383",
+    "observed_at": "2026-10-23T16:09:41.7538071Z",
+    "derivation": "Essential public identity fields and plain-text responsibilities retained from the complete production reader result.",
+    "expected_selected": false,
+    "detail": {
+      "id": "8293164c-43c0-4607-b631-0b3b2a1cf383",
+      "orgId": "jingchi",
+      "title": "硬件集成测试开发工程师【2027届校招】",
+      "status": "open",
+      "hireMode": 2,
+      "commitment": "全职",
+      "jobDescription": "岗位职责：\n部署新研计算平台，域控，传感器及驱动软件至路测车辆，出现问题能够定位并推动解决；\n主导新车型下线，定位并推动解决新车型下线中出现的问题；\n支持车队运营，对车队运营中出现的硬件问题进行定位并推动解决；\n维护车队状态看板，发现车队运营中存在的隐患并推动解决；\n支持新车型研发，对新车型研发过程中出现的问题提供解决方案建议；\n任职要求：\n本科及以上学历，熟悉Ubuntu/Ros//linux操作系统。python脚本能力为加分项；\n理工类专业，计算机，自动化专业优先；\n对汽车整车或者传感器或者域控相关硬件有一定的了解；\n工作踏实，有责任心，具有抗压能力和良好的团队合作精神；\n对自动驾驶有热情，对自动驾驶的未来充满向往。",
+      "locations": []
+    }
+  }
+]

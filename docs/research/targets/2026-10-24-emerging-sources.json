@@ -1,0 +1,1359 @@
+{
+  "requested_at": "2026-10-22",
+  "researched_at": "2026-10-23T18:33:41.911Z",
+  "scope": "computer_related_campus_internship_and_explicit_early_career_max_one_year",
+  "coverage": {
+    "assigned_target_count": 34,
+    "records": 34,
+    "status_counts": {
+      "official_homepage_only": 13,
+      "official_entry_verified": 13,
+      "public_details_verified": 1,
+      "existing_source_reused": 1,
+      "network_or_certificate_error": 6
+    }
+  },
+  "companies": [
+    {
+      "target_id": "emerging_tech-001",
+      "requested_name": "宇树科技",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "recruitment_url": "https://www.unitree.com/cn/position/",
+      "note": "官网招聘页可读；尚未验证动态列表与逐岗位资格，不能称为已录入。",
+      "checked_at": "2026-10-23T16:01:33.552Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.unitree.com/cn/position/",
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.unitree.com/cn/position/",
+          "http_status": 200,
+          "effective_url": "https://www.unitree.com/cn/position/",
+          "title": "招贤纳士 - 宇树科技",
+          "sha256": "17cd7470f374a116a663b8ac7703e6767e8ff2e02c20c78d34b2daffccea7eef",
+          "bytes": 111095,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-001.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-002",
+      "requested_name": "智元机器人",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "recruitment_url": "https://agirobot.jobs.feishu.cn/campusrecruitment",
+      "note": "官网直接授权校园及实习独立入口，公开列表合同及租户身份已观察。完整采集通过前不能宣称已录入。",
+      "checked_at": "2026-10-23T16:01:32.410Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.agibot.com.cn/join_us",
+      "source_code": "agibot-campus",
+      "official_chain": [
+        {
+          "from": "https://www.agibot.com.cn/join_us",
+          "to": "https://www.agibot.com.cn/join_us",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1042671fbf845ef4257c5701f0e8f8a765bf122efca52e7d84cc1908797b450"
+        },
+        {
+          "from": "https://www.agibot.com.cn/join_us",
+          "to": "https://agirobot.jobs.feishu.cn/index",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1042671fbf845ef4257c5701f0e8f8a765bf122efca52e7d84cc1908797b450"
+        },
+        {
+          "from": "https://www.agibot.com.cn/join_us",
+          "to": "https://agirobot.jobs.feishu.cn/socialrecruitment",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1042671fbf845ef4257c5701f0e8f8a765bf122efca52e7d84cc1908797b450"
+        },
+        {
+          "from": "https://www.agibot.com.cn/join_us",
+          "to": "https://agirobot.jobs.feishu.cn/campusrecruitment",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1042671fbf845ef4257c5701f0e8f8a765bf122efca52e7d84cc1908797b450"
+        },
+        {
+          "from": "https://www.agibot.com.cn/join_us",
+          "to": "https://agirobot.jobs.feishu.cn/internrecruitment",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1042671fbf845ef4257c5701f0e8f8a765bf122efca52e7d84cc1908797b450"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.agibot.com.cn/join_us",
+          "http_status": 200,
+          "effective_url": "https://www.agibot.com.cn/join_us",
+          "title": "招贤纳⼠-智元创新（上海）科技股份有限公司",
+          "sha256": "d1042671fbf845ef4257c5701f0e8f8a765bf122efca52e7d84cc1908797b450",
+          "bytes": 112040,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-002.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-003",
+      "requested_name": "云深处",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:01:34.241Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.deeprobotics.cn/",
+      "recruitment_url": "https://www.deeprobotics.cn/join_us.html",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.deeprobotics.cn/",
+          "to": "https://www.deeprobotics.cn/join_us.html",
+          "method": "anonymous_public_html",
+          "source_sha256": "0b3f7549664c70dcd08a3276aa9f85369f52605af61f19803515ac90fff93596"
+        },
+        {
+          "from": "https://www.deeprobotics.cn/",
+          "to": "https://www.deeprobotics.cn/recruit/society.html",
+          "method": "anonymous_public_html",
+          "source_sha256": "0b3f7549664c70dcd08a3276aa9f85369f52605af61f19803515ac90fff93596"
+        },
+        {
+          "from": "https://www.deeprobotics.cn/",
+          "to": "https://www.deeprobotics.cn/recruit/campus.html",
+          "method": "anonymous_public_html",
+          "source_sha256": "0b3f7549664c70dcd08a3276aa9f85369f52605af61f19803515ac90fff93596"
+        },
+        {
+          "from": "https://www.deeprobotics.cn/",
+          "to": "https://www.deeprobotics.cn/join_us.html#employee",
+          "method": "anonymous_public_html",
+          "source_sha256": "0b3f7549664c70dcd08a3276aa9f85369f52605af61f19803515ac90fff93596"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.deeprobotics.cn/",
+          "http_status": 200,
+          "effective_url": "https://www.deeprobotics.cn/",
+          "title": "云深处科技股份有限公司",
+          "sha256": "0b3f7549664c70dcd08a3276aa9f85369f52605af61f19803515ac90fff93596",
+          "bytes": 114829,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-003.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-004",
+      "requested_name": "银河通用",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "recruitment_url": "https://app.mokahr.com/social-recruitment/yinhetongyong/165929",
+      "note": "2026-10-23 web原始官网 https://www.galbot.com/ 的招聘直接链接此Moka社招站；校园165930仅是进一步线索，尚未确证站内授权及完整合同。",
+      "checked_at": "2026-10-23T16:01:42.784Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.galbot.com/",
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.galbot.com/",
+          "http_status": 0,
+          "effective_url": "https://www.galbot.com/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-004.html",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������"
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-005",
+      "requested_name": "云鲸智能",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:34.770Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://careers.narwal.com/jobs",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://careers.narwal.com/jobs",
+          "http_status": 200,
+          "effective_url": "https://careers.narwal.com/jobs",
+          "title": "云鲸智能",
+          "sha256": "130f937ab3b1c285fbc628d458d9b5e2a2ffc002590950c6fbefc578e741c3c5",
+          "bytes": 38245,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-005.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-006",
+      "requested_name": "追觅科技",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:35.044Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.dreame.tech/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.dreame.tech/",
+          "http_status": 200,
+          "effective_url": "https://www.dreame.tech/",
+          "title": "追觅商城-首页",
+          "sha256": "3a82c6a69085b891b9cc920c4ce249c72cf5978d8fa1d80a1b829fbc647a2bcd",
+          "bytes": 346528,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-006.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-007",
+      "requested_name": "拓竹科技",
+      "requested_group": "中小厂",
+      "status": "public_details_verified",
+      "recruitment_url": "https://bambulab.jobs.feishu.cn/campus",
+      "note": "https://bambulab.cn/zh-cn/join-us 的校园招聘链接由web直接读取确认；本机curl访问官网曾403，不代表下游公开ATS受限。生产读取器169条/42初筛完成两轮，方向归一化修复后仍需最终复核。",
+      "checked_at": "2026-10-23T16:01:35.709Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://bambulab.cn/zh-cn/join-us",
+      "source_code": "bambulab-careers",
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://bambulab.cn/zh-cn/join-us",
+          "http_status": 403,
+          "effective_url": "https://bambulab.cn/zh-cn/join-us",
+          "title": "请稍候…",
+          "sha256": "74cbdad89d80226cfceb07d3be7a53cb007aa51e9b55994b098625114f29e189",
+          "bytes": 5435,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-007.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-008",
+      "requested_name": "正浩创新",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:01:37.379Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.ecoflow.com/cn/",
+      "recruitment_url": "https://jobs.ecoflow.com/index",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.ecoflow.com/cn/",
+          "to": "https://jobs.ecoflow.com/index",
+          "method": "anonymous_public_html",
+          "source_sha256": "b66213d0dd7127bdbb5e9994307a24fa1b737bc73f04b631d5e617c8386e5bbe"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ecoflow.com/cn/",
+          "http_status": 200,
+          "effective_url": "https://www.ecoflow.com/cn",
+          "title": "EcoFlow CN | EcoFlow",
+          "sha256": "b66213d0dd7127bdbb5e9994307a24fa1b737bc73f04b631d5e617c8386e5bbe",
+          "bytes": 213642,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-008.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-009",
+      "requested_name": "石头科技",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:36.725Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://mall.roborock.com/introduction/jobs",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://mall.roborock.com/introduction/jobs",
+          "http_status": 200,
+          "effective_url": "https://mall.roborock.com/introduction/jobs",
+          "title": "石头科技官方商城",
+          "sha256": "d819fc000fa4055ec9a47fb97fc44f81c9d04f586ee0c2fbf775257d1edd0764",
+          "bytes": 4847,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-009.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-010",
+      "requested_name": "九号公司",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:38.597Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.ninebot.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.ninebot.com/",
+          "http_status": 200,
+          "effective_url": "https://www.ninebot.com/",
+          "title": "九号公司官网：简化人和物的移动，让生活更便捷而有趣",
+          "sha256": "67e750bde1c4b2a55832de4053ea11dc67e51c97f023a17f4a01b78859c007ed",
+          "bytes": 235781,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-010.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-011",
+      "requested_name": "影石创新",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "recruitment_url": "https://arashivision.jobs.feishu.cn/campus",
+      "note": "官网直接授权，独立匿名浏览器已观察公开读取合同，完整资格与两轮采集结果另行对账。",
+      "checked_at": "2026-10-23T16:01:38.467Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.insta360.com/cn/jobs",
+      "source_code": "insta360-campus",
+      "official_chain": [
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://www.insta360.com/cn/jobs",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://www.insta360.com/jobs",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://www.insta360.com/cn/jobs#maincontent",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus/?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=7366092328065714469&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus/?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=7366092491991533833&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus/?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=7366092604281669898&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus/?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=7366092756340771098&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus/?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=7366092795788511514&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        },
+        {
+          "from": "https://www.insta360.com/cn/jobs",
+          "to": "https://arashivision.jobs.feishu.cn/campus/?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=7366092863739955494&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.insta360.com/cn/jobs",
+          "http_status": 200,
+          "effective_url": "https://www.insta360.com/cn/jobs",
+          "title": "影石Insta360招聘",
+          "sha256": "d1663e533a36c0546e55390b24753bea682df08f2dee702551744312e5a2eea8",
+          "bytes": 198024,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-011.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-012",
+      "requested_name": "韶音科技",
+      "requested_group": "中小厂",
+      "status": "existing_source_reused",
+      "recruitment_url": "https://app.mokahr.com/campus-recruitment/aftershokzhr/36940",
+      "note": "复用项目原有shokz-campus；官网当前社招40779并不替代原已验证校招，最终数量按发布后实际数据库对账。",
+      "checked_at": "2026-10-23T16:01:39.490Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.shokz.com.cn/",
+      "source_code": "shokz-campus",
+      "official_chain": [
+        {
+          "from": "https://www.shokz.com.cn/",
+          "to": "https://app.mokahr.com/apply/aftershokzhr/40779#/",
+          "method": "anonymous_public_html",
+          "source_sha256": "ff0b749e18bc3853db9ad4483d7c8cab936d6920d2bff65e8d0a6b64c1d882cb"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.shokz.com.cn/",
+          "http_status": 200,
+          "effective_url": "https://www.shokz.com.cn/",
+          "title": "Shokz 韶音官方网站",
+          "sha256": "ff0b749e18bc3853db9ad4483d7c8cab936d6920d2bff65e8d0a6b64c1d882cb",
+          "bytes": 228019,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-012.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-013",
+      "requested_name": "安克创新",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:01:40.839Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.anker.com.cn/",
+      "recruitment_url": "https://career.anker.com.cn/",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.anker.com.cn/",
+          "to": "https://career.anker.com.cn/",
+          "method": "anonymous_public_html",
+          "source_sha256": "4a6c5f6fc2eeb42aa21048006b8c18edd9c6e98f8b754a7719ba3ad42fcc8a55"
+        },
+        {
+          "from": "https://www.anker.com.cn/",
+          "to": "https://career.anker-in.com/",
+          "method": "anonymous_public_html",
+          "source_sha256": "4a6c5f6fc2eeb42aa21048006b8c18edd9c6e98f8b754a7719ba3ad42fcc8a55"
+        },
+        {
+          "from": "https://www.anker.com.cn/",
+          "to": "https://career.anker-in.com/universities/recruitment",
+          "method": "anonymous_public_html",
+          "source_sha256": "4a6c5f6fc2eeb42aa21048006b8c18edd9c6e98f8b754a7719ba3ad42fcc8a55"
+        },
+        {
+          "from": "https://www.anker.com.cn/",
+          "to": "https://career.anker-in.com/social/recruitment/new",
+          "method": "anonymous_public_html",
+          "source_sha256": "4a6c5f6fc2eeb42aa21048006b8c18edd9c6e98f8b754a7719ba3ad42fcc8a55"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.anker.com.cn/",
+          "http_status": 200,
+          "effective_url": "https://www.anker.com.cn/",
+          "title": "首页 - 安克创新",
+          "sha256": "4a6c5f6fc2eeb42aa21048006b8c18edd9c6e98f8b754a7719ba3ad42fcc8a55",
+          "bytes": 263152,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-013.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-014",
+      "requested_name": "大疆创新",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:42.857Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.dji.com/cn/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.dji.com/cn/",
+          "http_status": 200,
+          "effective_url": "https://www.dji.com/cn/mobile",
+          "title": "DJI 大疆创新 - 官方网站",
+          "sha256": "c0d5a9d256c30fdd982741c12626cd21033b13541437f7eb1a922c233b39d5fa",
+          "bytes": 126218,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-014.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-015",
+      "requested_name": "中控技术",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:01:42.170Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.supcon.com/",
+      "recruitment_url": "https://www.supcon.com/join",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#weishimexuanzezhongkong-",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#qiyewenhua",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#shouhuoyuchengchang",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#yiqizuoyouqudeshi",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#yuangongxiangmushishigushi",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#zhaopinrukou",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        },
+        {
+          "from": "https://www.supcon.com/",
+          "to": "https://www.supcon.com/join#jiaruzhongkongyujiangenghaodeni",
+          "method": "anonymous_public_html",
+          "source_sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.supcon.com/",
+          "http_status": 200,
+          "effective_url": "https://www.supcon.com/",
+          "title": "中控技术股份有限公司",
+          "sha256": "7d745bc06fdf4b1f86e20f44cb20c1f4542de20ccb726535cc47e1794e89ffe4",
+          "bytes": 123312,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-015.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-016",
+      "requested_name": "奥比中光",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:43.866Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.orbbec.com.cn/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.orbbec.com.cn/",
+          "http_status": 200,
+          "effective_url": "https://www.orbbec.com.cn/",
+          "title": "奥比中光-机器人视觉及AI视觉科技公司",
+          "sha256": "b69064ae41b30375f9eda44f12529aa6782d463ae378912979f2848bf1179a86",
+          "bytes": 70977,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-016.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-017",
+      "requested_name": "埃斯顿",
+      "requested_group": "中小厂",
+      "status": "network_or_certificate_error",
+      "checked_at": "2026-10-23T16:02:09.937Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.estun.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.estun.com/",
+          "http_status": 0,
+          "effective_url": "https://www.estun.com/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-017.html",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������"
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-018",
+      "requested_name": "立镖机器人",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:43.419Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.libiaorobot.com/zh/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.libiaorobot.com/zh/",
+          "http_status": 200,
+          "effective_url": "https://www.libiaorobot.com/zh/",
+          "title": "立镖机器人 - 智能分拣机器人 柔性智能分拣解决方案",
+          "sha256": "cb347127a03b83b0cec12d2003be2c4a7daa2c3b8d7b11b9c1e8e182a1cc5946",
+          "bytes": 1488,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-018.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-019",
+      "requested_name": "月之暗面",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:01:43.915Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://careers.kimi.com/",
+      "recruitment_url": "https://careers.kimi.com/",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://careers.kimi.com/",
+          "to": "https://careers.kimi.com/",
+          "method": "anonymous_public_html",
+          "source_sha256": "9ef429d68b22f14abbfcce8ebd08eaa340d2434b773751b067017fd9bada806b"
+        },
+        {
+          "from": "https://careers.kimi.com/",
+          "to": "https://careers.kimi.ai/",
+          "method": "anonymous_public_html",
+          "source_sha256": "9ef429d68b22f14abbfcce8ebd08eaa340d2434b773751b067017fd9bada806b"
+        },
+        {
+          "from": "https://careers.kimi.com/",
+          "to": "https://careers.kimi.com/favicon.ico?favicon.151bc5b8.ico",
+          "method": "anonymous_public_html",
+          "source_sha256": "9ef429d68b22f14abbfcce8ebd08eaa340d2434b773751b067017fd9bada806b"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://careers.kimi.com/",
+          "http_status": 200,
+          "effective_url": "https://careers.kimi.com/",
+          "title": "Moonshot · Kimi 招聘官网 | 月之暗面求职",
+          "sha256": "9ef429d68b22f14abbfcce8ebd08eaa340d2434b773751b067017fd9bada806b",
+          "bytes": 11624,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-019.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-020",
+      "requested_name": "智谱AI",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:47.288Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://bigmodel.cn/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://bigmodel.cn/",
+          "http_status": 200,
+          "effective_url": "https://bigmodel.cn/",
+          "title": "智谱丨BigModel 平台",
+          "sha256": "f410e39a255eea056c08260c45a18e4e62aa7be9c51d42c808a7af0d97e68ae1",
+          "bytes": 6676,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-020.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-021",
+      "requested_name": "百川智能",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:45.869Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.baichuan-ai.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.baichuan-ai.com/",
+          "http_status": 200,
+          "effective_url": "https://www.baichuan-ai.com/",
+          "title": "百川大模型-百川智能",
+          "sha256": "dd80f98ac1aeb9c7cc3806916b9df3068b70bb8fcfda282d73663a29475016ee",
+          "bytes": 13787,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-021.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-022",
+      "requested_name": "阶跃星辰",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:01:46.415Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.stepfun.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.stepfun.com/",
+          "http_status": 200,
+          "effective_url": "https://www.stepfun.com/",
+          "title": "阶跃星辰",
+          "sha256": "d7dd8a954603285032c1a9ac9e2ef090c4e1c440cf284b79695e6ae71d60bd89",
+          "bytes": 2262,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-022.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-023",
+      "requested_name": "MiniMax",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:01:49.139Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.minimax.cn/careers",
+      "recruitment_url": "https://www.minimax.cn/careers",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.minimax.cn/careers",
+          "to": "https://www.minimax.cn/careers",
+          "method": "anonymous_public_html",
+          "source_sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b"
+        },
+        {
+          "from": "https://www.minimax.cn/careers",
+          "to": "https://www.minimax.io/careers",
+          "method": "anonymous_public_html",
+          "source_sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b"
+        },
+        {
+          "from": "https://www.minimax.cn/careers",
+          "to": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?keywords=&category=&location=&project=7496820276634634537&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b"
+        },
+        {
+          "from": "https://www.minimax.cn/careers",
+          "to": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?keywords=&category=&location=&project=7495675705720965415&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b"
+        },
+        {
+          "from": "https://www.minimax.cn/careers",
+          "to": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?keywords=&category=&location=&project=7352753013591755047%2C7572193079274801454&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
+          "method": "anonymous_public_html",
+          "source_sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b"
+        },
+        {
+          "from": "https://www.minimax.cn/careers",
+          "to": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+          "method": "anonymous_public_html",
+          "source_sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.minimax.cn/careers",
+          "http_status": 200,
+          "effective_url": "https://www.minimax.cn/careers",
+          "title": "加入我们，构建 AI 的未来 | MiniMax",
+          "sha256": "c2b27bf67ded9bc29349051ab8c31678d6f53f84be073877610e2361b640cd2b",
+          "bytes": 68258,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-023.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-024",
+      "requested_name": "面壁智能",
+      "requested_group": "中小厂",
+      "status": "network_or_certificate_error",
+      "checked_at": "2026-10-23T16:01:50.315Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.modelbest.cn/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.modelbest.cn/",
+          "http_status": 503,
+          "effective_url": "https://www.modelbest.cn/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-024.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-025",
+      "requested_name": "无问芯穹",
+      "requested_group": "中小厂",
+      "status": "network_or_certificate_error",
+      "checked_at": "2026-10-23T16:02:05.605Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.infinigence-ai.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.infinigence-ai.com/",
+          "http_status": 0,
+          "effective_url": "https://www.infinigence-ai.com/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-025.html",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������"
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-026",
+      "requested_name": "硅基流动",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "recruitment_url": null,
+      "note": "官网可读；发现的飞书表单未核实为招聘用途，不将通用表单当作岗位入口。",
+      "checked_at": "2026-10-23T16:01:56.822Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.siliconflow.cn/",
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.siliconflow.cn/",
+          "http_status": 200,
+          "effective_url": "https://www.siliconflow.cn/",
+          "title": "硅基流动 SiliconFlow - 大模型 API 与 AI 云服务平台",
+          "sha256": "8367b3ba4ccc26f8f82b23b583f3f3a3bb11961c99772b12574ba5dca8bda84e",
+          "bytes": 242845,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-026.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-027",
+      "requested_name": "生数科技",
+      "requested_group": "中小厂",
+      "status": "network_or_certificate_error",
+      "checked_at": "2026-10-23T16:02:12.729Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.shengshu-ai.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.shengshu-ai.com/",
+          "http_status": 301,
+          "effective_url": "https://www.shengshu.com/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-027.html",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������"
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-028",
+      "requested_name": "寒武纪",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "recruitment_url": "https://app.mokahr.com/campus-recruitment/cambricon/44201",
+      "note": "企业官网原始HTML直接授权此站，实际init已核实org=cambricon/site=44201/mode=campus；完整读取与验收另行记录。",
+      "checked_at": "2026-10-23T16:02:06.755Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.cambricon.com/",
+      "source_code": "cambricon-campus",
+      "official_chain": [
+        {
+          "from": "https://www.cambricon.com/",
+          "to": "https://app.mokahr.com/campus-recruitment/cambricon/44201#/",
+          "method": "anonymous_public_html",
+          "source_sha256": "470c398a92f4f177ecb21792f77b4259c6053d6463c1f940f4b629b25085eb1b"
+        },
+        {
+          "from": "https://www.cambricon.com/",
+          "to": "https://app.mokahr.com/campus-recruitment/cambricon/44201",
+          "method": "anonymous_public_html",
+          "source_sha256": "470c398a92f4f177ecb21792f77b4259c6053d6463c1f940f4b629b25085eb1b"
+        },
+        {
+          "from": "https://www.cambricon.com/",
+          "to": "https://app.mokahr.com/m/apply/cambricon/1113",
+          "method": "anonymous_public_html",
+          "source_sha256": "470c398a92f4f177ecb21792f77b4259c6053d6463c1f940f4b629b25085eb1b"
+        },
+        {
+          "from": "https://www.cambricon.com/",
+          "to": "https://app.mokahr.com/recommendation-recruitment/cambricon/46261",
+          "method": "anonymous_public_html",
+          "source_sha256": "470c398a92f4f177ecb21792f77b4259c6053d6463c1f940f4b629b25085eb1b"
+        },
+        {
+          "from": "https://www.cambricon.com/",
+          "to": "https://app.mokahr.com/recommendation-recruitment/cambricon/42452",
+          "method": "anonymous_public_html",
+          "source_sha256": "470c398a92f4f177ecb21792f77b4259c6053d6463c1f940f4b629b25085eb1b"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cambricon.com/",
+          "http_status": 200,
+          "effective_url": "https://www.cambricon.com/",
+          "title": "寒武纪",
+          "sha256": "470c398a92f4f177ecb21792f77b4259c6053d6463c1f940f4b629b25085eb1b",
+          "bytes": 46460,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-028.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-029",
+      "requested_name": "旷视科技",
+      "requested_group": "中小厂",
+      "status": "official_homepage_only",
+      "checked_at": "2026-10-23T16:02:07.197Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.megvii.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.megvii.com/",
+          "http_status": 200,
+          "effective_url": "https://www.megvii.com/",
+          "title": "MEGVII旷视",
+          "sha256": "f1d4d2d01a89c3321d4a2812ae39c9b60d34e1e03db20422a5621ee17ca2c8a4",
+          "bytes": 3814,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-029.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-030",
+      "requested_name": "商汤科技",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:02:07.898Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.sensetime.com/cn",
+      "recruitment_url": "https://www.sensetime.com/cn/partner/#recruit",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.sensetime.com/cn",
+          "to": "https://www.sensetime.com/cn/partner/#recruit",
+          "method": "anonymous_public_html",
+          "source_sha256": "7bbeba03cd9f0fd1441194b72abf1653b8b5eff2161982e7510dcc549c3cf36b"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sensetime.com/cn",
+          "http_status": 200,
+          "effective_url": "https://www.sensetime.com/cn/",
+          "title": "商汤科技 SenseTime",
+          "sha256": "7bbeba03cd9f0fd1441194b72abf1653b8b5eff2161982e7510dcc549c3cf36b",
+          "bytes": 33944,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-030.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-031",
+      "requested_name": "第四范式",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:02:08.671Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.4paradigm.com/",
+      "recruitment_url": "https://app.mokahr.com/social-recruitment/4paradigm/102013#/",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.4paradigm.com/",
+          "to": "https://app.mokahr.com/social-recruitment/4paradigm/102013#/",
+          "method": "anonymous_public_html",
+          "source_sha256": "4aa3c571595decfe5428b2f8c679f18a4588f8d529bec395c44455d50de4eedc"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.4paradigm.com/",
+          "http_status": 200,
+          "effective_url": "https://www.4paradigm.com/",
+          "title": "4Paradigm | 第四范式官网 - AI+行业大模型，推动千行百业智能化转型",
+          "sha256": "4aa3c571595decfe5428b2f8c679f18a4588f8d529bec395c44455d50de4eedc",
+          "bytes": 75166,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-031.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-032",
+      "requested_name": "优必选",
+      "requested_group": "中小厂",
+      "status": "official_entry_verified",
+      "checked_at": "2026-10-23T16:02:10.476Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.ubtrobot.com/",
+      "recruitment_url": "https://ubtrobot.zhiye.com/",
+      "source_code": null,
+      "official_chain": [
+        {
+          "from": "https://www.ubtrobot.com/",
+          "to": "https://ubtrobot.zhiye.com/",
+          "method": "anonymous_public_html",
+          "source_sha256": "d296b3651fc9f55f47a5456164b884b9aacf81d87cc84b2d7270050e4f4c7eb7"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ubtrobot.com/",
+          "http_status": 200,
+          "effective_url": "https://www.ubtrobot.com/cn/",
+          "title": "优必选UBTECH 让智能机器人走进千家万户|优必选官网",
+          "sha256": "d296b3651fc9f55f47a5456164b884b9aacf81d87cc84b2d7270050e4f4c7eb7",
+          "bytes": 231208,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-032.html",
+          "error": null
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-033",
+      "requested_name": "傅利叶智能",
+      "requested_group": "中小厂",
+      "status": "network_or_certificate_error",
+      "checked_at": "2026-10-23T16:02:23.868Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.fourierintelligence.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.fourierintelligence.com/",
+          "http_status": 0,
+          "effective_url": "https://www.fourierintelligence.com/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-033.html",
+          "error": "curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - ���ڵ������������ѻ������������޷���������"
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    },
+    {
+      "target_id": "emerging_tech-034",
+      "requested_name": "极米科技",
+      "requested_group": "中小厂",
+      "status": "network_or_certificate_error",
+      "checked_at": "2026-10-23T16:02:24.463Z",
+      "record_type": "read_only_source_research",
+      "job_import_status": "not_imported_by_research",
+      "official_website": "https://www.xgimi.com/",
+      "recruitment_url": null,
+      "source_code": null,
+      "official_chain": [],
+      "evidence": [
+        {
+          "url": "https://www.xgimi.com/",
+          "http_status": 0,
+          "effective_url": "https://www.xgimi.com/",
+          "title": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "raw_cache_path": ".cache/research/bulk-20261022/main/entrances/emerging_tech-034.html",
+          "error": "curl: (28) Operation timed out after 13942 milliseconds with 0 bytes received"
+        }
+      ],
+      "limitations": [
+        "入口已核实不等于逐岗位开放与资格已核实。",
+        "没有登录、读取申请人数据、提交简历或代投。",
+        "没有根据中小厂分组推断公司规模或性质。"
+      ]
+    }
+  ]
+}

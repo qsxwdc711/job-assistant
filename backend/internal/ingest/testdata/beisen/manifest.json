@@ -1,0 +1,149 @@
+{
+  "verified_at": "2026-10-23T18:29:01.515Z",
+  "method": "normal_anonymous_public_list_and_details_no_login_no_CSRF_needed",
+  "page_contract_observed_in_live_chrome": "POST /api/Jobad/GetJobAdPageList; GET /api/JobAd/GetJobAdInfo; var BSGlobal tenantInfo",
+  "notes": [
+    "API calls read data only; no application or database writes.",
+    "Qualification fields Degree and YearsOfWorking were explicitly requested even when UI display settings were false.",
+    "Fixtures retain public identity, role, qualification and location fields; anonymous applicant state and unrelated ATS incentive fields are removed.",
+    "Actual source snapshots and unchanged production-reader hashes are captured in ignored evidence; browser first screen is not completeness evidence.",
+    "Database, Linux race, container runtime and release acceptance are parent-owned; do not treat this unit/source report as release completion."
+  ],
+  "sources": [
+    {
+      "source_code": "miniso-campus",
+      "company_code": "miniso",
+      "official_chain": [
+        "https://miniso.cn/",
+        "https://miniso.zhiye.com/"
+      ],
+      "full_list_route": "/api/Jobad/GetJobAdPageList",
+      "detail_route": "/api/JobAd/GetJobAdInfo",
+      "category": "2",
+      "page_size": 20,
+      "fetched": 28,
+      "selected": 2,
+      "requests_per_round": 7,
+      "content_sha256": "40f7b9c350c5dc1e02900d1d84619499f45e769777f37009878d39cead9aa8e7",
+      "rounds": [
+        ".cache/research/bulk-20261022/consumer/miniso-go-round1.json",
+        ".cache/research/bulk-20261022/consumer/miniso-go-round2.json"
+      ]
+    },
+    {
+      "source_code": "mxbc-campus",
+      "company_code": "mxbc",
+      "official_chain": [
+        "https://www.mxbc.com/about.html",
+        "https://careers.mxbc.com/"
+      ],
+      "full_list_route": "/api/Jobad/GetJobAdPageList",
+      "detail_route": "/api/JobAd/GetJobAdInfo",
+      "category": "2",
+      "page_size": 20,
+      "fetched": 26,
+      "selected": 2,
+      "requests_per_round": 8,
+      "content_sha256": "3a2a671f12f8b0655530447d6157da891b5ef90cc275e3cb574ed4b7691c9596",
+      "rounds": [
+        ".cache/research/bulk-20261022/consumer/mxbc-go-round1.json",
+        ".cache/research/bulk-20261022/consumer/mxbc-go-round2.json"
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "file": "miniso-detail-1f528032-29cd-4384-93de-ef66e6c96a9f.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/miniso-detail-1f528032-29cd-4384-93de-ef66e6c96a9f.json",
+      "original_sha256": "64582cfe040ebc160e05e929c98c1a4e73c451bec68e5b9525db797fdb838028",
+      "fixture_sha256": "c508295ec8a63b027ced37e9b9c19983e273535c9cc125a9833b6e17fc7270e1"
+    },
+    {
+      "file": "miniso-detail-b336d5cd-5a95-45f2-ac23-bc3159c86a42.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/miniso-detail-b336d5cd-5a95-45f2-ac23-bc3159c86a42.json",
+      "original_sha256": "7aa2cbccd0573cb2d099aab35dd471efb1ddc0157a1123657867016960c4dbb0",
+      "fixture_sha256": "99883293d40294429baa84d01968d36082869aa83542626d8c7b730f929198f3"
+    },
+    {
+      "file": "miniso-list-0.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/miniso-list-0.json",
+      "original_sha256": "795788671efefdd189ecdfdb2820d087ea9f94392133b93141dafab7564a03a1",
+      "fixture_sha256": "2f2d94c86d604083a12f52456c4fa0a33f249cd7689201a7046efb96523ac7d7"
+    },
+    {
+      "file": "miniso-list-1.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/miniso-list-1.json",
+      "original_sha256": "95b6f69cf92504481b52ab37454dd80423897eb270de5dbbcc31aa92fee7e275",
+      "fixture_sha256": "8d59be63aacec87ab8a18b9990206a5905745d237b0aaca6f6e0cd37cf6ceae6"
+    },
+    {
+      "file": "mxbc-detail-428a316e-18c0-4299-a872-c8d68ae4918e.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/mxbc-detail-428a316e-18c0-4299-a872-c8d68ae4918e.json",
+      "original_sha256": "834c24c748f0beb685a1da374f3045dbbe05716c398ec8e04053295237e2290c",
+      "fixture_sha256": "c6aaf8be11218475edb3a6eb2a958bf7d20645e7bd5dd19aad111b2cc0d50e5e"
+    },
+    {
+      "file": "mxbc-detail-60148cbe-d12c-407d-b7d3-2cec5e41caa1.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/mxbc-detail-60148cbe-d12c-407d-b7d3-2cec5e41caa1.json",
+      "original_sha256": "71f029435f7b9ea33063a21f72feacedcbb590de2fe1bdff026b43834ea6df0e",
+      "fixture_sha256": "dd5182d4ce06be099f496eadd68afe37a29cafc39c179cba573f006f74d7678a"
+    },
+    {
+      "file": "mxbc-detail-f71f265b-9ba5-4ca5-ae7e-d88ceb0f45c6.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/mxbc-detail-f71f265b-9ba5-4ca5-ae7e-d88ceb0f45c6.json",
+      "original_sha256": "057a8189dd4fe922945c203a215839869fc29b841750b2a35eb023643932799d",
+      "fixture_sha256": "f213f29c4985b8744ff46723521e6232f5b71408999eb21c0a1824c5e77c32c2"
+    },
+    {
+      "file": "mxbc-list-0.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/mxbc-list-0.json",
+      "original_sha256": "b3d7c9b03388bfb24fa448a0d0359694e227df5828b6a175071aa73975be3ab1",
+      "fixture_sha256": "6c219635c119378347302f196ee35fe22d26f72e058f54a23e0715c19b47bcf7"
+    },
+    {
+      "file": "mxbc-list-1.json",
+      "original_public_response": ".cache/research/bulk-20261022/consumer/mxbc-list-1.json",
+      "original_sha256": "49bf89955135506a6cf1da09ff00fad142f1c6aedcdf7259149f4b42a15fa5dc",
+      "fixture_sha256": "6d8f5b4b44c7bafd49b5271d6e21c26314a43dbaf0f07ead5c0886ef6feb65fa"
+    }
+  ],
+  "implementation_files": [
+    {
+      "file": "backend/internal/ingest/beisen.go",
+      "sha256": "eb4e62a204a1f935bbd8a32e196b758a2b37fc4b0c7aaee58160e3279e5fe628"
+    },
+    {
+      "file": "backend/internal/ingest/beisen_document.go",
+      "sha256": "63cf8935f6283ab72daabb3e8160e09d5de0147cb51e75465ad1b0bc13e93201"
+    },
+    {
+      "file": "backend/internal/ingest/beisen_sources.go",
+      "sha256": "9eab233bb39a92d9fff415b1556164595386e73913fd93c38050a5fee85303c2"
+    },
+    {
+      "file": "backend/internal/ingest/beisen_test.go",
+      "sha256": "ca400695b045ff2f9adcae948ed8b6e5780e8ce2f97f2884ee2d0753c87462a1"
+    }
+  ],
+  "audit": {
+    "status": "passed",
+    "go_test": "go test ./internal/ingest -run ^TestBeisen -v -count=1 -timeout=90s",
+    "duration_seconds": 18.448,
+    "go_vet": "go vet ./internal/ingest exit 0",
+    "gofmt": "four beisen Go files: gofmt -d produced no output",
+    "test_log": ".cache/research/bulk-20261022/consumer/beisen-final-tests.log",
+    "pure_regression_log": ".cache/research/bulk-20261022/consumer/beisen-audit-fix-pure-tests.log",
+    "red_green_regressions": [
+      "stable complete snapshot reordered without content changes",
+      "invalid numeric JobAdId",
+      "short structured master degree enforcing bachelor rejection",
+      "project experience is distinct from employment",
+      "section-level bonus employment/degree/major remain preferences",
+      "zero-to-one employment range has minimum zero",
+      "one-year employment produces the deterministic matcher phrase"
+    ],
+    "real_fixture_hashes_recomputed_unchanged": true,
+    "normalizer_review_after_network_rounds": true,
+    "database_and_runtime": "parent-owned acceptance; this research task did not run database or deployment checks"
+  }
+}

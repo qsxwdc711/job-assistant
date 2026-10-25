@@ -1,0 +1,67 @@
+{
+  "source": "weride-campus",
+  "official_site": "https://app.mokahr.com/campus_apply/jingchi/2137",
+  "observed_at": "2026-10-22T10:39:56.348Z",
+  "list": {
+    "id": "21dfa0b5-44a3-4267-a042-152cbd7345b5",
+    "orgId": "jingchi",
+    "title": "算法开发工程师-规划/调度/搜索推荐方向【2027届校招】",
+    "status": "open",
+    "hireMode": 2
+  },
+  "detail": {
+    "id": "21dfa0b5-44a3-4267-a042-152cbd7345b5",
+    "orgId": "jingchi",
+    "title": "算法开发工程师-规划/调度/搜索推荐方向【2027届校招】",
+    "status": "open",
+    "hireMode": 2,
+    "commitment": "全职",
+    "jobDescription": "<p><strong>岗位职责</strong></p><ul><li>参与自动驾驶核心算法平台及基础服务研发，支撑 Robotaxi 在全球多个城市的大规模运行。</li><li>负责高性能、高可靠分布式服务的设计、开发与优化，持续提升系统性能、稳定性和可扩展性。</li><li>参与路径规划、搜索、图计算、时空索引、调度优化等核心算法研发，将算法落地到真实生产系统。</li><li>参与系统架构设计及工程基础设施建设，优化研发效率与系统可维护性。</li><li>与感知、规划、地图、运营等团队紧密合作，共同推动自动驾驶核心能力持续演进。</li></ul><p><strong>任职要求</strong></p><p><strong>基本要求</strong></p><ul><li>本科及以上学历，计算机/机器人等相关专业。</li><li>熟练掌握 C++，熟悉 STL 及现代 C++（C++17/20）。</li><li>扎实的数据结构、算法、操作系统、计算机网络等计算机基础。</li><li>熟悉 Linux 开发环境，具备良好的编码习惯和工程实践能力。</li></ul><p><strong>加分项</strong></p><ul><li>熟悉多线程、并发编程、网络编程、RPC 或高性能服务开发。</li><li>熟悉 gRPC、Protobuf、Docker、Kubernetes 等常见开发工具。</li><li>熟悉图算法、搜索算法、优化算法、几何计算、时空数据处理等相关方向。</li><li>有 ACM/ICPC、NOI、开源项目、科研项目或大型工程实践经验。 </li></ul>",
+    "locations": [
+      {
+        "cityId": 110108,
+        "cityName": "Haidian",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 8826,
+        "provinceName": "Beijing"
+      },
+      {
+        "cityId": 440105,
+        "cityName": "Haizhu",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 359673,
+        "provinceName": "Guangdong"
+      },
+      {
+        "cityId": 310104,
+        "cityName": "Xuhui",
+        "country": "China",
+        "countryDescription": "China",
+        "id": 637375,
+        "provinceName": "Shanghai"
+      }
+    ],
+    "departments": [
+      {
+        "id": 4257672,
+        "name": "Operation Engineering"
+      }
+    ],
+    "locDepCampusList": [
+      {
+        "campusSiteIds": [],
+        "departmentIds": [
+          4257672
+        ],
+        "locationIds": [
+          8826,
+          359673,
+          637375
+        ],
+        "storeIds": []
+      }
+    ]
+  }
+}
