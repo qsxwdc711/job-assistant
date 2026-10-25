@@ -14,7 +14,7 @@ Files: `docs/research/targets/2026-10-22-*.json`, raw public responses under ign
 
 - [x] Preserve all 219 names and original groups, with unique target IDs. User confirmed scope and reviewed the design before business changes.
 - [x] Check a clean isolated worktree and baseline `go test ./internal/ingest ./internal/catalog ./internal/task -count=1`; passed 40.153/0.772/0.593 seconds.
-- [x] Record official homepage → careers → tenant links for every target, labeling live details separately from discovered entrances. Reuse Shokz; do not label all Tencent/Huawei roles as T1/car BU.
+- [x] Account for every target with verified official links where observed and explicit pending/restricted states elsewhere; distinguish live details from discovered entrances. Reuse Shokz; do not label all Tencent/Huawei roles as T1/car BU.
 - [x] Capture real Moka list/detail cases, including missing optional list fields and Bosch custom experience requirements. For each selected tenant retain org ID, site ID, mode, public path and endpoint; slug and org ID may differ.
 - [x] Capture Feishu anonymous page initialization, public CSRF and actual list/detail requests. Keep tokens only in ignored ephemeral research material and sanitize fixtures.
 
@@ -53,7 +53,9 @@ Files: new source migration after 0010; `backend/tests/integration/requested_sou
 
 ## Task 6: Release and target reconciliation
 
-- [ ] Back up the local database and `.env` and capture existing source/job/version/private-data fingerprints. Commit implementation, fast-forward the canonical checkout without staging existing user research changes.
-- [ ] Deploy the tested runtime image, migrate and start the established Docker/native workers. Publish only sources whose real complete reads and acceptance passed, using normal collection mechanisms, never direct job-table edits.
-- [ ] Verify actual database counts by source, no unexpected old-job mutation, no private data/configuration changes, and `NOTIFICATIONS_SEND_ENABLED=false`. Check desktop/mobile; clean test sessions/resources.
-- [ ] Reconcile every one of the 219 targets to actual published source/count or explicit remaining status and evidence. Record stage results, remaining blockers and long-term/cloud validation separately. A partial batch is not completion of the whole request.
+- [x] Back up the local database and `.env` and capture existing source/job/version/private-data fingerprints. Commit implementation, fast-forward the canonical checkout without staging existing user research changes.
+- [x] Deploy the tested runtime image, migrate and start the established Docker/native workers. Publish only sources whose real complete reads and acceptance passed, using normal collection mechanisms, never direct job-table edits.
+- [x] Verify actual database counts by source, no unexpected old-job mutation, no private data/configuration changes, and `NOTIFICATIONS_SEND_ENABLED=false`. Check desktop/mobile; clean test sessions/resources.
+- [x] Reconcile every one of the 219 targets to actual published source/count or explicit remaining status and evidence. Record stage results, remaining blockers and long-term/cloud validation separately. A partial batch is not completion of the whole request.
+
+Current batch completed on 2026-10-25: 17 new sources published 663 roles (155 internships) through the daily queue. Across all 219 requested targets, 18 have published roles including existing Shokz; 201 retain explicit remaining states. Runtime uses loopback port 18080 because Windows reserves 8080; real Feishu sending remains disabled. See the phase acceptance and coverage reconciliation for evidence and unfinished work.

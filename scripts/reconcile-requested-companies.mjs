@@ -46,7 +46,8 @@ const result={requested_at:requested.requested_at,reconciled_at:new Date().toISO
 await fs.writeFile(path.join(folder,'2026-10-24-company-coverage.json'),JSON.stringify(result,null,2)+'\n')
 const labels={published:'已发布',registered_paused:'已注册，保持暂停',verified_no_matching_roles:'完整核验，本次未筛出',access_restricted:'访问受限',network_or_certificate_pending:'网络或证书待复验',pending_job_validation:'岗位或资格待核验'}
 const clean=x=>String(x??'').replaceAll('|','／').replaceAll('\n',' ')
-const lines=['# 219 家目标企业覆盖对账','',`对账时间：${result.reconciled_at}；数据库快照：${live.captured_at||'尚未取得，不宣称已发布'}。`,'','岗位范围：计算机技术校招、实习，以及明确接受应届或最低工作经验不超过一年的岗位。','用户原分组保留作为查找类别，不据此设置企业性质或规模。待核验、网络问题与访问受限均不表示没有岗位。','','| 原分组 | 企业 | 状态 | 已发布岗位 | 来源 |','|---|---|---|---:|---|']
-for(const r of companies)lines.push(`| ${clean(r.requested_group)} | ${clean(r.requested_name)} | ${labels[r.status]} | ${r.published_count??'待对账'} | ${r.recruitment_url?`[官方入口](${r.recruitment_url})`:'入口待核验'} |`)
+const freshness={succeeded:'成功',failed:'失败，保留旧岗位',restricted:'受限，保留旧岗位',running:'正在采集',pending:'尚未采集'}
+const lines=['# 219 家目标企业覆盖对账','',`对账时间：${result.reconciled_at}；数据库快照：${live.captured_at||'尚未取得，不宣称已发布'}。`,'','岗位范围：计算机技术校招、实习，以及明确接受应届或最低工作经验不超过一年的岗位。','用户原分组保留作为查找类别，不据此设置企业性质或规模。待核验、网络问题与访问受限均不表示没有岗位。','“已发布”表示数据库中有公开岗位；最近采集失败时，保留的旧岗位须结合核验时间确认。','','| 原分组 | 企业 | 状态 | 已发布岗位 | 最近采集 | 来源 |','|---|---|---|---:|---|---|']
+for(const r of companies)lines.push(`| ${clean(r.requested_group)} | ${clean(r.requested_name)} | ${labels[r.status]} | ${r.published_count??'待对账'} | ${freshness[r.source_last_status]||'待核验'} | ${r.recruitment_url?`[官方入口](${r.recruitment_url})`:'入口待核验'} |`)
 await fs.writeFile(path.join(folder,'2026-10-24-company-coverage.md'),lines.join('\n')+'\n')
 console.log(JSON.stringify(result.coverage))

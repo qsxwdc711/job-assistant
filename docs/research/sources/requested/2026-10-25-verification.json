@@ -1,0 +1,794 @@
+{
+  "recorded_at": "2026-10-25T14:39:36.5133806Z",
+  "scope": "Computing technical campus, internship, explicit graduates or minimum work experience at most one year; selected roles still require individual eligibility checking.",
+  "implementation_commit": "0e1c1fc",
+  "runtime_image": "sha256:31d5a73a1cbb820b71239484f2f29da95e818170d17421eaffbab7e43d0b3755",
+  "entry": "http://127.0.0.1:18080/jobs",
+  "real_notifications_enabled": false,
+  "published_new": 663,
+  "internships_new": 155,
+  "public_jobs_total": 973,
+  "public_internships_total": 250,
+  "company_count": 25,
+  "source_count": 27,
+  "migrations": 11,
+  "sources": [
+    {
+      "code": "37games-campus",
+      "company": "三七互娱",
+      "published": 5,
+      "internships": 0,
+      "campus": 5,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "agibot-campus",
+      "company": "智元机器人",
+      "published": 215,
+      "internships": 6,
+      "campus": 209,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "bambulab-careers",
+      "company": "拓竹科技",
+      "published": 42,
+      "internships": 15,
+      "campus": 27,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "bosch-campus",
+      "company": "博世",
+      "published": 57,
+      "internships": 0,
+      "campus": 57,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "cambricon-campus",
+      "company": "寒武纪",
+      "published": 26,
+      "internships": 7,
+      "campus": 19,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "ey-campus",
+      "company": "安永",
+      "published": 2,
+      "internships": 2,
+      "campus": 0,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "funplus-campus",
+      "company": "FunPlus",
+      "published": 11,
+      "internships": 5,
+      "campus": 6,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "insta360-campus",
+      "company": "影石创新",
+      "published": 95,
+      "internships": 29,
+      "campus": 66,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "kingnet-campus",
+      "company": "恺英网络",
+      "published": 1,
+      "internships": 1,
+      "campus": 0,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "miniso-campus",
+      "company": "名创优品",
+      "published": 2,
+      "internships": 0,
+      "campus": 2,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "mxbc-campus",
+      "company": "蜜雪冰城",
+      "published": 2,
+      "internships": 0,
+      "campus": 2,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "nvidia-careers",
+      "company": "英伟达",
+      "published": 69,
+      "internships": 62,
+      "campus": 7,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "ourpalm-campus",
+      "company": "掌趣科技",
+      "published": 3,
+      "internships": 0,
+      "campus": 3,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "sungrow-campus",
+      "company": "阳光电源",
+      "published": 39,
+      "internships": 0,
+      "campus": 39,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "voyah-campus",
+      "company": "岚图汽车",
+      "published": 5,
+      "internships": 0,
+      "campus": 5,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "weride-campus",
+      "company": "文远知行",
+      "published": 84,
+      "internships": 26,
+      "campus": 58,
+      "early_career": 0,
+      "versions_one": true
+    },
+    {
+      "code": "ztgame-campus",
+      "company": "巨人网络",
+      "published": 5,
+      "internships": 2,
+      "campus": 3,
+      "early_career": 0,
+      "versions_one": true
+    }
+  ],
+  "daily_tasks": [
+    {
+      "source_code": "37games-campus",
+      "schedule_key": "daily:2026-10-25:37games-campus",
+      "state": "succeeded",
+      "attempts": 2,
+      "error_code": "",
+      "fetched": 22,
+      "published": 5,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:28:09.446746+08:00"
+    },
+    {
+      "source_code": "agibot-campus",
+      "schedule_key": "daily:2026-10-25:agibot-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 422,
+      "published": 215,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:32:57.283613+08:00"
+    },
+    {
+      "source_code": "bambulab-careers",
+      "schedule_key": "daily:2026-10-25:bambulab-careers",
+      "state": "succeeded",
+      "attempts": 2,
+      "error_code": "",
+      "fetched": 169,
+      "published": 42,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:30:04.934015+08:00"
+    },
+    {
+      "source_code": "bosch-campus",
+      "schedule_key": "daily:2026-10-25:bosch-campus",
+      "state": "succeeded",
+      "attempts": 2,
+      "error_code": "",
+      "fetched": 161,
+      "published": 57,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:28:02.966024+08:00"
+    },
+    {
+      "source_code": "cambricon-campus",
+      "schedule_key": "daily:2026-10-25:cambricon-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 63,
+      "published": 26,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:21:23.858921+08:00"
+    },
+    {
+      "source_code": "ey-campus",
+      "schedule_key": "daily:2026-10-25:ey-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 8,
+      "published": 2,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:21:33.789235+08:00"
+    },
+    {
+      "source_code": "funplus-campus",
+      "schedule_key": "daily:2026-10-25:funplus-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 73,
+      "published": 11,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:22:43.13409+08:00"
+    },
+    {
+      "source_code": "insta360-campus",
+      "schedule_key": "daily:2026-10-25:insta360-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 358,
+      "published": 95,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:25:19.228118+08:00"
+    },
+    {
+      "source_code": "kingnet-campus",
+      "schedule_key": "daily:2026-10-25:kingnet-campus",
+      "state": "succeeded",
+      "attempts": 2,
+      "error_code": "",
+      "fetched": 1,
+      "published": 1,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:26:57.139579+08:00"
+    },
+    {
+      "source_code": "miniso-campus",
+      "schedule_key": "daily:2026-10-25:miniso-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 28,
+      "published": 2,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:20:58.706945+08:00"
+    },
+    {
+      "source_code": "mxbc-campus",
+      "schedule_key": "daily:2026-10-25:mxbc-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 26,
+      "published": 2,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:21:03.570395+08:00"
+    },
+    {
+      "source_code": "nvidia-careers",
+      "schedule_key": "daily:2026-10-25:nvidia-careers",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 242,
+      "published": 69,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:25:32.94587+08:00"
+    },
+    {
+      "source_code": "ourpalm-campus",
+      "schedule_key": "daily:2026-10-25:ourpalm-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 14,
+      "published": 3,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:22:28.792692+08:00"
+    },
+    {
+      "source_code": "sungrow-campus",
+      "schedule_key": "daily:2026-10-25:sungrow-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 205,
+      "published": 39,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:22:24.26681+08:00"
+    },
+    {
+      "source_code": "voyah-campus",
+      "schedule_key": "daily:2026-10-25:voyah-campus",
+      "state": "succeeded",
+      "attempts": 2,
+      "error_code": "",
+      "fetched": 67,
+      "published": 5,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:26:55.094692+08:00"
+    },
+    {
+      "source_code": "weride-campus",
+      "schedule_key": "daily:2026-10-25:weride-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 137,
+      "published": 84,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:24:10.347224+08:00"
+    },
+    {
+      "source_code": "ztgame-campus",
+      "schedule_key": "daily:2026-10-25:ztgame-campus",
+      "state": "succeeded",
+      "attempts": 1,
+      "error_code": "",
+      "fetched": 36,
+      "published": 5,
+      "created_at": "2026-10-25T22:20:52.939507+08:00",
+      "updated_at": "2026-10-25T22:21:30.90687+08:00"
+    }
+  ],
+  "runs": [
+    {
+      "source_code": "37games-campus",
+      "status": "failed",
+      "started_at": "2026-10-25T22:25:23.840825+08:00",
+      "finished_at": "2026-10-25T22:25:25.363359+08:00",
+      "fetched_count": 0,
+      "published_count": 0,
+      "changed_count": 0,
+      "error_code": "network_error",
+      "public_responses": 0
+    },
+    {
+      "source_code": "37games-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:28:02.974027+08:00",
+      "finished_at": "2026-10-25T22:28:09.427097+08:00",
+      "fetched_count": 22,
+      "published_count": 5,
+      "changed_count": 5,
+      "error_code": "",
+      "public_responses": 8
+    },
+    {
+      "source_code": "agibot-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:24:10.354915+08:00",
+      "finished_at": "2026-10-25T22:32:56.478358+08:00",
+      "fetched_count": 422,
+      "published_count": 215,
+      "changed_count": 215,
+      "error_code": "",
+      "public_responses": 309
+    },
+    {
+      "source_code": "bambulab-careers",
+      "status": "failed",
+      "started_at": "2026-10-25T22:25:25.373602+08:00",
+      "finished_at": "2026-10-25T22:26:58.366674+08:00",
+      "fetched_count": 0,
+      "published_count": 0,
+      "changed_count": 0,
+      "error_code": "network_error",
+      "public_responses": 0
+    },
+    {
+      "source_code": "bambulab-careers",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:27:59.073293+08:00",
+      "finished_at": "2026-10-25T22:30:04.833699+08:00",
+      "fetched_count": 169,
+      "published_count": 42,
+      "changed_count": 42,
+      "error_code": "",
+      "public_responses": 79
+    },
+    {
+      "source_code": "bosch-campus",
+      "status": "failed",
+      "started_at": "2026-10-25T22:25:22.311596+08:00",
+      "finished_at": "2026-10-25T22:25:23.828861+08:00",
+      "fetched_count": 0,
+      "published_count": 0,
+      "changed_count": 0,
+      "error_code": "network_error",
+      "public_responses": 0
+    },
+    {
+      "source_code": "bosch-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:26:57.147388+08:00",
+      "finished_at": "2026-10-25T22:28:02.846757+08:00",
+      "fetched_count": 161,
+      "published_count": 57,
+      "changed_count": 57,
+      "error_code": "",
+      "public_responses": 74
+    },
+    {
+      "source_code": "cambricon-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:20:53.95792+08:00",
+      "finished_at": "2026-10-25T22:21:23.75836+08:00",
+      "fetched_count": 63,
+      "published_count": 26,
+      "changed_count": 26,
+      "error_code": "",
+      "public_responses": 35
+    },
+    {
+      "source_code": "ey-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:21:30.913476+08:00",
+      "finished_at": "2026-10-25T22:21:33.776326+08:00",
+      "fetched_count": 8,
+      "published_count": 2,
+      "changed_count": 2,
+      "error_code": "",
+      "public_responses": 4
+    },
+    {
+      "source_code": "funplus-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:22:28.836145+08:00",
+      "finished_at": "2026-10-25T22:22:43.106789+08:00",
+      "fetched_count": 73,
+      "published_count": 11,
+      "changed_count": 11,
+      "error_code": "",
+      "public_responses": 17
+    },
+    {
+      "source_code": "insta360-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:20:54.94782+08:00",
+      "finished_at": "2026-10-25T22:25:18.873812+08:00",
+      "fetched_count": 358,
+      "published_count": 95,
+      "changed_count": 95,
+      "error_code": "",
+      "public_responses": 169
+    },
+    {
+      "source_code": "kingnet-campus",
+      "status": "failed",
+      "started_at": "2026-10-25T22:25:20.777085+08:00",
+      "finished_at": "2026-10-25T22:25:22.299733+08:00",
+      "fetched_count": 0,
+      "published_count": 0,
+      "changed_count": 0,
+      "error_code": "network_error",
+      "public_responses": 0
+    },
+    {
+      "source_code": "kingnet-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:26:55.102956+08:00",
+      "finished_at": "2026-10-25T22:26:57.129775+08:00",
+      "fetched_count": 1,
+      "published_count": 1,
+      "changed_count": 1,
+      "error_code": "",
+      "public_responses": 3
+    },
+    {
+      "source_code": "miniso-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:20:54.950535+08:00",
+      "finished_at": "2026-10-25T22:20:58.667154+08:00",
+      "fetched_count": 28,
+      "published_count": 2,
+      "changed_count": 2,
+      "error_code": "",
+      "public_responses": 7
+    },
+    {
+      "source_code": "mxbc-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:20:58.716503+08:00",
+      "finished_at": "2026-10-25T22:21:03.551951+08:00",
+      "fetched_count": 26,
+      "published_count": 2,
+      "changed_count": 2,
+      "error_code": "",
+      "public_responses": 8
+    },
+    {
+      "source_code": "nvidia-careers",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:21:03.578398+08:00",
+      "finished_at": "2026-10-25T22:25:32.630019+08:00",
+      "fetched_count": 242,
+      "published_count": 69,
+      "changed_count": 69,
+      "error_code": "",
+      "public_responses": 258
+    },
+    {
+      "source_code": "ourpalm-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:22:24.273685+08:00",
+      "finished_at": "2026-10-25T22:22:28.742206+08:00",
+      "fetched_count": 14,
+      "published_count": 3,
+      "changed_count": 3,
+      "error_code": "",
+      "public_responses": 6
+    },
+    {
+      "source_code": "sungrow-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:21:33.79789+08:00",
+      "finished_at": "2026-10-25T22:22:24.150857+08:00",
+      "fetched_count": 205,
+      "published_count": 39,
+      "changed_count": 39,
+      "error_code": "",
+      "public_responses": 63
+    },
+    {
+      "source_code": "voyah-campus",
+      "status": "failed",
+      "started_at": "2026-10-25T22:25:19.237359+08:00",
+      "finished_at": "2026-10-25T22:25:20.76728+08:00",
+      "fetched_count": 0,
+      "published_count": 0,
+      "changed_count": 0,
+      "error_code": "network_error",
+      "public_responses": 0
+    },
+    {
+      "source_code": "voyah-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:26:21.052121+08:00",
+      "finished_at": "2026-10-25T22:26:55.070737+08:00",
+      "fetched_count": 67,
+      "published_count": 5,
+      "changed_count": 5,
+      "error_code": "",
+      "public_responses": 11
+    },
+    {
+      "source_code": "weride-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:22:43.141636+08:00",
+      "finished_at": "2026-10-25T22:24:10.078535+08:00",
+      "fetched_count": 137,
+      "published_count": 84,
+      "changed_count": 84,
+      "error_code": "",
+      "public_responses": 99
+    },
+    {
+      "source_code": "ztgame-campus",
+      "status": "succeeded",
+      "started_at": "2026-10-25T22:21:23.868042+08:00",
+      "finished_at": "2026-10-25T22:21:30.879279+08:00",
+      "fetched_count": 36,
+      "published_count": 5,
+      "changed_count": 5,
+      "error_code": "",
+      "public_responses": 9
+    }
+  ],
+  "production_documents_match_complete_public_snapshots": true,
+  "document_comparisons": [
+    {
+      "code": "voyah-campus",
+      "documents": 5,
+      "equal": true,
+      "expected_sha256": "6b71bf405424e53ff79c9da579ac03a55259bf5e33c4f3265ae3b649b3c56240",
+      "actual_sha256": "6b71bf405424e53ff79c9da579ac03a55259bf5e33c4f3265ae3b649b3c56240",
+      "probe_sha256": "4b23fa6f7cdef7d53c8252f2f2143a745b2666b0831297d6a7ee14bdca1b47cf",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-voyah-campus.json"
+    },
+    {
+      "code": "weride-campus",
+      "documents": 84,
+      "equal": true,
+      "expected_sha256": "6f359a059da0fabccec63c6f8f73d6f6f5f6244d049957c696f2cc3518f24918",
+      "actual_sha256": "6f359a059da0fabccec63c6f8f73d6f6f5f6244d049957c696f2cc3518f24918",
+      "probe_sha256": "0707858c5045b191cdad73c2c4f388a45291385ef2ab94d914789230c5516cb8",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-weride-campus.json"
+    },
+    {
+      "code": "kingnet-campus",
+      "documents": 1,
+      "equal": true,
+      "expected_sha256": "ee3cffbbcf2f25cf30dd0e2ecf486eccb6a0004f5cf6f3fffd1782d1e6ee28a2",
+      "actual_sha256": "ee3cffbbcf2f25cf30dd0e2ecf486eccb6a0004f5cf6f3fffd1782d1e6ee28a2",
+      "probe_sha256": "5ff864711807279e43e29ce0f3ccb7e7be0f7962d59545018520b69aba1dcfc9",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-kingnet-campus.json"
+    },
+    {
+      "code": "ourpalm-campus",
+      "documents": 3,
+      "equal": true,
+      "expected_sha256": "3feeefc7a9274d57eb0b36e8cb3044c152fd7da571bcaa8ecd35a7df7153e748",
+      "actual_sha256": "3feeefc7a9274d57eb0b36e8cb3044c152fd7da571bcaa8ecd35a7df7153e748",
+      "probe_sha256": "9fe941d16dbb61d5b53b95c189d128eeb1dc45fb2347910eb05548f870126fc4",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-ourpalm-campus.json"
+    },
+    {
+      "code": "ztgame-campus",
+      "documents": 5,
+      "equal": true,
+      "expected_sha256": "58747a931e7b0ea4d4061360b98218a98b0fca04157305f1ba3bc186bc389b2c",
+      "actual_sha256": "58747a931e7b0ea4d4061360b98218a98b0fca04157305f1ba3bc186bc389b2c",
+      "probe_sha256": "9a5619f434db7fe85fb9f45653959c4fa91e2bc7c61e0520bcc0150fa2335d6c",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-ztgame-campus.json"
+    },
+    {
+      "code": "sungrow-campus",
+      "documents": 39,
+      "equal": true,
+      "expected_sha256": "a0aaff41c4553f3b91417f5f5e9017f3670ce0aa18f20612a2ebf961470533c2",
+      "actual_sha256": "a0aaff41c4553f3b91417f5f5e9017f3670ce0aa18f20612a2ebf961470533c2",
+      "probe_sha256": "0ae5895842f2bbe0a8045aaf5245b6c03e824cb7f04de054ba354920e77725d2",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-sungrow-campus.json"
+    },
+    {
+      "code": "37games-campus",
+      "documents": 5,
+      "equal": true,
+      "expected_sha256": "e5104c401c49cc9a2ee94b541416abe68229194b81042701eea49f729fb483d0",
+      "actual_sha256": "e5104c401c49cc9a2ee94b541416abe68229194b81042701eea49f729fb483d0",
+      "probe_sha256": "a19a900fb825940adeaa18b4c711c16312f7ab35b663c9ce20f4edf151893607",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-37games-campus.json"
+    },
+    {
+      "code": "funplus-campus",
+      "documents": 11,
+      "equal": true,
+      "expected_sha256": "ac623bf656d1c9706a16331d3f18f6df3ea9b6e8fcbdd73bc8b15bd46a7a3b0f",
+      "actual_sha256": "ac623bf656d1c9706a16331d3f18f6df3ea9b6e8fcbdd73bc8b15bd46a7a3b0f",
+      "probe_sha256": "ada010851ee04b7e70fb2f3fbcc21d51834ceb1c8cf735a6919424504fcbd44b",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-funplus-campus.json"
+    },
+    {
+      "code": "bosch-campus",
+      "documents": 57,
+      "equal": true,
+      "expected_sha256": "417eeab39c24d179589a1f6fde5635ab6dfb0e4faf43112222d5ba3ad011de99",
+      "actual_sha256": "417eeab39c24d179589a1f6fde5635ab6dfb0e4faf43112222d5ba3ad011de99",
+      "probe_sha256": "c16a04ad2ba4e2fb1117edbfa2dfad2afc665efbb3b9bc09ca91897ae7b510bd",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-bosch-campus.json"
+    },
+    {
+      "code": "ey-campus",
+      "documents": 2,
+      "equal": true,
+      "expected_sha256": "552db779e31dba3460c8796d08d0da8e546147497c1f185702bf8f96e63d0ff0",
+      "actual_sha256": "552db779e31dba3460c8796d08d0da8e546147497c1f185702bf8f96e63d0ff0",
+      "probe_sha256": "e5e04e630fdae4e4d1c1fb7403ae0de6aba6ff6974e2a44308d32c24baa9d6d5",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-ey-campus.json"
+    },
+    {
+      "code": "cambricon-campus",
+      "documents": 26,
+      "equal": true,
+      "expected_sha256": "174ccf9dde1b38312a2cca0c833e0b6a69bf060c0cec97a744f7f7e82d14fc03",
+      "actual_sha256": "174ccf9dde1b38312a2cca0c833e0b6a69bf060c0cec97a744f7f7e82d14fc03",
+      "probe_sha256": "9b29a87873b04d0182b3d1d7a708f7ef976c2eca41c9d965f1f2d6a81cca83ee",
+      "probe_file": ".cache/verification/moka-requested-20261023/round2-cambricon-campus.json"
+    },
+    {
+      "code": "agibot-campus",
+      "documents": 215,
+      "equal": true,
+      "expected_sha256": "2933f791b4310b506954e4df7d655a04fca8d1adc03b8347aabc30d821a6d33b",
+      "actual_sha256": "2933f791b4310b506954e4df7d655a04fca8d1adc03b8347aabc30d821a6d33b",
+      "probe_sha256": "a59cce50db2056d531dbc2b1d628bd1b0bbdd330a8354110f0fd8e4b32746d9a",
+      "probe_file": ".cache/research/bulk-20261022/main/agibot-acceptance-round2.json"
+    },
+    {
+      "code": "bambulab-careers",
+      "documents": 42,
+      "equal": true,
+      "expected_sha256": "37099c78e74ae9af021ef984accb9d64e567963998ed51f863825dfdec0108d8",
+      "actual_sha256": "37099c78e74ae9af021ef984accb9d64e567963998ed51f863825dfdec0108d8",
+      "probe_sha256": "1b7d1f6bd7d4c7f8f6c503f37fbbf9ae2e56143c22b51b0a4b8ec644f64f25db",
+      "probe_file": ".cache/research/bulk-20261022/main/bambulab-acceptance-round2.json"
+    },
+    {
+      "code": "insta360-campus",
+      "documents": 95,
+      "equal": true,
+      "expected_sha256": "7007d292d4cccd89ae1e31750ae7a6adc4e8b2e914976279e42f536346412133",
+      "actual_sha256": "7007d292d4cccd89ae1e31750ae7a6adc4e8b2e914976279e42f536346412133",
+      "probe_sha256": "4eb71057cb84b068eda5997536654b4ce4ffcd89009413fd3bc867ffb469da3e",
+      "probe_file": ".cache/research/bulk-20261022/main/insta360-acceptance-round2.json"
+    },
+    {
+      "code": "nvidia-careers",
+      "documents": 69,
+      "equal": true,
+      "expected_sha256": "3bf56c8f31b222032564c27a868d56a808508dc37785e67a5d67223f51a284b9",
+      "actual_sha256": "3bf56c8f31b222032564c27a868d56a808508dc37785e67a5d67223f51a284b9",
+      "probe_sha256": "7d759ebf638b8d939f92306e068a4ee8b21379d87ac86b5a033183c42fa80563",
+      "probe_file": ".cache/research/bulk-20261023/state-foreign/nvidia-final-round2.json"
+    },
+    {
+      "code": "miniso-campus",
+      "documents": 2,
+      "equal": true,
+      "expected_sha256": "49df4fe245b80240d64520b5043190a018b3fd5b78d53464949addc3d1c4e19c",
+      "actual_sha256": "49df4fe245b80240d64520b5043190a018b3fd5b78d53464949addc3d1c4e19c",
+      "probe_sha256": "40f7b9c350c5dc1e02900d1d84619499f45e769777f37009878d39cead9aa8e7",
+      "probe_file": ".cache/research/bulk-20261022/consumer/miniso-go-round2.json"
+    },
+    {
+      "code": "mxbc-campus",
+      "documents": 2,
+      "equal": true,
+      "expected_sha256": "6f5608518d9ec3015bf76c1d0c834e8b5abd2f8403a50b9fd4380d25359eb1b4",
+      "actual_sha256": "6f5608518d9ec3015bf76c1d0c834e8b5abd2f8403a50b9fd4380d25359eb1b4",
+      "probe_sha256": "3a2a671f12f8b0655530447d6157da891b5ef90cc275e3cb574ed4b7691c9596",
+      "probe_file": ".cache/research/bulk-20261022/consumer/mxbc-go-round2.json"
+    }
+  ],
+  "preservation": {
+    "old_jobs": 323,
+    "private_data_fingerprints_unchanged": true,
+    "old_versions": 369,
+    "temporary_session_removed": true,
+    "original_config_and_user_files_unchanged": true,
+    "old_jobs_and_versions_unchanged": true
+  },
+  "acceptance": {
+    "frontend_types_build": "passed",
+    "temporary_test_resources": "cleaned",
+    "postgresql": "18.6 dedicated temporary _test database, all migrations and integration tests passed",
+    "vet": "passed",
+    "desktop_phone": "passed in isolated regression and readonly local operational checks",
+    "graceful_shutdown": "passed in isolated environment",
+    "gofmt": "passed",
+    "linux_race": "go test -race -v ./... -count=1 -timeout=360s, passed, no skips",
+    "runtime_build": "passed"
+  },
+  "requested_target_coverage": {
+    "requested": 219,
+    "reconciled": 219,
+    "status_counts": {
+      "pending_job_validation": 184,
+      "published": 18,
+      "access_restricted": 4,
+      "network_or_certificate_pending": 13
+    }
+  },
+  "limitations": [
+    "219 targets are accounted for; only 18 currently map to published roles, including the existing Shokz source.",
+    "Nine existing sources already had network failures before deployment; their old published roles are preserved, not claimed as freshly verified.",
+    "Windows currently reserves port 8080; start-local.ps1 -SkipBuild -HttpPort 18080 reproduces the loopback deployment.",
+    "Real Feishu delivery, real application submission, cloud deployment, full restore drill and seven-day observation remain unverified."
+  ]
+}
