@@ -1,0 +1,2501 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "scope": "Anonymous public source research only; no production collection or publication",
+  "generated_at": "2026-10-15T15:46:44.065Z",
+  "production_sources_added": 0,
+  "production_jobs_published": 0,
+  "sources": {
+    "ncss": {
+      "entry_url": "https://www.ncss.cn/student/jobs/index.html",
+      "query": {
+        "keyword": "软件",
+        "limit": 10
+      },
+      "authority": "public_platform_syndication",
+      "rounds": [
+        {
+          "round": 1,
+          "pages": [
+            {
+              "read": "ncss-software-p1",
+              "page": 1,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "LQtChp1LSCGa3kuZUd62cB",
+                "MwxLdBywoFqWPZiqN1xKT",
+                "NjdchJDMy7g6LCrBUTqF4M",
+                "PoBxQjUbtdYi8ubmSz8jwL",
+                "Q2XmSFCFcRoY6Xa9TgAUTt",
+                "QcxFRRcgoGHr1bNnoQgktZ",
+                "RjL3pzhRHhpu8317fesZWK",
+                "2nSHZ7N59XioAGnPxa8nqz",
+                "38hQjN33LRZTutNRMcQz87",
+                "4gQ6dqBos2Q2mBTQaxpNjU"
+              ]
+            },
+            {
+              "read": "ncss-software-p2",
+              "page": 2,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "4xKEvq2tTKt2mUFFUwPrjt",
+                "72R9U9dvqzeqAsL78Do53J",
+                "8SzUT9U7na3xm2HioyRKrb",
+                "8qocsxYbBvH5Mqv3rTgL8Z",
+                "94eefPPQAr32QgKwQ6VdKU",
+                "An7RZvkkBDLdeYcyXYoLRb",
+                "EGwffxemXc2N5GQwJrTS4f",
+                "FT81UqWjmxh2bM8hbXYPyK",
+                "MAbuda9zymVhpfofh52Rd9",
+                "RVzLQpXh4XwgvHQA3yBt8i"
+              ]
+            },
+            {
+              "read": "ncss-software-p3",
+              "page": 3,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "TExHqMJqCJktvupfA2PhP7",
+                "TQ3TYues83J8B5N7Z97oQN",
+                "UMg3BBC3yB6VPrjPFJbWGH",
+                "VaWMCYpcQp6H2XLyZbG3DX",
+                "WdfHe2NAeCn2tAAKTTEnng",
+                "16x88VApx7b4KEpahkzp1i",
+                "7BJ2acanM7AamrDi8pzmKr",
+                "BvZwn3p7cdHUJvyNbmBkV6",
+                "DBLEEm2EEq5qbXurNFsAWq",
+                "HcQXTXpQL1EqZHrdeDLnLS"
+              ]
+            },
+            {
+              "read": "ncss-software-p4",
+              "page": 4,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "LiQnJF2MpNLcduvF9z7G8V",
+                "FEwmqErbw4Nm19qTNtoFCK",
+                "QFDQw49cZVSsJ3s8deVbFk",
+                "2afhtUGHVCPnK5Y7sQ8yhm",
+                "4gQoXwZMHRTr2VMwPnBjv4",
+                "8RsFPi6i2fTq7bM1a25qHs",
+                "AJKjrVaKz46iSwZqy6bLJ6",
+                "Br7DTvbTtxBP53ALfQkA6G",
+                "F1L25A8LfrYuUF7SodSMLj",
+                "FgJHfA7HWNNjMgj69L6Sqv"
+              ]
+            },
+            {
+              "read": "ncss-software-p5",
+              "page": 5,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "GXNFTLo8YGF9hhMbdjn9sg",
+                "LxbWDMAcmkdcbvWPNDecy5",
+                "MjQCi6vERiWsyJ6yRtFqHs",
+                "MrtbeKMMk9a2SaHhsjhrSp",
+                "P5XZXCrKpNVaczYds8Z2gG",
+                "QvQ2UaEVJjkDGLrUtnkfP5",
+                "SykefVWaAvigtd5iqGSGYL",
+                "TcpvCpg31Ncg18wa4Lxcr2",
+                "UdWZC1zm4EiK6CxNE8rTHS",
+                "VMpavsfpLiK2no6DEJ5tKC"
+              ]
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "pages": [
+            {
+              "read": "ncss-software-p1-r2",
+              "page": 1,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "LQtChp1LSCGa3kuZUd62cB",
+                "MwxLdBywoFqWPZiqN1xKT",
+                "NjdchJDMy7g6LCrBUTqF4M",
+                "PoBxQjUbtdYi8ubmSz8jwL",
+                "Q2XmSFCFcRoY6Xa9TgAUTt",
+                "QcxFRRcgoGHr1bNnoQgktZ",
+                "RjL3pzhRHhpu8317fesZWK",
+                "2nSHZ7N59XioAGnPxa8nqz",
+                "38hQjN33LRZTutNRMcQz87",
+                "4gQ6dqBos2Q2mBTQaxpNjU"
+              ]
+            },
+            {
+              "read": "ncss-software-p2-r2",
+              "page": 2,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "4xKEvq2tTKt2mUFFUwPrjt",
+                "72R9U9dvqzeqAsL78Do53J",
+                "8SzUT9U7na3xm2HioyRKrb",
+                "8qocsxYbBvH5Mqv3rTgL8Z",
+                "94eefPPQAr32QgKwQ6VdKU",
+                "An7RZvkkBDLdeYcyXYoLRb",
+                "EGwffxemXc2N5GQwJrTS4f",
+                "FT81UqWjmxh2bM8hbXYPyK",
+                "MAbuda9zymVhpfofh52Rd9",
+                "RVzLQpXh4XwgvHQA3yBt8i"
+              ]
+            },
+            {
+              "read": "ncss-software-p3-r2",
+              "page": 3,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "TExHqMJqCJktvupfA2PhP7",
+                "TQ3TYues83J8B5N7Z97oQN",
+                "UMg3BBC3yB6VPrjPFJbWGH",
+                "VaWMCYpcQp6H2XLyZbG3DX",
+                "WdfHe2NAeCn2tAAKTTEnng",
+                "16x88VApx7b4KEpahkzp1i",
+                "7BJ2acanM7AamrDi8pzmKr",
+                "BvZwn3p7cdHUJvyNbmBkV6",
+                "DBLEEm2EEq5qbXurNFsAWq",
+                "HcQXTXpQL1EqZHrdeDLnLS"
+              ]
+            },
+            {
+              "read": "ncss-software-p4-r2",
+              "page": 4,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "LiQnJF2MpNLcduvF9z7G8V",
+                "FEwmqErbw4Nm19qTNtoFCK",
+                "QFDQw49cZVSsJ3s8deVbFk",
+                "2afhtUGHVCPnK5Y7sQ8yhm",
+                "4gQoXwZMHRTr2VMwPnBjv4",
+                "8RsFPi6i2fTq7bM1a25qHs",
+                "AJKjrVaKz46iSwZqy6bLJ6",
+                "Br7DTvbTtxBP53ALfQkA6G",
+                "F1L25A8LfrYuUF7SodSMLj",
+                "FgJHfA7HWNNjMgj69L6Sqv"
+              ]
+            },
+            {
+              "read": "ncss-software-p5-r2",
+              "page": 5,
+              "count": 10,
+              "total_reported": 100,
+              "pages_reported": 10,
+              "ids": [
+                "GXNFTLo8YGF9hhMbdjn9sg",
+                "LxbWDMAcmkdcbvWPNDecy5",
+                "MjQCi6vERiWsyJ6yRtFqHs",
+                "MrtbeKMMk9a2SaHhsjhrSp",
+                "P5XZXCrKpNVaczYds8Z2gG",
+                "QvQ2UaEVJjkDGLrUtnkfP5",
+                "SykefVWaAvigtd5iqGSGYL",
+                "TcpvCpg31Ncg18wa4Lxcr2",
+                "UdWZC1zm4EiK6CxNE8rTHS",
+                "VMpavsfpLiK2no6DEJ5tKC"
+              ]
+            }
+          ]
+        }
+      ],
+      "anonymous_access": "preview_only",
+      "full_source_complete": false,
+      "restricted_response": {
+        "read": "ncss-software-p6",
+        "http_status": 200,
+        "business_flag": false,
+        "message": "请登录后查看"
+      },
+      "empty_control": {
+        "read": "ncss-empty",
+        "flag": true,
+        "count": 0,
+        "total_reported": 100,
+        "pages_reported": 10,
+        "classification": "ambiguous_empty"
+      },
+      "observed_unique_ids": 50,
+      "repeated_ids_equal": true,
+      "observed_company_names": 26,
+      "duplicate_candidates": [
+        [
+          {
+            "id": "4gQ6dqBos2Q2mBTQaxpNjU",
+            "company": "西安诚毅锐达科技有限责任公司",
+            "title": "c++软件工程师",
+            "upstream_source": "西北大学"
+          },
+          {
+            "id": "94eefPPQAr32QgKwQ6VdKU",
+            "company": "西安诚毅锐达科技有限责任公司",
+            "title": "c++软件工程师",
+            "upstream_source": "西北大学"
+          },
+          {
+            "id": "VaWMCYpcQp6H2XLyZbG3DX",
+            "company": "西安诚毅锐达科技有限责任公司",
+            "title": "c++软件工程师",
+            "upstream_source": "西北大学"
+          }
+        ],
+        [
+          {
+            "id": "An7RZvkkBDLdeYcyXYoLRb",
+            "company": "重庆镓孪科技有限责任公司",
+            "title": "软件开发实习生",
+            "upstream_source": "重庆市教育委员会"
+          },
+          {
+            "id": "RVzLQpXh4XwgvHQA3yBt8i",
+            "company": "重庆镓孪科技有限责任公司",
+            "title": "软件开发实习生",
+            "upstream_source": "重庆第二师范学院"
+          },
+          {
+            "id": "UMg3BBC3yB6VPrjPFJbWGH",
+            "company": "重庆镓孪科技有限责任公司",
+            "title": "软件开发实习生",
+            "upstream_source": "重庆市教育委员会"
+          },
+          {
+            "id": "WdfHe2NAeCn2tAAKTTEnng",
+            "company": "重庆镓孪科技有限责任公司",
+            "title": "软件开发实习生",
+            "upstream_source": "重庆第二师范学院"
+          }
+        ],
+        [
+          {
+            "id": "FEwmqErbw4Nm19qTNtoFCK",
+            "company": "软通动力技术服务有限公司",
+            "title": "AI软件工程师",
+            "upstream_source": "武汉纺织大学"
+          },
+          {
+            "id": "GXNFTLo8YGF9hhMbdjn9sg",
+            "company": "软通动力技术服务有限公司",
+            "title": "AI软件工程师",
+            "upstream_source": "华中农业大学"
+          },
+          {
+            "id": "MjQCi6vERiWsyJ6yRtFqHs",
+            "company": "软通动力技术服务有限公司",
+            "title": "AI软件工程师",
+            "upstream_source": "湖北工业大学"
+          }
+        ],
+        [
+          {
+            "id": "2afhtUGHVCPnK5Y7sQ8yhm",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "8RsFPi6i2fTq7bM1a25qHs",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "Br7DTvbTtxBP53ALfQkA6G",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "F1L25A8LfrYuUF7SodSMLj",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "LxbWDMAcmkdcbvWPNDecy5",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "QvQ2UaEVJjkDGLrUtnkfP5",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "SykefVWaAvigtd5iqGSGYL",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "TcpvCpg31Ncg18wa4Lxcr2",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "其他",
+            "upstream_source": "哈尔滨工业大学"
+          }
+        ],
+        [
+          {
+            "id": "AJKjrVaKz46iSwZqy6bLJ6",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "游戏设计/开发",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "P5XZXCrKpNVaczYds8Z2gG",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "游戏设计/开发",
+            "upstream_source": "哈尔滨工业大学"
+          },
+          {
+            "id": "UdWZC1zm4EiK6CxNE8rTHS",
+            "company": "广州乐牛软件科技有限公司",
+            "title": "游戏设计/开发",
+            "upstream_source": "哈尔滨工业大学"
+          }
+        ],
+        [
+          {
+            "id": "MrtbeKMMk9a2SaHhsjhrSp",
+            "company": "湖北水之翼科技有限公司",
+            "title": "前端软件开发师",
+            "upstream_source": "湖北恩施学院"
+          },
+          {
+            "id": "VMpavsfpLiK2no6DEJ5tKC",
+            "company": "湖北水之翼科技有限公司",
+            "title": "前端软件开发师",
+            "upstream_source": "湖北第二师范学院"
+          }
+        ]
+      ]
+    },
+    "moka": {
+      "authority": "employer_official_site_to_hosted_recruitment",
+      "sites": [
+        {
+          "tenant": "nsfocus",
+          "org_id": "nsfocus",
+          "site_id": "29118",
+          "site_type": "campus",
+          "url": "https://app.mokahr.com/campus_apply/nsfocus/29118",
+          "endpoint": "https://app.mokahr.com/api/outer/ats-apply/website/jobs/v2",
+          "authority_reads": [
+            "nsfocus-official-campus"
+          ],
+          "rounds": [
+            {
+              "round": 1,
+              "pages": [
+                {
+                  "read": "moka-nsfocus-list-p1",
+                  "page": 1,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "fa1953b8-0e58-4da1-9a19-8e388d167119",
+                    "51b06588-0d5e-4107-a320-4c5eefe54e6a",
+                    "04c10a1b-2b86-4f78-a4e1-96e3ba98cae2",
+                    "461eb763-6c17-460e-b2b1-cf6534171d05",
+                    "a6cca091-8a15-4c72-b62b-6d35e63c1064",
+                    "5df4bd10-5ca4-45be-b8c8-94659e8ee5c0",
+                    "029637c5-3430-4a4a-833f-701ca52689ab",
+                    "6b88522d-0607-4bfe-8cdc-efae30965c79",
+                    "d97f3df5-a423-44ac-998c-45adfdd9fdff",
+                    "0794cec1-1612-4d07-ae67-096ff6f27df8",
+                    "08141d61-1edb-492d-904c-4b208c851c51",
+                    "b064e73f-d4bd-41c8-b67e-f35b5e779a7a",
+                    "9fedfd70-3ab2-46df-b03e-5b38941b0db7",
+                    "8d7bc804-d883-493b-9e93-8d3c22df7372",
+                    "c2191497-5412-469d-9b49-851094aff0f6"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p2-r2",
+                  "page": 2,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "053ee7fd-b4f5-48be-9542-28804471624b",
+                    "05c10880-4fe6-48f6-81d5-41720dd482dc",
+                    "6ac59a29-c23c-4bf3-8d97-7b4e7124e185",
+                    "810a4d0c-87d5-431d-a5f0-4a9ebaf7a215",
+                    "2aeee9e0-58ae-4476-ba37-bd1c803bb827",
+                    "893fb542-5ab9-400e-96e3-4759f5de10dd",
+                    "a9ac04a5-84f2-48bc-ac3d-1f37d87870a5",
+                    "388081c9-0f6a-49d4-a27c-d877ce5a805b",
+                    "36668579-6aac-4420-be71-139bc5a735fe",
+                    "64ec0c20-a6f2-411b-8269-6454bf36b026",
+                    "2b343c78-df16-4c86-b41b-5cc3ee8886cb",
+                    "1e6711ec-5591-4c66-b558-4642f1857194",
+                    "bd66ac26-4bbb-476e-8c40-817566f415a2",
+                    "014ef597-7636-46b3-99e7-1d67ea8dcac5",
+                    "16f71a5c-c465-43f7-897c-8812501aef8c"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p3-r2",
+                  "page": 3,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "eda034aa-4307-46d7-82c5-a248d6d094b9",
+                    "14629a2b-e3e4-412d-aa71-21e8f985ec89",
+                    "898190d2-890e-4f23-9955-a1e6dbd835db",
+                    "ad918a89-7c6c-48b9-bd3b-6818cb89a8bb",
+                    "5239098a-8542-4fb4-a3eb-8fe12ea03155",
+                    "d6d9204a-0007-4214-9122-a1784b235b4e",
+                    "31345428-d09e-4fc4-a7ef-4d04336b3257",
+                    "0ff2620b-1d7b-49e3-9662-e248baaa4ef9",
+                    "f137aeb8-2cec-44f5-af17-e625b9c5981f",
+                    "4664db3e-e070-4fd0-b8a8-fbfabf4221b6",
+                    "23d74183-6232-4f43-ae38-9b328cc996c7",
+                    "99597920-dc5c-4749-a33d-244ec88e08f1",
+                    "8d953d2c-88d7-43e1-b444-50a88181abef",
+                    "33a207ea-3fdd-495d-898f-8bdd5a404a05",
+                    "ee4c179a-b2d5-4da9-8bac-f8781ab94201"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p4-r2",
+                  "page": 4,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "47bf9e48-cd76-4157-bd0c-3a119b60f62f",
+                    "2789fbd7-63b6-4bd6-b85b-e49c95c1becc",
+                    "c41a35b5-5741-4bb8-b429-16fc443b1769",
+                    "1615b5ce-ce71-4eef-99b0-19056a648512",
+                    "93f49057-2fe2-44b1-8276-8eb30501dcc9",
+                    "b113a8eb-fd52-45d8-89f2-5e467a56f038",
+                    "866d69a5-d024-48f7-ac29-288956c319b6",
+                    "1e5b3c45-f30b-4b64-a3cc-464a6f5bf60e",
+                    "8aec3113-c181-4336-a575-3b2a21165d0d",
+                    "90b98c20-d686-483c-a4c4-296a98548a4a",
+                    "54a77f16-159e-4ff7-9a96-12f960b30c4d",
+                    "4231ab55-db52-4322-a356-b5eca6c7ff21",
+                    "10482a47-ad52-40bb-be18-69b449e877b9",
+                    "9f432dcd-b65b-4e31-a154-ad92eee09e8f",
+                    "ff8524e8-6e84-45f1-acde-087d5a5f9352"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p5-r2",
+                  "page": 5,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "0c0ba108-eb21-4a2a-9dcb-aff7698ccfda",
+                    "0d8b9d81-b020-4d62-9cc0-cd75e2dffbfc",
+                    "e1abcfa9-6b0a-411f-830f-e70f5204f860",
+                    "ac77c154-0283-4747-add8-bcb3d4ba9e74",
+                    "396136f5-353e-409e-b22a-5bf54547eb44",
+                    "1b09d23e-9e29-4a0b-9e87-192c052a3bed",
+                    "0fc6e82a-78f8-4cf7-9a4d-af8c1f242bb5",
+                    "4141e9b3-eb86-4460-940e-33fe6b0ddf0b",
+                    "7382aee7-88e9-4616-8a75-23a9ff187ac9",
+                    "e0d0a2aa-fea1-4cb0-a6d6-c623ae93ee8e",
+                    "218da7b0-9992-491c-b767-aa80e1d18d23",
+                    "ab944f04-d85b-474f-86c6-c979bece6f40",
+                    "1cd8283b-145a-490d-a676-5cd625e9c2f5",
+                    "3dd5fcd6-c585-4e65-bbf7-f5ff9d8fdc13",
+                    "66628ee3-d818-4311-96ca-c37cb4add805"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p6-r2",
+                  "page": 6,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "18fc9c30-cb67-4ae8-8d02-20f5c4d02aa3",
+                    "9b1a0d5a-4535-41b6-a220-33ad1791f867",
+                    "87fd981e-3f38-4e4f-bf09-bebe6a2324a8",
+                    "3ec757b8-d23b-4ab3-b7db-60ae4753df41",
+                    "b9aae3a9-38a3-4f45-b610-376579f29777",
+                    "8795f56a-4e45-4b04-a37e-367d584df409",
+                    "d1f88481-a267-4c86-851c-cc5d7f969a95",
+                    "971d5610-8cf2-4f20-b5f3-e85d370db567",
+                    "7bfbd8d5-5186-405a-a828-b6a075446da8",
+                    "977f838a-3f69-4a46-bcb4-a640435346f4",
+                    "03c5dbda-2068-46bc-9b1d-ae9e399d930c",
+                    "1285cbed-6dd3-46d3-8596-167235f8565d",
+                    "34c1621a-4abf-44dc-aa2b-88fb554245c2",
+                    "83e2d2fc-67d2-428c-abc5-94288e397566",
+                    "5521236b-ac75-4127-971c-8a35c6595874"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p7-r2",
+                  "page": 7,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "cb99c7c4-c971-4775-8a29-ad0423b1ef08",
+                    "ac235c85-449e-42c1-bf85-feda6a609877",
+                    "4e3c8e50-2ef6-48ac-9614-9a09adecfd03",
+                    "efc1001d-8003-418c-a1a4-040e602d6284",
+                    "43e9e212-8f83-42fe-9b5a-a38b7760cfe2",
+                    "f314f32e-ac68-4bd8-b47b-6b35ea366eed",
+                    "13c9074d-3c1f-48b1-976c-8405c2f97ed3",
+                    "90bfb319-3db3-46c0-8b7d-cb8bae634a5f",
+                    "d7cc1cfe-e6d6-42b8-93f4-43840649072b",
+                    "72c71a78-12d3-459b-b08e-8a644143bf25",
+                    "39f510d2-453c-4fc0-8608-adfcae60ac12",
+                    "54534d1c-341d-4dd0-b514-bf98184e896b",
+                    "237751da-f291-4bb2-b64a-0a95547bdc1f",
+                    "94f4b335-b1b7-4945-947c-06ee539f215e",
+                    "a6a95a33-13a4-48cf-b553-1428f7bcb857"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p8-r2",
+                  "page": 8,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "f2d98ab0-d0ca-4eaf-952d-4ac941921df6",
+                    "5eaadf91-73e2-41fc-9c40-cce067738b60",
+                    "476df03b-2e46-4263-a703-3ba162a1d222",
+                    "feebfb6c-b697-4feb-914c-e372d144be4e",
+                    "5a6d2b62-ad90-4750-b577-18c60d4187ea",
+                    "137e8091-3cda-4014-82a9-b85c52fee958",
+                    "2e906cf7-ebb8-49c3-9d1c-578a2cfb0ff1",
+                    "4d2660f3-bfbc-404f-a2c0-0c8bedc10fb5",
+                    "b0f5f410-e653-4499-807f-8673be328945",
+                    "ad459112-1ea2-4f0d-af2b-19b131ec4c6f",
+                    "3de663c1-90a6-4ccc-bc2a-2e30e8dfb16a",
+                    "e6939390-9678-4764-bf86-3ff270c52f9b",
+                    "82bf34e5-e2a7-43ab-b84e-38902366728e",
+                    "478af127-b1c2-441f-8070-e8bef6410562",
+                    "2c54b6c3-b1f8-4f27-b974-7e7494d2c084"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p9-r2",
+                  "page": 9,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "f0fa0553-c572-42b6-ae97-00b05e35e192",
+                    "1d591419-0ed0-4b04-a44f-657bed63651c",
+                    "14044dd1-df49-4ecc-becb-b5e14febdd98",
+                    "d29d53e8-8331-485b-bdb8-a8d6a347355e",
+                    "f1e4db79-ad0a-4e56-8a93-ecdb69e5613d",
+                    "af2bb65a-1a18-4560-8fd5-d4d03dbea1b2",
+                    "46aeef17-d66a-4fd9-a178-3c0e04e4526d",
+                    "30a3807d-2c08-4d10-99df-381fabcf0e66",
+                    "864d318c-059c-4bcb-b186-52272720ff6d",
+                    "4f27a7bb-1b36-41ee-8265-f8f2c830e0d4",
+                    "14986e5b-e0c6-4d45-a55e-f46bd1bb1509",
+                    "568d68af-37c0-41e0-b23a-9db95c92b5c2",
+                    "0b09cc96-d55b-437c-b6a2-72911fadd80b",
+                    "7372570f-d271-4beb-abfa-ecbe2691cad1",
+                    "86678aa5-f2e8-4f46-8b21-339f14ae85a8"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p10-r2",
+                  "page": 10,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "8b89e0ef-1ace-4540-8e82-b2c4d10d1262",
+                    "5cfc6576-6921-40d5-a52a-dfcb3ef21954",
+                    "bba6a040-32d0-4860-8642-8e2f07ad2c88",
+                    "f18303b2-a949-4bf1-a3c7-6aeacc8a65cc",
+                    "cdc9d23e-5a63-4332-b7ce-a6713ffeb4f7",
+                    "bca38f78-ec5b-4cc3-89a8-38d920e24707",
+                    "4fa113a2-f632-4fb6-8de5-b937816e91a7",
+                    "900e996d-6ff7-4c48-96f4-e0a2ef5d0154",
+                    "5bfe9014-a172-453e-9fa8-1bab0014a017",
+                    "c02bdbfb-b65a-49f2-84d9-9bb9c6ff3004",
+                    "24952eac-8cc5-44a9-b238-3d90f7b1ad5c",
+                    "0a1104e3-c9d1-4527-9eb7-c4820d149533",
+                    "ebf289a5-92b1-4d4e-873a-71326853b711",
+                    "925644cd-fdc9-42c8-a859-a79456b3ca11",
+                    "d5d7ee19-8fcb-4474-adda-e22c3599e02f"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p11-r2",
+                  "page": 11,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "6a24a0b2-2d61-487a-bddf-e664ac9a7bfc",
+                    "f692d862-5bb8-4493-8070-9e7c8212f2c3",
+                    "f5244437-cab1-4d34-b119-a2bd461b80e3",
+                    "f9a3db65-adbf-488c-b183-302e46fa749f",
+                    "eb87c0c0-de3e-451e-8abc-d91dd2c0aa81",
+                    "c8420990-fdc5-488a-b353-e189aed34974",
+                    "0311a3d2-1094-4760-b669-1deb8b12109c",
+                    "bc224f62-f011-42b2-b665-df3c17eacedf",
+                    "aba99ffa-f6dd-41f9-8f8d-9bc2bb799e90",
+                    "55423862-6330-4cc1-b42c-bdbec1a8bbce",
+                    "39ad2058-b8d4-4fb8-8e44-eab8ae1bfd49",
+                    "b2d275b3-152a-4c93-9379-6c9eadf67a31",
+                    "0b84a7d2-7512-468c-b734-60274fd60d13",
+                    "0bb70e05-7ad1-41de-a82d-e0aa834e81ed",
+                    "4724dd60-2fa3-43c2-b531-9121a16589bd"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p12-r2",
+                  "page": 12,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "2c8f47c3-0c60-49e1-8be2-5a8a8cdefaf9",
+                    "17682f68-64a6-46fe-ae3e-32bc722f2761",
+                    "8a6f103c-5808-4c2c-8f20-fd91b7dbdf2a",
+                    "48394fe1-4e89-4c3b-8d79-3771db480ebc",
+                    "612f3e61-29c2-4587-9a9b-826280bbb121",
+                    "457f77a8-0f04-4cbc-97a5-a5e45db2c7b5",
+                    "524f7cd3-aa2c-48e2-90ce-0c647d7fce0c",
+                    "41eba973-5b3f-426a-ac3f-801c86c4f52e",
+                    "2331f400-ec4b-401a-815a-391692d49fa6",
+                    "b7f2aa85-f9d1-4169-a986-1d1a84b552b7",
+                    "4bb111aa-94fe-4480-a5c6-dad342e680dd",
+                    "4a9ee186-88bc-4b44-b835-48d1e6c5e4c5",
+                    "be26c79f-0167-4301-b069-4e8baee7fbf7",
+                    "a6c514db-c3d7-4da1-b81f-0867acbc8186",
+                    "ae27f3fa-055e-47cd-8b7d-02a73f9b361d"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p13-r2",
+                  "page": 13,
+                  "count": 8,
+                  "total_reported": 188,
+                  "ids": [
+                    "53858507-765a-45e0-8e98-9b69a442e586",
+                    "ac0d6a72-8fb2-4006-854f-367c9bd18ec1",
+                    "c8080724-589e-4deb-a67d-506c3631e07a",
+                    "d3979775-aeb6-45dc-b188-c3962a87ffc8",
+                    "0eea0c37-62f0-4218-bde7-84e58586fc13",
+                    "f2b3eeaa-535d-4560-84ac-0e010e4213c1",
+                    "e31fade6-0efc-4839-8bc5-5fe33f125c50",
+                    "c790c8c6-ad52-4cdf-9d2a-abbb7685c6ae"
+                  ]
+                }
+              ],
+              "normalized_sha256": "0d39b110f67a868d4961e26f85588f293cbe05b2c838f27d9854abe0f5f4f5bb"
+            },
+            {
+              "round": 2,
+              "pages": [
+                {
+                  "read": "moka-nsfocus-list-p1-r3",
+                  "page": 1,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "fa1953b8-0e58-4da1-9a19-8e388d167119",
+                    "51b06588-0d5e-4107-a320-4c5eefe54e6a",
+                    "04c10a1b-2b86-4f78-a4e1-96e3ba98cae2",
+                    "461eb763-6c17-460e-b2b1-cf6534171d05",
+                    "a6cca091-8a15-4c72-b62b-6d35e63c1064",
+                    "5df4bd10-5ca4-45be-b8c8-94659e8ee5c0",
+                    "029637c5-3430-4a4a-833f-701ca52689ab",
+                    "6b88522d-0607-4bfe-8cdc-efae30965c79",
+                    "d97f3df5-a423-44ac-998c-45adfdd9fdff",
+                    "0794cec1-1612-4d07-ae67-096ff6f27df8",
+                    "08141d61-1edb-492d-904c-4b208c851c51",
+                    "b064e73f-d4bd-41c8-b67e-f35b5e779a7a",
+                    "9fedfd70-3ab2-46df-b03e-5b38941b0db7",
+                    "8d7bc804-d883-493b-9e93-8d3c22df7372",
+                    "c2191497-5412-469d-9b49-851094aff0f6"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p2-r3",
+                  "page": 2,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "053ee7fd-b4f5-48be-9542-28804471624b",
+                    "05c10880-4fe6-48f6-81d5-41720dd482dc",
+                    "6ac59a29-c23c-4bf3-8d97-7b4e7124e185",
+                    "810a4d0c-87d5-431d-a5f0-4a9ebaf7a215",
+                    "2aeee9e0-58ae-4476-ba37-bd1c803bb827",
+                    "893fb542-5ab9-400e-96e3-4759f5de10dd",
+                    "a9ac04a5-84f2-48bc-ac3d-1f37d87870a5",
+                    "388081c9-0f6a-49d4-a27c-d877ce5a805b",
+                    "36668579-6aac-4420-be71-139bc5a735fe",
+                    "64ec0c20-a6f2-411b-8269-6454bf36b026",
+                    "2b343c78-df16-4c86-b41b-5cc3ee8886cb",
+                    "1e6711ec-5591-4c66-b558-4642f1857194",
+                    "bd66ac26-4bbb-476e-8c40-817566f415a2",
+                    "014ef597-7636-46b3-99e7-1d67ea8dcac5",
+                    "16f71a5c-c465-43f7-897c-8812501aef8c"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p3-r3",
+                  "page": 3,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "eda034aa-4307-46d7-82c5-a248d6d094b9",
+                    "14629a2b-e3e4-412d-aa71-21e8f985ec89",
+                    "898190d2-890e-4f23-9955-a1e6dbd835db",
+                    "ad918a89-7c6c-48b9-bd3b-6818cb89a8bb",
+                    "5239098a-8542-4fb4-a3eb-8fe12ea03155",
+                    "d6d9204a-0007-4214-9122-a1784b235b4e",
+                    "31345428-d09e-4fc4-a7ef-4d04336b3257",
+                    "0ff2620b-1d7b-49e3-9662-e248baaa4ef9",
+                    "f137aeb8-2cec-44f5-af17-e625b9c5981f",
+                    "4664db3e-e070-4fd0-b8a8-fbfabf4221b6",
+                    "23d74183-6232-4f43-ae38-9b328cc996c7",
+                    "99597920-dc5c-4749-a33d-244ec88e08f1",
+                    "8d953d2c-88d7-43e1-b444-50a88181abef",
+                    "33a207ea-3fdd-495d-898f-8bdd5a404a05",
+                    "ee4c179a-b2d5-4da9-8bac-f8781ab94201"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p4-r3",
+                  "page": 4,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "47bf9e48-cd76-4157-bd0c-3a119b60f62f",
+                    "2789fbd7-63b6-4bd6-b85b-e49c95c1becc",
+                    "c41a35b5-5741-4bb8-b429-16fc443b1769",
+                    "1615b5ce-ce71-4eef-99b0-19056a648512",
+                    "93f49057-2fe2-44b1-8276-8eb30501dcc9",
+                    "b113a8eb-fd52-45d8-89f2-5e467a56f038",
+                    "866d69a5-d024-48f7-ac29-288956c319b6",
+                    "1e5b3c45-f30b-4b64-a3cc-464a6f5bf60e",
+                    "8aec3113-c181-4336-a575-3b2a21165d0d",
+                    "90b98c20-d686-483c-a4c4-296a98548a4a",
+                    "54a77f16-159e-4ff7-9a96-12f960b30c4d",
+                    "4231ab55-db52-4322-a356-b5eca6c7ff21",
+                    "10482a47-ad52-40bb-be18-69b449e877b9",
+                    "9f432dcd-b65b-4e31-a154-ad92eee09e8f",
+                    "ff8524e8-6e84-45f1-acde-087d5a5f9352"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p5-r3",
+                  "page": 5,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "0c0ba108-eb21-4a2a-9dcb-aff7698ccfda",
+                    "0d8b9d81-b020-4d62-9cc0-cd75e2dffbfc",
+                    "e1abcfa9-6b0a-411f-830f-e70f5204f860",
+                    "ac77c154-0283-4747-add8-bcb3d4ba9e74",
+                    "396136f5-353e-409e-b22a-5bf54547eb44",
+                    "1b09d23e-9e29-4a0b-9e87-192c052a3bed",
+                    "0fc6e82a-78f8-4cf7-9a4d-af8c1f242bb5",
+                    "4141e9b3-eb86-4460-940e-33fe6b0ddf0b",
+                    "7382aee7-88e9-4616-8a75-23a9ff187ac9",
+                    "e0d0a2aa-fea1-4cb0-a6d6-c623ae93ee8e",
+                    "218da7b0-9992-491c-b767-aa80e1d18d23",
+                    "ab944f04-d85b-474f-86c6-c979bece6f40",
+                    "1cd8283b-145a-490d-a676-5cd625e9c2f5",
+                    "3dd5fcd6-c585-4e65-bbf7-f5ff9d8fdc13",
+                    "66628ee3-d818-4311-96ca-c37cb4add805"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p6-r3",
+                  "page": 6,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "18fc9c30-cb67-4ae8-8d02-20f5c4d02aa3",
+                    "9b1a0d5a-4535-41b6-a220-33ad1791f867",
+                    "87fd981e-3f38-4e4f-bf09-bebe6a2324a8",
+                    "3ec757b8-d23b-4ab3-b7db-60ae4753df41",
+                    "b9aae3a9-38a3-4f45-b610-376579f29777",
+                    "8795f56a-4e45-4b04-a37e-367d584df409",
+                    "d1f88481-a267-4c86-851c-cc5d7f969a95",
+                    "971d5610-8cf2-4f20-b5f3-e85d370db567",
+                    "7bfbd8d5-5186-405a-a828-b6a075446da8",
+                    "977f838a-3f69-4a46-bcb4-a640435346f4",
+                    "03c5dbda-2068-46bc-9b1d-ae9e399d930c",
+                    "1285cbed-6dd3-46d3-8596-167235f8565d",
+                    "34c1621a-4abf-44dc-aa2b-88fb554245c2",
+                    "83e2d2fc-67d2-428c-abc5-94288e397566",
+                    "5521236b-ac75-4127-971c-8a35c6595874"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p7-r3",
+                  "page": 7,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "cb99c7c4-c971-4775-8a29-ad0423b1ef08",
+                    "ac235c85-449e-42c1-bf85-feda6a609877",
+                    "4e3c8e50-2ef6-48ac-9614-9a09adecfd03",
+                    "efc1001d-8003-418c-a1a4-040e602d6284",
+                    "43e9e212-8f83-42fe-9b5a-a38b7760cfe2",
+                    "f314f32e-ac68-4bd8-b47b-6b35ea366eed",
+                    "13c9074d-3c1f-48b1-976c-8405c2f97ed3",
+                    "90bfb319-3db3-46c0-8b7d-cb8bae634a5f",
+                    "d7cc1cfe-e6d6-42b8-93f4-43840649072b",
+                    "72c71a78-12d3-459b-b08e-8a644143bf25",
+                    "39f510d2-453c-4fc0-8608-adfcae60ac12",
+                    "54534d1c-341d-4dd0-b514-bf98184e896b",
+                    "237751da-f291-4bb2-b64a-0a95547bdc1f",
+                    "94f4b335-b1b7-4945-947c-06ee539f215e",
+                    "a6a95a33-13a4-48cf-b553-1428f7bcb857"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p8-r3",
+                  "page": 8,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "f2d98ab0-d0ca-4eaf-952d-4ac941921df6",
+                    "5eaadf91-73e2-41fc-9c40-cce067738b60",
+                    "476df03b-2e46-4263-a703-3ba162a1d222",
+                    "feebfb6c-b697-4feb-914c-e372d144be4e",
+                    "5a6d2b62-ad90-4750-b577-18c60d4187ea",
+                    "137e8091-3cda-4014-82a9-b85c52fee958",
+                    "2e906cf7-ebb8-49c3-9d1c-578a2cfb0ff1",
+                    "4d2660f3-bfbc-404f-a2c0-0c8bedc10fb5",
+                    "b0f5f410-e653-4499-807f-8673be328945",
+                    "ad459112-1ea2-4f0d-af2b-19b131ec4c6f",
+                    "3de663c1-90a6-4ccc-bc2a-2e30e8dfb16a",
+                    "e6939390-9678-4764-bf86-3ff270c52f9b",
+                    "82bf34e5-e2a7-43ab-b84e-38902366728e",
+                    "478af127-b1c2-441f-8070-e8bef6410562",
+                    "2c54b6c3-b1f8-4f27-b974-7e7494d2c084"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p9-r3",
+                  "page": 9,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "f0fa0553-c572-42b6-ae97-00b05e35e192",
+                    "1d591419-0ed0-4b04-a44f-657bed63651c",
+                    "14044dd1-df49-4ecc-becb-b5e14febdd98",
+                    "d29d53e8-8331-485b-bdb8-a8d6a347355e",
+                    "f1e4db79-ad0a-4e56-8a93-ecdb69e5613d",
+                    "af2bb65a-1a18-4560-8fd5-d4d03dbea1b2",
+                    "46aeef17-d66a-4fd9-a178-3c0e04e4526d",
+                    "30a3807d-2c08-4d10-99df-381fabcf0e66",
+                    "864d318c-059c-4bcb-b186-52272720ff6d",
+                    "4f27a7bb-1b36-41ee-8265-f8f2c830e0d4",
+                    "14986e5b-e0c6-4d45-a55e-f46bd1bb1509",
+                    "568d68af-37c0-41e0-b23a-9db95c92b5c2",
+                    "0b09cc96-d55b-437c-b6a2-72911fadd80b",
+                    "7372570f-d271-4beb-abfa-ecbe2691cad1",
+                    "86678aa5-f2e8-4f46-8b21-339f14ae85a8"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p10-r3",
+                  "page": 10,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "8b89e0ef-1ace-4540-8e82-b2c4d10d1262",
+                    "5cfc6576-6921-40d5-a52a-dfcb3ef21954",
+                    "bba6a040-32d0-4860-8642-8e2f07ad2c88",
+                    "f18303b2-a949-4bf1-a3c7-6aeacc8a65cc",
+                    "cdc9d23e-5a63-4332-b7ce-a6713ffeb4f7",
+                    "bca38f78-ec5b-4cc3-89a8-38d920e24707",
+                    "4fa113a2-f632-4fb6-8de5-b937816e91a7",
+                    "900e996d-6ff7-4c48-96f4-e0a2ef5d0154",
+                    "5bfe9014-a172-453e-9fa8-1bab0014a017",
+                    "c02bdbfb-b65a-49f2-84d9-9bb9c6ff3004",
+                    "24952eac-8cc5-44a9-b238-3d90f7b1ad5c",
+                    "0a1104e3-c9d1-4527-9eb7-c4820d149533",
+                    "ebf289a5-92b1-4d4e-873a-71326853b711",
+                    "925644cd-fdc9-42c8-a859-a79456b3ca11",
+                    "d5d7ee19-8fcb-4474-adda-e22c3599e02f"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p11-r3",
+                  "page": 11,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "6a24a0b2-2d61-487a-bddf-e664ac9a7bfc",
+                    "f692d862-5bb8-4493-8070-9e7c8212f2c3",
+                    "f5244437-cab1-4d34-b119-a2bd461b80e3",
+                    "f9a3db65-adbf-488c-b183-302e46fa749f",
+                    "eb87c0c0-de3e-451e-8abc-d91dd2c0aa81",
+                    "c8420990-fdc5-488a-b353-e189aed34974",
+                    "0311a3d2-1094-4760-b669-1deb8b12109c",
+                    "bc224f62-f011-42b2-b665-df3c17eacedf",
+                    "aba99ffa-f6dd-41f9-8f8d-9bc2bb799e90",
+                    "55423862-6330-4cc1-b42c-bdbec1a8bbce",
+                    "39ad2058-b8d4-4fb8-8e44-eab8ae1bfd49",
+                    "b2d275b3-152a-4c93-9379-6c9eadf67a31",
+                    "0b84a7d2-7512-468c-b734-60274fd60d13",
+                    "0bb70e05-7ad1-41de-a82d-e0aa834e81ed",
+                    "4724dd60-2fa3-43c2-b531-9121a16589bd"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p12-r3",
+                  "page": 12,
+                  "count": 15,
+                  "total_reported": 188,
+                  "ids": [
+                    "2c8f47c3-0c60-49e1-8be2-5a8a8cdefaf9",
+                    "17682f68-64a6-46fe-ae3e-32bc722f2761",
+                    "8a6f103c-5808-4c2c-8f20-fd91b7dbdf2a",
+                    "48394fe1-4e89-4c3b-8d79-3771db480ebc",
+                    "612f3e61-29c2-4587-9a9b-826280bbb121",
+                    "457f77a8-0f04-4cbc-97a5-a5e45db2c7b5",
+                    "524f7cd3-aa2c-48e2-90ce-0c647d7fce0c",
+                    "41eba973-5b3f-426a-ac3f-801c86c4f52e",
+                    "2331f400-ec4b-401a-815a-391692d49fa6",
+                    "b7f2aa85-f9d1-4169-a986-1d1a84b552b7",
+                    "4bb111aa-94fe-4480-a5c6-dad342e680dd",
+                    "4a9ee186-88bc-4b44-b835-48d1e6c5e4c5",
+                    "be26c79f-0167-4301-b069-4e8baee7fbf7",
+                    "a6c514db-c3d7-4da1-b81f-0867acbc8186",
+                    "ae27f3fa-055e-47cd-8b7d-02a73f9b361d"
+                  ]
+                },
+                {
+                  "read": "moka-nsfocus-list-p13-r3",
+                  "page": 13,
+                  "count": 8,
+                  "total_reported": 188,
+                  "ids": [
+                    "53858507-765a-45e0-8e98-9b69a442e586",
+                    "ac0d6a72-8fb2-4006-854f-367c9bd18ec1",
+                    "c8080724-589e-4deb-a67d-506c3631e07a",
+                    "d3979775-aeb6-45dc-b188-c3962a87ffc8",
+                    "0eea0c37-62f0-4218-bde7-84e58586fc13",
+                    "f2b3eeaa-535d-4560-84ac-0e010e4213c1",
+                    "e31fade6-0efc-4839-8bc5-5fe33f125c50",
+                    "c790c8c6-ad52-4cdf-9d2a-abbb7685c6ae"
+                  ]
+                }
+              ],
+              "normalized_sha256": "0d39b110f67a868d4961e26f85588f293cbe05b2c838f27d9854abe0f5f4f5bb"
+            }
+          ],
+          "repeated_ids_equal": true,
+          "repeated_normalized_content_equal": true,
+          "empty_control": {
+            "read": "moka-nsfocus-empty-r2",
+            "success": true,
+            "code": 0,
+            "total": 0,
+            "count": 0,
+            "classification": "valid_empty"
+          }
+        },
+        {
+          "tenant": "shokz",
+          "org_id": "aftershokzhr",
+          "site_id": "36940",
+          "site_type": "campus",
+          "url": "https://app.mokahr.com/campus-recruitment/aftershokzhr/36940",
+          "endpoint": "https://app.mokahr.com/api/outer/ats-apply/website/jobs/v2",
+          "authority_reads": [
+            "shokz-official",
+            "shokz-official-social"
+          ],
+          "rounds": [
+            {
+              "round": 1,
+              "pages": [
+                {
+                  "read": "moka-shokz-list-p1",
+                  "page": 1,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "84322f94-99b5-4128-9f1a-921834b211ce",
+                    "a4ab7454-f2fe-4509-a05b-1882d97c6067",
+                    "3d77b804-cb4d-4b61-81c9-9a67af0dc4ed",
+                    "66f55b33-1c42-49eb-896c-a2424f95c4cb",
+                    "b42e4052-3098-4836-803e-c018c100501d",
+                    "e121c45d-6e3f-4d6d-ad86-01b323e850b8",
+                    "056a2d6a-dca7-45ed-84af-604beeffd5aa",
+                    "d9ba2f2b-efd1-4317-91fd-35ba18190403",
+                    "86ff07b8-82d5-4d64-9548-99dc50854811",
+                    "26b996ea-d35b-434b-aa07-ab1c2b8b5855",
+                    "fc727860-6fd3-48c0-834a-432033d31bc2",
+                    "a71298cc-3e22-4709-a7da-2bcf484ece5f",
+                    "01a00f34-374a-4f22-b107-51d4c554bde8",
+                    "87f2ad7c-3603-4626-acfa-7ce0aa8905ff",
+                    "cd849239-aec3-439a-98ac-b2778882a99d"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p2-r2",
+                  "page": 2,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "9a388eb1-f3e6-4435-8109-1b7e5c0a79eb",
+                    "afe26491-8d6a-4394-afca-3d7fa178e996",
+                    "1da80622-3bb1-4cbe-948c-00e942bcdeba",
+                    "ccca285f-89de-4aa8-8f63-4d40a36623e5",
+                    "e8aced4f-0d9d-4dab-b72a-312f2e7ea726",
+                    "fc35be3c-5ca1-49e2-bda2-ba87644eb65a",
+                    "003a08c5-fec6-4ed4-aef5-210c6f15c69c",
+                    "d558240c-da2a-4829-8eac-0e8955977665",
+                    "f005ed3d-406f-41fc-b665-894fe277af7f",
+                    "a3b628a2-c4a5-475b-aaa3-d460a9363478",
+                    "07d33840-2bd5-42f9-ac8d-3dae066a8e47",
+                    "0ea88c1a-3b98-421f-b1cb-cd058640b31f",
+                    "105d2edb-6640-4ced-8e49-bc5570382502",
+                    "7da206d9-da01-49fa-9834-aab0717bf955",
+                    "0514b76f-9a5c-4717-bc36-11de5fd210c3"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p3-r2",
+                  "page": 3,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "455a2e3e-cbdf-4b06-88e1-2d4a44acbc40",
+                    "abfe7c42-b903-4eeb-808f-405707a1c90d",
+                    "a885b41f-d566-4d78-9178-93206fda0a64",
+                    "dec917da-90d2-46b7-875a-86eced9431f0",
+                    "abe1a1b7-0947-4d3c-9a09-df0112429469",
+                    "391abb7a-ce42-4361-888f-264e5f9d4f40",
+                    "8a22055e-a464-44f6-a515-a6110eb66747",
+                    "b1a74242-a2c2-45ab-b366-4b92838177b1",
+                    "5070fe3b-70dc-46b0-b11f-cd23f17528b5",
+                    "978ed6af-6208-467a-bc0c-a6740559cfa2",
+                    "b175e4d9-3ca4-49f7-b2b1-836cc5c15b9c",
+                    "5fa0c3e1-7490-4f2d-bc04-1c4a38eb325b",
+                    "74098dac-5520-4b55-b147-dd5eab873a08",
+                    "0d93cb97-e4fb-4a7d-8b40-c7ae3142ab36",
+                    "0faa27c4-b80f-46cc-994b-9365d0760c43"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p4-r2",
+                  "page": 4,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "2d97f8b7-4fac-4c78-8af7-db13745cce6a",
+                    "d4f463e1-e05e-4357-ab6f-18ed158e1628",
+                    "d018a019-726d-4026-8f29-81485af056a7",
+                    "a89a21fe-42b6-4d94-8933-1d3facbc763c",
+                    "a599d291-4617-4402-b32b-101c21a00f37",
+                    "07d0d79c-f3b0-47bf-a64a-b131822b7264",
+                    "2d03cf2d-4cc7-4681-9d61-29ae17c4620f",
+                    "bf3c5cbd-785f-4c18-8252-7e88ea067d8d",
+                    "c04d0fdf-4712-47ac-9307-9354d9175dac",
+                    "ff2ba20f-edad-4603-aba9-d5caa61c73d5",
+                    "40adf0fc-f56c-4b09-8e7a-cb93886862f6",
+                    "140d8631-e4fb-4cde-ae03-f8e3ab70c2f7",
+                    "10953b50-7ef4-4abc-b799-287055624574",
+                    "154613bc-b195-4ab0-a53f-122a7d6a9eed",
+                    "e187d8f0-1cce-4f03-a6f2-0c4d5f30b268"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p5-r2",
+                  "page": 5,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "096313a4-37f5-4370-86db-39778bf20aa6",
+                    "483a39cd-f3a6-4f7a-8a6a-52a19fdee480",
+                    "ecdee9ec-8a7a-4dbc-a6bf-9633584a4934",
+                    "dff8842a-2aad-4ec1-bc92-ab7886aa0aaf",
+                    "cca4ce9f-f640-44f3-bc65-2f08bc969ebe",
+                    "d635cb62-8737-482f-927d-08b61479ff2a",
+                    "74da4886-d775-4d3c-9baa-17ec77373442",
+                    "e549285e-fae8-4b1c-b91e-6e0197b4b8f3",
+                    "0b97a8b5-60b0-4b98-91d8-f20bec76d25f",
+                    "67d6a58a-8cb1-4387-b1ba-a2f34ead7376",
+                    "cc36c94a-a2bb-4761-9f8d-0d9af72ca23d",
+                    "4df61a05-3c53-457d-a9d6-874bb48d067d",
+                    "77da1496-88eb-47a5-9251-5ed70a2f18ce",
+                    "d0c5660b-8d65-4c3b-b2a5-14aab5029686",
+                    "ce620680-bd09-488a-ab0d-8ed269d891fc"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p6-r2",
+                  "page": 6,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "d76a17af-0171-4a22-aa7c-bc005b3bd1d0",
+                    "407179fc-1b8f-4cd5-bdb8-b1e9a5481d95",
+                    "f4869edf-d618-459c-8f8b-dab6e1c15b01",
+                    "707796a9-9ee6-473e-843d-671fd820d039",
+                    "c3e318cc-9d37-467b-a285-fda623c74ab9",
+                    "e7628873-d3ae-4fa8-b92c-4e14e0734dde",
+                    "04984820-4423-49c4-a139-6ebcdb535581",
+                    "378e58a4-b4e9-447a-8a50-fc811aa3f837",
+                    "c3fea5d5-0e4e-4f0b-ac07-82174c8060a4",
+                    "e0f93b70-f28f-428e-b221-0ba04e951bb5",
+                    "59c1492d-fbe5-4e4a-a51a-fe9497bc9010",
+                    "4d7cb6b9-fc2c-4176-8491-4540d516b6b2",
+                    "ef0d6589-e4b9-4d91-9c56-eaa99cdb86b6",
+                    "377a2ac8-058f-464b-966b-ae126a05fdf5",
+                    "3dedf17a-e625-4a1f-81d5-4320779e4443"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p7-r2",
+                  "page": 7,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "c9b5de45-8a59-4630-9452-3ebcd4fcab1c",
+                    "db7f3b8e-7bce-497c-9a31-8034f39e7704",
+                    "c33ca25e-7672-49cc-a19d-25b592e53bae",
+                    "0e6b99f5-2aa3-46a0-90d0-ffeb8a7fe86c",
+                    "1ca5864f-3ce9-4e6b-b313-138de20d982d",
+                    "92b84aab-c12b-4540-af7b-5c2e1599b57d",
+                    "681e3e69-4391-4847-998f-8037c3f4b383",
+                    "6e2e21d5-2b20-4ad6-9772-eaa528c1ff36",
+                    "0036b7cf-cce7-4580-ba8f-14e455624db6",
+                    "4a74c1fa-eed5-46e4-87f6-1df092c22a06",
+                    "91df861f-65f5-47a7-bda3-b6bb4b6de7b4",
+                    "afe066c4-6e35-4821-afd3-3c30f70c0b07",
+                    "3c7dadd1-8c5c-49ae-9277-6a4af171d791",
+                    "ff56a640-fab7-4ee1-ad2a-2b07b8e07957",
+                    "98813c37-9fee-4f17-877c-03a196468782"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p8-r2",
+                  "page": 8,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "c49eb47a-2cf0-422e-90d3-fec0d680e211",
+                    "736b24e1-d287-41ca-989a-c70ea619cd5f",
+                    "363950b2-c58d-4129-8a99-55f98e00dc03",
+                    "075cef20-7025-4927-995d-47c2e77c2f65",
+                    "cd5d5fa3-e4c2-4d9e-a98a-70e3b0ea7809",
+                    "b69b8c8a-8c47-4fc4-9d6b-ce16d0432a8b",
+                    "101a87a6-65ee-4967-a71a-3a8b78d9ac12",
+                    "3e2f9221-6133-433d-a894-29b4f1f25555",
+                    "7d4498fb-f00b-4502-a530-678bd3f015ac",
+                    "f6f1135b-2113-4276-a1e2-77e89fa49359",
+                    "5df6ee55-eb58-4f69-a7ac-a4fae962dcdf",
+                    "a928cb13-e0f6-4554-ac8d-c069764942e4",
+                    "a4b2de02-b813-4607-b2f6-3408241c37e6",
+                    "5127f02c-9a38-44f3-b217-dd59b1846e71",
+                    "fa8d27c9-1686-4279-8014-ab659ec6ed2e"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p9-r2",
+                  "page": 9,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "4e5d8f6d-b4b7-4432-9c09-a3409491c8f4",
+                    "22b9df1e-9dd2-4b8e-b1a6-1e53937497dd",
+                    "8eba4801-484b-4b22-b0cd-de63d76267de",
+                    "b83a56d8-ced7-4b1d-ac8b-8d76f2d2d2d4",
+                    "107ec7d1-bd2f-4b12-813b-8830d2c0fd63",
+                    "ffab95ef-8a00-4a11-83f5-1e037d87af10",
+                    "aa04bb41-37ae-4b7d-b8c1-7a973820da69",
+                    "d06a27ed-3ce2-4950-a360-199e3ef078d0",
+                    "a8549509-40e7-465d-9b1c-61fdf03d135e",
+                    "61a75d8d-b374-4e57-99df-abb82de81a39",
+                    "0736afd4-5f3a-469b-a06b-ae9ca4c78562",
+                    "5112b651-b148-4f6f-a0f2-41b220cdda52",
+                    "1d138574-4889-4830-aac6-3e1dd7513a60",
+                    "84b4c5aa-eed6-49da-96f1-477d935e161a",
+                    "ed6b7229-9251-48ac-9a04-31d472cd6e8e"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p10-r2",
+                  "page": 10,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "7062285b-32aa-4953-a4b8-f5988a9781cf",
+                    "580c62c2-344c-4121-a04f-4c4dba0ff9f9",
+                    "720d5bc3-d666-4563-8be9-9170b92c36aa",
+                    "4f1d8831-9f93-4cc8-b4de-dd8356d1b034",
+                    "bcdd9667-f802-4d93-b90e-d537e1ef51d8",
+                    "552ed0bd-82c0-43db-9f50-fbf3cc4c11fe",
+                    "2148862a-5253-42fa-96da-acbf85d9da0d",
+                    "f0535fec-c123-4901-88da-0faca96ac5e3",
+                    "1c934db8-ae1c-4659-92a8-5c06848a65d1",
+                    "a066c9b5-0fdd-43b1-89fc-f485d399fb0f",
+                    "7fdca427-7252-435e-b292-8b01244e5296",
+                    "9efd5c08-a1a3-4406-80b8-44ee0a4b097a",
+                    "2129bf6b-c660-43b3-a179-2d83a08efb7e",
+                    "2a30a861-6a57-482f-99e5-4b04615400d1",
+                    "604e4a23-a499-423a-a772-44d81bcab8db"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p11-r2",
+                  "page": 11,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "825d2a71-ca26-4238-9e28-0e2d0b461b95",
+                    "817bf1a1-ed57-40b1-8273-359de3f322f7",
+                    "81aab138-acf0-4995-a00a-dbde38850385",
+                    "3445c9b4-00b3-4eca-a4d6-c1c27462b9ab",
+                    "cb3314e1-4e32-4cc7-ae2e-c86d9d229ced",
+                    "5cb34b4f-5444-4cd8-ab9d-63d97fb17325",
+                    "dbde1a9c-a5f2-44ac-b75a-5cbf8ef200d0",
+                    "6e31bed2-bb78-4eaf-ba4d-4d8a60e04a89",
+                    "0c23d55c-8d67-4ec5-abce-4441bcbbd703",
+                    "c837deba-b479-45cc-8f95-669ad6541eac",
+                    "7cd94834-8933-44cf-a9a5-fe8758b231a2",
+                    "f3260a09-5203-417f-a052-4a556836b6d1",
+                    "c035390c-3c16-4226-92f6-ed80e31110d2",
+                    "c23ec722-6409-4b1c-9f95-2fc8ebb5c14a",
+                    "a2a5b34b-aad5-417a-9e5e-2a9dddf6f8c2"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p12-r2",
+                  "page": 12,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "4bdc7386-2cd2-41e4-bb01-4a3568d9d2d2",
+                    "d4ac8267-e8ab-4e91-8546-9b23dd757d6a",
+                    "a5ad423b-a1ad-4cde-9031-b6f628106fcd",
+                    "18618d84-3887-4936-bafd-350def3686ed",
+                    "e1fd3d5c-b75e-493f-bf95-51b3b86573d8",
+                    "bdba8ce1-b4e9-451b-b36f-63f6eda686f2",
+                    "e9902997-d187-4830-933a-06a2154fe62a",
+                    "48d5e271-82a5-4b5a-a9a8-d7fc5d5e2693",
+                    "5c7b197a-d5ee-477c-a931-589c1b0bb869",
+                    "660fea07-1607-466d-bb31-f7938fb027b9",
+                    "7663c1a1-b155-433a-ab53-c52815cec26b",
+                    "1238e04a-62d7-457a-a658-990466f20f2a",
+                    "cef90d2c-2519-422c-926f-2a4d9f096401",
+                    "c67002a8-8694-4133-8e36-df6bb2f30798",
+                    "75b136f8-10d0-4d20-bc2f-df126b240047"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p13-r2",
+                  "page": 13,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "b497308e-3855-4508-99ed-3c466050926b",
+                    "cc80e1b7-b8b5-4a3a-87cd-994410a3d3ae",
+                    "edc9480a-cec1-41d4-b981-068810a0d0ae",
+                    "9e0578a9-d1ad-437f-a708-76ca3dfba742",
+                    "c6b59e0d-f9c2-42d0-bb4c-68a16a3adafd",
+                    "a4af3a86-ef17-4feb-81ab-bb1336281ded",
+                    "c6fc8932-764c-426f-a30a-38fc85afede4",
+                    "c89f8a1d-7255-4fc1-90b0-5dd4cb9a1458",
+                    "471f7bce-6e6f-4541-9012-5d7593c9d5cf",
+                    "d2c6f305-f9b9-42f6-b270-d9199dc35511",
+                    "b3c4a9c0-c40b-4a9d-be2f-e0ea7355f52c",
+                    "3d4c4a2d-34b3-434c-9787-a2ebda6682f5",
+                    "3a577b73-0dad-4db0-ac1e-3395e2fbd138",
+                    "e2ce9d79-241b-44f6-b04c-eb7f51e302e1",
+                    "31549fa3-3766-4369-8583-f325afbe2ce2"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p14-r2",
+                  "page": 14,
+                  "count": 3,
+                  "total_reported": 198,
+                  "ids": [
+                    "7f991d30-5020-458c-a84b-7cb11acc7c35",
+                    "b57401aa-b7b3-46c4-88e0-2efcfd76c5f4",
+                    "8ba6a8ba-bded-4709-a03f-6ed962de8994"
+                  ]
+                }
+              ],
+              "normalized_sha256": "9cf7fb0c8afb968fb82241add6aff738d20a427a179cc30d38ab099dcf8eca83"
+            },
+            {
+              "round": 2,
+              "pages": [
+                {
+                  "read": "moka-shokz-list-p1-r3",
+                  "page": 1,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "84322f94-99b5-4128-9f1a-921834b211ce",
+                    "a4ab7454-f2fe-4509-a05b-1882d97c6067",
+                    "3d77b804-cb4d-4b61-81c9-9a67af0dc4ed",
+                    "66f55b33-1c42-49eb-896c-a2424f95c4cb",
+                    "b42e4052-3098-4836-803e-c018c100501d",
+                    "e121c45d-6e3f-4d6d-ad86-01b323e850b8",
+                    "056a2d6a-dca7-45ed-84af-604beeffd5aa",
+                    "d9ba2f2b-efd1-4317-91fd-35ba18190403",
+                    "86ff07b8-82d5-4d64-9548-99dc50854811",
+                    "26b996ea-d35b-434b-aa07-ab1c2b8b5855",
+                    "fc727860-6fd3-48c0-834a-432033d31bc2",
+                    "a71298cc-3e22-4709-a7da-2bcf484ece5f",
+                    "01a00f34-374a-4f22-b107-51d4c554bde8",
+                    "87f2ad7c-3603-4626-acfa-7ce0aa8905ff",
+                    "cd849239-aec3-439a-98ac-b2778882a99d"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p2-r3",
+                  "page": 2,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "9a388eb1-f3e6-4435-8109-1b7e5c0a79eb",
+                    "afe26491-8d6a-4394-afca-3d7fa178e996",
+                    "1da80622-3bb1-4cbe-948c-00e942bcdeba",
+                    "ccca285f-89de-4aa8-8f63-4d40a36623e5",
+                    "e8aced4f-0d9d-4dab-b72a-312f2e7ea726",
+                    "fc35be3c-5ca1-49e2-bda2-ba87644eb65a",
+                    "003a08c5-fec6-4ed4-aef5-210c6f15c69c",
+                    "d558240c-da2a-4829-8eac-0e8955977665",
+                    "f005ed3d-406f-41fc-b665-894fe277af7f",
+                    "a3b628a2-c4a5-475b-aaa3-d460a9363478",
+                    "07d33840-2bd5-42f9-ac8d-3dae066a8e47",
+                    "0ea88c1a-3b98-421f-b1cb-cd058640b31f",
+                    "105d2edb-6640-4ced-8e49-bc5570382502",
+                    "7da206d9-da01-49fa-9834-aab0717bf955",
+                    "0514b76f-9a5c-4717-bc36-11de5fd210c3"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p3-r3",
+                  "page": 3,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "455a2e3e-cbdf-4b06-88e1-2d4a44acbc40",
+                    "abfe7c42-b903-4eeb-808f-405707a1c90d",
+                    "a885b41f-d566-4d78-9178-93206fda0a64",
+                    "dec917da-90d2-46b7-875a-86eced9431f0",
+                    "abe1a1b7-0947-4d3c-9a09-df0112429469",
+                    "391abb7a-ce42-4361-888f-264e5f9d4f40",
+                    "8a22055e-a464-44f6-a515-a6110eb66747",
+                    "b1a74242-a2c2-45ab-b366-4b92838177b1",
+                    "5070fe3b-70dc-46b0-b11f-cd23f17528b5",
+                    "978ed6af-6208-467a-bc0c-a6740559cfa2",
+                    "b175e4d9-3ca4-49f7-b2b1-836cc5c15b9c",
+                    "5fa0c3e1-7490-4f2d-bc04-1c4a38eb325b",
+                    "74098dac-5520-4b55-b147-dd5eab873a08",
+                    "0d93cb97-e4fb-4a7d-8b40-c7ae3142ab36",
+                    "0faa27c4-b80f-46cc-994b-9365d0760c43"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p4-r3",
+                  "page": 4,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "2d97f8b7-4fac-4c78-8af7-db13745cce6a",
+                    "d4f463e1-e05e-4357-ab6f-18ed158e1628",
+                    "d018a019-726d-4026-8f29-81485af056a7",
+                    "a89a21fe-42b6-4d94-8933-1d3facbc763c",
+                    "a599d291-4617-4402-b32b-101c21a00f37",
+                    "07d0d79c-f3b0-47bf-a64a-b131822b7264",
+                    "2d03cf2d-4cc7-4681-9d61-29ae17c4620f",
+                    "bf3c5cbd-785f-4c18-8252-7e88ea067d8d",
+                    "c04d0fdf-4712-47ac-9307-9354d9175dac",
+                    "ff2ba20f-edad-4603-aba9-d5caa61c73d5",
+                    "40adf0fc-f56c-4b09-8e7a-cb93886862f6",
+                    "140d8631-e4fb-4cde-ae03-f8e3ab70c2f7",
+                    "10953b50-7ef4-4abc-b799-287055624574",
+                    "154613bc-b195-4ab0-a53f-122a7d6a9eed",
+                    "e187d8f0-1cce-4f03-a6f2-0c4d5f30b268"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p5-r3",
+                  "page": 5,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "096313a4-37f5-4370-86db-39778bf20aa6",
+                    "483a39cd-f3a6-4f7a-8a6a-52a19fdee480",
+                    "ecdee9ec-8a7a-4dbc-a6bf-9633584a4934",
+                    "dff8842a-2aad-4ec1-bc92-ab7886aa0aaf",
+                    "cca4ce9f-f640-44f3-bc65-2f08bc969ebe",
+                    "d635cb62-8737-482f-927d-08b61479ff2a",
+                    "74da4886-d775-4d3c-9baa-17ec77373442",
+                    "e549285e-fae8-4b1c-b91e-6e0197b4b8f3",
+                    "0b97a8b5-60b0-4b98-91d8-f20bec76d25f",
+                    "67d6a58a-8cb1-4387-b1ba-a2f34ead7376",
+                    "cc36c94a-a2bb-4761-9f8d-0d9af72ca23d",
+                    "4df61a05-3c53-457d-a9d6-874bb48d067d",
+                    "77da1496-88eb-47a5-9251-5ed70a2f18ce",
+                    "d0c5660b-8d65-4c3b-b2a5-14aab5029686",
+                    "ce620680-bd09-488a-ab0d-8ed269d891fc"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p6-r3",
+                  "page": 6,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "d76a17af-0171-4a22-aa7c-bc005b3bd1d0",
+                    "407179fc-1b8f-4cd5-bdb8-b1e9a5481d95",
+                    "f4869edf-d618-459c-8f8b-dab6e1c15b01",
+                    "707796a9-9ee6-473e-843d-671fd820d039",
+                    "c3e318cc-9d37-467b-a285-fda623c74ab9",
+                    "e7628873-d3ae-4fa8-b92c-4e14e0734dde",
+                    "04984820-4423-49c4-a139-6ebcdb535581",
+                    "378e58a4-b4e9-447a-8a50-fc811aa3f837",
+                    "c3fea5d5-0e4e-4f0b-ac07-82174c8060a4",
+                    "e0f93b70-f28f-428e-b221-0ba04e951bb5",
+                    "59c1492d-fbe5-4e4a-a51a-fe9497bc9010",
+                    "4d7cb6b9-fc2c-4176-8491-4540d516b6b2",
+                    "ef0d6589-e4b9-4d91-9c56-eaa99cdb86b6",
+                    "377a2ac8-058f-464b-966b-ae126a05fdf5",
+                    "3dedf17a-e625-4a1f-81d5-4320779e4443"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p7-r3",
+                  "page": 7,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "c9b5de45-8a59-4630-9452-3ebcd4fcab1c",
+                    "db7f3b8e-7bce-497c-9a31-8034f39e7704",
+                    "c33ca25e-7672-49cc-a19d-25b592e53bae",
+                    "0e6b99f5-2aa3-46a0-90d0-ffeb8a7fe86c",
+                    "1ca5864f-3ce9-4e6b-b313-138de20d982d",
+                    "92b84aab-c12b-4540-af7b-5c2e1599b57d",
+                    "681e3e69-4391-4847-998f-8037c3f4b383",
+                    "6e2e21d5-2b20-4ad6-9772-eaa528c1ff36",
+                    "0036b7cf-cce7-4580-ba8f-14e455624db6",
+                    "4a74c1fa-eed5-46e4-87f6-1df092c22a06",
+                    "91df861f-65f5-47a7-bda3-b6bb4b6de7b4",
+                    "afe066c4-6e35-4821-afd3-3c30f70c0b07",
+                    "3c7dadd1-8c5c-49ae-9277-6a4af171d791",
+                    "ff56a640-fab7-4ee1-ad2a-2b07b8e07957",
+                    "98813c37-9fee-4f17-877c-03a196468782"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p8-r3",
+                  "page": 8,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "c49eb47a-2cf0-422e-90d3-fec0d680e211",
+                    "736b24e1-d287-41ca-989a-c70ea619cd5f",
+                    "363950b2-c58d-4129-8a99-55f98e00dc03",
+                    "075cef20-7025-4927-995d-47c2e77c2f65",
+                    "cd5d5fa3-e4c2-4d9e-a98a-70e3b0ea7809",
+                    "b69b8c8a-8c47-4fc4-9d6b-ce16d0432a8b",
+                    "101a87a6-65ee-4967-a71a-3a8b78d9ac12",
+                    "3e2f9221-6133-433d-a894-29b4f1f25555",
+                    "7d4498fb-f00b-4502-a530-678bd3f015ac",
+                    "f6f1135b-2113-4276-a1e2-77e89fa49359",
+                    "5df6ee55-eb58-4f69-a7ac-a4fae962dcdf",
+                    "a928cb13-e0f6-4554-ac8d-c069764942e4",
+                    "a4b2de02-b813-4607-b2f6-3408241c37e6",
+                    "5127f02c-9a38-44f3-b217-dd59b1846e71",
+                    "fa8d27c9-1686-4279-8014-ab659ec6ed2e"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p9-r3",
+                  "page": 9,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "4e5d8f6d-b4b7-4432-9c09-a3409491c8f4",
+                    "22b9df1e-9dd2-4b8e-b1a6-1e53937497dd",
+                    "8eba4801-484b-4b22-b0cd-de63d76267de",
+                    "b83a56d8-ced7-4b1d-ac8b-8d76f2d2d2d4",
+                    "107ec7d1-bd2f-4b12-813b-8830d2c0fd63",
+                    "ffab95ef-8a00-4a11-83f5-1e037d87af10",
+                    "aa04bb41-37ae-4b7d-b8c1-7a973820da69",
+                    "d06a27ed-3ce2-4950-a360-199e3ef078d0",
+                    "a8549509-40e7-465d-9b1c-61fdf03d135e",
+                    "61a75d8d-b374-4e57-99df-abb82de81a39",
+                    "0736afd4-5f3a-469b-a06b-ae9ca4c78562",
+                    "5112b651-b148-4f6f-a0f2-41b220cdda52",
+                    "1d138574-4889-4830-aac6-3e1dd7513a60",
+                    "84b4c5aa-eed6-49da-96f1-477d935e161a",
+                    "ed6b7229-9251-48ac-9a04-31d472cd6e8e"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p10-r3",
+                  "page": 10,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "7062285b-32aa-4953-a4b8-f5988a9781cf",
+                    "580c62c2-344c-4121-a04f-4c4dba0ff9f9",
+                    "720d5bc3-d666-4563-8be9-9170b92c36aa",
+                    "4f1d8831-9f93-4cc8-b4de-dd8356d1b034",
+                    "bcdd9667-f802-4d93-b90e-d537e1ef51d8",
+                    "552ed0bd-82c0-43db-9f50-fbf3cc4c11fe",
+                    "2148862a-5253-42fa-96da-acbf85d9da0d",
+                    "f0535fec-c123-4901-88da-0faca96ac5e3",
+                    "1c934db8-ae1c-4659-92a8-5c06848a65d1",
+                    "a066c9b5-0fdd-43b1-89fc-f485d399fb0f",
+                    "7fdca427-7252-435e-b292-8b01244e5296",
+                    "9efd5c08-a1a3-4406-80b8-44ee0a4b097a",
+                    "2129bf6b-c660-43b3-a179-2d83a08efb7e",
+                    "2a30a861-6a57-482f-99e5-4b04615400d1",
+                    "604e4a23-a499-423a-a772-44d81bcab8db"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p11-r3",
+                  "page": 11,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "825d2a71-ca26-4238-9e28-0e2d0b461b95",
+                    "817bf1a1-ed57-40b1-8273-359de3f322f7",
+                    "81aab138-acf0-4995-a00a-dbde38850385",
+                    "3445c9b4-00b3-4eca-a4d6-c1c27462b9ab",
+                    "cb3314e1-4e32-4cc7-ae2e-c86d9d229ced",
+                    "5cb34b4f-5444-4cd8-ab9d-63d97fb17325",
+                    "dbde1a9c-a5f2-44ac-b75a-5cbf8ef200d0",
+                    "6e31bed2-bb78-4eaf-ba4d-4d8a60e04a89",
+                    "0c23d55c-8d67-4ec5-abce-4441bcbbd703",
+                    "c837deba-b479-45cc-8f95-669ad6541eac",
+                    "7cd94834-8933-44cf-a9a5-fe8758b231a2",
+                    "f3260a09-5203-417f-a052-4a556836b6d1",
+                    "c035390c-3c16-4226-92f6-ed80e31110d2",
+                    "c23ec722-6409-4b1c-9f95-2fc8ebb5c14a",
+                    "a2a5b34b-aad5-417a-9e5e-2a9dddf6f8c2"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p12-r3",
+                  "page": 12,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "4bdc7386-2cd2-41e4-bb01-4a3568d9d2d2",
+                    "d4ac8267-e8ab-4e91-8546-9b23dd757d6a",
+                    "a5ad423b-a1ad-4cde-9031-b6f628106fcd",
+                    "18618d84-3887-4936-bafd-350def3686ed",
+                    "e1fd3d5c-b75e-493f-bf95-51b3b86573d8",
+                    "bdba8ce1-b4e9-451b-b36f-63f6eda686f2",
+                    "e9902997-d187-4830-933a-06a2154fe62a",
+                    "48d5e271-82a5-4b5a-a9a8-d7fc5d5e2693",
+                    "5c7b197a-d5ee-477c-a931-589c1b0bb869",
+                    "660fea07-1607-466d-bb31-f7938fb027b9",
+                    "7663c1a1-b155-433a-ab53-c52815cec26b",
+                    "1238e04a-62d7-457a-a658-990466f20f2a",
+                    "cef90d2c-2519-422c-926f-2a4d9f096401",
+                    "c67002a8-8694-4133-8e36-df6bb2f30798",
+                    "75b136f8-10d0-4d20-bc2f-df126b240047"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p13-r3",
+                  "page": 13,
+                  "count": 15,
+                  "total_reported": 198,
+                  "ids": [
+                    "b497308e-3855-4508-99ed-3c466050926b",
+                    "cc80e1b7-b8b5-4a3a-87cd-994410a3d3ae",
+                    "edc9480a-cec1-41d4-b981-068810a0d0ae",
+                    "9e0578a9-d1ad-437f-a708-76ca3dfba742",
+                    "c6b59e0d-f9c2-42d0-bb4c-68a16a3adafd",
+                    "a4af3a86-ef17-4feb-81ab-bb1336281ded",
+                    "c6fc8932-764c-426f-a30a-38fc85afede4",
+                    "c89f8a1d-7255-4fc1-90b0-5dd4cb9a1458",
+                    "471f7bce-6e6f-4541-9012-5d7593c9d5cf",
+                    "d2c6f305-f9b9-42f6-b270-d9199dc35511",
+                    "b3c4a9c0-c40b-4a9d-be2f-e0ea7355f52c",
+                    "3d4c4a2d-34b3-434c-9787-a2ebda6682f5",
+                    "3a577b73-0dad-4db0-ac1e-3395e2fbd138",
+                    "e2ce9d79-241b-44f6-b04c-eb7f51e302e1",
+                    "31549fa3-3766-4369-8583-f325afbe2ce2"
+                  ]
+                },
+                {
+                  "read": "moka-shokz-list-p14-r3",
+                  "page": 14,
+                  "count": 3,
+                  "total_reported": 198,
+                  "ids": [
+                    "7f991d30-5020-458c-a84b-7cb11acc7c35",
+                    "b57401aa-b7b3-46c4-88e0-2efcfd76c5f4",
+                    "8ba6a8ba-bded-4709-a03f-6ed962de8994"
+                  ]
+                }
+              ],
+              "normalized_sha256": "9cf7fb0c8afb968fb82241add6aff738d20a427a179cc30d38ab099dcf8eca83"
+            }
+          ],
+          "repeated_ids_equal": true,
+          "repeated_normalized_content_equal": true,
+          "empty_control": {
+            "read": "moka-shokz-empty-r2",
+            "success": true,
+            "code": 0,
+            "total": 0,
+            "count": 0,
+            "classification": "valid_empty"
+          }
+        },
+        {
+          "tenant": "bluepoch",
+          "org_id": "blueinteractive",
+          "site_id": "38433",
+          "site_type": "social",
+          "url": "https://app.mokahr.com/apply/blueinteractive/38433",
+          "endpoint": "https://app.mokahr.com/api/outer/ats-apply/website/jobs",
+          "authority_reads": [
+            "bluepoch-official"
+          ],
+          "rounds": [
+            {
+              "round": 1,
+              "pages": [
+                {
+                  "read": "moka-bluepoch-list-p1",
+                  "page": 1,
+                  "count": 15,
+                  "total_reported": 57,
+                  "ids": [
+                    "5e7456b7-e14d-4962-9bb7-44f2c42244d8",
+                    "64b1787c-4ac9-4bde-858b-c2009c34bbbb",
+                    "b2e79dfc-8a36-4950-9c93-d5f57aeef634",
+                    "48c5ef6a-851a-4b09-aa6f-bd4ad62a311f",
+                    "0a38b142-31f2-4d63-ae48-5eee9defdf91",
+                    "350f795a-ca78-40cb-83b7-f479c832af39",
+                    "37d4d49c-b180-450f-b100-90452fa0c91a",
+                    "b46156dc-977d-4878-8135-fcdab49e0340",
+                    "55ba2702-4a94-4c06-b196-9619d7420af9",
+                    "08bb951e-190c-4682-aae6-09735462476e",
+                    "5df8417e-4acc-40a5-9bfc-40143e3a2992",
+                    "306cea81-f6c5-42ea-be7c-aa8820884eda",
+                    "a34339f6-b242-49a8-9fa3-a077852c4d80",
+                    "fd6e6bea-a32d-4b7d-b260-fc733992061c",
+                    "b1bb6daf-fb4a-45d1-91cd-b45594ac73c9"
+                  ]
+                },
+                {
+                  "read": "moka-bluepoch-list-p2-r2",
+                  "page": 2,
+                  "count": 15,
+                  "total_reported": 57,
+                  "ids": [
+                    "bf87c5ab-5edf-4005-bc3a-7851621e26aa",
+                    "a7fea534-8a0a-48db-ac26-3a24840d5bea",
+                    "54ef4acb-9ebd-4fc2-8f2e-a909fce7ab3b",
+                    "09659bff-ec41-4c4e-8366-a6d38fd86d18",
+                    "abc1a228-06ba-428b-977c-909592f6ad4b",
+                    "f0cb2286-b99d-4eb4-9927-f98af91320b4",
+                    "07772ab8-e8c4-4bb5-8a65-8705d40f4abe",
+                    "42132620-76c1-4017-946a-2b5b7554c23c",
+                    "82d2cc87-f973-4d37-b008-7dae908da661",
+                    "aae4db79-a97f-4790-ba6e-5e5f8badfc16",
+                    "1a13ee7e-ac99-4440-ab22-31683eee83d2",
+                    "d9708026-4eb0-4c9c-ae93-5c73acb925da",
+                    "10ac8245-f765-414f-9e70-d89822f2a9ec",
+                    "21a4171e-07a3-4a85-8f66-43a5e7f830fa",
+                    "6961c5ff-f6a8-4ec8-8a69-6c61ac14dfaa"
+                  ]
+                },
+                {
+                  "read": "moka-bluepoch-list-p3-r2",
+                  "page": 3,
+                  "count": 15,
+                  "total_reported": 57,
+                  "ids": [
+                    "e7f39437-65b2-4274-91f5-6f70a2f66abd",
+                    "7d129c31-83af-41a1-839d-cc4a5e4b3e10",
+                    "37d10854-2cf1-4dd3-8443-dc5c2d055997",
+                    "af42e401-602b-4063-a4d1-8ba799948723",
+                    "083611d8-477e-4e21-a9c9-15d43b4611bc",
+                    "dc3272ef-34ae-415a-bb4e-5347982e5216",
+                    "892a7f76-e9ce-4782-9ff5-0e5b4fb00abd",
+                    "71ba7b75-9b07-4749-bb22-7ae6c80164c3",
+                    "a2ff07d1-9dc2-4ba6-9e1a-fc65864c8199",
+                    "6520515d-efca-4983-9e62-b21d25c29bdf",
+                    "959478eb-b5e0-4fcc-96e8-cb1047890001",
+                    "ed6bd685-6e89-4a6c-853b-e9345973ec91",
+                    "9a067bbb-a832-4feb-bfb7-4e9bd2a5ff5b",
+                    "394fe90c-2d92-4e6f-8990-6666c2638723",
+                    "07f6da74-88e1-4ac2-b730-4598cd03cdc2"
+                  ]
+                },
+                {
+                  "read": "moka-bluepoch-list-p4-r2",
+                  "page": 4,
+                  "count": 12,
+                  "total_reported": 57,
+                  "ids": [
+                    "8306dbbb-444b-42da-9f9f-93d3c592d5bf",
+                    "7421e555-dfb0-4ad5-aece-ac3575ac471d",
+                    "c000f7db-6f6f-41ce-852a-f49953c5fb32",
+                    "89e5df32-8d1b-4142-9854-5d079a1a1989",
+                    "f17f6d03-b831-4e16-b381-ade865db059a",
+                    "25de05ef-6ab1-40d2-97a1-86bafb9c4676",
+                    "11148a3c-5927-4caa-a543-bf407b6fa69e",
+                    "77e7d120-0dbf-4f00-b152-6b64a0e9af49",
+                    "70c7abe2-0989-40e3-b82f-7e7f4fa77f58",
+                    "8e2975d4-ab04-4c56-98da-55b334a405fe",
+                    "c1773880-7abd-4ed1-8487-4c71a4464d89",
+                    "a784d514-d466-4d93-96d2-79a41b265b0b"
+                  ]
+                }
+              ],
+              "normalized_sha256": "82b3fe4f4830dfbf783d928bb94e655d8df9021930266419733f504a573c8725"
+            },
+            {
+              "round": 2,
+              "pages": [
+                {
+                  "read": "moka-bluepoch-list-p1-r3",
+                  "page": 1,
+                  "count": 15,
+                  "total_reported": 57,
+                  "ids": [
+                    "5e7456b7-e14d-4962-9bb7-44f2c42244d8",
+                    "64b1787c-4ac9-4bde-858b-c2009c34bbbb",
+                    "b2e79dfc-8a36-4950-9c93-d5f57aeef634",
+                    "48c5ef6a-851a-4b09-aa6f-bd4ad62a311f",
+                    "0a38b142-31f2-4d63-ae48-5eee9defdf91",
+                    "350f795a-ca78-40cb-83b7-f479c832af39",
+                    "37d4d49c-b180-450f-b100-90452fa0c91a",
+                    "b46156dc-977d-4878-8135-fcdab49e0340",
+                    "55ba2702-4a94-4c06-b196-9619d7420af9",
+                    "08bb951e-190c-4682-aae6-09735462476e",
+                    "5df8417e-4acc-40a5-9bfc-40143e3a2992",
+                    "306cea81-f6c5-42ea-be7c-aa8820884eda",
+                    "a34339f6-b242-49a8-9fa3-a077852c4d80",
+                    "fd6e6bea-a32d-4b7d-b260-fc733992061c",
+                    "b1bb6daf-fb4a-45d1-91cd-b45594ac73c9"
+                  ]
+                },
+                {
+                  "read": "moka-bluepoch-list-p2-r3",
+                  "page": 2,
+                  "count": 15,
+                  "total_reported": 57,
+                  "ids": [
+                    "bf87c5ab-5edf-4005-bc3a-7851621e26aa",
+                    "a7fea534-8a0a-48db-ac26-3a24840d5bea",
+                    "54ef4acb-9ebd-4fc2-8f2e-a909fce7ab3b",
+                    "09659bff-ec41-4c4e-8366-a6d38fd86d18",
+                    "abc1a228-06ba-428b-977c-909592f6ad4b",
+                    "f0cb2286-b99d-4eb4-9927-f98af91320b4",
+                    "07772ab8-e8c4-4bb5-8a65-8705d40f4abe",
+                    "42132620-76c1-4017-946a-2b5b7554c23c",
+                    "82d2cc87-f973-4d37-b008-7dae908da661",
+                    "aae4db79-a97f-4790-ba6e-5e5f8badfc16",
+                    "1a13ee7e-ac99-4440-ab22-31683eee83d2",
+                    "d9708026-4eb0-4c9c-ae93-5c73acb925da",
+                    "10ac8245-f765-414f-9e70-d89822f2a9ec",
+                    "21a4171e-07a3-4a85-8f66-43a5e7f830fa",
+                    "6961c5ff-f6a8-4ec8-8a69-6c61ac14dfaa"
+                  ]
+                },
+                {
+                  "read": "moka-bluepoch-list-p3-r3",
+                  "page": 3,
+                  "count": 15,
+                  "total_reported": 57,
+                  "ids": [
+                    "e7f39437-65b2-4274-91f5-6f70a2f66abd",
+                    "7d129c31-83af-41a1-839d-cc4a5e4b3e10",
+                    "37d10854-2cf1-4dd3-8443-dc5c2d055997",
+                    "af42e401-602b-4063-a4d1-8ba799948723",
+                    "083611d8-477e-4e21-a9c9-15d43b4611bc",
+                    "dc3272ef-34ae-415a-bb4e-5347982e5216",
+                    "892a7f76-e9ce-4782-9ff5-0e5b4fb00abd",
+                    "71ba7b75-9b07-4749-bb22-7ae6c80164c3",
+                    "a2ff07d1-9dc2-4ba6-9e1a-fc65864c8199",
+                    "6520515d-efca-4983-9e62-b21d25c29bdf",
+                    "959478eb-b5e0-4fcc-96e8-cb1047890001",
+                    "ed6bd685-6e89-4a6c-853b-e9345973ec91",
+                    "9a067bbb-a832-4feb-bfb7-4e9bd2a5ff5b",
+                    "394fe90c-2d92-4e6f-8990-6666c2638723",
+                    "07f6da74-88e1-4ac2-b730-4598cd03cdc2"
+                  ]
+                },
+                {
+                  "read": "moka-bluepoch-list-p4-r3",
+                  "page": 4,
+                  "count": 12,
+                  "total_reported": 57,
+                  "ids": [
+                    "8306dbbb-444b-42da-9f9f-93d3c592d5bf",
+                    "7421e555-dfb0-4ad5-aece-ac3575ac471d",
+                    "c000f7db-6f6f-41ce-852a-f49953c5fb32",
+                    "89e5df32-8d1b-4142-9854-5d079a1a1989",
+                    "f17f6d03-b831-4e16-b381-ade865db059a",
+                    "25de05ef-6ab1-40d2-97a1-86bafb9c4676",
+                    "11148a3c-5927-4caa-a543-bf407b6fa69e",
+                    "77e7d120-0dbf-4f00-b152-6b64a0e9af49",
+                    "70c7abe2-0989-40e3-b82f-7e7f4fa77f58",
+                    "8e2975d4-ab04-4c56-98da-55b334a405fe",
+                    "c1773880-7abd-4ed1-8487-4c71a4464d89",
+                    "a784d514-d466-4d93-96d2-79a41b265b0b"
+                  ]
+                }
+              ],
+              "normalized_sha256": "82b3fe4f4830dfbf783d928bb94e655d8df9021930266419733f504a573c8725"
+            }
+          ],
+          "repeated_ids_equal": true,
+          "repeated_normalized_content_equal": true,
+          "empty_control": {
+            "read": "moka-bluepoch-empty-r2",
+            "success": true,
+            "code": 0,
+            "total": 0,
+            "count": 0,
+            "classification": "valid_empty"
+          }
+        }
+      ],
+      "closed_job_control_verified": false,
+      "customer_api_is_public_directory": false,
+      "total_advertisements": 443
+    },
+    "universities": {
+      "authority": "university_syndication",
+      "sustech": {
+        "entry_url": "https://career.sustech.edu.cn/module/onlines",
+        "query_keyword": "软件",
+        "rounds": [
+          {
+            "read": "sustech-software-p1",
+            "count_read": "sustech-software-count",
+            "count": 11,
+            "records": [
+              {
+                "id": "3622399",
+                "company": "深圳市汉森软件股份有限公司",
+                "title": "汉森软件2027届校园招聘简章",
+                "published_date": "2026-10-13"
+              },
+              {
+                "id": "3593586",
+                "company": "成都天府软件园有限公司",
+                "title": "“新兴向蓉”成都高新区天府人才行动暨天府软件园  2026年秋季人才招聘",
+                "published_date": "2026-09-03"
+              },
+              {
+                "id": "3590917",
+                "company": "高博人才科技（湖北）有限公司",
+                "title": "第五届广州天河博士专场招聘会暨人工智能+软件产业博士人才天河交流行",
+                "published_date": "2026-09-01"
+              },
+              {
+                "id": "3591605",
+                "company": "四川中久数创科技有限公司",
+                "title": "中久数创/中物院软件中心/中国久远CAE软件事业部 2027届校园招聘",
+                "published_date": "2026-09-01"
+              },
+              {
+                "id": "3502906",
+                "company": "北京新域未来科技有限公司",
+                "title": "招聘简章：【招聘软件测试工程师助理（10名）】",
+                "published_date": "2026-04-20"
+              },
+              {
+                "id": "3489644",
+                "company": "四川中久数创科技有限公司",
+                "title": "中久数创/中物院软件中心/中国久远CAE事业部 2026届校园招聘",
+                "published_date": "2026-03-27"
+              },
+              {
+                "id": "3489511",
+                "company": "中国工商银行股份有限公司",
+                "title": "中国工商银行股份有限公司软件开发中心2026年度春季校园招聘",
+                "published_date": "2026-03-27"
+              },
+              {
+                "id": "3489930",
+                "company": "汇丰软件开发（广东）有限公司",
+                "title": "汇丰软件开发（广东）有限公司2026年校园实习生招聘",
+                "published_date": "2026-03-27"
+              },
+              {
+                "id": "3480093",
+                "company": "辽宁运和软件开发有限公司",
+                "title": "辽宁运和软件开发有限公司招聘简章",
+                "published_date": "2026-03-19"
+              },
+              {
+                "id": "3482352",
+                "company": "中国工商银行股份有限公司",
+                "title": "中国工商银行股份有限公司软件开发中心2026年度春季校园招聘",
+                "published_date": "2026-03-19"
+              },
+              {
+                "id": "3469942",
+                "company": "南通润东计算机科技发展有限公司",
+                "title": "赴日软件工程师招聘",
+                "published_date": "2026-03-09"
+              }
+            ]
+          },
+          {
+            "read": "sustech-software-p1-r2",
+            "count_read": "sustech-software-count-r2",
+            "count": 11,
+            "records": [
+              {
+                "id": "3622399",
+                "company": "深圳市汉森软件股份有限公司",
+                "title": "汉森软件2027届校园招聘简章",
+                "published_date": "2026-10-13"
+              },
+              {
+                "id": "3593586",
+                "company": "成都天府软件园有限公司",
+                "title": "“新兴向蓉”成都高新区天府人才行动暨天府软件园  2026年秋季人才招聘",
+                "published_date": "2026-09-03"
+              },
+              {
+                "id": "3590917",
+                "company": "高博人才科技（湖北）有限公司",
+                "title": "第五届广州天河博士专场招聘会暨人工智能+软件产业博士人才天河交流行",
+                "published_date": "2026-09-01"
+              },
+              {
+                "id": "3591605",
+                "company": "四川中久数创科技有限公司",
+                "title": "中久数创/中物院软件中心/中国久远CAE软件事业部 2027届校园招聘",
+                "published_date": "2026-09-01"
+              },
+              {
+                "id": "3502906",
+                "company": "北京新域未来科技有限公司",
+                "title": "招聘简章：【招聘软件测试工程师助理（10名）】",
+                "published_date": "2026-04-20"
+              },
+              {
+                "id": "3489644",
+                "company": "四川中久数创科技有限公司",
+                "title": "中久数创/中物院软件中心/中国久远CAE事业部 2026届校园招聘",
+                "published_date": "2026-03-27"
+              },
+              {
+                "id": "3489511",
+                "company": "中国工商银行股份有限公司",
+                "title": "中国工商银行股份有限公司软件开发中心2026年度春季校园招聘",
+                "published_date": "2026-03-27"
+              },
+              {
+                "id": "3489930",
+                "company": "汇丰软件开发（广东）有限公司",
+                "title": "汇丰软件开发（广东）有限公司2026年校园实习生招聘",
+                "published_date": "2026-03-27"
+              },
+              {
+                "id": "3480093",
+                "company": "辽宁运和软件开发有限公司",
+                "title": "辽宁运和软件开发有限公司招聘简章",
+                "published_date": "2026-03-19"
+              },
+              {
+                "id": "3482352",
+                "company": "中国工商银行股份有限公司",
+                "title": "中国工商银行股份有限公司软件开发中心2026年度春季校园招聘",
+                "published_date": "2026-03-19"
+              },
+              {
+                "id": "3469942",
+                "company": "南通润东计算机科技发展有限公司",
+                "title": "赴日软件工程师招聘",
+                "published_date": "2026-03-09"
+              }
+            ]
+          }
+        ],
+        "full_school_complete": false,
+        "repeated_records_equal": true,
+        "empty_control": {
+          "count_read": "sustech-no-match-count",
+          "list_read": "sustech-no-match-list",
+          "total": 0,
+          "code": 1,
+          "count": 0
+        },
+        "expired_control": {
+          "read": "sustech-small-job",
+          "http_status": 200,
+          "message": "该信息不存在或已过期，即将跳回首页，请浏览其他信息",
+          "classification": "unavailable_or_expired_not_empty"
+        }
+      },
+      "hati": {
+        "entry_url": "https://jyxxw.hati.edu.cn/module/milkrounddetail/id-69c4f4a9066100f195536e34/nid-2637/page-1",
+        "event_state": "ended",
+        "event_date": "2026-04-23",
+        "pages": [
+          {
+            "read": "hati-event-p1",
+            "page": 1,
+            "company_ids": [
+              "3380537",
+              "3398333",
+              "3126674",
+              "2926859",
+              "1592047",
+              "1383518",
+              "1899272",
+              "3292963",
+              "3275493",
+              "206128",
+              "2602058",
+              "3391304",
+              "580687",
+              "2633355",
+              "3353689",
+              "776967",
+              "2479994",
+              "3391963",
+              "2984788",
+              "3384179",
+              "2282057",
+              "3146030",
+              "3396415",
+              "3259203",
+              "2925927",
+              "3264214",
+              "3380818",
+              "3129217"
+            ],
+            "count": 28
+          },
+          {
+            "read": "hati-event-p2",
+            "page": 2,
+            "company_ids": [
+              "2670952",
+              "2633060",
+              "865729",
+              "3099800",
+              "3078626",
+              "3391421",
+              "776575",
+              "1490039",
+              "1389483",
+              "3322358",
+              "2983072",
+              "1187449",
+              "3125593",
+              "2943123",
+              "872012",
+              "3030783",
+              "2930390",
+              "200394",
+              "3030323",
+              "3391594",
+              "3060762",
+              "941614",
+              "3054351",
+              "3384062",
+              "3082617",
+              "3344396",
+              "3104114",
+              "3034912"
+            ],
+            "count": 28
+          },
+          {
+            "read": "hati-event-p3",
+            "page": 3,
+            "company_ids": [
+              "2689672",
+              "3219213",
+              "3417425",
+              "3380834",
+              "3284107",
+              "2778200",
+              "208840",
+              "2874838",
+              "3421210",
+              "3414003",
+              "708039",
+              "3418367",
+              "2633661",
+              "3392895",
+              "3401220",
+              "3394803",
+              "3394443",
+              "3409366",
+              "2142915",
+              "3320345",
+              "1199777",
+              "2968605",
+              "2959786",
+              "1309447",
+              "3373509",
+              "3161599",
+              "3009338",
+              "3417065"
+            ],
+            "count": 28
+          },
+          {
+            "read": "hati-event-p4",
+            "page": 4,
+            "company_ids": [
+              "3373486",
+              "3395857",
+              "3418375",
+              "572982",
+              "2998235",
+              "3127030",
+              "2778119",
+              "2689004",
+              "3415807",
+              "209866",
+              "3353348",
+              "3216701",
+              "3415787",
+              "2899484",
+              "2867619",
+              "3326120",
+              "3366691",
+              "2671198",
+              "1202625"
+            ],
+            "count": 19
+          }
+        ],
+        "full_event_complete": false,
+        "visible_company_ids": 103,
+        "reported_participating_companies": 256,
+        "reported_positions": 606,
+        "counter_matches_visible_ids": false,
+        "repeated_page1_ids_equal": true
+      }
+    }
+  },
+  "samples": [
+    {
+      "source": "ncss",
+      "reads": [
+        "ncss-detail-1",
+        "ncss-detail-1-r2"
+      ],
+      "url": "https://www.ncss.cn/student/jobs/QcxFRRcgoGHr1bNnoQgktZ/detail.html",
+      "scale_evidence": "platform_reported_headcount_band_not_official_sme_status",
+      "company": "中科云教（山东）网络科技有限公司",
+      "scale": "50-99人",
+      "title": "互联网软件开发工程师",
+      "direction": "software_development",
+      "review": "insufficient_job_description",
+      "conditions": {
+        "education": "专科及以上",
+        "major": "不限",
+        "graduation_window": null,
+        "experience": null
+      },
+      "official_application_url": null,
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "ncss",
+      "reads": [
+        "ncss-detail-2",
+        "ncss-detail-2-r2"
+      ],
+      "url": "https://www.ncss.cn/student/jobs/An7RZvkkBDLdeYcyXYoLRb/detail.html",
+      "scale_evidence": "platform_reported_headcount_band_not_official_sme_status",
+      "company": "重庆镓孪科技有限责任公司",
+      "scale": "1-49人",
+      "title": "软件开发实习生",
+      "direction": "software_development",
+      "review": "conflicting_employment_type",
+      "conditions": {
+        "education": "本科及以上",
+        "major": "计算机类、电子信息类",
+        "graduation_window": null,
+        "experience": null
+      },
+      "official_application_url": null,
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "ncss",
+      "reads": [
+        "ncss-detail-3",
+        "ncss-detail-3-r2"
+      ],
+      "url": "https://www.ncss.cn/student/jobs/72R9U9dvqzeqAsL78Do53J/detail.html",
+      "scale_evidence": "platform_reported_headcount_band_not_official_sme_status",
+      "company": "重庆会凌电子新技术有限公司",
+      "scale": "100-499人",
+      "title": "无线通信高级软件开发工程师-精密仪器仪表方向",
+      "direction": "embedded_and_wireless",
+      "review": "graduate_qualification_required",
+      "conditions": {
+        "education": "研究生及以上",
+        "major": "无线通信相关专业",
+        "graduation_window": null,
+        "experience": null
+      },
+      "official_application_url": null,
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "ncss",
+      "reads": [
+        "ncss-detail-4",
+        "ncss-detail-4-r2"
+      ],
+      "url": "https://www.ncss.cn/student/jobs/38hQjN33LRZTutNRMcQz87/detail.html",
+      "scale_evidence": "platform_reported_headcount_band_not_official_sme_status",
+      "company": "重庆蝉艺网络科技有限公司",
+      "scale": "1-49人",
+      "title": "ue软件游戏地编",
+      "direction": "game_art_control",
+      "review": "non_software_role_and_education_conflict",
+      "conditions": {
+        "education": null,
+        "major": null,
+        "graduation_window": null,
+        "experience": null
+      },
+      "official_application_url": null,
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "moka",
+      "tenant": "nsfocus",
+      "reads": [
+        "moka-nsfocus-detail-fa1953b8-r2",
+        "moka-nsfocus-detail-fa1953b8-r3"
+      ],
+      "id": "fa1953b8-0e58-4da1-9a19-8e388d167119",
+      "title": "秋招安全研究员（云/AI攻防方向）",
+      "status": "open",
+      "commitment": "全职",
+      "direction": "technical_security",
+      "conditions": {
+        "education": "硕士及以上",
+        "major": "计算机、网络/信息安全、人工智能等",
+        "graduation_window": null,
+        "experience": null
+      },
+      "official_application_level": "verified_employer_hosted_portal",
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "moka",
+      "tenant": "shokz",
+      "reads": [
+        "moka-shokz-detail-84322f94-r2",
+        "moka-shokz-detail-84322f94-r3"
+      ],
+      "id": "84322f94-99b5-4128-9f1a-921834b211ce",
+      "title": "AI 工程师实习生",
+      "status": "open",
+      "commitment": "实习",
+      "direction": "ai_internship",
+      "conditions": {
+        "education": "本科或硕士在读",
+        "major": "计算机、AI、数据科学、电子工程等",
+        "graduation_window": null,
+        "experience": null,
+        "minimum_internship_months": 3
+      },
+      "official_application_level": "verified_employer_hosted_portal",
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "moka",
+      "tenant": "shokz",
+      "reads": [
+        "moka-shokz-detail-a4ab7454-r2",
+        "moka-shokz-detail-a4ab7454-r3"
+      ],
+      "id": "a4ab7454-f2fe-4509-a05b-1882d97c6067",
+      "title": "大模型算法实习生（医疗AI Agent方向）",
+      "status": "open",
+      "commitment": "实习",
+      "direction": "ai_internship",
+      "conditions": {
+        "education": "硕士或博士在读",
+        "major": "计算机、AI、NLP、生物医学工程等",
+        "graduation_window": null,
+        "experience": null
+      },
+      "official_application_level": "verified_employer_hosted_portal",
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "moka",
+      "tenant": "bluepoch",
+      "reads": [
+        "moka-bluepoch-detail-5e7456b7-r2",
+        "moka-bluepoch-detail-5e7456b7-r3"
+      ],
+      "id": "5e7456b7-e14d-4962-9bb7-44f2c42244d8",
+      "title": "视频PM",
+      "status": "open",
+      "commitment": "全职",
+      "direction": "nontechnical_control",
+      "conditions": {
+        "education": null,
+        "major": null,
+        "graduation_window": null,
+        "minimum_experience_years": 3
+      },
+      "official_application_level": "verified_employer_hosted_portal",
+      "repeated_identity_and_description_equal": true,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "moka",
+      "tenant": "bluepoch",
+      "reads": [
+        "moka-bluepoch-detail-java"
+      ],
+      "id": "89e5df32-8d1b-4142-9854-5d079a1a1989",
+      "title": "Java开发工程师",
+      "status": "open",
+      "direction": "backend_development",
+      "conditions": {
+        "education": "本科及以上",
+        "major": "计算机相关",
+        "graduation_window": null,
+        "minimum_experience_years": 3
+      },
+      "review": "experience_may_disqualify_new_graduates",
+      "publication_status": "research_only"
+    },
+    {
+      "source": "university",
+      "company": "深圳市汉森软件股份有限公司",
+      "reads": [
+        "sustech-hansen",
+        "sustech-hansen-r2",
+        "sustech-hansen-cpp"
+      ],
+      "title": "C++开发工程师",
+      "conditions": {
+        "education": "本科及以上",
+        "major": "计算机、软件工程、自动化等",
+        "graduation_year_in_announcement": 2027,
+        "graduation_date_window": null,
+        "deadline": null,
+        "written_test": null
+      },
+      "application_url_reported": "https://app.mokahr.com/campus-recruitment/hosonsoft/96288",
+      "employer_authority_verified": false,
+      "authority_gap": "hansen-official TLS transport failed",
+      "publication_status": "research_only"
+    },
+    {
+      "source": "university",
+      "company": "四川中久数创科技有限公司",
+      "reads": [
+        "sustech-zhongjiu",
+        "sustech-zhongjiu-r2",
+        "sustech-zhongjiu-parallel"
+      ],
+      "title": "CAE智能技术与软件研发工程师",
+      "scale": "50-150人",
+      "scale_evidence": "university_profile_and_syndicated_description",
+      "conditions": {
+        "education": "硕士及以上",
+        "major": "AI、计算机、计算数学、力学等",
+        "graduation_year_in_announcement": 2027,
+        "graduation_date_window": null,
+        "deadline": null,
+        "written_test": null
+      },
+      "application_url_reported": "https://zp.zjdit.com",
+      "employer_authority_verified": false,
+      "publication_status": "research_only"
+    },
+    {
+      "source": "university",
+      "company": "北京新域未来科技有限公司",
+      "reads": [
+        "sustech-xinyu"
+      ],
+      "title": "软件测试工程师助理",
+      "scale": "50-150人",
+      "scale_evidence": "university_platform_reported",
+      "conditions": {
+        "education": "本科及以上",
+        "major": "计算机相关",
+        "graduation_window": null,
+        "experience": null,
+        "deadline": null,
+        "written_test": null
+      },
+      "published_date": "2026-04-20",
+      "employer_authority_verified": false,
+      "review": "older_notice_current_opening_unverified",
+      "publication_status": "research_only"
+    },
+    {
+      "source": "university",
+      "company": "郑州旭端信息科技有限公司",
+      "reads": [
+        "hati-company-xuduan",
+        "hati-company-xuduan-r2"
+      ],
+      "title": null,
+      "scale": "50-150人",
+      "scale_evidence": "university_platform_reported",
+      "current_job_verified": false,
+      "review": "employer_discovery_only",
+      "publication_status": "research_only"
+    }
+  ],
+  "checks": {
+    "ncss_two_preview_reads_equal": true,
+    "moka_two_full_snapshots_ids_equal": true,
+    "moka_all_normalized_content_equal": true,
+    "university_query_two_reads_equal": true,
+    "hati_counter_consistency": false,
+    "closed_moka_job_verified": false,
+    "production_continuous_stability_verified": false
+  },
+  "read_statistics": {
+    "attempts": 195,
+    "http_200": 151,
+    "transport_failures": 43,
+    "first_started_at": "2026-10-15T15:18:02.188Z",
+    "last_finished_at": "2026-10-15T15:42:41.558Z"
+  }
+}

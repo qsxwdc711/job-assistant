@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "scope": "Authorized job-detail and public corporate-source validation; no production ingestion",
+  "production_sources_added": 0,
+  "production_jobs_published": 0,
+  "full_source_complete": false,
+  "full_query_complete": false,
+  "production_ready": false,
+  "samples": [
+    {
+      "company": "小马智投人工智能科技（上海）有限责任公司",
+      "platform_job_id": "4yQYhS2Hmdw2FFStGrLRzG",
+      "source_url": "https://www.ncss.cn/student/jobs/4yQYhS2Hmdw2FFStGrLRzG/detail.html",
+      "title": "软件工程师",
+      "platform_company_url": "https://www.ncss.cn/student/jobs/SUcFTowCdt6B5RykaZsHex/corp.html",
+      "platform_company_size": "1-49人",
+      "company_size_authority": "NCSS company profile, not official SME certification",
+      "recruitment_type": "internship",
+      "minimum_education": "bachelor",
+      "location": {
+        "country": "中国",
+        "province": "上海市",
+        "city": "上海市",
+        "raw": "上海市徐汇区"
+      },
+      "role_direction": "unknown",
+      "role_direction_note": "职责正文不足以确认后端、算法或其他研发方向。",
+      "qualification_summary": [
+        "本科及以上；专业栏偏好理工科，兼列商科、法律。",
+        "正文涉及计算机／人工智能及英语四、六级；英语门槛具体口径不明确。"
+      ],
+      "source_excerpts": [
+        "英语四六级",
+        "计算机人工智能"
+      ],
+      "major_raw": "理工科背景优先 计算机 软件工程 数学等 商科法律其次",
+      "salary_raw": "99.9k-99.9k",
+      "data_quality_notes": [
+        "薪资栏显示99.9k-99.9k，含义和真实性待核验，不能作为高薪排序依据。"
+      ],
+      "experience": {
+        "minimum_years": null,
+        "evidence_summary": "未写明工作年限或实习经历要求。"
+      },
+      "graduation_window": "unknown",
+      "written_test": "unknown",
+      "deadline": null,
+      "student_required": "unknown",
+      "minimum_internship_months": null,
+      "captures": [
+        {
+          "at": "2026-10-16T09:09:46.856Z",
+          "url": "https://www.ncss.cn/student/jobs/4yQYhS2Hmdw2FFStGrLRzG/detail.html",
+          "description_selector": ".con-left .jobdetail-box .mainContent",
+          "description_characters": 38,
+          "description_sha256": "3014b36e3cff777043d3b1a9dfc84c341b84edcda8be9c3b2b50f79a2b2f2b51",
+          "selected_fields_sha256": "5b0b55bdccf674bc9cc6c8a6a3d17267ed04a60baf35514b8274867bdd82c37e",
+          "apply_button_visible": true,
+          "explicit_closure_labels": []
+        },
+        {
+          "at": "2026-10-16T09:12:31.851Z",
+          "url": "https://www.ncss.cn/student/jobs/4yQYhS2Hmdw2FFStGrLRzG/detail.html",
+          "description_selector": ".con-left .jobdetail-box .mainContent",
+          "description_characters": 38,
+          "description_sha256": "3014b36e3cff777043d3b1a9dfc84c341b84edcda8be9c3b2b50f79a2b2f2b51",
+          "selected_fields_sha256": "5b0b55bdccf674bc9cc6c8a6a3d17267ed04a60baf35514b8274867bdd82c37e",
+          "apply_button_visible": true,
+          "explicit_closure_labels": []
+        }
+      ],
+      "repeat_check": {
+        "same_selected_fields": true,
+        "same_description": true,
+        "method": "two distinct browser page loads"
+      },
+      "application_entry": {
+        "kind": "authenticated_platform_job_detail",
+        "url": "https://www.ncss.cn/student/jobs/4yQYhS2Hmdw2FFStGrLRzG/detail.html",
+        "requires_login": true,
+        "external_website": null,
+        "route_probe": {
+          "at": "2026-10-16T09:08:06.125Z",
+          "jobId": "4yQYhS2Hmdw2FFStGrLRzG",
+          "method": "GET",
+          "endpoint": "https://www.ncss.cn/student/applyjobs/issetwebsite",
+          "status": 200,
+          "result": "true",
+          "hasExternalWebsite": false,
+          "website": null,
+          "sensitiveQueryOmitted": false,
+          "explicitPublicClosure": [],
+          "topLevelKeys": [
+            "result"
+          ]
+        }
+      },
+      "company_website": {
+        "platform_value": null,
+        "employer_specific_job_chain_verified": false
+      },
+      "current_open_status": "unknown",
+      "closure_rule_verified": false,
+      "personal_eligibility": "not_assessed",
+      "review_status": "needs_employer_verification",
+      "publication_status": "research_only"
+    },
+    {
+      "company": "山东纳蒂尔智能科技有限公司",
+      "platform_job_id": "Jb4G1TAQxj9kx3WRh36Vif",
+      "source_url": "https://www.ncss.cn/student/jobs/Jb4G1TAQxj9kx3WRh36Vif/detail.html",
+      "title": "软件工程师",
+      "platform_company_url": "https://www.ncss.cn/student/jobs/8VfmfAYng9rweHoB9LFYRq/corp.html",
+      "platform_company_size": "1-49人",
+      "company_size_authority": "NCSS company profile, not official SME certification",
+      "recruitment_type": "full_time",
+      "minimum_education": "bachelor",
+      "location": {
+        "country": "中国",
+        "province": "山东省",
+        "city": "济南市",
+        "raw": "山东省济南市"
+      },
+      "role_direction": "unknown",
+      "role_direction_note": "包含自动化产品支持职责，不能仅根据软件工程师标题判为互联网后端。",
+      "qualification_summary": [
+        "本科及以上；软件工程、计算机或电子信息相关专业。",
+        "要求C或C++及VS、QT；工作包含自动化产品现场调试和客户培训。"
+      ],
+      "source_excerpts": [
+        "熟练掌握C或C++编程语言",
+        "熟练使用VS、QT等开发平台"
+      ],
+      "major_raw": "软件工程 计算机 电子信息",
+      "salary_raw": "5k-20k",
+      "data_quality_notes": [],
+      "experience": {
+        "minimum_years": null,
+        "evidence_summary": "NCSS该职位未写明年限；不能移用官网其他职位的无经验条件。"
+      },
+      "graduation_window": "unknown",
+      "written_test": "unknown",
+      "deadline": null,
+      "student_required": "unknown",
+      "minimum_internship_months": null,
+      "captures": [
+        {
+          "at": "2026-10-16T09:09:51.368Z",
+          "url": "https://www.ncss.cn/student/jobs/Jb4G1TAQxj9kx3WRh36Vif/detail.html",
+          "description_selector": ".con-left .jobdetail-box .mainContent",
+          "description_characters": 131,
+          "description_sha256": "d23724238790b35924dd825089929ac27ec373629230520bcd4e3b2c470701cd",
+          "selected_fields_sha256": "41a09a77869e470acb5a5081686553fda089e2eec70428b2365dc96acae30a43",
+          "apply_button_visible": true,
+          "explicit_closure_labels": []
+        },
+        {
+          "at": "2026-10-16T09:12:36.310Z",
+          "url": "https://www.ncss.cn/student/jobs/Jb4G1TAQxj9kx3WRh36Vif/detail.html",
+          "description_selector": ".con-left .jobdetail-box .mainContent",
+          "description_characters": 131,
+          "description_sha256": "d23724238790b35924dd825089929ac27ec373629230520bcd4e3b2c470701cd",
+          "selected_fields_sha256": "41a09a77869e470acb5a5081686553fda089e2eec70428b2365dc96acae30a43",
+          "apply_button_visible": true,
+          "explicit_closure_labels": []
+        }
+      ],
+      "repeat_check": {
+        "same_selected_fields": true,
+        "same_description": true,
+        "method": "two distinct browser page loads"
+      },
+      "application_entry": {
+        "kind": "authenticated_platform_job_detail",
+        "url": "https://www.ncss.cn/student/jobs/Jb4G1TAQxj9kx3WRh36Vif/detail.html",
+        "requires_login": true,
+        "external_website": null,
+        "route_probe": {
+          "at": "2026-10-16T09:08:08.448Z",
+          "jobId": "Jb4G1TAQxj9kx3WRh36Vif",
+          "method": "GET",
+          "endpoint": "https://www.ncss.cn/student/applyjobs/issetwebsite",
+          "status": 200,
+          "result": "true",
+          "hasExternalWebsite": false,
+          "website": null,
+          "sensitiveQueryOmitted": false,
+          "explicitPublicClosure": [],
+          "topLevelKeys": [
+            "result"
+          ]
+        }
+      },
+      "company_website": {
+        "platform_value": "http://www.sdnature.cn",
+        "employer_specific_job_chain_verified": false
+      },
+      "current_open_status": "unknown",
+      "closure_rule_verified": false,
+      "personal_eligibility": "not_assessed",
+      "review_status": "needs_employer_verification",
+      "publication_status": "research_only"
+    },
+    {
+      "company": "山东风云医疗科技有限公司",
+      "platform_job_id": "XFEpXJvtdFx1UuPua1cCwD",
+      "source_url": "https://www.ncss.cn/student/jobs/XFEpXJvtdFx1UuPua1cCwD/detail.html",
+      "title": "软件工程师",
+      "platform_company_url": "https://www.ncss.cn/student/jobs/EsFPwMfjoVgAda1ftGpd9e/corp.html",
+      "platform_company_size": "1-49人",
+      "company_size_authority": "NCSS company profile, not official SME certification",
+      "recruitment_type": "full_time",
+      "minimum_education": "bachelor",
+      "location": {
+        "country": "中国",
+        "province": "山东省",
+        "city": "菏泽市",
+        "raw": "山东省菏泽市"
+      },
+      "role_direction": "application_development",
+      "role_direction_note": "属于医疗／心理软件应用开发，仍须核对相关领域经验。",
+      "qualification_summary": [
+        "本科及以上；专业字段覆盖医疗、心理、精神和计算机。",
+        "涉及Java、PHP及前后端技术，并要求心理软件及医疗／科研相关项目经验。"
+      ],
+      "source_excerpts": [
+        "有心理相关软件开发经验",
+        "有医疗机构、科研机构等相关项目经验"
+      ],
+      "major_raw": "医疗 心理 精神 计算机",
+      "salary_raw": "4k-10k",
+      "data_quality_notes": [],
+      "experience": {
+        "minimum_years": null,
+        "evidence_summary": "正文要求相关软件和机构项目经验，但未披露工作年限。"
+      },
+      "graduation_window": "unknown",
+      "written_test": "unknown",
+      "deadline": null,
+      "student_required": "unknown",
+      "minimum_internship_months": null,
+      "captures": [
+        {
+          "at": "2026-10-16T09:09:55.751Z",
+          "url": "https://www.ncss.cn/student/jobs/XFEpXJvtdFx1UuPua1cCwD/detail.html",
+          "description_selector": ".con-left .jobdetail-box .mainContent",
+          "description_characters": 79,
+          "description_sha256": "8bb8230e729d38300f8133d9684e268763e492b82aeecd44c1e78a9aaea3613b",
+          "selected_fields_sha256": "751e9c674d29581afd66d3d674400279e7a4bb2f3757f22fa6166527a2f1bc23",
+          "apply_button_visible": true,
+          "explicit_closure_labels": []
+        },
+        {
+          "at": "2026-10-16T09:12:41.381Z",
+          "url": "https://www.ncss.cn/student/jobs/XFEpXJvtdFx1UuPua1cCwD/detail.html",
+          "description_selector": ".con-left .jobdetail-box .mainContent",
+          "description_characters": 79,
+          "description_sha256": "8bb8230e729d38300f8133d9684e268763e492b82aeecd44c1e78a9aaea3613b",
+          "selected_fields_sha256": "751e9c674d29581afd66d3d674400279e7a4bb2f3757f22fa6166527a2f1bc23",
+          "apply_button_visible": true,
+          "explicit_closure_labels": []
+        }
+      ],
+      "repeat_check": {
+        "same_selected_fields": true,
+        "same_description": true,
+        "method": "two distinct browser page loads"
+      },
+      "application_entry": {
+        "kind": "authenticated_platform_job_detail",
+        "url": "https://www.ncss.cn/student/jobs/XFEpXJvtdFx1UuPua1cCwD/detail.html",
+        "requires_login": true,
+        "external_website": null,
+        "route_probe": {
+          "at": "2026-10-16T09:08:10.715Z",
+          "jobId": "XFEpXJvtdFx1UuPua1cCwD",
+          "method": "GET",
+          "endpoint": "https://www.ncss.cn/student/applyjobs/issetwebsite",
+          "status": 200,
+          "result": "true",
+          "hasExternalWebsite": false,
+          "website": null,
+          "sensitiveQueryOmitted": false,
+          "explicitPublicClosure": [],
+          "topLevelKeys": [
+            "result"
+          ]
+        }
+      },
+      "company_website": {
+        "platform_value": null,
+        "employer_specific_job_chain_verified": false
+      },
+      "current_open_status": "unknown",
+      "closure_rule_verified": false,
+      "personal_eligibility": "not_assessed",
+      "review_status": "needs_employer_verification",
+      "publication_status": "research_only"
+    }
+  ],
+  "natier_corporate_followup": {
+    "platform_company_url": "https://www.ncss.cn/student/jobs/8VfmfAYng9rweHoB9LFYRq/corp.html",
+    "platform_company_website": "http://www.sdnature.cn",
+    "homepage_title": "山东纳蒂尔智能科技有限公司",
+    "entry_chain": [
+      "NCSS company profile website field",
+      "corporate homepage and referenced main script",
+      "careers navigation and referenced CareersView module"
+    ],
+    "source_records": [
+      {
+        "file": "natier-official.body",
+        "url": "http://www.sdnature.cn/",
+        "method": "GET",
+        "status": 200,
+        "bytes": 1887,
+        "sha256": "0591902e8b750235f0a99913fcc120ce7b8d2c3c6bd3357505016d40fff8589c",
+        "response_saved_at": "2026-10-16T09:10:25.850Z"
+      },
+      {
+        "file": "natier-official-public.js",
+        "url": "http://www.sdnature.cn/assets/index-BtKlSbxd.js",
+        "method": "GET",
+        "status": 200,
+        "bytes": 120880,
+        "sha256": "6a5ac8c5c8fbaecaf6fe57aeb05fa71556e5a02dcf2200d47ad082270a18949f",
+        "response_saved_at": "2026-10-16T09:12:29.266Z"
+      },
+      {
+        "file": "natier-careers.body",
+        "url": "http://www.sdnature.cn/careers",
+        "method": "GET",
+        "status": 404,
+        "bytes": 146,
+        "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+        "response_saved_at": "2026-10-16T09:15:02.829Z"
+      },
+      {
+        "file": "natier-careers-public.js",
+        "url": "http://www.sdnature.cn/assets/CareersView-CftV0MIu.js",
+        "method": "GET",
+        "status": 200,
+        "bytes": 6422,
+        "sha256": "32c43cd49948abef8dcf25710c57e606ecb51074750a6548121745462aa93add",
+        "response_saved_at": "2026-10-16T09:15:02.829Z"
+      },
+      {
+        "file": "natier-careers-public-r2.js",
+        "url": "http://www.sdnature.cn/assets/CareersView-CftV0MIu.js",
+        "method": "GET",
+        "status": 200,
+        "bytes": 6422,
+        "sha256": "32c43cd49948abef8dcf25710c57e606ecb51074750a6548121745462aa93add",
+        "response_saved_at": "2026-10-16T09:17:08.749Z"
+      }
+    ],
+    "career_route": {
+      "url": "http://www.sdnature.cn/careers",
+      "direct_http_status": 404,
+      "browser_homepage_error": "net::ERR_BLOCKED_BY_CLIENT",
+      "https_homepage_error": "TCP connection to port 443 failed; curl exit 7",
+      "rendered_navigation_verified": false
+    },
+    "public_career_module": {
+      "url": "http://www.sdnature.cn/assets/CareersView-CftV0MIu.js",
+      "job_records": [
+        {
+          "id": "job-1",
+          "title": "技术工程师",
+          "direction": "自动化、机器视觉、软件",
+          "work_location": "山东省济南市市中区星辰路333号济中智立方A16栋",
+          "role_family": "automation_technical_engineering",
+          "software_development_classification": "needs_review",
+          "summary": "自动化、机器视觉和软件技术方向；相关专业；该官网职位允许无经验。",
+          "graduation_window": "unknown",
+          "deadline": null,
+          "current_open_status": "unknown",
+          "publication_status": "research_only"
+        },
+        {
+          "id": "job-2",
+          "title": "销售工程师",
+          "direction": "自动化、机器视觉、软件",
+          "work_location": "山东省济南市市中区星辰路333号济中智立方A16栋",
+          "role_family": "technical_sales",
+          "software_development_classification": "not_software_development",
+          "summary": "相关技术专业可申请销售方向；专业匹配不能替代岗位方向分类。",
+          "graduation_window": "unknown",
+          "deadline": null,
+          "current_open_status": "unknown",
+          "publication_status": "research_only"
+        },
+        {
+          "id": "job-3",
+          "title": "财务人员",
+          "direction": "会计、出纳",
+          "work_location": "山东省济南市市中区星辰路333号济中智立方A16栋",
+          "role_family": "finance",
+          "software_development_classification": "not_software_development",
+          "summary": "会计方向及相应资格要求。",
+          "graduation_window": "unknown",
+          "deadline": null,
+          "current_open_status": "unknown",
+          "publication_status": "research_only"
+        },
+        {
+          "id": "job-4",
+          "title": "仓库管理",
+          "direction": "仓库管理及物流",
+          "work_location": "山东省济南市市中区星辰路333号济中智立方A16栋",
+          "role_family": "warehouse",
+          "software_development_classification": "not_software_development",
+          "summary": "仓储、物流相关方向。",
+          "graduation_window": "unknown",
+          "deadline": null,
+          "current_open_status": "unknown",
+          "publication_status": "research_only"
+        },
+        {
+          "id": "job-5",
+          "title": "商务",
+          "direction": "客户维护，订单处理等",
+          "work_location": "山东省济南市市中区星辰路333号济中智立方A16栋",
+          "role_family": "business_support",
+          "software_development_classification": "not_software_development",
+          "summary": "客户维护和订单处理等商务支持。",
+          "graduation_window": "unknown",
+          "deadline": null,
+          "current_open_status": "unknown",
+          "publication_status": "research_only"
+        }
+      ],
+      "count": 5,
+      "repeat_sha256": [
+        "32c43cd49948abef8dcf25710c57e606ecb51074750a6548121745462aa93add",
+        "32c43cd49948abef8dcf25710c57e606ecb51074750a6548121745462aa93add"
+      ],
+      "same_resource_twice": true,
+      "employer_no_experience_statement_applies_to": "corporate technical engineer and other separately listed roles; not automatically to the NCSS software engineer"
+    },
+    "same_specific_job_as_ncss": "not established",
+    "employer_specific_application_chain_verified": false,
+    "status": "corporate recruitment lead; direct route and exact job correspondence remain unverified"
+  },
+  "platform_frontend_reference": {
+    "url": "https://t3.chei.com.cn/ncss/student/js/jobDetail-1.0.14.js",
+    "sha256": "9b1e4b4d468cac6cb674267433dbbe78bc3d9b87ceaa19747a54a0eb0bdd97b7",
+    "observed_read_only_routing_endpoint": "/student/applyjobs/issetwebsite",
+    "interpretation": "A true result without webSite selects the platform resume flow; it does not prove hiring remains open."
+  },
+  "data_handling": {
+    "account_credentials_exported": false,
+    "cookies_exported": false,
+    "resume_or_application_records_extracted": false,
+    "applications_submitted": 0,
+    "notifications_sent": 0,
+    "owned_tabs_closed": true
+  },
+  "limitations": [
+    "The displayed description has been read; undisclosed qualification fields remain unknown.",
+    "Readable pages, visible apply buttons and routing replies do not establish current hiring or successful application.",
+    "No real closed-job control was obtained; 404 on the corporate route is a page-routing failure, not proof of job closure.",
+    "Corporate technical engineer and NCSS software engineer lack a verified shared identity and are not merged.",
+    "No whole-site enumeration, cross-day stability or production collector was implemented."
+  ]
+}
